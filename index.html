@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>OM SOTA Protection Database</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--bg:#f6f5f0;--bg2:#edece6;--bg3:#e3e2db;--card:#fffffe;
+--ink:#1a1917;--ink2:#4a4843;--ink3:#7a7870;--ink4:#a8a69c;
+--green:#2d7a4f;--green-bg:#e8f5ee;--green-lt:#d0ebd9;
+--amber:#9a6b15;--amber-bg:#fef3dc;--amber-lt:#fce8b8;
+--red:#b83232;--red-bg:#fce8e8;--red-lt:#f5cece;
+--coral:#c44d2b;--coral-bg:#fceae4;
+--teal:#1a7a6d;--teal-bg:#e4f5f2;
+--purple:#7c3aed;--purple-bg:#f0ebfe;
+--radius:12px;--radius-sm:8px;
+--font:'Outfit',system-ui,sans-serif;--mono:'IBM Plex Mono',monospace;
+--shadow:0 1px 3px rgba(0,0,0,0.04),0 4px 12px rgba(0,0,0,0.03);
+}
+.dark{
+--bg:#111110;--bg2:#1a1918;--bg3:#2a2926;--card:#1e1d1b;
+--ink:#e8e6df;--ink2:#b8b5ab;--ink3:#8a877d;--ink4:#5e5c55;
+--green:#4ade80;--green-bg:rgba(74,222,128,.12);--green-lt:rgba(74,222,128,.18);
+--amber:#fbbf24;--amber-bg:rgba(251,191,36,.12);--amber-lt:rgba(251,191,36,.18);
+--red:#f87171;--red-bg:rgba(248,113,113,.12);--red-lt:rgba(248,113,113,.18);
+--coral:#fb923c;--coral-bg:rgba(251,146,60,.12);
+--teal:#5eead4;--teal-bg:rgba(94,234,212,.1);
+--purple:#a78bfa;--purple-bg:rgba(167,139,250,.12);
+--shadow:0 1px 3px rgba(0,0,0,0.2),0 4px 12px rgba(0,0,0,0.15);
+}
+html,body{height:100%;font-family:var(--font);background:var(--bg);color:var(--ink);transition:background .3s,color .3s}
+#app{display:grid;grid-template-rows:auto 1fr;height:100vh;overflow:hidden}
+
+header{background:var(--card);border-bottom:1px solid var(--bg3);padding:14px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;transition:background .3s}
+header h1{font-size:18px;font-weight:700;letter-spacing:-0.5px;white-space:nowrap}
+header h1 em{font-style:normal;color:var(--teal);font-weight:600}
+.hdr-stats{display:flex;gap:10px;font-size:12px;color:var(--ink3);font-family:var(--mono);align-items:center;flex-wrap:wrap}
+.hdr-stats b{color:var(--ink);font-weight:600}
+.sp{padding:3px 10px;border-radius:20px;font-weight:500;font-size:11px}
+.sp-safe{background:var(--green-bg);color:var(--green)}
+.sp-ok{background:var(--amber-bg);color:var(--amber)}
+.sp-bad{background:var(--red-bg);color:var(--red)}
+.sp-unv{background:var(--purple-bg);color:var(--purple)}
+
+.hdr-right{display:flex;gap:8px;align-items:center;margin-left:auto}
+.theme-btn{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--bg3);background:var(--bg);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;transition:all .2s;flex-shrink:0}
+.theme-btn:hover{border-color:var(--teal);transform:scale(1.08)}
+.gh-link{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:600;color:var(--ink3);text-decoration:none;padding:6px 12px;border:1.5px solid var(--bg3);border-radius:20px;transition:all .15s;white-space:nowrap}
+.gh-link:hover{border-color:var(--teal);color:var(--teal)}
+.gh-link svg{width:16px;height:16px;fill:currentColor}
+.contrib-bar{background:var(--teal-bg);border-bottom:1px solid var(--bg3);padding:6px 24px;font-size:11px;color:var(--teal);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.contrib-bar a{color:var(--teal);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.contrib-bar .cb-close{background:none;border:none;color:var(--teal);cursor:pointer;font-size:14px;margin-left:auto;padding:0 4px;opacity:.6}
+.contrib-bar .cb-close:hover{opacity:1}
+
+.main{display:grid;grid-template-columns:420px 1fr;overflow:hidden}
+@media(max-width:900px){.main{grid-template-columns:1fr;grid-template-rows:55vh 45vh}}
+
+.panel{display:flex;flex-direction:column;overflow:hidden;background:var(--card);border-right:1px solid var(--bg3);transition:background .3s}
+
+.search-bar{padding:12px 16px;border-bottom:1px solid var(--bg2)}
+.search-bar input{width:100%;padding:10px 14px;border:1.5px solid var(--bg3);border-radius:var(--radius);font-family:var(--font);font-size:13px;background:var(--bg);color:var(--ink);outline:none;transition:border .2s,background .3s,color .3s}
+.search-bar input:focus{border-color:var(--teal)}
+.search-bar input::placeholder{color:var(--ink4)}
+
+.filters{padding:8px 16px;display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--bg2);align-items:center}
+.flabel{font-size:10px;color:var(--ink4);font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-right:2px}
+.tag{font-size:11px;padding:4px 10px;border-radius:20px;cursor:pointer;border:1.5px solid var(--bg3);background:var(--card);color:var(--ink3);font-family:var(--mono);font-weight:500;transition:all .15s;user-select:none}
+.tag:hover{border-color:var(--ink4);color:var(--ink2)}
+.tag.on{border-color:var(--teal);background:var(--teal-bg);color:var(--teal)}
+.tag.s1{border-color:var(--green);background:var(--green-bg);color:var(--green)}
+.tag.s2{border-color:var(--green);background:var(--green-lt);color:var(--green)}
+.tag.s3{border-color:var(--amber);background:var(--amber-bg);color:var(--amber)}
+.tag.s4{border-color:var(--coral);background:var(--coral-bg);color:var(--coral)}
+.tag.s5{border-color:var(--red);background:var(--red-bg);color:var(--red)}
+.tag.vn{border-color:var(--purple);background:var(--purple-bg);color:var(--purple)}
+.tag.vy{border-color:var(--green);background:var(--green-bg);color:var(--green)}
+
+.list-header{font-size:11px;color:var(--ink4);padding:6px 16px;font-family:var(--mono);border-bottom:1px solid var(--bg2);font-weight:500}
+.list{flex:1;overflow-y:auto}
+.list::-webkit-scrollbar{width:5px}
+.list::-webkit-scrollbar-thumb{background:var(--bg3);border-radius:5px}
+
+.row{display:grid;grid-template-columns:1fr auto;padding:10px 16px;border-bottom:1px solid var(--bg2);cursor:pointer;transition:background .1s;gap:2px}
+.row:hover{background:var(--bg)}
+.row.sel{background:var(--teal-bg);border-left:3px solid var(--teal)}
+.row .code{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--teal)}
+.row .name{font-size:13px;font-weight:600;display:flex;align-items:center;gap:6px}
+.row .meta{font-size:11px;color:var(--ink3);grid-column:1/-1}
+.badges{display:flex;gap:4px;align-self:start}
+.badge{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.b-safe{background:var(--green-bg);color:var(--green)}
+.b-ok{background:var(--amber-bg);color:var(--amber)}
+.b-caution{background:var(--coral-bg);color:var(--coral)}
+.b-danger{background:var(--red-bg);color:var(--red)}
+.b-unv{background:var(--purple-bg);color:var(--purple);font-size:9px;padding:2px 6px}
+.b-ver{background:var(--green-bg);color:var(--green);font-size:9px;padding:2px 6px}
+
+.map-wrap{position:relative}
+#map{height:100%;width:100%}
+
+.detail{position:absolute;bottom:16px;left:16px;right:16px;max-width:420px;background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow),0 8px 30px rgba(0,0,0,0.08);padding:16px 20px;z-index:1000;border:1px solid var(--bg3);transition:background .3s}
+.detail .d-head{display:flex;align-items:start;justify-content:space-between;gap:8px}
+.detail .d-code{font-family:var(--mono);color:var(--teal);font-size:12px;font-weight:600}
+.detail h3{font-size:17px;font-weight:700;letter-spacing:-0.3px}
+.detail .d-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
+.detail .d-cell{background:var(--bg);border-radius:var(--radius-sm);padding:8px 10px;transition:background .3s}
+.detail .d-cell label{font-size:9px;color:var(--ink4);text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+.detail .d-cell .v{font-family:var(--mono);font-size:15px;font-weight:600;margin-top:2px}
+.detail .d-note{margin-top:10px;padding:10px 12px;border-radius:var(--radius-sm);font-size:12px;line-height:1.5}
+.detail .d-verif{margin-top:8px;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--ink3)}
+.detail .d-verif .vdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.detail .close-btn{background:none;border:none;font-size:18px;cursor:pointer;color:var(--ink3);line-height:1;padding:2px 6px;border-radius:6px}
+.detail .close-btn:hover{background:var(--bg)}
+
+.legend{position:absolute;top:12px;right:12px;background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius);padding:10px 14px;z-index:1000;font-size:11px;box-shadow:var(--shadow);transition:background .3s}
+.legend h4{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--ink4);margin-bottom:6px;font-weight:600}
+.lg-row{display:flex;align-items:center;gap:8px;margin:3px 0}
+.lg-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+
+.overlay-toggle{position:absolute;top:12px;left:60px;z-index:1000;background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius-sm);padding:6px 12px;font-size:11px;font-family:var(--font);cursor:pointer;box-shadow:var(--shadow);display:flex;align-items:center;gap:6px;font-weight:500;color:var(--ink2);transition:all .15s}
+.overlay-toggle:hover{border-color:var(--teal);color:var(--teal)}
+.overlay-toggle.on{background:var(--teal-bg);border-color:var(--teal);color:var(--teal)}
+.dot-toggle{width:8px;height:8px;border-radius:50%;border:1.5px solid currentColor;transition:background .15s}
+.overlay-toggle.on .dot-toggle{background:currentColor}
+
+.leaflet-tile-pane{transition:filter .4s}
+.dark .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(1.1)}
+.dark .leaflet-control-zoom a{background:var(--card);color:var(--ink);border-color:var(--bg3)}
+</style>
+</head>
+<body>
+<div id="app">
+<header>
+  <h1><em>OM</em> SOTA Protection Database</h1>
+  <div class="hdr-stats">
+    <span class="sp sp-safe"><b>{{counts.safe}}</b> safe</span>
+    <span class="sp sp-ok"><b>{{counts.ok}}</b> ok</span>
+    <span class="sp sp-bad"><b>{{counts.caution+counts.danger}}</b> restricted</span>
+    <span class="sp sp-unv">{{counts.unverified}} unverified</span>
+    <span style="color:var(--ink4)">{{filtered.length}}/{{summits.length}}</span>
+  </div>
+  <div class="hdr-right">
+    <a class="gh-link" href="https://github.com/trgosk/sota-om-summits" target="_blank" title="Contribute on GitHub">
+      <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub
+    </a>
+    <button class="theme-btn" @click="toggleTheme" :title="dark?'Light mode':'Dark mode'">{{dark?'☀️':'🌙'}}</button>
+  </div>
+</header>
+
+<div class="contrib-bar" v-if="showContrib">
+  <span>📡</span>
+  <span>Data is AI-generated. Help verify summits — check on <a href="https://maps.sopsr.sk/" target="_blank">maps.sopsr.sk</a> and contribute on <a href="https://github.com/trgosk/sota-om-summits" target="_blank">GitHub</a>.</span>
+  <button class="cb-close" @click="showContrib=false" title="Dismiss">&times;</button>
+</div>
+
+<div class="main">
+  <div class="panel">
+    <div class="search-bar">
+      <input v-model="q" placeholder="Search code, name, area..." />
+    </div>
+    <div class="filters">
+      <span class="flabel">Region</span>
+      <span class="tag" :class="{on:!rF}" @click="rF=''">All</span>
+      <span v-for="r in regions" class="tag" :class="{on:rF===r}" @click="rF=rF===r?'':r">{{r}}</span>
+    </div>
+    <div class="filters">
+      <span class="flabel">Level</span>
+      <span class="tag" :class="{on:!sF}" @click="sF=''">Any</span>
+      <span class="tag s1" :class="{on:sF==='1'}" @click="sF=sF==='1'?'':'1'">L1</span>
+      <span class="tag s2" :class="{on:sF==='2'}" @click="sF=sF==='2'?'':'2'">L2</span>
+      <span class="tag s3" :class="{on:sF==='3'}" @click="sF=sF==='3'?'':'3'">L3</span>
+      <span class="tag s4" :class="{on:sF==='4'}" @click="sF=sF==='4'?'':'4'">L4</span>
+      <span class="tag s5" :class="{on:sF==='5'}" @click="sF=sF==='5'?'':'5'">L5</span>
+    </div>
+    <div class="filters">
+      <span class="flabel">Verified</span>
+      <span class="tag" :class="{on:vF===''}" @click="vF=''">All</span>
+      <span class="tag vn" :class="{on:vF==='0'}" @click="vF=vF==='0'?'':'0'">Not verified</span>
+      <span class="tag vy" :class="{on:vF==='1'}" @click="vF=vF==='1'?'':'1'">Verified</span>
+    </div>
+    <div class="list-header">{{filtered.length}} summits</div>
+    <div class="list">
+      <div v-for="s in filtered" :key="s.c" class="row" :class="{sel:sel&&sel.c===s.c}" @click="pick(s)">
+        <span class="code">{{s.c}}</span>
+        <span class="badges">
+          <span class="badge" :class="'b-'+s.st">{{badgeText(s)}}</span>
+          <span v-if="!s.v" class="badge b-unv">AI</span>
+          <span v-else class="badge b-ver">OK</span>
+        </span>
+        <span class="name">{{s.n}}</span>
+        <span class="meta">{{s.e}}m · {{s.p}}pt · {{s.a}} act · {{s.ar||'–'}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="map-wrap">
+    <div id="map"></div>
+    <button class="overlay-toggle" :class="{on:wms}" @click="toggleWms"><span class="dot-toggle"></span> ŠOPSR overlay</button>
+    <div class="legend">
+      <h4>Protection</h4>
+      <div class="lg-row"><span class="lg-dot" style="background:#2d7a4f"></span> Level 1–2 safe</div>
+      <div class="lg-row"><span class="lg-dot" style="background:#c49215"></span> Level 3 trails only</div>
+      <div class="lg-row"><span class="lg-dot" style="background:#c44d2b"></span> Level 4 reserve</div>
+      <div class="lg-row"><span class="lg-dot" style="background:#b83232"></span> Level 5 strict</div>
+      <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
+      <div class="lg-row"><span class="lg-dot" style="background:var(--purple);opacity:.5"></span> Not verified (AI)</div>
+      <div class="lg-row"><span class="lg-dot" style="background:var(--green)"></span> Verified by operator</div>
+    </div>
+    <div class="detail" v-if="sel">
+      <div class="d-head">
+        <div>
+          <div class="d-code">{{sel.c}}</div>
+          <h3>{{sel.n}}</h3>
+        </div>
+        <button class="close-btn" @click="sel=null">&times;</button>
+      </div>
+      <div class="d-grid">
+        <div class="d-cell"><label>Elevation</label><div class="v">{{sel.e}}m</div></div>
+        <div class="d-cell"><label>Points</label><div class="v">{{sel.p}}</div></div>
+        <div class="d-cell"><label>Activations</label><div class="v">{{sel.a}}</div></div>
+        <div class="d-cell"><label>Level</label><div class="v">{{sel.rl}}</div></div>
+      </div>
+      <div class="d-note" :class="'b-'+sel.st">
+        <strong>{{sel.ar||'No protected area'}} {{sel.ac?'('+sel.ac+')':''}}</strong><br>
+        {{sel.nt}}
+      </div>
+      <div class="d-verif">
+        <span class="vdot" :style="{background:sel.v?'var(--green)':'var(--purple)'}"></span>
+        <span v-if="!sel.v" style="color:var(--purple)">Not verified — AI-generated data, check on maps.sopsr.sk before activation</span>
+        <span v-else style="color:var(--green)">Verified by operator</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+// OM SOTA Protection Database
+// Fields: c=code, n=name, la=lat, lo=lon, e=elevation(m), r=region, rn=region_name,
+//   p=SOTA_points, a=activations, ar=protected_area, ac=area_category(NP/CHKO),
+//   bl=base_level(1-5), rl=researched_level, st=status(safe/ok/caution/danger),
+//   nt=notes, v=verified(0=AI_generated/not_verified, 1=verified_by_operator)
+const D = [
+  {"c": "OM/BA-001", "n": "Vysoká", "la": 48.4164, "lo": 17.217, "e": 754, "r": "BA", "rn": "Bratislavský", "p": 2, "a": 76, "ar": "CHKO Malé Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Malé Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BA-002", "n": "Vápenná", "la": 48.4602, "lo": 17.2742, "e": 752, "r": "BA", "rn": "Bratislavský", "p": 2, "a": 68, "ar": "CHKO Malé Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Malé Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BA-003", "n": "Certov kopec", "la": 48.381, "lo": 17.2113, "e": 752, "r": "BA", "rn": "Bratislavský", "p": 2, "a": 66, "ar": "CHKO Malé Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Malé Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BA-004", "n": "Devínska Kobyla", "la": 48.1894, "lo": 16.9955, "e": 514, "r": "BA", "rn": "Bratislavský", "p": 1, "a": 199, "ar": "CHKO Malé Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Malé Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BA-005", "n": "Geldek", "la": 48.4325, "lo": 17.3118, "e": 694, "r": "BA", "rn": "Bratislavský", "p": 1, "a": 43, "ar": "CHKO Malé Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Malé Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BA-006", "n": "Cierna skala", "la": 48.4994, "lo": 17.3421, "e": 662, "r": "BA", "rn": "Bratislavský", "p": 1, "a": 36, "ar": "CHKO Malé Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Malé Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-001", "n": "Ďumbier", "la": 48.9364, "lo": 19.6403, "e": 2043, "r": "BB", "rn": "Banskobystrick", "p": 10, "a": 75, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Ďumbier — NPR (5. st. na vrchole). Zimné tyčové značenie.", "v": 0},
+  {"c": "OM/BB-002", "n": "Skalka", "la": 48.929, "lo": 19.5192, "e": 1980, "r": "BB", "rn": "Banskobystrick", "p": 10, "a": 30, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Skalka — v sezóne.", "v": 0},
+  {"c": "OM/BB-003", "n": "Kráľova hoľa", "la": 48.8829, "lo": 20.1388, "e": 1946, "r": "BB", "rn": "Banskobystrick", "p": 10, "a": 35, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Kráľova hoľa — celoročne.", "v": 0},
+  {"c": "OM/BB-004", "n": "Veľká Vápenica", "la": 48.9139, "lo": 19.9818, "e": 1691, "r": "BB", "rn": "Banskobystrick", "p": 8, "a": 9, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-005", "n": "Beňuška", "la": 48.8803, "lo": 19.7328, "e": 1542, "r": "BB", "rn": "Banskobystrick", "p": 6, "a": 29, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-006", "n": "Stolica", "la": 48.7737, "lo": 20.207, "e": 1477, "r": "BB", "rn": "Banskobystrick", "p": 6, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-007", "n": "Poľana", "la": 48.6368, "lo": 19.4835, "e": 1458, "r": "BB", "rn": "Banskobystrick", "p": 6, "a": 33, "ar": "CHKO Poľana", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Poľana. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-008", "n": "Fabova hoľa", "la": 48.7725, "lo": 19.8855, "e": 1439, "r": "BB", "rn": "Banskobystrick", "p": 6, "a": 4, "ar": "NP Muránska planina", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Fabova hoľa — NP Muránska pl. Zonácia.", "v": 0},
+  {"c": "OM/BB-009", "n": "Kľak", "la": 48.7791, "lo": 19.9658, "e": 1409, "r": "BB", "rn": "Banskobystrick", "p": 6, "a": 2, "ar": "NP Muránska planina", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-010", "n": "Klenovský Vepor", "la": 48.6892, "lo": 19.7698, "e": 1338, "r": "BB", "rn": "Banskobystrick", "p": 6, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-011", "n": "Javorie", "la": 48.4416, "lo": 19.29, "e": 1044, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 12, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-012", "n": "Ostrá", "la": 48.6253, "lo": 19.9168, "e": 1011, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-013", "n": "Sitno", "la": 48.4033, "lo": 18.8772, "e": 1009, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 56, "ar": "CHKO Štiavnické vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Štiavnické vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-014", "n": "Jasenina", "la": 48.5472, "lo": 19.7335, "e": 995, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-015", "n": "Vysoká", "la": 48.7551, "lo": 19.3805, "e": 994, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 19, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-016", "n": "Zrazy", "la": 48.7536, "lo": 19.7293, "e": 973, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-017", "n": "Radzim", "la": 48.7388, "lo": 20.115, "e": 970, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 2, "ar": "NP Muránska planina", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-018", "n": "Magnet", "la": 48.7159, "lo": 19.89, "e": 964, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 1, "ar": "NP Muránska planina", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-019", "n": "Hradište", "la": 48.8293, "lo": 19.2975, "e": 958, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 2, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-020", "n": "Skalka", "la": 48.827, "lo": 19.6227, "e": 946, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 16, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-021", "n": "Paradajs", "la": 48.4628, "lo": 18.8743, "e": 939, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 54, "ar": "CHKO Štiavnické vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Štiavnické vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-022", "n": "Sinec", "la": 48.5549, "lo": 19.9157, "e": 917, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-023", "n": "Lomné", "la": 48.4952, "lo": 19.1627, "e": 908, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 41, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-024", "n": "Hradová", "la": 48.6819, "lo": 19.9237, "e": 887, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 1, "ar": "NP Muránska planina", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-025", "n": "Skalka", "la": 48.4562, "lo": 18.995, "e": 882, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 20, "ar": "CHKO Štiavnické vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Štiavnické vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-026", "n": "Veľký Korčín", "la": 48.5087, "lo": 19.2782, "e": 863, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 21, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-027", "n": "Veľký Žiar", "la": 48.4231, "lo": 18.7432, "e": 856, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 23, "ar": "CHKO Štiavnické vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Štiavnické vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-028", "n": "Štálová", "la": 48.5241, "lo": 18.9472, "e": 836, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 35, "ar": "CHKO Štiavnické vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Štiavnické vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-029", "n": "Železník", "la": 48.6205, "lo": 20.1302, "e": 814, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-030", "n": "Karanč", "la": 48.1584, "lo": 19.7897, "e": 727, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 15, "ar": "CHKO Cerová vrchovina", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Cerová vrchovina. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-031", "n": "Strieborná", "la": 48.4681, "lo": 19.613, "e": 719, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 13, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-032", "n": "Stará kopa", "la": 48.7254, "lo": 19.1913, "e": 713, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 35, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-033", "n": "Drienčie", "la": 48.4755, "lo": 18.6718, "e": 711, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 25, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-034", "n": "Šiator", "la": 48.1763, "lo": 19.8412, "e": 660, "r": "BB", "rn": "Banskobystrick", "p": 1, "a": 6, "ar": "CHKO Cerová vrchovina", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Cerová vrchovina. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-035", "n": "Štyri chotáre", "la": 48.6415, "lo": 20.1735, "e": 648, "r": "BB", "rn": "Banskobystrick", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-036", "n": "Veľký Bučeň", "la": 48.3071, "lo": 19.8728, "e": 514, "r": "BB", "rn": "Banskobystrick", "p": 1, "a": 5, "ar": "CHKO Cerová vrchovina", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Cerová vrchovina. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-037", "n": "Trsteník", "la": 48.8346, "lo": 20.2194, "e": 1390, "r": "BB", "rn": "Banskobystrick", "p": 6, "a": 8, "ar": "NP Slovenský raj", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-038", "n": "Kozí chrbát", "la": 48.8603, "lo": 19.2905, "e": 1330, "r": "BB", "rn": "Banskobystrick", "p": 6, "a": 24, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-039", "n": "Bukovina", "la": 48.6746, "lo": 19.4166, "e": 1293, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 5, "ar": "CHKO Poľana", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Poľana. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-040", "n": "Vyhnatová", "la": 48.7566, "lo": 19.0036, "e": 1282, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 33, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-041", "n": "Vepor", "la": 48.7152, "lo": 19.4582, "e": 1277, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 9, "ar": "CHKO Poľana", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Poľana. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-042", "n": "Vysoký vrch", "la": 48.7564, "lo": 19.914, "e": 1262, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 1, "ar": "NP Muránska planina", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-043", "n": "Nad Uhliskami", "la": 48.9376, "lo": 19.0395, "e": 1229, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 4, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-044", "n": "Malá Stožka", "la": 48.7751, "lo": 19.9247, "e": 1204, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 1, "ar": "NP Muránska planina", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-045", "n": "Jelenská skala", "la": 48.8291, "lo": 19.1584, "e": 1153, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 13, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-046", "n": "Tŕstie", "la": 48.6601, "lo": 19.9976, "e": 1132, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-047", "n": "Drahová", "la": 48.6188, "lo": 19.7008, "e": 1117, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 7, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-048", "n": "Želobudzská skalka", "la": 48.6398, "lo": 19.4065, "e": 1115, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 5, "ar": "CHKO Poľana", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Poľana. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-049", "n": "Panský diel", "la": 48.7981, "lo": 19.1499, "e": 1100, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 50, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-050", "n": "Gindura", "la": 48.8357, "lo": 20.0288, "e": 1098, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 4, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-051", "n": "Grúň", "la": 48.8284, "lo": 20.1352, "e": 1011, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 2, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-052", "n": "Vysoká", "la": 48.8204, "lo": 19.2377, "e": 987, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 20, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-053", "n": "Dielik", "la": 48.7354, "lo": 19.8344, "e": 987, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-054", "n": "Lučivno", "la": 48.7738, "lo": 19.0516, "e": 959, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 18, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-055", "n": "Hôrka", "la": 48.8277, "lo": 20.0595, "e": 951, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 2, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/BB-056", "n": "Ďurovie vrch", "la": 48.4775, "lo": 19.3192, "e": 933, "r": "BB", "rn": "Banskobystrick", "p": 4, "a": 21, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-057", "n": "Drieň", "la": 48.5076, "lo": 19.2325, "e": 886, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 7, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-058", "n": "Ostrôžka", "la": 48.4982, "lo": 19.3778, "e": 876, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 9, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-059", "n": "Hajnická hora", "la": 48.6742, "lo": 18.7477, "e": 869, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 15, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-060", "n": "Sokolec", "la": 48.5212, "lo": 18.5443, "e": 799, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 13, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-061", "n": "Čierny vrch", "la": 48.5232, "lo": 18.6928, "e": 758, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 18, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-062", "n": "Priesil", "la": 48.3546, "lo": 18.6453, "e": 746, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 16, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-063", "n": "Chlm", "la": 48.4035, "lo": 18.6829, "e": 725, "r": "BB", "rn": "Banskobystrick", "p": 2, "a": 18, "ar": "CHKO Štiavnické vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Štiavnické vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/BB-064", "n": "Jastrabská skala", "la": 48.6398, "lo": 18.9164, "e": 683, "r": "BB", "rn": "Banskobystrick", "p": 1, "a": 16, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-065", "n": "Vápenná", "la": 48.5387, "lo": 19.0772, "e": 680, "r": "BB", "rn": "Banskobystrick", "p": 1, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-066", "n": "Rohy", "la": 48.5526, "lo": 19.3489, "e": 656, "r": "BB", "rn": "Banskobystrick", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-067", "n": "Brevenovo", "la": 48.583, "lo": 20.1194, "e": 555, "r": "BB", "rn": "Banskobystrick", "p": 1, "a": 0, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/BB-068", "n": "Ragáč", "la": 48.2227, "lo": 19.9824, "e": 536, "r": "BB", "rn": "Banskobystrick", "p": 1, "a": 4, "ar": "CHKO Cerová vrchovina", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Cerová vrchovina. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/KE-001", "n": "Zlatý stôl", "la": 48.7668, "lo": 20.6557, "e": 1322, "r": "KE", "rn": "Košický", "p": 6, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-002", "n": "Babiná", "la": 48.8302, "lo": 20.4627, "e": 1278, "r": "KE", "rn": "Košický", "p": 4, "a": 5, "ar": "NP Slovenský raj", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-003", "n": "Velká Knola", "la": 48.8641, "lo": 20.4732, "e": 1266, "r": "KE", "rn": "Košický", "p": 4, "a": 6, "ar": "NP Slovenský raj", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-004", "n": "Kojšovská hola", "la": 48.7824, "lo": 20.9878, "e": 1246, "r": "KE", "rn": "Košický", "p": 4, "a": 15, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-005", "n": "Pipitka", "la": 48.6842, "lo": 20.676, "e": 1225, "r": "KE", "rn": "Košický", "p": 4, "a": 5, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-006", "n": "Kloptan", "la": 48.7797, "lo": 20.8595, "e": 1153, "r": "KE", "rn": "Košický", "p": 4, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-007", "n": "Slubica", "la": 48.9735, "lo": 20.8722, "e": 1129, "r": "KE", "rn": "Košický", "p": 4, "a": 9, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-008", "n": "Bukovec", "la": 48.8472, "lo": 20.7215, "e": 1127, "r": "KE", "rn": "Košický", "p": 4, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-009", "n": "Ostrý vrch", "la": 48.8576, "lo": 20.8693, "e": 1082, "r": "KE", "rn": "Košický", "p": 4, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-010", "n": "Lastovicí vrch", "la": 48.7417, "lo": 20.8117, "e": 1061, "r": "KE", "rn": "Košický", "p": 4, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-011", "n": "Popriecny vrch", "la": 48.7797, "lo": 22.3643, "e": 1025, "r": "KE", "rn": "Košický", "p": 4, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-012", "n": "Skala", "la": 48.8669, "lo": 20.804, "e": 1014, "r": "KE", "rn": "Košický", "p": 4, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-013", "n": "Velký Radzim", "la": 48.7775, "lo": 20.3392, "e": 991, "r": "KE", "rn": "Košický", "p": 4, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-014", "n": "Turecká", "la": 48.6853, "lo": 20.4787, "e": 953, "r": "KE", "rn": "Košický", "p": 4, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-015", "n": "Folkmarská skala", "la": 48.8291, "lo": 21.0112, "e": 915, "r": "KE", "rn": "Košický", "p": 4, "a": 13, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-016", "n": "Mošnik", "la": 48.7951, "lo": 21.5412, "e": 911, "r": "KE", "rn": "Košický", "p": 4, "a": 12, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-017", "n": "Velký Milic", "la": 48.5768, "lo": 21.4582, "e": 900, "r": "KE", "rn": "Košický", "p": 4, "a": 20, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-018", "n": "Bogota", "la": 48.7011, "lo": 21.5165, "e": 856, "r": "KE", "rn": "Košický", "p": 2, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-019", "n": "Bucina", "la": 48.6531, "lo": 20.4112, "e": 851, "r": "KE", "rn": "Košický", "p": 2, "a": 4, "ar": "NP Slovenský kras", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský kras. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-020", "n": "Pod Briežkom", "la": 48.6461, "lo": 21.4577, "e": 708, "r": "KE", "rn": "Košický", "p": 2, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-021", "n": "Pavlovský vrch", "la": 48.576, "lo": 20.7025, "e": 611, "r": "KE", "rn": "Košický", "p": 1, "a": 0, "ar": "NP Slovenský kras", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský kras. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-022", "n": "Kyprov", "la": 48.8033, "lo": 20.1953, "e": 1402, "r": "KE", "rn": "Košický", "p": 6, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-023", "n": "Skalisko", "la": 48.7443, "lo": 20.575, "e": 1293, "r": "KE", "rn": "Košický", "p": 4, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-024", "n": "Hola", "la": 48.7936, "lo": 20.5324, "e": 1267, "r": "KE", "rn": "Košický", "p": 4, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-025", "n": "Osadník", "la": 48.6704, "lo": 20.7369, "e": 1185, "r": "KE", "rn": "Košický", "p": 4, "a": 2, "ar": "NP Slovenský kras", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský kras. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-026", "n": "Remiaška", "la": 48.8842, "lo": 20.3316, "e": 1167, "r": "KE", "rn": "Košický", "p": 4, "a": 2, "ar": "NP Slovenský raj", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-027", "n": "Králova hora", "la": 48.8707, "lo": 20.4198, "e": 1071, "r": "KE", "rn": "Košický", "p": 4, "a": 3, "ar": "NP Slovenský raj", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-028", "n": "Bykárka", "la": 48.9133, "lo": 20.4004, "e": 1057, "r": "KE", "rn": "Košický", "p": 4, "a": 3, "ar": "NP Slovenský raj", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-029", "n": "Krompašský vrch", "la": 48.8786, "lo": 20.8888, "e": 1024, "r": "KE", "rn": "Košický", "p": 4, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-030", "n": "Jasenovský vrch", "la": 48.8708, "lo": 22.2521, "e": 894, "r": "KE", "rn": "Košický", "p": 2, "a": 0, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-031", "n": "Pokryvy", "la": 48.8314, "lo": 21.1326, "e": 887, "r": "KE", "rn": "Košický", "p": 2, "a": 5, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-032", "n": "Bradlo", "la": 48.6143, "lo": 21.4303, "e": 840, "r": "KE", "rn": "Košický", "p": 2, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-033", "n": "Horny vrch", "la": 48.6259, "lo": 20.7842, "e": 831, "r": "KE", "rn": "Košický", "p": 2, "a": 4, "ar": "NP Slovenský kras", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský kras. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/KE-034", "n": "Suchý vrch", "la": 48.8877, "lo": 21.0839, "e": 798, "r": "KE", "rn": "Košický", "p": 2, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-035", "n": "Holicka", "la": 48.7123, "lo": 21.083, "e": 727, "r": "KE", "rn": "Košický", "p": 2, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/KE-036", "n": "Rozhladna", "la": 48.4765, "lo": 21.7068, "e": 469, "r": "KE", "rn": "Košický", "p": 1, "a": 2, "ar": "CHKO Latorica", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Latorica. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/KE-037", "n": "Tarbucka", "la": 48.3626, "lo": 21.7892, "e": 277, "r": "KE", "rn": "Košický", "p": 1, "a": 3, "ar": "CHKO Latorica", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Latorica. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/KE-038", "n": "Velký vrch", "la": 48.4941, "lo": 21.8127, "e": 272, "r": "KE", "rn": "Košický", "p": 1, "a": 3, "ar": "CHKO Latorica", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Latorica. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/KE-039", "n": "Velký Kopec", "la": 48.4184, "lo": 21.9614, "e": 263, "r": "KE", "rn": "Košický", "p": 1, "a": 2, "ar": "CHKO Latorica", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Latorica. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/NR-001", "n": "Velký Inovec", "la": 48.4106, "lo": 18.5437, "e": 901, "r": "NR", "rn": "Nitriansky", "p": 4, "a": 62, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/NR-002", "n": "Velký Tribec", "la": 48.4693, "lo": 18.2395, "e": 830, "r": "NR", "rn": "Nitriansky", "p": 2, "a": 21, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/NR-003", "n": "Velká Ostrá", "la": 48.5441, "lo": 18.4887, "e": 745, "r": "NR", "rn": "Nitriansky", "p": 2, "a": 14, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/NR-004", "n": "Žibrica", "la": 48.3674, "lo": 18.1516, "e": 616, "r": "NR", "rn": "Nitriansky", "p": 1, "a": 21, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/NR-005", "n": "Zobor", "la": 48.3466, "lo": 18.1087, "e": 586, "r": "NR", "rn": "Nitriansky", "p": 1, "a": 32, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/NR-006", "n": "Ploská", "la": 48.4316, "lo": 18.2535, "e": 576, "r": "NR", "rn": "Nitriansky", "p": 1, "a": 14, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/NR-007", "n": "Dún", "la": 48.4111, "lo": 18.2223, "e": 513, "r": "NR", "rn": "Nitriansky", "p": 1, "a": 18, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/NR-008", "n": "Burdov", "la": 47.8327, "lo": 18.7808, "e": 395, "r": "NR", "rn": "Nitriansky", "p": 1, "a": 12, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-001", "n": "Gerlachovský štít", "la": 49.1641, "lo": 20.134, "e": 2654, "r": "PO", "rn": "Prešovský", "p": 10, "a": 18, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Gerlachovský štít — LEN s horským vodcom! NPR.", "v": 0},
+  {"c": "OM/PO-002", "n": "Lomnický štít", "la": 49.1952, "lo": 20.213, "e": 2634, "r": "PO", "rn": "Prešovský", "p": 10, "a": 14, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Lomnický štít — prístupný lanovkou. Sezónne.", "v": 0},
+  {"c": "OM/PO-003", "n": "Ľadový štít", "la": 49.1987, "lo": 20.1828, "e": 2627, "r": "PO", "rn": "Prešovský", "p": 10, "a": 5, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Ľadový štít — NIE JE turisticky prístupný.", "v": 0},
+  {"c": "OM/PO-004", "n": "Vysoká", "la": 49.1727, "lo": 20.0942, "e": 2547, "r": "PO", "rn": "Prešovský", "p": 10, "a": 12, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Vysoká — NIE JE turisticky prístupná.", "v": 0},
+  {"c": "OM/PO-005", "n": "Končistá", "la": 49.1575, "lo": 20.1138, "e": 2538, "r": "PO", "rn": "Prešovský", "p": 10, "a": 8, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Končistá — NIE JE turisticky prístupná. NPR.", "v": 0},
+  {"c": "OM/PO-006", "n": "Kriváň", "la": 49.163, "lo": 20.0003, "e": 2494, "r": "PO", "rn": "Prešovský", "p": 10, "a": 43, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "4", "st": "caution", "nt": "Kriváň — sezónne. Oblasť obmedzená.", "v": 0},
+  {"c": "OM/PO-007", "n": "Bradavica", "la": 49.1713, "lo": 20.1558, "e": 2476, "r": "PO", "rn": "Prešovský", "p": 10, "a": 4, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Bradavica — NIE JE turisticky prístupná.", "v": 0},
+  {"c": "OM/PO-008", "n": "Mengusovský štít", "la": 49.1872, "lo": 20.0597, "e": 2432, "r": "PO", "rn": "Prešovský", "p": 10, "a": 2, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Mengusovský štít — NIE JE turisticky prístupný.", "v": 0},
+  {"c": "OM/PO-009", "n": "Hrubý vrch", "la": 49.1708, "lo": 20.0267, "e": 2428, "r": "PO", "rn": "Prešovský", "p": 10, "a": 7, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Hrubý vrch — NIE JE turisticky prístupný.", "v": 0},
+  {"c": "OM/PO-010", "n": "Svinica", "la": 49.2195, "lo": 20.0092, "e": 2301, "r": "PO", "rn": "Prešovský", "p": 10, "a": 7, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Svinica — sezónne prístupná.", "v": 0},
+  {"c": "OM/PO-011", "n": "Havran", "la": 49.2485, "lo": 20.1977, "e": 2152, "r": "PO", "rn": "Prešovský", "p": 10, "a": 1, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "4", "st": "caution", "nt": "Havran — Belianske Tatry NPR. Sezónne.", "v": 0},
+  {"c": "OM/PO-012", "n": "Veľká Kamenistá", "la": 49.196, "lo": 19.8695, "e": 2127, "r": "PO", "rn": "Prešovský", "p": 10, "a": 12, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Veľká Kamenistá — v sezóne.", "v": 0},
+  {"c": "OM/PO-013", "n": "Kresanica", "la": 49.2316, "lo": 19.9098, "e": 2122, "r": "PO", "rn": "Prešovský", "p": 10, "a": 57, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Kresanica — v sezóne.", "v": 0},
+  {"c": "OM/PO-014", "n": "Hlúpy", "la": 49.2369, "lo": 20.2203, "e": 2061, "r": "PO", "rn": "Prešovský", "p": 10, "a": 5, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "4", "st": "caution", "nt": "Hlúpy — Belianske Tatry. Obmedzené.", "v": 0},
+  {"c": "OM/PO-015", "n": "Čierna hora", "la": 49.1931, "lo": 20.624, "e": 1289, "r": "PO", "rn": "Prešovský", "p": 4, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-016", "n": "Siminy", "la": 49.2039, "lo": 20.7273, "e": 1287, "r": "PO", "rn": "Prešovský", "p": 4, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-017", "n": "Kozí kameň", "la": 49.0165, "lo": 20.161, "e": 1255, "r": "PO", "rn": "Prešovský", "p": 4, "a": 14, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-018", "n": "Smrekovica", "la": 49.0466, "lo": 20.8713, "e": 1199, "r": "PO", "rn": "Prešovský", "p": 4, "a": 14, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-019", "n": "Minčol", "la": 49.2346, "lo": 20.9892, "e": 1157, "r": "PO", "rn": "Prešovský", "p": 4, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-020", "n": "Veterný vrch", "la": 49.3357, "lo": 20.51, "e": 1111, "r": "PO", "rn": "Prešovský", "p": 4, "a": 12, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-021", "n": "Veľká Javorina", "la": 49.1988, "lo": 21.1463, "e": 1098, "r": "PO", "rn": "Prešovský", "p": 4, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-022", "n": "Stinská", "la": 49.0001, "lo": 22.5252, "e": 1093, "r": "PO", "rn": "Prešovský", "p": 4, "a": 1, "ar": "NP Poloniny", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Stinská — NPR Stužica (UNESCO)! Veľmi obmedzené.", "v": 0},
+  {"c": "OM/PO-023", "n": "Šimonka", "la": 48.9453, "lo": 21.4672, "e": 1092, "r": "PO", "rn": "Prešovský", "p": 4, "a": 15, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-024", "n": "Bachureň", "la": 49.0905, "lo": 20.9228, "e": 1081, "r": "PO", "rn": "Prešovský", "p": 4, "a": 11, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-025", "n": "Vihorlat", "la": 48.8914, "lo": 22.1133, "e": 1076, "r": "PO", "rn": "Prešovský", "p": 4, "a": 1, "ar": "CHKO Vihorlat", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Vihorlat. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-026", "n": "Javorinka", "la": 49.1325, "lo": 20.7537, "e": 1074, "r": "PO", "rn": "Prešovský", "p": 4, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-027", "n": "Čierna hora", "la": 48.9697, "lo": 21.425, "e": 1073, "r": "PO", "rn": "Prešovský", "p": 4, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-028", "n": "Vysoké skalky", "la": 49.3803, "lo": 20.5553, "e": 1050, "r": "PO", "rn": "Prešovský", "p": 4, "a": 29, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-029", "n": "Roháčka", "la": 48.924, "lo": 21.0127, "e": 1029, "r": "PO", "rn": "Prešovský", "p": 4, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-030", "n": "Nežabec", "la": 48.9279, "lo": 22.2293, "e": 1023, "r": "PO", "rn": "Prešovský", "p": 4, "a": 3, "ar": "CHKO Vihorlat", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Vihorlat. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-031", "n": "Strop", "la": 49.143, "lo": 22.2803, "e": 1011, "r": "PO", "rn": "Prešovský", "p": 4, "a": 6, "ar": "NP Poloniny", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-032", "n": "Busov", "la": 49.3883, "lo": 21.1625, "e": 1002, "r": "PO", "rn": "Prešovský", "p": 4, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-033", "n": "Lackova", "la": 49.4267, "lo": 21.1025, "e": 997, "r": "PO", "rn": "Prešovský", "p": 4, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-034", "n": "Makovica", "la": 48.8523, "lo": 21.4917, "e": 981, "r": "PO", "rn": "Prešovský", "p": 4, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-035", "n": "Stolová", "la": 49.0458, "lo": 22.3985, "e": 934, "r": "PO", "rn": "Prešovský", "p": 4, "a": 1, "ar": "NP Poloniny", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-036", "n": "Oblík", "la": 48.9735, "lo": 21.473, "e": 925, "r": "PO", "rn": "Prešovský", "p": 4, "a": 5, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-037", "n": "Hajdošik", "la": 49.0698, "lo": 22.341, "e": 921, "r": "PO", "rn": "Prešovský", "p": 4, "a": 1, "ar": "NP Poloniny", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-038", "n": "Stebnícka Magura", "la": 49.3607, "lo": 21.2453, "e": 899, "r": "PO", "rn": "Prešovský", "p": 2, "a": 7, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-039", "n": "Kurčínska Magura", "la": 49.3165, "lo": 20.8733, "e": 893, "r": "PO", "rn": "Prešovský", "p": 2, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-040", "n": "Javorina", "la": 49.4473, "lo": 21.2637, "e": 881, "r": "PO", "rn": "Prešovský", "p": 2, "a": 25, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-041", "n": "Kyjov", "la": 48.8557, "lo": 22.0148, "e": 821, "r": "PO", "rn": "Prešovský", "p": 2, "a": 2, "ar": "CHKO Vihorlat", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Vihorlat. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-042", "n": "Stredný gruň", "la": 49.0314, "lo": 22.2992, "e": 800, "r": "PO", "rn": "Prešovský", "p": 2, "a": 3, "ar": "NP Poloniny", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-043", "n": "Stavok (Baranie)", "la": 49.4369, "lo": 21.5975, "e": 754, "r": "PO", "rn": "Prešovský", "p": 2, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-044", "n": "Smilniansky vrch", "la": 49.4073, "lo": 21.3398, "e": 749, "r": "PO", "rn": "Prešovský", "p": 2, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-045", "n": "Stráž", "la": 49.0644, "lo": 21.256, "e": 739, "r": "PO", "rn": "Prešovský", "p": 2, "a": 7, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-046", "n": "Lysá Stráž", "la": 49.0842, "lo": 21.23, "e": 696, "r": "PO", "rn": "Prešovský", "p": 1, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-047", "n": "Tlstá", "la": 48.8792, "lo": 21.1875, "e": 685, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-048", "n": "Černiny", "la": 49.1397, "lo": 22.0402, "e": 671, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "CHKO Východné Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Východné Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-049", "n": "Čierna hora", "la": 49.3026, "lo": 21.5083, "e": 667, "r": "PO", "rn": "Prešovský", "p": 1, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-050", "n": "Haľagoš", "la": 49.1019, "lo": 21.3782, "e": 642, "r": "PO", "rn": "Prešovský", "p": 1, "a": 7, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-051", "n": "Jedlina", "la": 49.3476, "lo": 21.3077, "e": 620, "r": "PO", "rn": "Prešovský", "p": 1, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-052", "n": "Šarišský hrad", "la": 49.052, "lo": 21.1765, "e": 570, "r": "PO", "rn": "Prešovský", "p": 1, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-053", "n": "Lipovica", "la": 49.1668, "lo": 21.7678, "e": 555, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-054", "n": "Smrečiny", "la": 49.204, "lo": 19.8814, "e": 2068, "r": "PO", "rn": "Prešovský", "p": 10, "a": 9, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Smrečiny — Z. Tatry, v sezóne.", "v": 0},
+  {"c": "OM/PO-055", "n": "Veľká Kopa", "la": 49.2006, "lo": 19.9744, "e": 2052, "r": "PO", "rn": "Prešovský", "p": 10, "a": 2, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Veľká Kopa — Z. Tatry, v sezóne.", "v": 0},
+  {"c": "OM/PO-056", "n": "Veľká Brdárová grapa", "la": 49.1969, "lo": 19.9431, "e": 1859, "r": "PO", "rn": "Prešovský", "p": 10, "a": 1, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Veľká Brdárová grapa — Z. Tatry, v sezóne.", "v": 0},
+  {"c": "OM/PO-057", "n": "Suchý vrch", "la": 49.2379, "lo": 20.1507, "e": 1522, "r": "PO", "rn": "Prešovský", "p": 6, "a": 1, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Suchý vrch — Belianske Tatry, sezónne.", "v": 0},
+  {"c": "OM/PO-058", "n": "Repisko", "la": 49.2921, "lo": 20.1987, "e": 1259, "r": "PO", "rn": "Prešovský", "p": 4, "a": 12, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Repisko — Spišská Magura, celoročne.", "v": 0},
+  {"c": "OM/PO-059", "n": "Brada", "la": 49.0217, "lo": 20.0162, "e": 1111, "r": "PO", "rn": "Prešovský", "p": 4, "a": 5, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-060", "n": "Tri kopce", "la": 48.936, "lo": 20.3028, "e": 1056, "r": "PO", "rn": "Prešovský", "p": 4, "a": 4, "ar": "NP Slovenský raj", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-061", "n": "Tri chotáre", "la": 48.9895, "lo": 21.4092, "e": 1025, "r": "PO", "rn": "Prešovský", "p": 4, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-062", "n": "Krížová", "la": 49.0165, "lo": 20.2651, "e": 941, "r": "PO", "rn": "Prešovský", "p": 4, "a": 18, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-063", "n": "Vojnianská hora", "la": 49.2629, "lo": 20.4522, "e": 930, "r": "PO", "rn": "Prešovský", "p": 4, "a": 11, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-064", "n": "Plašná", "la": 49.3875, "lo": 20.4535, "e": 889, "r": "PO", "rn": "Prešovský", "p": 2, "a": 11, "ar": "Pieninský NP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Pieninský NP. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-065", "n": "Bodoň", "la": 48.9402, "lo": 21.4073, "e": 868, "r": "PO", "rn": "Prešovský", "p": 2, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-066", "n": "Skory", "la": 49.1378, "lo": 22.2058, "e": 857, "r": "PO", "rn": "Prešovský", "p": 2, "a": 1, "ar": "NP Poloniny", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-067", "n": "Holica", "la": 49.4081, "lo": 20.4466, "e": 828, "r": "PO", "rn": "Prešovský", "p": 2, "a": 5, "ar": "Pieninský NP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Pieninský NP. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-068", "n": "Soľovka", "la": 49.3784, "lo": 20.7326, "e": 827, "r": "PO", "rn": "Prešovský", "p": 2, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-069", "n": "Kňazová", "la": 49.2082, "lo": 20.8659, "e": 824, "r": "PO", "rn": "Prešovský", "p": 2, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-070", "n": "Borsuk", "la": 49.0977, "lo": 22.2575, "e": 725, "r": "PO", "rn": "Prešovský", "p": 2, "a": 1, "ar": "NP Poloniny", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/PO-071", "n": "Brúsy", "la": 49.2995, "lo": 21.8622, "e": 683, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "CHKO Východné Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Východné Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-072", "n": "Príkra", "la": 49.0988, "lo": 22.1202, "e": 682, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "CHKO Východné Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Východné Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-073", "n": "Kačalová", "la": 49.3225, "lo": 21.3668, "e": 676, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-074", "n": "Pacutová", "la": 49.3273, "lo": 21.6835, "e": 650, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-075", "n": "Kaštielik", "la": 49.3869, "lo": 21.4136, "e": 647, "r": "PO", "rn": "Prešovský", "p": 1, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-076", "n": "Kobyla", "la": 49.1973, "lo": 21.9721, "e": 637, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "CHKO Východné Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Východné Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-077", "n": "Barvienok", "la": 49.3068, "lo": 21.1671, "e": 591, "r": "PO", "rn": "Prešovský", "p": 1, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-078", "n": "Kosmatec", "la": 48.8776, "lo": 22.3947, "e": 581, "r": "PO", "rn": "Prešovský", "p": 1, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-079", "n": "Šipotská hora", "la": 49.2418, "lo": 21.3201, "e": 557, "r": "PO", "rn": "Prešovský", "p": 1, "a": 4, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-080", "n": "Krivoštianka", "la": 48.8927, "lo": 21.8683, "e": 549, "r": "PO", "rn": "Prešovský", "p": 1, "a": 2, "ar": "CHKO Vihorlat", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Vihorlat. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-081", "n": "Vysoká", "la": 49.1053, "lo": 21.8703, "e": 547, "r": "PO", "rn": "Prešovský", "p": 1, "a": 2, "ar": "CHKO Východné Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Východné Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-082", "n": "Kunová hora", "la": 49.0311, "lo": 21.5965, "e": 533, "r": "PO", "rn": "Prešovský", "p": 1, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-083", "n": "Patria", "la": 49.0088, "lo": 22.1163, "e": 532, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-084", "n": "Baňa", "la": 49.2149, "lo": 21.5949, "e": 523, "r": "PO", "rn": "Prešovský", "p": 1, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-085", "n": "Suchár", "la": 49.0342, "lo": 22.0089, "e": 523, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-086", "n": "Kolesovka", "la": 49.305, "lo": 21.6065, "e": 512, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-087", "n": "Muchova Hora", "la": 49.1408, "lo": 21.5929, "e": 472, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-088", "n": "Červená skala", "la": 48.9064, "lo": 21.9245, "e": 447, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "CHKO Vihorlat", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Vihorlat. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-089", "n": "Humenská", "la": 48.9113, "lo": 21.948, "e": 444, "r": "PO", "rn": "Prešovský", "p": 1, "a": 1, "ar": "CHKO Vihorlat", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Vihorlat. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-090", "n": "Hrb", "la": 48.9775, "lo": 21.78, "e": 400, "r": "PO", "rn": "Prešovský", "p": 1, "a": 2, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/PO-091", "n": "Klokočiny", "la": 48.8984, "lo": 21.8283, "e": 338, "r": "PO", "rn": "Prešovský", "p": 1, "a": 3, "ar": "CHKO Vihorlat", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Vihorlat. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/PO-092", "n": "Rysy", "la": 49.1793, "lo": 20.0884, "e": 2503, "r": "PO", "rn": "Prešovský", "p": 10, "a": 36, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Rysy — v sezóne (16.6.–31.10.). Uzávera 1.11.–31.5.", "v": 0},
+  {"c": "OM/TN-001", "n": "Vtácnik", "la": 48.6248, "lo": 18.6347, "e": 1346, "r": "TN", "rn": "Trenciansky", "p": 6, "a": 49, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-002", "n": "Magura", "la": 48.8679, "lo": 18.5293, "e": 1141, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 16, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-003", "n": "Homôlka", "la": 48.9568, "lo": 18.6008, "e": 1073, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 59, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-004", "n": "Inovec", "la": 48.7748, "lo": 18.0412, "e": 1042, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 62, "ar": "CHKO Biele Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Biele Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-005", "n": "Suchý vrch", "la": 48.841, "lo": 18.4193, "e": 1028, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 17, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-006", "n": "Rokoš", "la": 48.771, "lo": 18.4343, "e": 1010, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 23, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-007", "n": "Javorina", "la": 48.9694, "lo": 18.4305, "e": 1010, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 18, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-008", "n": "Cierny vrch", "la": 48.8151, "lo": 18.4085, "e": 997, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 24, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-009", "n": "Suchá hora", "la": 48.9257, "lo": 18.3553, "e": 986, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 19, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-010", "n": "Velká Javorina", "la": 48.8579, "lo": 17.6762, "e": 970, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 153, "ar": "CHKO Biele Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Biele Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-011", "n": "Chmelová", "la": 49.0744, "lo": 18.1538, "e": 925, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 59, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-012", "n": "Makyta", "la": 49.2609, "lo": 18.1625, "e": 923, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 34, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-013", "n": "Velký Lopeník", "la": 48.9167, "lo": 17.7825, "e": 911, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 99, "ar": "CHKO Biele Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Biele Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-014", "n": "Kobylinec", "la": 49.1195, "lo": 18.1652, "e": 911, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 12, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-015", "n": "Holazne", "la": 48.9291, "lo": 18.2842, "e": 911, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 20, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-016", "n": "Ostrá Malenica", "la": 49.0221, "lo": 18.407, "e": 909, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 14, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-017", "n": "Javorinka", "la": 48.9344, "lo": 18.4477, "e": 892, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 16, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-018", "n": "Velký Manin", "la": 49.1259, "lo": 18.4958, "e": 891, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 16, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-019", "n": "Stráne", "la": 49.0442, "lo": 18.5105, "e": 837, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 4, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-020", "n": "Havrania skala", "la": 49.1417, "lo": 18.5503, "e": 835, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 10, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-021", "n": "Malý Manín", "la": 49.1486, "lo": 18.5067, "e": 813, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-022", "n": "Butko", "la": 49.0225, "lo": 18.3317, "e": 765, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 9, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-023", "n": "Stráž", "la": 49.0249, "lo": 18.4495, "e": 685, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 2, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-024", "n": "Klapa", "la": 49.162, "lo": 18.4247, "e": 654, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 9, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-025", "n": "Žalostiná", "la": 48.8173, "lo": 17.4268, "e": 621, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 29, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-026", "n": "Stavná", "la": 49.1411, "lo": 18.4025, "e": 601, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-027", "n": "Salašky", "la": 48.7647, "lo": 17.7742, "e": 588, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 13, "ar": "CHKO Biele Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Biele Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-028", "n": "Klenová", "la": 48.6385, "lo": 17.5915, "e": 585, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 17, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-029", "n": "Osecný vrch", "la": 48.5961, "lo": 18.3883, "e": 551, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 15, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-030", "n": "Koniakova skala", "la": 49.2862, "lo": 18.3267, "e": 1028, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 14, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-031", "n": "Vápec", "la": 48.9394, "lo": 18.3264, "e": 956, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 36, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-032", "n": "Baske", "la": 48.8801, "lo": 18.2579, "e": 954, "r": "TN", "rn": "Trenciansky", "p": 4, "a": 10, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-033", "n": "Zigov", "la": 49.2311, "lo": 18.2759, "e": 893, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-034", "n": "Dubová", "la": 49.2494, "lo": 18.2638, "e": 891, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 5, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-035", "n": "Cierny vrch", "la": 48.96, "lo": 18.3965, "e": 865, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 5, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-036", "n": "Dúžnik", "la": 48.8993, "lo": 17.8508, "e": 807, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 8, "ar": "CHKO Biele Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Biele Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-037", "n": "Ostrý vrch", "la": 48.8479, "lo": 18.1251, "e": 767, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 19, "ar": "CHKO Biele Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Biele Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-038", "n": "Macicie", "la": 48.9592, "lo": 18.335, "e": 758, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 5, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-039", "n": "Chabová", "la": 48.9697, "lo": 17.9319, "e": 751, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 20, "ar": "CHKO Biele Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Biele Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-040", "n": "Stráne", "la": 48.9919, "lo": 18.3159, "e": 735, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 5, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-041", "n": "Tisová", "la": 49.0831, "lo": 18.5578, "e": 732, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-042", "n": "Svitava", "la": 48.8668, "lo": 18.1418, "e": 700, "r": "TN", "rn": "Trenciansky", "p": 2, "a": 16, "ar": "CHKO Biele Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Biele Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-043", "n": "Sokol", "la": 48.9709, "lo": 18.293, "e": 651, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 6, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-044", "n": "Drienový vrch", "la": 48.6863, "lo": 18.4749, "e": 615, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 12, "ar": "CHKO Ponitrie", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Ponitrie. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TN-045", "n": "Bradlo", "la": 48.6814, "lo": 17.5681, "e": 543, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 35, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TN-046", "n": "Velký Plešivec", "la": 48.7023, "lo": 17.7368, "e": 483, "r": "TN", "rn": "Trenciansky", "p": 1, "a": 26, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TT-001", "n": "Záruby", "la": 48.5238, "lo": 17.3925, "e": 767, "r": "TT", "rn": "Trnavský", "p": 2, "a": 55, "ar": "CHKO Malé Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Malé Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/TT-002", "n": "Marhát", "la": 48.595, "lo": 17.9703, "e": 748, "r": "TT", "rn": "Trnavský", "p": 2, "a": 59, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/TT-003", "n": "Javorový vrch", "la": 48.554, "lo": 17.4132, "e": 480, "r": "TT", "rn": "Trnavský", "p": 1, "a": 18, "ar": "CHKO Malé Karpaty", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Malé Karpaty. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-001", "n": "Bystrá", "la": 49.1885, "lo": 19.8425, "e": 2248, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 58, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Bystrá — najvyšší Z. Tatry. V sezóne.", "v": 0},
+  {"c": "OM/ZA-002", "n": "Jakubiná", "la": 49.1931, "lo": 19.801, "e": 2194, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 37, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Jakubiná — v sezóne.", "v": 0},
+  {"c": "OM/ZA-003", "n": "Baranec", "la": 49.1734, "lo": 19.741, "e": 2184, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 47, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Baranec — CELOROČNE (žltá značka)!", "v": 0},
+  {"c": "OM/ZA-004", "n": "Baníkov", "la": 49.1981, "lo": 19.7098, "e": 2178, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 34, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Baníkov — Roháče, v sezóne.", "v": 0},
+  {"c": "OM/ZA-005", "n": "Klin", "la": 49.1996, "lo": 19.82, "e": 2173, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 50, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Klin — v sezóne.", "v": 0},
+  {"c": "OM/ZA-006", "n": "Chopok", "la": 48.943, "lo": 19.593, "e": 2024, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 107, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Chopok — celoročne (lanovka).", "v": 0},
+  {"c": "OM/ZA-007", "n": "Sivý vrch", "la": 49.2112, "lo": 19.6423, "e": 1805, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 45, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "4", "st": "caution", "nt": "Sivý vrch — NPR! Prístupný, ale 4. stupeň.", "v": 0},
+  {"c": "OM/ZA-008", "n": "Veľká Chochuľa", "la": 48.8937, "lo": 19.331, "e": 1753, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 23, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-009", "n": "Krakova hoľa", "la": 48.9849, "lo": 19.633, "e": 1752, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 15, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-010", "n": "Veľký Bok", "la": 48.9434, "lo": 19.8778, "e": 1727, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 8, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-011", "n": "Babia hora", "la": 49.573, "lo": 19.5293, "e": 1723, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 60, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-012", "n": "Rovná hoľa", "la": 48.9403, "lo": 19.7137, "e": 1723, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 17, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-013", "n": "Veľký Kriváň", "la": 49.1876, "lo": 19.0307, "e": 1709, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 139, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Veľký Kriváň — hlavný hrebeň, prístupný.", "v": 0},
+  {"c": "OM/ZA-014", "n": "Osobitá", "la": 49.2613, "lo": 19.7215, "e": 1687, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 15, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Osobitá — UZAVRETÁ! Ochrana orchideí. NEAKTIVOVAŤ!", "v": 0},
+  {"c": "OM/ZA-015", "n": "Malý Kriváň", "la": 49.1814, "lo": 18.9932, "e": 1671, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 98, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Malý Kriváň — sezónne uzávery.", "v": 0},
+  {"c": "OM/ZA-016", "n": "Salatin", "la": 48.9802, "lo": 19.3625, "e": 1630, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 38, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-017", "n": "Veľký Rozsutec", "la": 49.2317, "lo": 19.0987, "e": 1609, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 90, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Veľký Rozsutec — NPR (5. st.)! TZT v sezóne. Uzávera 1.3.–15.6.", "v": 0},
+  {"c": "OM/ZA-018", "n": "Veľký Choč", "la": 49.1515, "lo": 19.3427, "e": 1608, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 79, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-019", "n": "Stoh", "la": 49.212, "lo": 19.094, "e": 1608, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 74, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Stoh — v sezóne.", "v": 0},
+  {"c": "OM/ZA-020", "n": "Ostredok", "la": 48.9021, "lo": 19.0792, "e": 1592, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 44, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-021", "n": "Rakytov", "la": 48.9607, "lo": 19.1792, "e": 1567, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 44, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-022", "n": "Siná", "la": 49.0004, "lo": 19.5552, "e": 1560, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 11, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-023", "n": "Pilsko", "la": 49.5279, "lo": 19.3167, "e": 1557, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 122, "ar": "CHKO Horná Orava", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Horná Orava. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-024", "n": "Poludnica", "la": 49.0213, "lo": 19.6318, "e": 1549, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 23, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-025", "n": "Ohnište", "la": 48.9756, "lo": 19.7058, "e": 1538, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 7, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-026", "n": "Ploská", "la": 48.934, "lo": 19.117, "e": 1532, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 46, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-027", "n": "Smrekovica", "la": 48.9826, "lo": 19.2308, "e": 1530, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 18, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-028", "n": "Borišov", "la": 48.9413, "lo": 19.0892, "e": 1510, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 38, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-029", "n": "Veľká lúka", "la": 49.091, "lo": 18.8137, "e": 1476, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 123, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-030", "n": "Ľubená", "la": 48.9323, "lo": 18.9808, "e": 1414, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 28, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-031", "n": "Zvolen", "la": 48.8906, "lo": 19.2232, "e": 1403, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 77, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-032", "n": "Minčol", "la": 49.2719, "lo": 19.2467, "e": 1394, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 38, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-033", "n": "Kľak", "la": 49.0466, "lo": 19.1122, "e": 1394, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 17, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-034", "n": "Lysec", "la": 48.9965, "lo": 19.069, "e": 1381, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 28, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-035", "n": "Prosečné", "la": 49.175, "lo": 19.5132, "e": 1372, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 15, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-036", "n": "Kľak", "la": 48.9817, "lo": 18.6408, "e": 1352, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 93, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-037", "n": "Parač", "la": 49.3243, "lo": 19.2158, "e": 1325, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 19, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-038", "n": "Flochová", "la": 48.8088, "lo": 18.9719, "e": 1317, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 26, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-039", "n": "Ľupčianska Magura", "la": 49.009, "lo": 19.4373, "e": 1315, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 9, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-040", "n": "Skorušina", "la": 49.298, "lo": 19.6922, "e": 1314, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 28, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Skorušina — nižšia, prístupná.", "v": 0},
+  {"c": "OM/ZA-041", "n": "Lomné", "la": 49.1713, "lo": 19.4718, "e": 1278, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 8, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-042", "n": "Drieňok", "la": 48.8904, "lo": 18.9617, "e": 1268, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 20, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-043", "n": "Kopec", "la": 49.2435, "lo": 19.5478, "e": 1251, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 11, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-044", "n": "Capkovo", "la": 49.0131, "lo": 19.7468, "e": 1244, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 3, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-045", "n": "Veľká Rača", "la": 49.4135, "lo": 18.9687, "e": 1236, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 192, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-046", "n": "Magura", "la": 49.2963, "lo": 19.7942, "e": 1232, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 38, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Magura — Spišská Magura, nižšia.", "v": 0},
+  {"c": "OM/ZA-047", "n": "Hrčova kečka", "la": 49.2449, "lo": 19.1872, "e": 1226, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 3, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-048", "n": "Budín", "la": 49.3441, "lo": 19.4522, "e": 1221, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 8, "ar": "CHKO Horná Orava", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Horná Orava. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-049", "n": "Hnilická Kýčera", "la": 49.0266, "lo": 18.7402, "e": 1218, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 36, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-050", "n": "Lysica", "la": 49.2275, "lo": 19.1837, "e": 1214, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 5, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-051", "n": "Stražov", "la": 48.955, "lo": 18.4632, "e": 1213, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 39, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-052", "n": "Kozia skala", "la": 48.9615, "lo": 18.9948, "e": 1202, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 4, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-053", "n": "Skalky", "la": 48.9922, "lo": 18.7042, "e": 1190, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 36, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-054", "n": "Kopa", "la": 49.1371, "lo": 19.1378, "e": 1187, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 13, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-055", "n": "Sokolie", "la": 49.236, "lo": 19.0148, "e": 1172, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 26, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "5", "st": "danger", "nt": "Sokolie — NPR (5. st.)! TZT prechádza.", "v": 0},
+  {"c": "OM/ZA-056", "n": "Magura", "la": 49.1581, "lo": 19.3872, "e": 1171, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 9, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-057", "n": "Šip", "la": 49.1655, "lo": 19.1788, "e": 1170, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 23, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-058", "n": "Nižná Lipová", "la": 49.0813, "lo": 19.1227, "e": 1162, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 12, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-059", "n": "Úšust", "la": 49.4091, "lo": 19.1868, "e": 1155, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 25, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-060", "n": "Kečky", "la": 49.1258, "lo": 19.2427, "e": 1139, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 11, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-061", "n": "Hruba Bučina", "la": 49.4874, "lo": 19.2315, "e": 1131, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 54, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-062", "n": "Hýrová", "la": 49.0473, "lo": 19.2793, "e": 1099, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 29, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-063", "n": "Pupov", "la": 49.2761, "lo": 19.1003, "e": 1096, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 12, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-064", "n": "Boboty", "la": 49.244, "lo": 19.0602, "e": 1086, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 25, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-065", "n": "Holica", "la": 49.171, "lo": 19.359, "e": 1086, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 13, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-066", "n": "Veľký Javornik", "la": 49.3189, "lo": 18.3674, "e": 1071, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 93, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-067", "n": "Veľký Polom", "la": 49.5063, "lo": 18.6712, "e": 1067, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 85, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-068", "n": "Ostré", "la": 49.1366, "lo": 19.2103, "e": 1067, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 16, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-069", "n": "Čebrať", "la": 49.102, "lo": 19.2792, "e": 1054, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 20, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-070", "n": "Hrubá Kečka", "la": 48.9839, "lo": 18.5132, "e": 1037, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 18, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-071", "n": "Chlieviská", "la": 48.9579, "lo": 18.7608, "e": 1024, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 22, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-072", "n": "Ľadonhora", "la": 49.2816, "lo": 18.8787, "e": 999, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 30, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-073", "n": "Mravečnik", "la": 49.2713, "lo": 19.0122, "e": 993, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 51, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-074", "n": "Černatín", "la": 49.3176, "lo": 18.9107, "e": 922, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 31, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-075", "n": "Horeňovo", "la": 48.7866, "lo": 18.7848, "e": 892, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 33, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-076", "n": "Žibrid", "la": 49.1278, "lo": 18.6093, "e": 867, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 20, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-077", "n": "Kečka", "la": 49.1628, "lo": 18.6125, "e": 822, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 11, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-078", "n": "Skalky", "la": 49.1425, "lo": 18.6845, "e": 778, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 23, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-079", "n": "Strážna", "la": 49.1554, "lo": 18.6558, "e": 686, "r": "ZA", "rn": "Žilinský", "p": 1, "a": 14, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-080", "n": "Plačlivé", "la": 49.1972, "lo": 19.7484, "e": 2125, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 48, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Plačlivé — CELOROČNE (žltá značka)!", "v": 0},
+  {"c": "OM/ZA-081", "n": "Volovec", "la": 49.2076, "lo": 19.7632, "e": 2063, "r": "ZA", "rn": "Žilinský", "p": 10, "a": 56, "ar": "TANAP", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "Volovec — Roháče, v sezóne.", "v": 0},
+  {"c": "OM/ZA-082", "n": "Homôľka", "la": 48.9094, "lo": 19.8627, "e": 1659, "r": "ZA", "rn": "Žilinský", "p": 8, "a": 8, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-083", "n": "Tlstá", "la": 48.9575, "lo": 19.3559, "e": 1554, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 2, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-084", "n": "Malá Smrekovica", "la": 49.0062, "lo": 19.2062, "e": 1485, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 40, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-085", "n": "Fišiarka", "la": 48.9246, "lo": 19.7814, "e": 1478, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 1, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-086", "n": "Osnica", "la": 49.2199, "lo": 19.1243, "e": 1362, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 47, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-087", "n": "Hláčovo", "la": 48.9999, "lo": 19.4909, "e": 1310, "r": "ZA", "rn": "Žilinský", "p": 6, "a": 2, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-088", "n": "Smrekovica", "la": 49.0159, "lo": 19.6912, "e": 1285, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 6, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-089", "n": "Perušín", "la": 49.0144, "lo": 19.1616, "e": 1281, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 1, "ar": "NP Veľká Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-090", "n": "Vysoké", "la": 49.0017, "lo": 19.8697, "e": 1200, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 1, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-091", "n": "Červený grúň", "la": 48.9858, "lo": 19.4145, "e": 1180, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 1, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-092", "n": "Turková", "la": 49.019, "lo": 19.9056, "e": 1178, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 11, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-093", "n": "Brankov", "la": 49.0051, "lo": 19.3094, "e": 1176, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 6, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-094", "n": "Štibel", "la": 49.3463, "lo": 19.2512, "e": 1166, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 12, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-095", "n": "Mních", "la": 49.0015, "lo": 19.7874, "e": 1150, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 2, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-096", "n": "Slamená", "la": 49.0334, "lo": 19.9802, "e": 1106, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 10, "ar": "NAPANT", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-097", "n": "Vráta", "la": 49.4118, "lo": 19.3904, "e": 1051, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 10, "ar": "CHKO Horná Orava", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Horná Orava. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-098", "n": "Liptovský hrad", "la": 49.1476, "lo": 19.4304, "e": 993, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 27, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-099", "n": "Plieška", "la": 49.1394, "lo": 19.4061, "e": 977, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 11, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-100", "n": "Čierna Lutiša", "la": 49.3145, "lo": 18.9865, "e": 951, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 11, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-101", "n": "Kamenný vrch", "la": 49.3734, "lo": 19.3025, "e": 938, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 21, "ar": "CHKO Horná Orava", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Horná Orava. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-102", "n": "Hoblík", "la": 49.1509, "lo": 18.8131, "e": 933, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 30, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-103", "n": "Ostré", "la": 49.2406, "lo": 19.1466, "e": 930, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 10, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-104", "n": "Magura", "la": 49.2623, "lo": 18.9322, "e": 920, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 20, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-105", "n": "Čipčie", "la": 49.1339, "lo": 18.7664, "e": 919, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 33, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-106", "n": "Kazícka Kýčera", "la": 49.3372, "lo": 18.6756, "e": 910, "r": "ZA", "rn": "Žilinský", "p": 4, "a": 18, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-107", "n": "Javorské", "la": 49.4524, "lo": 18.8634, "e": 860, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 25, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-108", "n": "Vyšehrad", "la": 48.8762, "lo": 18.6997, "e": 829, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 47, "ar": "CHKO Strážovské vrchy", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Strážovské vrchy. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-109", "n": "Veľké Vreteno", "la": 49.274, "lo": 18.7939, "e": 819, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 19, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-110", "n": "Vysoká", "la": 49.4021, "lo": 18.689, "e": 797, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 16, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-111", "n": "Straník", "la": 49.2376, "lo": 18.8278, "e": 768, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 69, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-112", "n": "Kučerovka", "la": 49.2591, "lo": 18.8291, "e": 744, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 48, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-113", "n": "Želehosť", "la": 49.2308, "lo": 18.8988, "e": 736, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 11, "ar": "NP Malá Fatra", "ac": "NP", "bl": 3, "rl": "3", "st": "ok", "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk", "v": 0},
+  {"c": "OM/ZA-114", "n": "Dubová", "la": 49.1029, "lo": 18.6152, "e": 727, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 14, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-115", "n": "Brodnianka", "la": 49.2653, "lo": 18.7678, "e": 719, "r": "ZA", "rn": "Žilinský", "p": 2, "a": 25, "ar": "CHKO Kysuce", "ac": "CHKO", "bl": 2, "rl": "2", "st": "safe", "nt": "CHKO Kysuce. Volny pohyb peso. OK.", "v": 0},
+  {"c": "OM/ZA-116", "n": "Snoh", "la": 49.2293, "lo": 18.6851, "e": 641, "r": "ZA", "rn": "Žilinský", "p": 1, "a": 19, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0},
+  {"c": "OM/ZA-117", "n": "Hradište", "la": 49.1767, "lo": 18.5326, "e": 600, "r": "ZA", "rn": "Žilinský", "p": 1, "a": 6, "ar": "", "ac": "", "bl": 1, "rl": "1", "st": "safe", "nt": "Mimo CHU. Bez obmedzeni.", "v": 0}
+];
+</script>
+<script>
+const {createApp,ref,computed,onMounted,watch,nextTick}=Vue;
+const COL_L={safe:'#2d7a4f',ok:'#c49215',caution:'#c44d2b',danger:'#b83232'};
+const COL_D={safe:'#4ade80',ok:'#fbbf24',caution:'#fb923c',danger:'#f87171'};
+createApp({
+setup(){
+  const summits=ref(D);
+  const q=ref('');const rF=ref('');const sF=ref('');const vF=ref('');const sel=ref(null);const wms=ref(false);const showContrib=ref(true);
+  const dark=ref(localStorage.getItem('sota-dark')==='1'||(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches));
+  let map,markers={},wmsLayer,mGroup,tileLayer;
+
+  function applyTheme(){
+    document.documentElement.classList.toggle('dark',dark.value);
+    localStorage.setItem('sota-dark',dark.value?'1':'0');
+    if(tileLayer&&map){
+      map.removeLayer(tileLayer);
+      tileLayer=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'OSM/CARTO',maxZoom:19}).addTo(map);
+    }
+    D.forEach((s,i)=>{if(markers[s.c])markers[s.c].setIcon(mkIcon(s))});
+    updateTip();
+  }
+  function toggleTheme(){dark.value=!dark.value;applyTheme()}
+
+  const regions=computed(()=>[...new Set(D.map(s=>s.r))].sort());
+  const filtered=computed(()=>{
+    let l=summits.value;
+    if(q.value){const t=q.value.toLowerCase();l=l.filter(s=>s.c.toLowerCase().includes(t)||s.n.toLowerCase().includes(t)||s.ar.toLowerCase().includes(t))}
+    if(rF.value)l=l.filter(s=>s.r===rF.value);
+    if(sF.value)l=l.filter(s=>s.rl===sF.value||s.rl.includes(sF.value));
+    if(vF.value)l=l.filter(s=>String(s.v)===vF.value);
+    return l;
+  });
+  const counts=computed(()=>{
+    const c={safe:0,ok:0,caution:0,danger:0,unverified:0,verified:0};
+    D.forEach(s=>{c[s.st]=(c[s.st]||0)+1;if(!s.v)c.unverified++;else c.verified++});return c;
+  });
+  function badgeText(s){
+    if(s.st==='safe')return 'L'+s.rl+' Safe';
+    if(s.st==='ok')return 'L'+s.rl+' OK';
+    if(s.st==='caution')return 'L'+s.rl+' Caution';
+    return 'L'+s.rl+' Restricted';
+  }
+  function mkIcon(s){
+    const pal=dark.value?COL_D:COL_L;
+    const c=pal[s.st]||'#888';
+    const ring=dark.value?'rgba(0,0,0,.6)':'#fff';
+    const sz=Math.max(7,Math.min(13,s.p*1.5+5));
+    const op=s.v?1:0.55;
+    return L.divIcon({className:'',html:`<div style="width:${sz}px;height:${sz}px;background:${c};border:2px solid ${ring};border-radius:50%;box-shadow:0 1px 4px ${c}60;opacity:${op}"></div>`,iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
+  }
+  function updateTip(){
+    const d=dark.value;
+    let el=document.getElementById('tip-style');
+    if(!el){el=document.createElement('style');el.id='tip-style';document.head.appendChild(el)}
+    el.textContent=d
+      ?`.tip{background:#1e1d1b!important;color:#e8e6df!important;border:1px solid #2a2926!important;border-radius:8px!important;font-family:'Outfit',sans-serif!important;font-size:12px!important;padding:6px 10px!important;box-shadow:0 2px 12px rgba(0,0,0,.3)!important}.tip:before{border-top-color:#1e1d1b!important}`
+      :`.tip{background:#fffffe!important;color:#1a1917!important;border:1px solid #e3e2db!important;border-radius:8px!important;font-family:'Outfit',sans-serif!important;font-size:12px!important;padding:6px 10px!important;box-shadow:0 2px 8px rgba(0,0,0,.08)!important}.tip:before{border-top-color:#fffffe!important}`;
+  }
+  function initMap(){
+    map=L.map('map',{zoomControl:false}).setView([48.8,19.5],8);
+    L.control.zoom({position:'topleft'}).addTo(map);
+    tileLayer=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'OSM/CARTO',maxZoom:19}).addTo(map);
+    wmsLayer=L.tileLayer.wms('https://maps.sopsr.sk/geoserver/ows',{layers:'sopsr:CHU_zonacia_ekoforest',format:'image/png',transparent:true,opacity:0.45,version:'1.1.1'});
+    mGroup=L.layerGroup().addTo(map);
+    D.forEach(s=>{
+      const m=L.marker([s.la,s.lo],{icon:mkIcon(s)});
+      m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · L${s.rl} ${s.v?'✓':'(AI)'}`,{className:'tip'});
+      m.on('click',()=>pick(s));
+      m.addTo(mGroup);markers[s.c]=m;
+    });
+  }
+  function pick(s){sel.value=s;if(map)map.setView([s.la,s.lo],Math.max(map.getZoom(),12),{animate:true})}
+  function toggleWms(){wms.value=!wms.value;if(wms.value)wmsLayer.addTo(map);else map.removeLayer(wmsLayer)}
+  onMounted(()=>nextTick(()=>{applyTheme();initMap();updateTip()}));
+  watch(filtered,()=>{
+    if(!mGroup)return;
+    mGroup.clearLayers();
+    const codes=new Set(filtered.value.map(s=>s.c));
+    D.forEach(s=>{if(codes.has(s.c)&&markers[s.c])markers[s.c].addTo(mGroup)});
+  });
+  return{summits,q,rF,sF,vF,sel,wms,dark,showContrib,regions,filtered,counts,badgeText,pick,toggleWms,toggleTheme};
+}
+}).mount('#app');
+</script>
+</body>
+</html>
