@@ -131,11 +131,16 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .lg-row{display:flex;align-items:center;gap:8px;margin:3px 0}
 .lg-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
 
-.overlay-toggle{position:absolute;top:12px;left:60px;z-index:1000;background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius-sm);padding:6px 12px;font-size:11px;font-family:var(--font);cursor:pointer;box-shadow:var(--shadow);display:flex;align-items:center;gap:6px;font-weight:500;color:var(--ink2);transition:all .15s}
+.overlay-toggles{position:absolute;top:12px;left:60px;z-index:1000;display:flex;gap:6px}
+.overlay-toggle{background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius-sm);padding:6px 12px;font-size:11px;font-family:var(--font);cursor:pointer;box-shadow:var(--shadow);display:flex;align-items:center;gap:6px;font-weight:500;color:var(--ink2);transition:all .15s}
 .overlay-toggle:hover{border-color:var(--teal);color:var(--teal)}
 .overlay-toggle.on{background:var(--teal-bg);border-color:var(--teal);color:var(--teal)}
+.overlay-toggle.loading{opacity:.6;pointer-events:none}
 .dot-toggle{width:8px;height:8px;border-radius:50%;border:1.5px solid currentColor;transition:background .15s}
 .overlay-toggle.on .dot-toggle{background:currentColor}
+.chu-popup{font-family:var(--font);font-size:12px;line-height:1.5}
+.chu-popup b{font-weight:600}
+.chu-popup .chu-type{font-size:10px;font-family:var(--mono);color:#888;text-transform:uppercase;letter-spacing:.5px}
 
 .leaflet-tile-pane{transition:filter .4s}
 .dark .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(1.1)}
@@ -210,7 +215,11 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 
   <div class="map-wrap">
     <div id="map"></div>
-    <button class="overlay-toggle" :class="{on:wms}" @click="toggleWms"><span class="dot-toggle"></span> ŠOPSR overlay</button>
+    <div class="overlay-toggles">
+      <button class="overlay-toggle" :class="{on:wms}" @click="toggleWms"><span class="dot-toggle"></span> ŠOPSR zones</button>
+      <button class="overlay-toggle" :class="{on:showNpChko,loading:loadingNpChko}" @click="toggleNpChko"><span class="dot-toggle"></span> NP / CHKO</button>
+      <button class="overlay-toggle" :class="{on:showReserves,loading:loadingReserves}" @click="toggleReserves"><span class="dot-toggle"></span> Reserves</button>
+    </div>
     <div class="legend">
       <h4>Protection</h4>
       <div class="lg-row"><span class="lg-dot" style="background:#2d7a4f"></span> Level 1–2 safe</div>
@@ -220,6 +229,13 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
       <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
       <div class="lg-row"><span class="lg-dot" style="background:var(--purple);opacity:.5"></span> Not verified (AI)</div>
       <div class="lg-row"><span class="lg-dot" style="background:var(--green)"></span> Verified by operator</div>
+      <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
+      <h4>Boundaries</h4>
+      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #b83232"></span> National Park</div>
+      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #c49215"></span> CHKO</div>
+      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #7a7870;border-style:dashed"></span> Buffer zone</div>
+      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #c44d2b"></span> NPR / PR</div>
+      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #8b6cc1"></span> CHA / PP</div>
     </div>
     <div class="detail" v-if="sel">
       <div class="d-head">
@@ -659,8 +675,12 @@ createApp({
 setup(){
   const summits=ref(D);
   const q=ref('');const rF=ref('');const sF=ref('');const vF=ref('');const sel=ref(null);const wms=ref(false);const showContrib=ref(true);
+  const showNpChko=ref(false);const loadingNpChko=ref(false);
+  const showReserves=ref(false);const loadingReserves=ref(false);
   const dark=ref(localStorage.getItem('sota-dark')==='1'||(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches));
   let map,markers={},wmsLayer,mGroup,tileLayer;
+  let npChkoLayer=null,npChkoData=null;
+  let reservesLayer=null,reservesData=null;
 
   function applyTheme(){
     document.documentElement.classList.toggle('dark',dark.value);
@@ -724,6 +744,84 @@ setup(){
   }
   function pick(s){sel.value=s;if(map)map.setView([s.la,s.lo],Math.max(map.getZoom(),12),{animate:true})}
   function toggleWms(){wms.value=!wms.value;if(wms.value)wmsLayer.addTo(map);else map.removeLayer(wmsLayer)}
+
+  function styleNpChko(feature){
+    const t=(feature.properties.t||'').toLowerCase();
+    if(t.includes('národný park')&&!t.includes('ochranné'))
+      return{color:'#b83232',weight:2.5,fillOpacity:0.04,opacity:0.8};
+    if(t.includes('chko')||t.includes('chránená krajinná'))
+      return{color:'#c49215',weight:2,fillOpacity:0.03,opacity:0.7};
+    return{color:'#7a7870',weight:1.5,fillOpacity:0.02,opacity:0.6,dashArray:'6 4'};
+  }
+  function styleReserves(feature){
+    const t=feature.properties.t||'';
+    if(t==='NPR'||t==='PR')
+      return{color:'#c44d2b',weight:2,fillOpacity:0.05,opacity:0.75};
+    if(t==='CHA'||t==='PP'||t==='NPP')
+      return{color:'#8b6cc1',weight:1.5,fillOpacity:0.04,opacity:0.65};
+    return{color:'#7a7870',weight:1.5,fillOpacity:0.03,opacity:0.5,dashArray:'4 3'};
+  }
+  function chuPopup(p){
+    const ha=p.h?`<br>${Number(p.h).toLocaleString()} ha`:'';
+    const zona=p.z?`<br><span class="chu-type">${p.z}</span>`:'';
+    const typ=p.t?`<span class="chu-type">${p.t}</span>`:'';
+    return`<div class="chu-popup"><b>${p.n||'–'}</b> ${typ}${zona}${ha}</div>`;
+  }
+  function bindChu(feature,layer,styleFn){
+    layer.bindPopup(chuPopup(feature.properties));
+    const base=styleFn(feature);
+    layer.on('mouseover',function(){this.setStyle({weight:base.weight+1.5,fillOpacity:0.12})});
+    layer.on('mouseout',function(){this.setStyle(base)});
+  }
+
+  async function toggleNpChko(){
+    showNpChko.value=!showNpChko.value;
+    if(showNpChko.value){
+      if(!npChkoData){
+        loadingNpChko.value=true;
+        try{
+          const r=await fetch('vchu.json');
+          npChkoData=await r.json();
+        }catch(e){console.error('Failed to load vchu.json',e);showNpChko.value=false;loadingNpChko.value=false;return}
+        loadingNpChko.value=false;
+      }
+      if(!npChkoLayer){
+        npChkoLayer=L.geoJSON(npChkoData,{
+          style:styleNpChko,
+          onEachFeature:(f,l)=>bindChu(f,l,styleNpChko)
+        });
+      }
+      npChkoLayer.addTo(map);
+      npChkoLayer.bringToBack();
+    }else{
+      if(npChkoLayer)map.removeLayer(npChkoLayer);
+    }
+  }
+
+  async function toggleReserves(){
+    showReserves.value=!showReserves.value;
+    if(showReserves.value){
+      if(!reservesData){
+        loadingReserves.value=true;
+        try{
+          const r=await fetch('osm_pa.json');
+          reservesData=await r.json();
+        }catch(e){console.error('Failed to load osm_pa.json',e);showReserves.value=false;loadingReserves.value=false;return}
+        loadingReserves.value=false;
+      }
+      if(!reservesLayer){
+        reservesLayer=L.geoJSON(reservesData,{
+          style:styleReserves,
+          onEachFeature:(f,l)=>bindChu(f,l,styleReserves)
+        });
+      }
+      reservesLayer.addTo(map);
+      reservesLayer.bringToBack();
+    }else{
+      if(reservesLayer)map.removeLayer(reservesLayer);
+    }
+  }
+
   function srcDomain(url){try{return new URL(url).hostname}catch(e){return url}}
   onMounted(()=>nextTick(()=>{applyTheme();initMap();updateTip()}));
   watch(filtered,()=>{
@@ -732,7 +830,7 @@ setup(){
     const codes=new Set(filtered.value.map(s=>s.c));
     D.forEach(s=>{if(codes.has(s.c)&&markers[s.c])markers[s.c].addTo(mGroup)});
   });
-  return{summits,q,rF,sF,vF,sel,wms,dark,showContrib,regions,filtered,counts,badgeText,pick,toggleWms,toggleTheme,srcDomain};
+  return{summits,q,rF,sF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,regions,filtered,counts,badgeText,pick,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain};
 }
 }).mount('#app');
 </script>
