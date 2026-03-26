@@ -46,13 +46,13 @@ This tool maps every OM summit to its protection level so you can plan activatio
 - 🏷️ Filter by region (BA–ZA), protection level (1–5), and verification status
 - 🛰️ ŠOPSR WMS overlay toggle — see official protection zones on the map
 - 🌙 Dark/light theme with system preference detection
-- 📋 One summit per line in source — easy to edit and contribute
+- 📋 Summit data in `summits.json` — one per line, easy to edit and contribute
 
 ## How to contribute
 
 The best way to help is to **verify summits**:
 
-1. Open `index.html` in a text editor
+1. Open `summits.json` in a text editor
 2. Find the summit by its code (e.g. `OM/ZA-014`)
 3. Check it on [maps.sopsr.sk](https://maps.sopsr.sk/) — enable the "Stupne ochrany" layer
 4. Update the fields:
@@ -94,7 +94,7 @@ To fork and host your own:
 
 ## Tech stack
 
-Single `index.html` file, no build step:
+Single `index.html` + `summits.json` data file, no build step:
 - [Vue.js 3](https://vuejs.org/) (CDN)
 - [Leaflet](https://leafletjs.com/) (CDN)
 - [CARTO basemap](https://carto.com/basemaps/) (light, inverted for dark mode)
