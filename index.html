@@ -457,7 +457,7 @@ setup(){
   function trailColor(tc){const m={red:'#e74c3c',blue:'#2980b9',green:'#27ae60',yellow:'#f1c40f'};return m[tc]||'var(--ink3)'}
   onMounted(async()=>{
     applyTheme();
-    try{const r=await fetch('summits.json');D=await r.json();summits.value=D}
+    try{const r=await fetch('summits.json');const j=await r.json();D=j.summits;summits.value=D}
     catch(e){console.error('Failed to load summits.json',e)}
     loading.value=false;
     await nextTick();
