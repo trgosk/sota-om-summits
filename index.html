@@ -244,6 +244,8 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
       <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #7a7870;border-style:dashed"></span> Buffer zone</div>
       <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #c44d2b"></span> NPR / PR</div>
       <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #8b6cc1"></span> CHA / PP</div>
+      <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
+      <div class="lg-row" style="font-size:10px;color:var(--ink4)">v{{uiVersion||'dev'}} &middot; data {{dataVersion}}</div>
     </div>
     <div class="detail" v-if="sel">
       <div class="d-head">
@@ -308,6 +310,7 @@ setup(){
   const q=ref('');const rF=ref('');const sF=ref('');const vF=ref('');const sel=ref(null);const wms=ref(false);const showContrib=ref(true);
   const showNpChko=ref(false);const loadingNpChko=ref(false);
   const showReserves=ref(false);const loadingReserves=ref(false);
+  const uiVersion=ref('');const dataVersion=ref('');
   const dark=ref(localStorage.getItem('sota-dark')==='1'||(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches));
   let map,markers={},wmsLayer,mGroup,tileLayer;
   let npChkoLayer=null,npChkoData=null;
@@ -457,8 +460,9 @@ setup(){
   function trailColor(tc){const m={red:'#e74c3c',blue:'#2980b9',green:'#27ae60',yellow:'#f1c40f'};return m[tc]||'var(--ink3)'}
   onMounted(async()=>{
     applyTheme();
-    try{const r=await fetch('summits.json');const j=await r.json();D=j.summits;summits.value=D}
+    try{const r=await fetch('summits.json');const j=await r.json();D=j.summits;summits.value=D;dataVersion.value=j._dataVersion||''}
     catch(e){console.error('Failed to load summits.json',e)}
+    try{const vr=await fetch('version.json');const vj=await vr.json();uiVersion.value=vj.uiVersion||''}catch(e){}
     loading.value=false;
     await nextTick();
     initMap();updateTip();
@@ -469,7 +473,7 @@ setup(){
     const codes=new Set(filtered.value.map(s=>s.c));
     summits.value.forEach(s=>{if(codes.has(s.c)&&markers[s.c])markers[s.c].addTo(mGroup)});
   });
-  return{summits,loading,q,rF,sF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,regions,filtered,counts,badgeText,pick,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain,trailColor};
+  return{summits,loading,q,rF,sF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,regions,filtered,counts,badgeText,pick,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain,trailColor,uiVersion,dataVersion};
 }
 }).mount('#app');
 </script>
