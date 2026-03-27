@@ -334,7 +334,7 @@
       "tn": "8425",
       "tc": "yellow",
       "ti": 1110215,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-009",
@@ -352,7 +352,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-010",
@@ -374,7 +374,7 @@
       "tn": "Rudná magistrála",
       "tc": "red",
       "ti": 1110217,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-011",
@@ -437,7 +437,7 @@
       "tn": "Chodník Andreja Kmeťa",
       "tc": "blue",
       "ti": 1106848,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-014",
@@ -538,7 +538,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-019",
@@ -1057,7 +1057,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-043",
@@ -1093,7 +1093,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-045",
@@ -1331,7 +1331,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-056",
@@ -1437,7 +1437,7 @@
       "rl": "2",
       "st": "safe",
       "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-061",
@@ -1449,13 +1449,14 @@
       "rn": "Banskobystrický",
       "p": 2,
       "a": 18,
-      "ar": "CHKO Ponitrie",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-062",
@@ -3047,7 +3048,7 @@
       "tn": "8764",
       "tc": "yellow",
       "ti": 899663,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-024",
@@ -3804,7 +3805,7 @@
       "tn": "Pieninská cesta",
       "tc": "red",
       "ti": 1520546,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-065",
@@ -4006,7 +4007,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-075",
@@ -4028,7 +4030,8 @@
       "tn": "Pamätník I. svetovej vojny na vrchu Kaštielik",
       "tc": "green",
       "ti": 18910820,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-076",
@@ -4124,16 +4127,17 @@
       "rn": "Prešovský",
       "p": 1,
       "a": 2,
-      "ar": "CHKO Vihorlat",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Vihorlat. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 16,
       "tc": "green",
       "ti": 2162746,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-081",
@@ -4212,7 +4216,8 @@
       "tn": "5789a",
       "tc": "green",
       "ti": 965007,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-085",
@@ -4252,7 +4257,8 @@
       "tr": 135,
       "tc": "green",
       "ti": 2981466,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-087",
@@ -4293,7 +4299,7 @@
       "tn": "Náučný chodník Humenský Sokol",
       "tc": "green",
       "ti": 8249552,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-089",
@@ -4305,13 +4311,14 @@
       "rn": "Prešovský",
       "p": 1,
       "a": 1,
-      "ar": "CHKO Vihorlat",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Vihorlat. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-090",
@@ -4342,17 +4349,16 @@
       "rn": "Prešovský",
       "p": 1,
       "a": 3,
-      "ar": "CHKO Vihorlat",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Vihorlat. Voľný pohyb pešo. OK.",
-      "tr": 160,
-      "tn": "Brekovský turistický chodník",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tc": "green",
       "ti": 10082652,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-092",
@@ -4574,7 +4580,8 @@
       "rl": "2",
       "st": "safe",
       "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-010",
@@ -4732,16 +4739,17 @@
       "rn": "Trenčiansky",
       "p": 2,
       "a": 16,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Strážovské vrchy",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 29,
       "tc": "yellow",
       "ti": 16098926,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-019",
@@ -4797,7 +4805,7 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/TN-022",
@@ -5900,7 +5908,7 @@
       "tn": "5567",
       "tc": "green",
       "ti": 3003306,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-024",
@@ -6379,7 +6387,7 @@
       "tn": "5542",
       "tc": "green",
       "ti": 1438085,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-046",
@@ -6632,7 +6640,7 @@
       "tn": "8609a",
       "tc": "yellow",
       "ti": 5462736,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-058",
@@ -6676,7 +6684,7 @@
       "tn": "2678a",
       "tc": "blue",
       "ti": 2856506,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-060",
@@ -6721,7 +6729,7 @@
       "tn": "2678a",
       "tc": "blue",
       "ti": 2856506,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-062",
@@ -7406,13 +7414,14 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 12,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Horná Orava",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "nt": "CHKO Horná Orava Zóna D (2. st.).",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-095",
