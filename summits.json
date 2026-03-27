@@ -315,7 +315,8 @@
       "tn": "Rudná magistrála",
       "tc": "red",
       "ti": 1691232,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-008",
@@ -417,7 +418,8 @@
       "tn": "8485",
       "tc": "yellow",
       "ti": 1694201,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-013",
@@ -594,7 +596,8 @@
       "tn": "0835",
       "tc": "red",
       "ti": 918128,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-022",
@@ -634,7 +637,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-024",
@@ -646,17 +650,18 @@
       "rn": "Banskobystrický",
       "p": 2,
       "a": 1,
-      "ar": "NP Muránska planina",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 21,
       "tn": "8483",
       "tc": "yellow",
       "ti": 1113509,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-025",
@@ -674,7 +679,8 @@
       "rl": "2",
       "st": "safe",
       "nt": "CHKO Štiavnické vrchy. Voľný pohyb pešo. OK.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-026",
@@ -696,7 +702,8 @@
       "tn": "2650",
       "tc": "blue",
       "ti": 1690502,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-027",
@@ -718,7 +725,8 @@
       "tn": "Rudná magistrála",
       "tc": "red",
       "ti": 326280,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-028",
@@ -740,7 +748,8 @@
       "tn": "5529",
       "tc": "green",
       "ti": 918126,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-029",
@@ -762,7 +771,8 @@
       "tn": "8496",
       "tc": "yellow",
       "ti": 7399579,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-030",
@@ -806,7 +816,8 @@
       "tn": "5461V",
       "tc": "green",
       "ti": 10528749,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-032",
@@ -840,18 +851,18 @@
       "rn": "Banskobystrický",
       "p": 2,
       "a": 25,
-      "ar": "CHKO Ponitrie",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 191,
       "tn": "2661",
       "tc": "blue",
       "ti": 10741739,
       "v": 1,
-      "lr": "2026-03-26"
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-034",
@@ -887,7 +898,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-036",
@@ -921,17 +933,18 @@
       "rn": "Banskobystrický",
       "p": 6,
       "a": 8,
-      "ar": "NP Slovenský raj",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 326,
       "tn": "2835",
       "tc": "blue",
       "ti": 906675,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-038",
@@ -974,7 +987,8 @@
       "tn": "2614",
       "tc": "blue",
       "ti": 1702770,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-040",
@@ -1115,7 +1129,8 @@
       "tn": "Cesta Márie Széchy",
       "tc": "red",
       "ti": 1573367,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-047",
@@ -1154,7 +1169,8 @@
       "rl": "2",
       "st": "safe",
       "nt": "CHKO Poľana. Voľný pohyb pešo. OK.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-049",
@@ -1210,17 +1226,18 @@
       "rn": "Banskobystrický",
       "p": 4,
       "a": 2,
-      "ar": "NAPANT",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 389,
       "tn": "NCH Meandre Hrona",
       "tc": "green",
       "ti": 13514555,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-052",
@@ -1260,7 +1277,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-054",
@@ -1322,7 +1340,8 @@
       "tn": "Rudná magistrála",
       "tc": "red",
       "ti": 1592122,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-057",
@@ -1344,7 +1363,8 @@
       "tn": "5505",
       "tc": "green",
       "ti": 929722,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-058",
@@ -1366,7 +1386,8 @@
       "tn": "Rudná magistrála",
       "tc": "red",
       "ti": 1691232,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-059",
@@ -1432,18 +1453,18 @@
       "rn": "Banskobystrický",
       "p": 2,
       "a": 16,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Štiavnické vrchy",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Štiavnické vrchy. Voľný pohyb pešo. OK.",
       "tr": 16,
       "tn": "5534",
       "tc": "green",
       "ti": 1797763,
       "v": 1,
-      "lr": "2026-03-26"
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-063",
@@ -1465,7 +1486,8 @@
       "tn": "5530",
       "tc": "green",
       "ti": 1799648,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-064",
@@ -1505,7 +1527,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-066",
@@ -1541,7 +1564,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-068",
@@ -1716,7 +1740,8 @@
       "tn": "5704b",
       "tc": "green",
       "ti": 445938,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-008",
@@ -2121,13 +2146,14 @@
       "rn": "Košický",
       "p": 4,
       "a": 3,
-      "ar": "NP Slovenský raj",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-028",
@@ -2276,7 +2302,8 @@
       "tn": "2821a",
       "tc": "blue",
       "ti": 905852,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-035",
@@ -2396,7 +2423,6 @@
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
       "lr": "2026-03-21",
-
       "tr": 18,
       "tn": "Rudná magistrála",
       "tc": "red",
@@ -2420,7 +2446,6 @@
       "st": "safe",
       "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "tr": 15,
       "tn": "2430",
       "tc": "blue",
@@ -2444,7 +2469,6 @@
       "st": "safe",
       "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "v": 1
     },
     {
@@ -2457,19 +2481,18 @@
       "rn": "Nitriansky",
       "p": 1,
       "a": 21,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Ponitrie",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "lr": "2026-03-21",
-
+      "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
       "tr": 5,
       "tn": "0706I",
       "tc": "red",
       "ti": 376379,
-      "v": 1
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/NR-005",
@@ -2481,19 +2504,18 @@
       "rn": "Nitriansky",
       "p": 1,
       "a": 32,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Ponitrie",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "lr": "2026-03-21",
-
+      "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
       "tr": 14,
       "tn": "5120",
       "tc": "green",
       "ti": 572160,
-      "v": 1
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/NR-006",
@@ -2505,14 +2527,14 @@
       "rn": "Nitriansky",
       "p": 1,
       "a": 14,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Ponitrie",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "lr": "2026-03-21",
-      "v": 1
+      "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/NR-007",
@@ -2524,18 +2546,18 @@
       "rn": "Nitriansky",
       "p": 1,
       "a": 18,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Ponitrie",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "lr": "2026-03-21",
+      "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
       "tr": 47,
       "tn": "5129",
       "tc": "green",
       "ti": 376304,
-      "v": 1
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/NR-008",
@@ -2553,8 +2575,7 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "lr": "2026-03-21",
-      "v": 1
+      "v": 0
     },
     {
       "c": "OM/PO-001",
@@ -2921,7 +2942,8 @@
       "tn": "8896",
       "tc": "yellow",
       "ti": 1711603,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-019",
@@ -3109,7 +3131,8 @@
       "tn": "8761",
       "tc": "yellow",
       "ti": 974235,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-028",
@@ -3152,7 +3175,8 @@
       "tn": "2821a",
       "tc": "blue",
       "ti": 905852,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-030",
@@ -3520,7 +3544,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-048",
@@ -3559,7 +3584,8 @@
       "tr": 19,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-050",
@@ -3577,7 +3603,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-051",
@@ -3790,7 +3817,8 @@
       "tn": "0915a",
       "tc": "red",
       "ti": 1112973,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-062",
@@ -3875,7 +3903,8 @@
       "tn": "8721",
       "tc": "yellow",
       "ti": 1162802,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-066",
@@ -3959,7 +3988,8 @@
       "tn": "5872",
       "tc": "green",
       "ti": 1417686,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-070",
@@ -3989,13 +4019,14 @@
       "rn": "Prešovský",
       "p": 1,
       "a": 1,
-      "ar": "CHKO Východné Karpaty",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Východné Karpaty. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-072",
@@ -4131,7 +4162,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-079",
@@ -4210,7 +4242,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-083",
@@ -4228,7 +4261,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-084",
@@ -4365,7 +4399,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-091",
@@ -4431,7 +4466,8 @@
       "tn": "Ponitrianska magistrála",
       "tc": "red",
       "ti": 1129869,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-002",
@@ -4486,17 +4522,18 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 62,
-      "ar": "CHKO Biele Karpaty",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Biele Karpaty. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 17,
       "tn": "0705",
       "tc": "red",
       "ti": 544031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-005",
@@ -5016,7 +5053,8 @@
       "tr": 12,
       "tc": "yellow",
       "ti": 10772491,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-030",
@@ -5178,16 +5216,17 @@
       "rn": "Trenčiansky",
       "p": 2,
       "a": 19,
-      "ar": "CHKO Biele Karpaty",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Biele Karpaty. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 19,
       "tc": "blue",
       "ti": 3222121,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-038",
@@ -5280,17 +5319,18 @@
       "rn": "Trenčiansky",
       "p": 2,
       "a": 16,
-      "ar": "CHKO Biele Karpaty",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Biele Karpaty. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 159,
       "tn": "2423b",
       "tc": "blue",
       "ti": 1060770,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-043",
@@ -5355,7 +5395,8 @@
       "tn": "5109",
       "tc": "green",
       "ti": 1208328,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-046",
@@ -6915,7 +6956,8 @@
       "tn": "8612V",
       "tc": "yellow",
       "ti": 3874295,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-069",
@@ -6933,7 +6975,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-070",
