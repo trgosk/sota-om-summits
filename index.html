@@ -80,6 +80,7 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .tag.s4{border-color:var(--coral);background:var(--coral-bg);color:var(--coral)}
 .tag.s5{border-color:var(--red);background:var(--red-bg);color:var(--red)}
 .tag.vn{border-color:var(--purple);background:var(--purple-bg);color:var(--purple)}
+.tag.vr{border-color:var(--amber);background:var(--amber-bg);color:var(--amber)}
 .tag.vy{border-color:var(--green);background:var(--green-bg);color:var(--green)}
 
 .list-header{font-size:11px;color:var(--ink4);padding:6px 16px;font-family:var(--mono);border-bottom:1px solid var(--bg2);font-weight:500}
@@ -100,6 +101,7 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .b-caution{background:var(--coral-bg);color:var(--coral)}
 .b-danger{background:var(--red-bg);color:var(--red)}
 .b-unv{background:var(--purple-bg);color:var(--purple);font-size:9px;padding:2px 6px}
+.b-rev{background:var(--amber-bg);color:var(--amber);font-size:9px;padding:2px 6px}
 .b-ver{background:var(--green-bg);color:var(--green);font-size:9px;padding:2px 6px}
 
 .map-wrap{position:relative}
@@ -164,6 +166,7 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
     <span class="sp sp-ok"><b>{{counts.ok}}</b> ok</span>
     <span class="sp sp-bad"><b>{{counts.caution+counts.danger}}</b> restricted</span>
     <span class="sp sp-unv">{{counts.unverified}} unverified</span>
+    <span v-if="counts.inreview" class="sp sp-ok">{{counts.inreview}} in review</span>
     <span style="color:var(--ink4)">{{filtered.length}}/{{summits.length}}</span>
   </div>
   <div class="hdr-right">
@@ -204,6 +207,7 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
       <span class="flabel">Verified</span>
       <span class="tag" :class="{on:vF===''}" @click="vF=''">All</span>
       <span class="tag vn" :class="{on:vF==='0'}" @click="vF=vF==='0'?'':'0'">Not verified</span>
+      <span class="tag vr" :class="{on:vF==='2'}" @click="vF=vF==='2'?'':'2'">In review</span>
       <span class="tag vy" :class="{on:vF==='1'}" @click="vF=vF==='1'?'':'1'">Verified</span>
     </div>
     <div class="list-header">{{filtered.length}} summits</div>
@@ -212,7 +216,8 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
         <span class="code">{{s.c}}</span>
         <span class="badges">
           <span class="badge" :class="'b-'+s.st">{{badgeText(s)}}</span>
-          <span v-if="!s.v" class="badge b-unv">AI</span>
+          <span v-if="s.v===0" class="badge b-unv">AI</span>
+          <span v-else-if="s.v===2" class="badge b-rev">REV</span>
           <span v-else class="badge b-ver">OK</span>
         </span>
         <span class="name">{{s.n}}</span>
@@ -236,6 +241,7 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
       <div class="lg-row"><span class="lg-dot" style="background:#b83232"></span> Level 5 strict</div>
       <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
       <div class="lg-row"><span class="lg-dot" style="background:var(--purple);opacity:.5"></span> Not verified (AI)</div>
+      <div class="lg-row"><span class="lg-dot" style="background:var(--amber);opacity:.75"></span> In review</div>
       <div class="lg-row"><span class="lg-dot" style="background:var(--green)"></span> Verified by operator</div>
       <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
       <h4>Boundaries</h4>
@@ -276,8 +282,9 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
         <span>⚠</span> No marked hiking trail within 500m
       </div>
       <div class="d-verif">
-        <span class="vdot" :style="{background:sel.v?'var(--green)':'var(--purple)'}"></span>
-        <span v-if="!sel.v" style="color:var(--purple)">Not verified — AI-generated data, check on maps.sopsr.sk before activation</span>
+        <span class="vdot" :style="{background:sel.v===1?'var(--green)':sel.v===2?'var(--amber)':'var(--purple)'}"></span>
+        <span v-if="sel.v===0" style="color:var(--purple)">Not verified — AI-generated data, check on maps.sopsr.sk before activation</span>
+        <span v-else-if="sel.v===2" style="color:var(--amber)">In review — verification in progress</span>
         <span v-else style="color:var(--green)">Verified by operator</span>
       </div>
       <div class="d-season" v-if="sel.sr">
@@ -338,8 +345,8 @@ setup(){
     return l;
   });
   const counts=computed(()=>{
-    const c={safe:0,ok:0,caution:0,danger:0,unverified:0,verified:0};
-    summits.value.forEach(s=>{c[s.st]=(c[s.st]||0)+1;if(!s.v)c.unverified++;else c.verified++});return c;
+    const c={safe:0,ok:0,caution:0,danger:0,unverified:0,inreview:0,verified:0};
+    summits.value.forEach(s=>{c[s.st]=(c[s.st]||0)+1;if(s.v===2)c.inreview++;else if(s.v===1)c.verified++;else c.unverified++});return c;
   });
   function badgeText(s){
     if(s.st==='safe')return 'L'+s.rl+' Safe';
@@ -352,7 +359,7 @@ setup(){
     const c=pal[s.st]||'#888';
     const ring=dark.value?'rgba(0,0,0,.6)':'#fff';
     const sz=Math.max(7,Math.min(13,s.p*1.5+5));
-    const op=s.v?1:0.55;
+    const op=s.v===1?1:s.v===2?0.75:0.55;
     return L.divIcon({className:'',html:`<div style="width:${sz}px;height:${sz}px;background:${c};border:2px solid ${ring};border-radius:50%;box-shadow:0 1px 4px ${c}60;opacity:${op}"></div>`,iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
   }
   function updateTip(){
@@ -371,7 +378,7 @@ setup(){
     mGroup=L.layerGroup().addTo(map);
     summits.value.forEach(s=>{
       const m=L.marker([s.la,s.lo],{icon:mkIcon(s)});
-      m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · L${s.rl} ${s.v?'✓':'(AI)'}`,{className:'tip'});
+      m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · L${s.rl} ${s.v===1?'✓':s.v===2?'(rev)':'(AI)'}`,{className:'tip'});
       m.on('click',()=>pick(s));
       m.addTo(mGroup);markers[s.c]=m;
     });

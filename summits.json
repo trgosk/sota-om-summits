@@ -16,7 +16,7 @@
     "rl": "Researched protection level (string, may be range e.g. 4-5)",
     "st": "Status: safe / ok / caution / danger",
     "nt": "Notes",
-    "v": "Verified: 0 = AI-generated, 1 = human-verified",
+    "v": "Verified: 0 = AI-generated, 1 = human-verified, 2 = in review",
     "lr": "Last reviewed date (ISO, e.g. 2026-03-21)",
     "sr": "Season restricted (true/false, omit if false)",
     "sf": "Season closure from (e.g. 1.3.)",
@@ -392,7 +392,7 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-012",
@@ -1039,7 +1039,7 @@
       "tn": "Rudná magistrála",
       "tc": "red",
       "ti": 1691232,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-042",
@@ -2961,7 +2961,7 @@
       "tn": "Východokarpatská magistrála",
       "tc": "red",
       "ti": 1252026,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-020",
@@ -3087,7 +3087,7 @@
       "rl": "2",
       "st": "safe",
       "nt": "CHKO Vihorlat. Voľný pohyb pešo. OK.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-026",
@@ -3174,7 +3174,7 @@
       "tn": "0912",
       "tc": "red",
       "ti": 537260,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-032",
@@ -3258,7 +3258,7 @@
       "tr": 217,
       "tc": "green",
       "ti": 3467549,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-037",
@@ -3362,7 +3362,7 @@
       "rl": "2",
       "st": "safe",
       "nt": "CHKO Vihorlat. Voľný pohyb pešo. OK.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-042",
@@ -3567,7 +3567,7 @@
       "tr": 38,
       "tn": "Cesta okolo hradu",
       "ti": 16088271,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-053",
@@ -5019,7 +5019,7 @@
       "tr": 9,
       "tc": "red",
       "ti": 1688576,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/TN-032",
@@ -6183,7 +6183,7 @@
       "tn": "5642b",
       "tc": "green",
       "ti": 1351709,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-037",
@@ -6505,7 +6505,7 @@
       "tn": "0801V",
       "tc": "red",
       "ti": 20375673,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-052",
@@ -7699,7 +7699,7 @@
       "tr": 29,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-109",
