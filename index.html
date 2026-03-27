@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="version" content="1.1.0">
 <title>OM SOTA Protection Database</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -469,7 +470,7 @@ setup(){
     applyTheme();
     try{const r=await fetch('summits.json');const j=await r.json();D=j.summits;summits.value=D;dataVersion.value=j._dataVersion||''}
     catch(e){console.error('Failed to load summits.json',e)}
-    try{const vr=await fetch('version.json');const vj=await vr.json();uiVersion.value=vj.uiVersion||''}catch(e){}
+    const vm=document.querySelector('meta[name="version"]');uiVersion.value=vm?vm.content:'dev'
     loading.value=false;
     await nextTick();
     initMap();updateTip();
