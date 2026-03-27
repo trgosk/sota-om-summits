@@ -901,25 +901,11 @@
 <desc>Slovakia | Prešovský | 2476m / 8123ft | 10 pts | 4 activations</desc>
 <sym>Flag, Blue</sym>
 </wpt>
-<wpt lat="49.1872" lon="20.0597">
-<ele>2432.0</ele>
-<name>OM/PO-008 Mengusovský štít</name>
-<cmt>OM/PO-008</cmt>
-<desc>Slovakia | Prešovský | 2432m / 7979ft | 10 pts | 2 activations</desc>
-<sym>Flag, Blue</sym>
-</wpt>
 <wpt lat="49.1708" lon="20.0267">
 <ele>2428.0</ele>
 <name>OM/PO-009 Hrubý vrch</name>
 <cmt>OM/PO-009</cmt>
 <desc>Slovakia | Prešovský | 2428m / 7966ft | 10 pts | 7 activations</desc>
-<sym>Flag, Blue</sym>
-</wpt>
-<wpt lat="49.2195" lon="20.0092">
-<ele>2301.0</ele>
-<name>OM/PO-010 Svinica</name>
-<cmt>OM/PO-010</cmt>
-<desc>Slovakia | Prešovský | 2301m / 7549ft | 10 pts | 7 activations</desc>
 <sym>Flag, Blue</sym>
 </wpt>
 <wpt lat="49.2485" lon="20.1977">
@@ -1041,13 +1027,6 @@
 <desc>Slovakia | Prešovský | 1073m / 3520ft | 4 pts | 6 activations</desc>
 <sym>Flag, Blue</sym>
 </wpt>
-<wpt lat="49.3803" lon="20.5553">
-<ele>1050.0</ele>
-<name>OM/PO-028 Vysoké skalky</name>
-<cmt>OM/PO-028</cmt>
-<desc>Slovakia | Prešovský | 1050m / 3445ft | 4 pts | 29 activations</desc>
-<sym>Flag, Blue</sym>
-</wpt>
 <wpt lat="48.924" lon="21.0127">
 <ele>1029.0</ele>
 <name>OM/PO-029 Roháčka</name>
@@ -1062,25 +1041,11 @@
 <desc>Slovakia | Prešovský | 1023m / 3356ft | 4 pts | 3 activations</desc>
 <sym>Flag, Blue</sym>
 </wpt>
-<wpt lat="49.143" lon="22.2803">
-<ele>1011.0</ele>
-<name>OM/PO-031 Strop</name>
-<cmt>OM/PO-031</cmt>
-<desc>Slovakia | Prešovský | 1011m / 3317ft | 4 pts | 6 activations</desc>
-<sym>Flag, Blue</sym>
-</wpt>
 <wpt lat="49.3883" lon="21.1625">
 <ele>1002.0</ele>
 <name>OM/PO-032 Busov</name>
 <cmt>OM/PO-032</cmt>
 <desc>Slovakia | Prešovský | 1002m / 3287ft | 4 pts | 8 activations</desc>
-<sym>Flag, Blue</sym>
-</wpt>
-<wpt lat="49.4267" lon="21.1025">
-<ele>997.0</ele>
-<name>OM/PO-033 Lackova</name>
-<cmt>OM/PO-033</cmt>
-<desc>Slovakia | Prešovský | 997m / 3271ft | 4 pts | 8 activations</desc>
 <sym>Flag, Blue</sym>
 </wpt>
 <wpt lat="48.8523" lon="21.4917">
@@ -1144,13 +1109,6 @@
 <name>OM/PO-042 Stredný gruň</name>
 <cmt>OM/PO-042</cmt>
 <desc>Slovakia | Prešovský | 800m / 2625ft | 2 pts | 3 activations</desc>
-<sym>Flag, Blue</sym>
-</wpt>
-<wpt lat="49.4369" lon="21.5975">
-<ele>754.0</ele>
-<name>OM/PO-043 Stavok (Baranie)</name>
-<cmt>OM/PO-043</cmt>
-<desc>Slovakia | Prešovský | 754m / 2474ft | 2 pts | 6 activations</desc>
 <sym>Flag, Blue</sym>
 </wpt>
 <wpt lat="49.4073" lon="21.3398">
@@ -1573,13 +1531,6 @@
 <desc>Slovakia | Trenciansky | 925m / 3035ft | 4 pts | 59 activations</desc>
 <sym>Flag, Blue</sym>
 </wpt>
-<wpt lat="49.2609" lon="18.1625">
-<ele>923.0</ele>
-<name>OM/TN-012 Makyta</name>
-<cmt>OM/TN-012</cmt>
-<desc>Slovakia | Trenciansky | 923m / 3028ft | 4 pts | 34 activations</desc>
-<sym>Flag, Blue</sym>
-</wpt>
 <wpt lat="48.9167" lon="17.7825">
 <ele>911.0</ele>
 <name>OM/TN-013 Velký Lopeník</name>
@@ -1907,13 +1858,6 @@
 <name>OM/ZA-010 Veľký Bok</name>
 <cmt>OM/ZA-010</cmt>
 <desc>Slovakia | Žilinský | 1727m / 5666ft | 8 pts | 8 activations</desc>
-<sym>Flag, Blue</sym>
-</wpt>
-<wpt lat="49.573" lon="19.5293">
-<ele>1723.0</ele>
-<name>OM/ZA-011 Babia hora</name>
-<cmt>OM/ZA-011</cmt>
-<desc>Slovakia | Žilinský | 1723m / 5653ft | 8 pts | 60 activations</desc>
 <sym>Flag, Blue</sym>
 </wpt>
 <wpt lat="48.9403" lon="19.7137">
