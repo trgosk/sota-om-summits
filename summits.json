@@ -794,7 +794,8 @@
       "tn": "Z, Északi Zöld",
       "tc": "green",
       "ti": 3848246,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-031",
@@ -880,7 +881,8 @@
       "rl": "2",
       "st": "safe",
       "nt": "CHKO Cerová vrchovina. Voľný pohyb pešo. OK.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-035",
@@ -911,17 +913,18 @@
       "rn": "Banskobystrický",
       "p": 1,
       "a": 5,
-      "ar": "CHKO Cerová vrchovina",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Cerová vrchovina. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 6,
       "tn": "0805V",
       "tc": "red",
       "ti": 17370206,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-037",
@@ -1587,7 +1590,8 @@
       "tn": "5486",
       "tc": "green",
       "ti": 296056,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-001",
@@ -1932,7 +1936,8 @@
       "tn": "0915b",
       "tc": "red",
       "ti": 357001,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-017",
@@ -1951,10 +1956,11 @@
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 15,
-      "tn": "K, OKT 27. (Nagy-nyugodó (Sátoraljaújhely) – Hollóháza)",
+      "tn": "K, OKT 27. (Nagy-nyugodó (Sátoraljaújhely) - Hollóháza)",
       "tc": "blue",
       "ti": 2866943,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-018",
@@ -1972,7 +1978,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-019",
@@ -2258,7 +2265,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-033",
@@ -2337,16 +2345,17 @@
       "rn": "Košický",
       "p": 1,
       "a": 2,
-      "ar": "CHKO Latorica",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Latorica. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 24,
       "tc": "yellow",
       "ti": 12342893,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-037",
@@ -2368,7 +2377,8 @@
       "tn": "5891",
       "tc": "green",
       "ti": 18517382,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-038",
@@ -2380,13 +2390,14 @@
       "rn": "Košický",
       "p": 1,
       "a": 3,
-      "ar": "CHKO Latorica",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Latorica. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-039",
@@ -2398,13 +2409,14 @@
       "rn": "Košický",
       "p": 1,
       "a": 2,
-      "ar": "CHKO Latorica",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Latorica. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/NR-001",
@@ -2717,25 +2729,8 @@
     },
     {
       "c": "OM/PO-008",
-      "n": "Mengusovský štít",
-      "la": 49.1872,
-      "lo": 20.0597,
-      "e": 2432,
-      "r": "PO",
-      "rn": "Prešovský",
-      "p": 10,
-      "a": 2,
-      "ar": "TANAP",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "5",
-      "st": "danger",
-      "nt": "Mengusovský štít — NIE JE turisticky prístupný.",
-      "tr": 457,
-      "tn": "Czarny Staw pod Rysami - Mięguszowiecka Przełęcz pod Chłopkiem",
-      "tc": "green",
-      "ti": 1593587,
-      "v": 0
+      "v": -1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-009",
@@ -2761,25 +2756,8 @@
     },
     {
       "c": "OM/PO-010",
-      "n": "Svinica",
-      "la": 49.2195,
-      "lo": 20.0092,
-      "e": 2301,
-      "r": "PO",
-      "rn": "Prešovský",
-      "p": 10,
-      "a": 7,
-      "ar": "TANAP",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "Svinica — sezónne prístupná.",
-      "tr": 12,
-      "tn": "Świnicka Przełęcz - Świnica",
-      "tc": "red",
-      "ti": 3349333,
-      "v": 0
+      "v": -1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-011",
@@ -2987,7 +2965,8 @@
       "tn": "0905V",
       "tc": "red",
       "ti": 11488928,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-021",
@@ -3136,24 +3115,8 @@
     },
     {
       "c": "OM/PO-028",
-      "n": "Vysoké skalky",
-      "la": 49.3803,
-      "lo": 20.5553,
-      "e": 1050,
-      "r": "PO",
-      "rn": "Prešovský",
-      "p": 4,
-      "a": 29,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
-      "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "tr": 13,
-      "tc": "blue",
-      "ti": 7419036,
-      "v": 0
+      "v": -1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-029",
@@ -3202,25 +3165,8 @@
     },
     {
       "c": "OM/PO-031",
-      "n": "Strop",
-      "la": 49.143,
-      "lo": 22.2803,
-      "e": 1011,
-      "r": "PO",
-      "rn": "Prešovský",
-      "p": 4,
-      "a": 6,
-      "ar": "NP Poloniny",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "tr": 1,
-      "tn": "Východokarpatská magistrála",
-      "tc": "red",
-      "ti": 1126873,
-      "v": 0
+      "v": -1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-032",
@@ -3242,28 +3188,13 @@
       "tn": "5747",
       "tc": "green",
       "ti": 1833784,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-033",
-      "n": "Lackova",
-      "la": 49.4267,
-      "lo": 21.1025,
-      "e": 997,
-      "r": "PO",
-      "rn": "Prešovský",
-      "p": 4,
-      "a": 8,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
-      "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "tr": 17,
-      "tn": "European long distance path E3 - part Slovakia (east)",
-      "ti": 1981340,
-      "v": 0
+      "v": -1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-034",
@@ -3363,7 +3294,8 @@
       "tr": 33,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-039",
@@ -3385,7 +3317,8 @@
       "tn": "2913",
       "tc": "blue",
       "ti": 2150561,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-040",
@@ -3407,7 +3340,8 @@
       "tn": "Rzeszów - Grybów",
       "tc": "blue",
       "ti": 1730439,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-041",
@@ -3447,24 +3381,8 @@
     },
     {
       "c": "OM/PO-043",
-      "n": "Stavok (Baranie)",
-      "la": 49.4369,
-      "lo": 21.5975,
-      "e": 754,
-      "r": "PO",
-      "rn": "Prešovský",
-      "p": 2,
-      "a": 6,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
-      "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "tr": 8,
-      "tn": "Ścieżka Przyrodniczo-Historyczna Olchowiec",
-      "ti": 8515110,
-      "v": 0
+      "v": -1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-044",
@@ -3482,7 +3400,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-045",
@@ -3626,7 +3545,8 @@
       "tn": "0901Z",
       "tc": "red",
       "ti": 20375676,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-052",
@@ -3859,7 +3779,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-064",
@@ -3966,7 +3887,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-069",
@@ -4062,7 +3984,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-074",
@@ -4185,7 +4108,8 @@
       "tn": "5746",
       "tc": "green",
       "ti": 2036744,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-080",
@@ -4688,25 +4612,8 @@
     },
     {
       "c": "OM/TN-012",
-      "n": "Makyta",
-      "la": 49.2609,
-      "lo": 18.1625,
-      "e": 923,
-      "r": "TN",
-      "rn": "Trenčiansky",
-      "p": 4,
-      "a": 34,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
-      "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "tr": 3,
-      "tn": "[Č] Malý Javorník - Požár",
-      "tc": "red",
-      "ti": 173398,
-      "v": 0
+      "v": -1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-013",
@@ -5709,25 +5616,8 @@
     },
     {
       "c": "OM/ZA-011",
-      "n": "Babia hora",
-      "la": 49.573,
-      "lo": 19.5293,
-      "e": 1723,
-      "r": "ZA",
-      "rn": "Žilinský",
-      "p": 8,
-      "a": 60,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
-      "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "tr": 5,
-      "tn": "Chodník Mila Urbana",
-      "tc": "yellow",
-      "ti": 2947204,
-      "v": 0
+      "v": -1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-012",
@@ -7538,8 +7428,9 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Horná Orava. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "CHKO Horná Orava Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-098",
@@ -7616,8 +7507,9 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Horná Orava. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "CHKO Horná Orava Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-102",
