@@ -68,7 +68,6 @@
       "st": "safe",
       "nt": "CHKO Malé Karpaty. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "tr": 5,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
@@ -91,7 +90,6 @@
       "st": "safe",
       "nt": "CHKO Malé Karpaty. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "tr": 223,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
@@ -114,7 +112,6 @@
       "st": "safe",
       "nt": "CHKO Malé Karpaty. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "tr": 1,
       "tn": "0701",
       "tc": "red",
@@ -138,7 +135,6 @@
       "st": "safe",
       "nt": "CHKO Malé Karpaty. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "v": 1
     },
     {
@@ -158,7 +154,6 @@
       "st": "safe",
       "nt": "CHKO Malé Karpaty. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "tr": 80,
       "tn": "8109",
       "tc": "yellow",
@@ -293,7 +288,8 @@
       "tn": "2835",
       "tc": "blue",
       "ti": 906675,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-007",
@@ -463,7 +459,8 @@
       "tn": "0825b",
       "tc": "red",
       "ti": 274257,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-015",
@@ -484,7 +481,8 @@
       "tr": 26,
       "tc": "green",
       "ti": 7494924,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-016",
@@ -502,7 +500,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-017",
@@ -514,13 +513,14 @@
       "rn": "Banskobystrický",
       "p": 4,
       "a": 2,
-      "ar": "NP Muránska planina",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Muránska planina. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-018",
@@ -550,13 +550,14 @@
       "rn": "Banskobystrický",
       "p": 4,
       "a": 2,
-      "ar": "NAPANT",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-020",
@@ -568,13 +569,14 @@
       "rn": "Banskobystrický",
       "p": 4,
       "a": 16,
-      "ar": "NAPANT",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-021",
@@ -619,7 +621,8 @@
       "tn": "8487",
       "tc": "yellow",
       "ti": 1152513,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-023",
@@ -840,7 +843,8 @@
       "tn": "0896M",
       "tc": "red",
       "ti": 1902848,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-033",
@@ -1012,7 +1016,8 @@
       "tr": 7,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-041",
@@ -1100,17 +1105,18 @@
       "rn": "Banskobystrický",
       "p": 4,
       "a": 13,
-      "ar": "NP Veľká Fatra",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 247,
       "tn": "5429",
       "tc": "green",
       "ti": 1579007,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-046",
@@ -1154,7 +1160,8 @@
       "tr": 13,
       "tc": "green",
       "ti": 13083450,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-048",
@@ -1195,7 +1202,8 @@
       "tn": "2616",
       "tc": "blue",
       "ti": 1578864,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-050",
@@ -1252,17 +1260,18 @@
       "rn": "Banskobystrický",
       "p": 4,
       "a": 20,
-      "ar": "NP Veľká Fatra",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 295,
       "tn": "2612",
       "tc": "blue",
       "ti": 1701173,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-053",
@@ -1303,7 +1312,8 @@
       "tn": "5520b",
       "tc": "green",
       "ti": 1482118,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-055",
@@ -1408,7 +1418,8 @@
       "rl": "2",
       "st": "safe",
       "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-060",
@@ -1512,7 +1523,8 @@
       "tn": "8523",
       "tc": "yellow",
       "ti": 1697403,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-065",
@@ -1549,7 +1561,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/BB-067",
@@ -1613,7 +1626,8 @@
       "tn": "2827b",
       "tc": "blue",
       "ti": 1208358,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-002",
@@ -1647,17 +1661,18 @@
       "rn": "Košický",
       "p": 4,
       "a": 6,
-      "ar": "NP Slovenský raj",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 15,
       "tn": "8743V",
       "tc": "yellow",
       "ti": 1855509,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-004",
@@ -1679,7 +1694,8 @@
       "tn": "0907",
       "tc": "red",
       "ti": 897977,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-005",
@@ -1700,7 +1716,8 @@
       "tr": 180,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-006",
@@ -1809,7 +1826,8 @@
       "tr": 374,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-011",
@@ -1827,7 +1845,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-012",
@@ -1870,7 +1889,8 @@
       "tr": 32,
       "tc": "yellow",
       "ti": 4864810,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-014",
@@ -1914,7 +1934,8 @@
       "tn": "8725",
       "tc": "yellow",
       "ti": 1230811,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-016",
@@ -2015,7 +2036,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-021",
@@ -2077,7 +2099,8 @@
       "tn": "Chodník Pavla Jozefa Šafárika",
       "tc": "green",
       "ti": 1689362,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-024",
@@ -2098,7 +2121,8 @@
       "tr": 408,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-025",
@@ -2110,16 +2134,17 @@
       "rn": "Košický",
       "p": 4,
       "a": 2,
-      "ar": "NP Slovenský kras",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Slovenský kras. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 292,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-026",
@@ -2215,17 +2240,18 @@
       "rn": "Košický",
       "p": 2,
       "a": 0,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Vihorlat",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Vihorlat Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 28,
       "tn": "0912",
       "tc": "red",
       "ti": 537260,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-031",
@@ -2247,7 +2273,8 @@
       "tn": "5715",
       "tc": "green",
       "ti": 908142,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-032",
@@ -2333,7 +2360,8 @@
       "tn": "5714",
       "tc": "green",
       "ti": 937130,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-036",
@@ -3415,7 +3443,8 @@
       "tn": "8706",
       "tc": "yellow",
       "ti": 1126546,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-047",
@@ -3446,13 +3475,14 @@
       "rn": "Prešovský",
       "p": 1,
       "a": 1,
-      "ar": "CHKO Východné Karpaty",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Východné Karpaty. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-049",
@@ -3555,7 +3585,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-054",
@@ -3661,13 +3692,14 @@
       "rn": "Prešovský",
       "p": 4,
       "a": 5,
-      "ar": "NAPANT",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-060",
@@ -3930,13 +3962,14 @@
       "rn": "Prešovský",
       "p": 1,
       "a": 1,
-      "ar": "CHKO Východné Karpaty",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Východné Karpaty. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-073",
@@ -4112,13 +4145,14 @@
       "rn": "Prešovský",
       "p": 1,
       "a": 2,
-      "ar": "CHKO Východné Karpaty",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Východné Karpaty. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-082",
@@ -4196,7 +4230,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-086",
@@ -4235,7 +4270,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-088",
@@ -4373,17 +4409,18 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 16,
-      "ar": "CHKO Strážovské vrchy",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 26,
       "tn": "0811",
       "tc": "red",
       "ti": 1287224,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-003",
@@ -4404,7 +4441,8 @@
       "tr": 1,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-004",
@@ -4439,17 +4477,18 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 17,
-      "ar": "CHKO Strážovské vrchy",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 5,
       "tn": "Chodník Alexandra Dubčeka",
       "tc": "red",
       "ti": 1548003,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-006",
@@ -4461,12 +4500,12 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 23,
-      "ar": "CHKO Ponitrie",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 15,
       "tn": "Chodník Alexandra Dubčeka",
       "tc": "red",
@@ -4488,12 +4527,13 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 102,
       "tn": "2691",
       "tc": "blue",
       "ti": 540996,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-008",
@@ -4505,17 +4545,18 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 24,
-      "ar": "CHKO Strážovské vrchy",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 36,
       "tn": "Chodník Alexandra Dubčeka",
       "tc": "red",
       "ti": 1548003,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-009",
@@ -4568,12 +4609,12 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 59,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "CHKO Biele Karpaty",
+      "ac": "CHKO",
+      "bl": 2,
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Biele Karpaty. Voľný pohyb pešo. OK.",
       "tr": 71,
       "tc": "yellow",
       "ti": 1945633,
@@ -4619,7 +4660,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-015",
@@ -4631,13 +4673,14 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 20,
-      "ar": "CHKO Strážovské vrchy",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-016",
@@ -4654,10 +4697,11 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 9,
       "ti": 9951276,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-017",
@@ -4674,8 +4718,9 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-018",
@@ -4713,8 +4758,9 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-020",
@@ -4726,13 +4772,14 @@
       "rn": "Trenčiansky",
       "p": 2,
       "a": 10,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Strážovské vrchy",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.).Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-021",
@@ -4789,8 +4836,9 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-024",
@@ -4858,7 +4906,8 @@
       "tn": "Náučný chodník Milochov",
       "tc": "green",
       "ti": 1958859,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-027",
@@ -4938,17 +4987,18 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 14,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Kysuce",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Kysuce Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 85,
       "tn": "2695",
       "tc": "blue",
       "ti": 456938,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-031",
@@ -5013,7 +5063,8 @@
       "tn": "2693",
       "tc": "blue",
       "ti": 569714,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-034",
@@ -5025,17 +5076,18 @@
       "rn": "Trenčiansky",
       "p": 2,
       "a": 5,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Kysuce",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Kysuce Zóna D (2. st.).",
       "tr": 365,
       "tn": "2693",
       "tc": "blue",
       "ti": 569714,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-035",
@@ -5052,8 +5104,9 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-036",
@@ -5115,8 +5168,9 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-039",
@@ -5133,12 +5187,13 @@
       "bl": 2,
       "rl": "2",
       "st": "safe",
-      "nt": "CHKO Biele Karpaty. Voľný pohyb pešo. OK.",
+      "nt": "CHKO Biele Karpaty Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 20,
       "tn": "8118",
       "tc": "yellow",
       "ti": 2881449,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-040",
@@ -5169,17 +5224,18 @@
       "rn": "Trenčiansky",
       "p": 2,
       "a": 6,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Strážovské vrchy",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 153,
       "tn": "2694",
       "tc": "blue",
       "ti": 2226040,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-042",
@@ -5236,16 +5292,17 @@
       "rn": "Trenčiansky",
       "p": 1,
       "a": 12,
-      "ar": "CHKO Ponitrie",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Ponitrie. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 25,
       "tc": "yellow",
       "ti": 6414892,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-045",
@@ -5961,17 +6018,18 @@
       "rn": "Žilinský",
       "p": 6,
       "a": 123,
-      "ar": "NP Malá Fatra",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 15,
-      "tn": "Internationaler Bergwanderweg Eisenach–Budapest (Slowakei West)",
+      "tn": "Internationaler Bergwanderweg Eisenach-Budapest (Slowakei West)",
       "tc": "red",
       "ti": 4673482,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-030",
@@ -6005,12 +6063,12 @@
       "rn": "Žilinský",
       "p": 6,
       "a": 77,
-      "ar": "NP Veľká Fatra",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 3,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
@@ -6170,7 +6228,8 @@
       "tn": "5630",
       "tc": "green",
       "ti": 1016408,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-039",
@@ -6182,13 +6241,14 @@
       "rn": "Žilinský",
       "p": 6,
       "a": 9,
-      "ar": "NAPANT",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-040",
@@ -6401,10 +6461,11 @@
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 8,
-      "tn": "Internationaler Bergwanderweg Eisenach–Budapest (Slowakei West)",
+      "tn": "Internationaler Bergwanderweg Eisenach-Budapest (Slowakei West)",
       "tc": "red",
       "ti": 4673482,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-050",
@@ -6474,17 +6535,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 36,
-      "ar": "CHKO Strážovské vrchy",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 20,
       "tn": "0802a",
       "tc": "red",
       "ti": 9342582,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-054",
@@ -6496,17 +6558,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 13,
-      "ar": "NP Malá Fatra",
+      "ar": "OP NP Veľká Fatra",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
-      "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "OP NP Veľká Fatra Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 260,
       "tn": "Veľkofatranská magistrála",
       "tc": "red",
       "ti": 1632838,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-055",
@@ -6670,17 +6733,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 29,
-      "ar": "NP Veľká Fatra",
+      "ar": "OP NP Veľká Fatra",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "OP NP Veľká Fatra Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 17,
       "tn": "0856",
       "tc": "red",
       "ti": 1636422,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-063",
@@ -6752,17 +6816,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 93,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Kysuce",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Kysuce Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 21,
       "tn": "0842",
       "tc": "red",
       "ti": 9069125,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-067",
@@ -6774,17 +6839,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 85,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Kysuce",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Kysuce Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 8,
       "tn": "[Č] Mosty u Jablunkova (žst.) - Bumbálka",
       "tc": "red",
       "ti": 1471864,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-068",
@@ -6848,7 +6914,8 @@
       "tn": "5643",
       "tc": "green",
       "ti": 1437404,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-071",
@@ -6866,7 +6933,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-072",
@@ -6878,17 +6946,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 30,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 9,
       "tn": "2674",
       "tc": "blue",
       "ti": 1903928,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-073",
@@ -6923,17 +6992,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 31,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 276,
       "tn": "5551",
       "tc": "green",
       "ti": 8439084,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-075",
@@ -6954,7 +7024,8 @@
       "tr": 233,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-076",
@@ -6966,17 +7037,18 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 20,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Strážovské vrchy",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 19,
       "tn": "5650a",
       "tc": "green",
       "ti": 1110197,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-077",
@@ -6988,17 +7060,18 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 11,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Strážovské vrchy",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "nt": "CHKO Strážovské vrchy Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "tr": 12,
       "tn": "5650a",
       "tc": "green",
       "ti": 1110197,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-078",
@@ -7020,7 +7093,8 @@
       "tn": "5657",
       "tc": "green",
       "ti": 1102585,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-079",
@@ -7038,7 +7112,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-080",
@@ -7195,13 +7270,14 @@
       "rn": "Žilinský",
       "p": 6,
       "a": 2,
-      "ar": "NAPANT",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-088",
@@ -7289,13 +7365,14 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 11,
-      "ar": "NAPANT",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-093",
@@ -7347,13 +7424,14 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 2,
-      "ar": "NAPANT",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-096",
@@ -7365,13 +7443,14 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 10,
-      "ar": "NAPANT",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-097",
@@ -7444,13 +7523,14 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 11,
-      "ar": "",
-      "ac": "",
+      "ar": "CHKO Kysuce",
+      "ac": "CHKO",
       "bl": 1,
-      "rl": "1",
+      "rl": "2",
       "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "nt": "CHKO Kysuce Zóna D (2. st.). Voľný pohyb pešo. OK.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-101",
@@ -7481,13 +7561,14 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 30,
-      "ar": "NP Malá Fatra",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-103",
@@ -7517,17 +7598,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 20,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 370,
       "tn": "0886b",
       "tc": "red",
       "ti": 3177410,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-105",
@@ -7539,17 +7621,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 33,
-      "ar": "NP Malá Fatra",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 3,
       "tn": "2743",
       "tc": "blue",
       "ti": 4464970,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-106",
@@ -7561,17 +7644,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 18,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 109,
       "tn": "2744",
       "tc": "blue",
       "ti": 1439949,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-107",
@@ -7583,17 +7667,18 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 25,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 1,
       "tn": "8570",
       "tc": "yellow",
       "ti": 7581473,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-108",
@@ -7626,17 +7711,18 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 19,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 27,
       "tn": "5543",
       "tc": "green",
       "ti": 3156576,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-110",
@@ -7648,13 +7734,14 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 16,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-111",
@@ -7666,17 +7753,18 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 69,
-      "ar": "NP Malá Fatra",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 65,
       "tn": "8657",
       "tc": "yellow",
       "ti": 1437573,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-112",
@@ -7688,17 +7776,18 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 48,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 252,
       "tn": "0886a",
       "tc": "red",
       "ti": 1437681,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-113",
@@ -7710,13 +7799,14 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 11,
-      "ar": "NP Malá Fatra",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-114",
@@ -7751,13 +7841,14 @@
       "rn": "Žilinský",
       "p": 2,
       "a": 25,
-      "ar": "CHKO Kysuce",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Kysuce. Voľný pohyb pešo. OK.",
-      "v": 0
+      "nt": "Mimo CHU. Bez obmedzeni.",
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/ZA-116",
