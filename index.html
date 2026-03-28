@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.1.0">
+<meta name="version" content="1.2.0">
 <title>OM SOTA Protection Database</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -36,7 +36,7 @@
 --shadow:0 1px 3px rgba(0,0,0,0.2),0 4px 12px rgba(0,0,0,0.15);
 }
 html,body{height:100%;font-family:var(--font);background:var(--bg);color:var(--ink);transition:background .3s,color .3s}
-#app{display:grid;grid-template-rows:auto 1fr;height:100vh;overflow:hidden}
+#app{display:grid;grid-template-rows:auto auto 1fr;height:100vh;overflow:hidden}
 
 header{background:var(--card);border-bottom:1px solid var(--bg3);padding:14px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;transition:background .3s}
 header h1{font-size:18px;font-weight:700;letter-spacing:-0.5px;white-space:nowrap}
@@ -60,8 +60,41 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .contrib-bar .cb-close{background:none;border:none;color:var(--teal);cursor:pointer;font-size:14px;margin-left:auto;padding:0 4px;opacity:.6}
 .contrib-bar .cb-close:hover{opacity:1}
 
-.main{display:grid;grid-template-columns:420px 1fr;overflow:hidden}
-@media(max-width:900px){.main{grid-template-columns:1fr;grid-template-rows:55vh 45vh}}
+.mob-panel-header{display:none}
+.mob-fab{display:none}
+.mob-backdrop{display:none}
+.mob-layers-panel{display:none}
+
+.main{display:grid;grid-template-columns:420px 1fr;overflow:hidden;grid-row:-2/-1}
+@media(max-width:900px){
+.main{grid-template-columns:1fr;grid-template-rows:1fr;position:relative}
+.panel{position:fixed;bottom:0;left:0;right:0;height:75vh;height:75dvh;z-index:2000;border-right:none;border-top-left-radius:16px;border-top-right-radius:16px;box-shadow:0 -4px 24px rgba(0,0,0,0.12);transform:translateY(100%);transition:transform .35s cubic-bezier(.4,0,.2,1);will-change:transform}
+.panel.panel-open{transform:translateY(0)}
+.mob-panel-header{display:flex;align-items:center;justify-content:center;padding:10px 16px 4px;cursor:pointer;position:relative}
+.drag-handle{width:36px;height:4px;border-radius:2px;background:var(--bg3)}
+.mob-panel-close{position:absolute;right:16px;top:8px;font-size:22px;color:var(--ink3);cursor:pointer;line-height:1;padding:2px 6px;border-radius:6px}
+.mob-panel-close:hover{background:var(--bg)}
+.mob-fab{display:flex;position:absolute;bottom:24px;left:16px;z-index:1500;width:48px;height:48px;border-radius:50%;background:var(--teal);color:#fff;border:none;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,0.18);cursor:pointer;transition:opacity .25s,transform .25s}
+.mob-fab:active{transform:scale(0.92)}
+.mob-fab.hidden{opacity:0;pointer-events:none;transform:scale(0.8)}
+.fab-badge{position:absolute;top:-4px;right:-4px;min-width:18px;height:18px;border-radius:9px;background:var(--red);color:#fff;font-size:10px;font-weight:700;font-family:var(--mono);display:flex;align-items:center;justify-content:center;padding:0 4px;box-shadow:0 1px 4px rgba(0,0,0,0.2)}
+.mob-backdrop{display:block;position:fixed;inset:0;z-index:1900;background:rgba(0,0,0,0.35);opacity:0;pointer-events:none;transition:opacity .3s}
+.mob-backdrop.visible{opacity:1;pointer-events:auto}
+.detail{bottom:80px;left:8px;right:8px}
+.legend{top:12px;bottom:auto;right:8px;left:auto;max-height:50vh;overflow-y:auto;font-size:10px;padding:8px 10px}
+.overlay-toggles.desktop-only{display:none}
+.mob-layers-panel{display:block;position:absolute;bottom:24px;right:8px;z-index:1500;background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius);padding:10px 12px;box-shadow:var(--shadow);font-size:11px}
+.mob-layers-panel.collapsed{padding:6px 10px}
+.mob-layers-toggle{display:flex;align-items:center;gap:6px;background:none;border:none;cursor:pointer;color:var(--ink3);font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;font-family:var(--font);user-select:none;padding:0}
+.mob-layers-toggle svg{color:var(--teal);flex-shrink:0}
+.mob-layers-toggle:hover{color:var(--ink2)}
+.mob-layers-body{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.overlay-toggle{padding:4px 8px;font-size:10px}
+.hdr-stats{display:none}
+.gh-link{display:none}
+header{padding:10px 16px}
+header h1{font-size:15px}
+}
 
 .panel{display:flex;flex-direction:column;overflow:hidden;background:var(--card);border-right:1px solid var(--bg3);transition:background .3s}
 
@@ -137,7 +170,12 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 
 .legend{position:absolute;top:12px;right:12px;background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius);padding:10px 14px;z-index:1000;font-size:11px;box-shadow:var(--shadow);transition:background .3s}
 .legend h4{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--ink4);margin-bottom:6px;font-weight:600}
-.lg-row{display:flex;align-items:center;gap:8px;margin:3px 0}
+.legend-toggle{cursor:pointer;display:flex;align-items:center;gap:4px;user-select:none;margin-bottom:0}
+.legend-toggle:hover{color:var(--ink2)}
+.legend-arrow{font-size:9px}
+.legend.collapsed{padding:8px 12px}
+.legend.collapsed .legend-toggle{margin-bottom:0}
+.legend-body{margin-top:6px}.lg-row{display:flex;align-items:center;gap:8px;margin:3px 0}
 .lg-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
 
 .overlay-toggles{position:absolute;top:12px;left:60px;z-index:1000;display:flex;gap:6px}
@@ -154,6 +192,7 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .leaflet-tile-pane{transition:filter .4s}
 .dark .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(1.1)}
 .dark .leaflet-control-zoom a{background:var(--card);color:var(--ink);border-color:var(--bg3)}
+
 </style>
 </head>
 <body>
@@ -186,7 +225,11 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 </div>
 
 <div class="main">
-  <div class="panel">
+  <div class="panel" :class="{'panel-open': panelOpen}">
+    <div class="mob-panel-header" @click="togglePanel">
+      <div class="drag-handle"></div>
+      <span class="mob-panel-close">&times;</span>
+    </div>
     <div class="search-bar">
       <input v-model="q" placeholder="Search code, name, area..." />
     </div>
@@ -229,31 +272,51 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 
   <div class="map-wrap">
     <div id="map"></div>
-    <div class="overlay-toggles">
+    <div class="overlay-toggles desktop-only">
       <button class="overlay-toggle" :class="{on:wms}" @click="toggleWms"><span class="dot-toggle"></span> ŠOPSR zones</button>
       <button class="overlay-toggle" :class="{on:showNpChko,loading:loadingNpChko}" @click="toggleNpChko"><span class="dot-toggle"></span> NP / CHKO</button>
       <button class="overlay-toggle" :class="{on:showReserves,loading:loadingReserves}" @click="toggleReserves"><span class="dot-toggle"></span> Reserves</button>
     </div>
-    <div class="legend">
-      <h4>Protection</h4>
-      <div class="lg-row"><span class="lg-dot" style="background:#2d7a4f"></span> Level 1–2 safe</div>
-      <div class="lg-row"><span class="lg-dot" style="background:#c49215"></span> Level 3 trails only</div>
-      <div class="lg-row"><span class="lg-dot" style="background:#c44d2b"></span> Level 4 reserve</div>
-      <div class="lg-row"><span class="lg-dot" style="background:#b83232"></span> Level 5 strict</div>
-      <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
-      <div class="lg-row"><span class="lg-dot" style="background:var(--purple);opacity:.5"></span> Not verified (AI)</div>
-      <div class="lg-row"><span class="lg-dot" style="background:var(--amber);opacity:.75"></span> In review</div>
-      <div class="lg-row"><span class="lg-dot" style="background:var(--green)"></span> Verified by operator</div>
-      <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
-      <h4>Boundaries</h4>
-      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #b83232"></span> National Park</div>
-      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #c49215"></span> CHKO</div>
-      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #7a7870;border-style:dashed"></span> Buffer zone</div>
-      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #c44d2b"></span> NPR / PR</div>
-      <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #8b6cc1"></span> CHA / PP</div>
-      <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
-      <div class="lg-row" style="font-size:10px;color:var(--ink4)">v{{uiVersion||'dev'}} &middot; data {{dataVersion}}</div>
+    <div class="legend" :class="{collapsed:!legendOpen}">
+      <h4 class="legend-toggle" @click="legendOpen=!legendOpen">Legend <span class="legend-arrow">{{legendOpen?'▾':'▸'}}</span></h4>
+      <div class="legend-body" v-show="legendOpen">
+        <h4>Protection</h4>
+        <div class="lg-row"><span class="lg-dot" style="background:#2d7a4f"></span> Level 1–2 safe</div>
+        <div class="lg-row"><span class="lg-dot" style="background:#c49215"></span> Level 3 trails only</div>
+        <div class="lg-row"><span class="lg-dot" style="background:#c44d2b"></span> Level 4 reserve</div>
+        <div class="lg-row"><span class="lg-dot" style="background:#b83232"></span> Level 5 strict</div>
+        <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
+        <div class="lg-row"><span class="lg-dot" style="background:var(--purple);opacity:.5"></span> Not verified (AI)</div>
+        <div class="lg-row"><span class="lg-dot" style="background:var(--amber);opacity:.75"></span> In review</div>
+        <div class="lg-row"><span class="lg-dot" style="background:var(--green)"></span> Verified by operator</div>
+        <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
+        <h4>Boundaries</h4>
+        <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #b83232"></span> National Park</div>
+        <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #c49215"></span> CHKO</div>
+        <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #7a7870;border-style:dashed"></span> Buffer zone</div>
+        <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #c44d2b"></span> NPR / PR</div>
+        <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #8b6cc1"></span> CHA / PP</div>
+        <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
+        <div class="lg-row" style="font-size:10px;color:var(--ink4)">v{{uiVersion||'dev'}} &middot; data {{dataVersion}}</div>
+      </div>
     </div>
+    <div class="mob-layers-panel" :class="{collapsed:!layersOpen}">
+      <button class="mob-layers-toggle" @click="layersOpen=!layersOpen">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        <span>Layers</span>
+        <span class="legend-arrow">{{layersOpen?'▾':'▸'}}</span>
+      </button>
+      <div class="mob-layers-body" v-show="layersOpen">
+        <button class="overlay-toggle" :class="{on:wms}" @click="toggleWms"><span class="dot-toggle"></span> ŠOPSR zones</button>
+        <button class="overlay-toggle" :class="{on:showNpChko,loading:loadingNpChko}" @click="toggleNpChko"><span class="dot-toggle"></span> NP / CHKO</button>
+        <button class="overlay-toggle" :class="{on:showReserves,loading:loadingReserves}" @click="toggleReserves"><span class="dot-toggle"></span> Reserves</button>
+      </div>
+    </div>
+    <button class="mob-fab" @click="togglePanel" :class="{hidden: panelOpen}">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="5" x2="17" y2="5"/><line x1="3" y1="10" x2="17" y2="10"/><line x1="3" y1="15" x2="17" y2="15"/></svg>
+      <span class="fab-badge" v-if="activeFilterCount">{{activeFilterCount}}</span>
+    </button>
+    <div class="mob-backdrop" :class="{visible: panelOpen}" @click="togglePanel"></div>
     <div class="detail" v-if="sel">
       <div class="d-head">
         <div>
@@ -320,6 +383,9 @@ setup(){
   const showReserves=ref(false);const loadingReserves=ref(false);
   const uiVersion=ref('');const dataVersion=ref('');
   const dark=ref(localStorage.getItem('sota-dark')==='1'||(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches));
+  const panelOpen=ref(false);
+  const legendOpen=ref(window.innerWidth>900);
+  const layersOpen=ref(false);
   let map,markers={},wmsLayer,mGroup,tileLayer;
   let npChkoLayer=null,npChkoData=null;
   let reservesLayer=null,reservesData=null;
@@ -349,6 +415,8 @@ setup(){
     const c={safe:0,ok:0,caution:0,danger:0,unverified:0,inreview:0,verified:0};
     summits.value.forEach(s=>{c[s.st]=(c[s.st]||0)+1;if(s.v===2)c.inreview++;else if(s.v===1)c.verified++;else c.unverified++});return c;
   });
+  const activeFilterCount=computed(()=>(rF.value?1:0)+(sF.value?1:0)+(vF.value?1:0));
+  function togglePanel(){panelOpen.value=!panelOpen.value}
   function badgeText(s){
     if(s.st==='safe')return 'L'+s.rl+' Safe';
     if(s.st==='ok')return 'L'+s.rl+' OK';
@@ -384,7 +452,7 @@ setup(){
       m.addTo(mGroup);markers[s.c]=m;
     });
   }
-  function pick(s){sel.value=s;if(map)map.setView([s.la,s.lo],Math.max(map.getZoom(),12),{animate:true})}
+  function pick(s){sel.value=s;if(map)map.setView([s.la,s.lo],Math.max(map.getZoom(),12),{animate:true});if(window.innerWidth<=900)panelOpen.value=false}
   function toggleWms(){wms.value=!wms.value;if(wms.value)wmsLayer.addTo(map);else map.removeLayer(wmsLayer)}
 
   function styleNpChko(feature){
@@ -481,7 +549,8 @@ setup(){
     const codes=new Set(filtered.value.map(s=>s.c));
     summits.value.forEach(s=>{if(codes.has(s.c)&&markers[s.c])markers[s.c].addTo(mGroup)});
   });
-  return{summits,loading,q,rF,sF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,regions,filtered,counts,badgeText,pick,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain,trailColor,uiVersion,dataVersion};
+  watch(panelOpen,()=>{setTimeout(()=>{if(map)map.invalidateSize()},380)});
+  return{summits,loading,q,rF,sF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain,trailColor,uiVersion,dataVersion};
 }
 }).mount('#app');
 </script>
