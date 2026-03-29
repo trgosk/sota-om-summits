@@ -1,5 +1,5 @@
 {
-  "_dataVersion": "2026-03-29.1",
+  "_dataVersion": "2026-03-29.2",
   "_fields": {
     "c": "Summit code (OM/XX-NNN)",
     "n": "Summit name",
@@ -4523,7 +4523,7 @@
       "tn": "Chodník Alexandra Dubčeka",
       "tc": "red",
       "ti": 1548003,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/TN-007",
@@ -5046,17 +5046,18 @@
       "rn": "Trenčiansky",
       "p": 4,
       "a": 10,
-      "ar": "CHKO Strážovské vrchy",
-      "ac": "CHKO",
-      "bl": 2,
-      "rl": "2",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
       "st": "safe",
-      "nt": "CHKO Strážovské vrchy. Voľný pohyb pešo. OK.",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 32,
       "tn": "2423b",
       "tc": "blue",
       "ti": 1060770,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/TN-033",
