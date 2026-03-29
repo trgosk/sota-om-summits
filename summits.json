@@ -6484,13 +6484,13 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 5,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
+      "ar": "NP Malá Fatra",
+      "ac": "NP",
+      "bl": 3,
+      "rl": "3",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-051",
