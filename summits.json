@@ -5685,7 +5685,7 @@
       "tr": 15,
       "tc": "red",
       "ti": 1644097,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-014",
@@ -5728,7 +5728,7 @@
       "tr": 22,
       "tc": "red",
       "ti": 2174285,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-016",
@@ -5775,7 +5775,7 @@
       "tr": 12,
       "tc": "red",
       "ti": 1469916,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-018",
@@ -5820,7 +5820,7 @@
       "tn": "Internationaler Bergwanderweg Eisenach–Budapest (Slowakei West)",
       "tc": "red",
       "ti": 4673482,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-020",
@@ -6421,13 +6421,12 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 3,
-      "ar": "",
-      "ac": "",
+      "ar": "NP Malá Fatra",
+      "ac": "NP",
       "bl": 1,
-      "rl": "1",
-      "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "rl": "3",
+      "st": "ok",
+      "v": 2
     },
     {
       "c": "OM/ZA-048",
@@ -6599,7 +6598,7 @@
       "tn": "8660",
       "tc": "yellow",
       "ti": 1952970,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-056",
@@ -6662,7 +6661,7 @@
       "tn": "Veľkofatranská magistrála",
       "tc": "red",
       "ti": 1272893,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-059",
@@ -6793,7 +6792,7 @@
       "tn": "5660",
       "tc": "green",
       "ti": 1614242,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-065",
@@ -7266,7 +7265,7 @@
       "tn": "2754b",
       "tc": "blue",
       "ti": 1778605,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-087",
@@ -7594,8 +7593,8 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Malá Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "NP Malá Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
+      "v": 2
     },
     {
       "c": "OM/ZA-104",
