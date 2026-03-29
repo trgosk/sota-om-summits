@@ -1215,17 +1215,17 @@
       "rn": "Banskobystrický",
       "p": 4,
       "a": 4,
-      "ar": "NAPANT",
+      "ar": "NP Muránska planina",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Muránska planina Zóna C (3. st.). NAPANT. Len po znacenych chodnikoch.",
       "tr": 15,
       "tn": "8446V",
       "tc": "yellow",
       "ti": 2527833,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-051",
@@ -1640,17 +1640,18 @@
       "rn": "Košický",
       "p": 4,
       "a": 5,
-      "ar": "NP Slovenský raj",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 10,
       "tn": "8746",
       "tc": "yellow",
       "ti": 3368004,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-29"
     },
     {
       "c": "OM/KE-003",
@@ -1785,7 +1786,8 @@
       "tn": "5750",
       "tc": "green",
       "ti": 964391,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-29"
     },
     {
       "c": "OM/KE-009",
@@ -1806,7 +1808,8 @@
       "tr": 65,
       "tc": "red",
       "ti": 9206936,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-29"
     },
     {
       "c": "OM/KE-010",
@@ -1869,7 +1872,8 @@
       "tn": "5759",
       "tc": "green",
       "ti": 964460,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-29"
     },
     {
       "c": "OM/KE-013",
@@ -1913,7 +1917,8 @@
       "tn": "Chodník Pavla Jozefa Šafárika",
       "tc": "green",
       "ti": 1493097,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-29"
     },
     {
       "c": "OM/KE-015",
@@ -2056,7 +2061,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Slovenský kras. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/KE-022",
@@ -2229,7 +2234,8 @@
       "tr": 10,
       "tc": "red",
       "ti": 11379233,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-29"
     },
     {
       "c": "OM/KE-030",
@@ -2316,7 +2322,7 @@
       "tn": "0909",
       "tc": "red",
       "ti": 581910,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/KE-034",
@@ -2616,7 +2622,8 @@
       "rl": "1",
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-29"
     },
     {
       "c": "OM/PO-001",
@@ -3026,7 +3033,7 @@
       "rl": "5",
       "st": "danger",
       "nt": "Stinská — NPR Stužica (UNESCO)! Veľmi obmedzené.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-023",
@@ -3238,7 +3245,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-036",
@@ -3277,7 +3284,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-038",
@@ -3381,7 +3388,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-044",
@@ -3412,17 +3419,17 @@
       "rn": "Prešovský",
       "p": 2,
       "a": 7,
-      "ar": "",
+      "ar": "Fintické svahy",
       "ac": "",
-      "bl": 1,
-      "rl": "1",
-      "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "bl": 4,
+      "rl": "4",
+      "st": "caution",
+      "nt": "[Polygon] Fintické svahy (4. st.)",
       "tr": 7,
       "tn": "2853",
       "tc": "blue",
       "ti": 1389948,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-046",
@@ -3850,7 +3857,7 @@
       "tn": "Zvonica na bojisku I. sv. vojny pod vrchom Skory",
       "tc": "green",
       "ti": 11111265,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-067",
@@ -3872,7 +3879,7 @@
       "tn": "Pieninská cesta",
       "tc": "red",
       "ti": 1520546,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-068",
@@ -3932,7 +3939,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Poloniny. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-071",
@@ -6080,7 +6087,8 @@
       "tr": 3,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-29"
     },
     {
       "c": "OM/ZA-032",
@@ -6092,17 +6100,17 @@
       "rn": "Žilinský",
       "p": 6,
       "a": 38,
-      "ar": "",
-      "ac": "",
-      "bl": 1,
-      "rl": "1",
-      "st": "safe",
-      "nt": "Mimo CHU. Bez obmedzeni.",
+      "ar": "CHKO Horná Orava",
+      "ac": "CHKO",
+      "bl": 3,
+      "rl": "3",
+      "st": "ok",
+      "nt": "[Polygon] CHKO Horná Orava Zóna C (3. st.)",
       "tr": 17,
       "tn": "0802b",
       "tc": "red",
       "ti": 1252191,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-033",
