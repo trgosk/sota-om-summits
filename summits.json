@@ -1,5 +1,5 @@
 {
-  "_dataVersion": "2026-03-30.1",
+  "_dataVersion": "2026-03-30.2",
   "_fields": {
     "c": "Summit code (OM/XX-NNN)",
     "n": "Summit name",
@@ -170,7 +170,7 @@
       "rn": "Banskobystrický",
       "p": 10,
       "a": 75,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "5",
@@ -180,7 +180,7 @@
       "tn": "0801X",
       "tc": "red",
       "ti": 20375675,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-002",
@@ -194,15 +194,18 @@
       "a": 30,
       "ar": "NAPANT",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 5,
+      "rl": "5",
       "st": "ok",
       "nt": "Skalka — v sezóne.",
+      "sr": true,
+      "sf": "1.10.",
+      "se": "30.6.",
       "tr": 59,
       "tn": "8447",
       "tc": "yellow",
       "ti": 2163358,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-003",
@@ -256,17 +259,17 @@
       "rn": "Banskobystrický",
       "p": 6,
       "a": 29,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Nízke Tatry Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 4,
       "tn": "5424",
       "tc": "green",
       "ti": 192021,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-006",
@@ -963,16 +966,16 @@
       "rn": "Banskobystrický",
       "p": 6,
       "a": 24,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Nízke Tatry Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 15,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-039",
@@ -1075,7 +1078,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-044",
@@ -3690,7 +3693,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "Repisko — Spišská Magura, celoročne.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-059",
@@ -5552,17 +5555,17 @@
       "rn": "Žilinský",
       "p": 10,
       "a": 107,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "Chopok — celoročne (lanovka).",
+      "nt": "NP Nízke Tatry Zóna C (3. st.). Chopok — celoročne (lanovka).",
       "tr": 19,
       "tn": "0801Y",
       "tc": "red",
       "ti": 1413799,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-007",
@@ -5596,16 +5599,16 @@
       "rn": "Žilinský",
       "p": 8,
       "a": 23,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Nízke Tatry Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 37,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-009",
@@ -5747,7 +5750,7 @@
       "rn": "Žilinský",
       "p": 8,
       "a": 38,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
@@ -5757,7 +5760,7 @@
       "tn": "5609a",
       "tc": "green",
       "ti": 191531,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-017",
@@ -5844,12 +5847,12 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Veľká Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 1,
       "tn": "Veľkofatranská magistrála",
       "tc": "red",
       "ti": 1272893,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-021",
@@ -5866,7 +5869,7 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Veľká Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 0,
       "tn": "5600",
       "tc": "green",
@@ -5883,7 +5886,7 @@
       "rn": "Žilinský",
       "p": 6,
       "a": 11,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
@@ -5893,7 +5896,7 @@
       "tn": "8619V",
       "tc": "yellow",
       "ti": 2923026,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-023",
@@ -5976,12 +5979,12 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Veľká Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 8,
       "tn": "Veľkofatranská magistrála",
       "tc": "red",
       "ti": 1272893,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-027",
@@ -5995,11 +5998,11 @@
       "a": 18,
       "ar": "NP Veľká Fatra",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 5,
+      "rl": "5",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "NP Veľká Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
+      "v": 2
     },
     {
       "c": "OM/ZA-028",
@@ -6021,7 +6024,7 @@
       "tn": "8614",
       "tc": "yellow",
       "ti": 1830687,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-029",
@@ -6061,12 +6064,12 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Veľká Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 5,
       "tn": "5641",
       "tc": "green",
       "ti": 1360423,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-031",
@@ -6124,15 +6127,16 @@
       "a": 17,
       "ar": "NP Veľká Fatra",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Veľká Fatra Zóna D (2. st.); Volny pohyb peso.",
       "tr": 5,
       "tn": "Veľkofatranská magistrála",
       "tc": "red",
       "ti": 1272893,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-26"
     },
     {
       "c": "OM/ZA-034",
@@ -6149,12 +6153,12 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Veľká Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 2,
       "tn": "2721",
       "tc": "blue",
       "ti": 2213965,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-035",
@@ -6259,8 +6263,8 @@
       "a": 9,
       "ar": "OP NP Nízke Tatry",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
       "nt": "OP NP Nízke Tatry Zóna D (2. st.). Voľný pohyb pešo. OK.",
       "v": 1,
@@ -6327,12 +6331,12 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Veľká Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 24,
       "tn": "2720V",
       "tc": "blue",
       "ti": 2280335,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-043",
@@ -6407,17 +6411,18 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 38,
-      "ar": "TANAP",
-      "ac": "NP",
-      "bl": 3,
-      "rl": "3",
-      "st": "ok",
-      "nt": "Magura — Spišská Magura, nižšia.",
+      "ar": "",
+      "ac": "",
+      "bl": 1,
+      "rl": "1",
+      "st": "safe",
+      "nt": "Mimo CHU. Bez obmedzeni.",
       "tr": 28,
       "tn": "2762",
       "tc": "blue",
       "ti": 2120411,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-30"
     },
     {
       "c": "OM/ZA-047",
@@ -6538,7 +6543,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-053",
@@ -7205,13 +7210,14 @@
       "rn": "Žilinský",
       "p": 6,
       "a": 2,
-      "ar": "NAPANT",
+      "ar": "OP NP Nízke Tatry",
       "ac": "NP",
-      "bl": 3,
-      "rl": "3",
+      "bl": 2,
+      "rl": "2",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "OP NP Nízke Tatry Zóna D (2. st.). Volny pohyb peso.",
+      "v": 1,
+      "lr": "2026-03-30"
     },
     {
       "c": "OM/ZA-084",
@@ -7228,12 +7234,12 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Veľká Fatra Zóna C (3. st.).Len po znacenych chodnikoch.",
       "tr": 186,
       "tn": "5600",
       "tc": "green",
       "ti": 1272894,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-085",
@@ -7331,8 +7337,8 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NP Veľká Fatra. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "NP Veľká Fatra Zóna C (3. st.). Len po znacenych chodnikoch.",
+      "v": 2
     },
     {
       "c": "OM/ZA-090",
@@ -7362,13 +7368,13 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 1,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "nt": "NP Nízke Tatry Zóna C (3. st.). Len po znacenych chodnikoch.",
+      "v": 2
     },
     {
       "c": "OM/ZA-092",
@@ -7399,17 +7405,17 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 6,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
+      "nt": "NP Nízke Tatry Zóna C (3. st.). Len po znacenych chodnikoch.",
       "tr": 2,
       "tn": "5605",
       "tc": "green",
       "ti": 3393987,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-094",
