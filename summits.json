@@ -1,5 +1,5 @@
 {
-  "_dataVersion": "2026-03-29.2",
+  "_dataVersion": "2026-03-30.1",
   "_fields": {
     "c": "Summit code (OM/XX-NNN)",
     "n": "Summit name",
@@ -1741,7 +1741,8 @@
       "tn": "5722",
       "tc": "green",
       "ti": 1215752,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/KE-007",
@@ -2024,7 +2025,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Slovenský kras. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/KE-020",
@@ -3227,7 +3228,8 @@
       "tn": "0915a",
       "tc": "red",
       "ti": 1112973,
-      "v": 0
+      "v": 1,
+      "lr": "2026-03-27"
     },
     {
       "c": "OM/PO-035",
@@ -5383,7 +5385,6 @@
       "st": "safe",
       "nt": "CHKO Malé Karpaty. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "tr": 30,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
@@ -5406,7 +5407,6 @@
       "st": "safe",
       "nt": "Mimo CHU. Bez obmedzeni.",
       "lr": "2026-03-21",
-
       "tr": 12,
       "tn": "0705",
       "tc": "red",
@@ -5430,7 +5430,6 @@
       "st": "safe",
       "nt": "CHKO Malé Karpaty. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-
       "v": 1
     },
     {
@@ -6660,7 +6659,7 @@
       "rn": "Žilinský",
       "p": 4,
       "a": 12,
-      "ar": "NP Malá Fatra",
+      "ar": "NP Veľká Fatra",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
