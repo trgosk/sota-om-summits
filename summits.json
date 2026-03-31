@@ -1,5 +1,5 @@
 {
-  "_dataVersion": "2026-03-30.3",
+  "_dataVersion": "2026-03-31.1",
   "_fields": {
     "c": "Summit code (OM/XX-NNN)",
     "n": "Summit name",
@@ -16,7 +16,7 @@
     "rl": "Researched protection level (string, may be range e.g. 4-5)",
     "st": "Status: safe / ok / caution / danger",
     "nt": "Notes",
-    "v": "Verified: 0 = AI-generated, 1 = human-verified, 2 = in review",
+    "v": "Verified: 1 = human-verified, 2 = in review",
     "lr": "Last reviewed date (ISO, e.g. 2026-03-21)",
     "sr": "Season restricted (true/false, omit if false)",
     "sf": "Season closure from (e.g. 1.3.)",
@@ -226,7 +226,7 @@
       "tr": 1,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-004",
@@ -247,7 +247,7 @@
       "tr": 0,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/BB-005",
@@ -2176,7 +2176,7 @@
       "tn": "8769",
       "tc": "yellow",
       "ti": 1692970,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/KE-027",
@@ -2217,7 +2217,7 @@
       "tn": "5745",
       "tc": "green",
       "ti": 1707024,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/KE-029",
@@ -2645,7 +2645,7 @@
       "rl": "5",
       "st": "danger",
       "nt": "Gerlachovský štít — LEN s horským vodcom! NPR.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-002",
@@ -2663,7 +2663,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "Lomnický štít — prístupný lanovkou. Sezónne.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-003",
@@ -2681,7 +2681,7 @@
       "rl": "5",
       "st": "danger",
       "nt": "Ľadový štít — NIE JE turisticky prístupný.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-004",
@@ -2703,7 +2703,7 @@
       "tn": "0933",
       "tc": "red",
       "ti": 1246205,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-005",
@@ -2721,7 +2721,7 @@
       "rl": "5",
       "st": "danger",
       "nt": "Končistá — NIE JE turisticky prístupná. NPR.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-006",
@@ -2736,14 +2736,14 @@
       "ar": "TANAP",
       "ac": "NP",
       "bl": 3,
-      "rl": "4",
-      "st": "caution",
+      "rl": "5",
+      "st": "danger",
       "nt": "Kriváň — sezónne. Oblasť obmedzená.",
       "tr": 22,
       "tn": "2903",
       "tc": "blue",
       "ti": 1692597,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-007",
@@ -2765,7 +2765,7 @@
       "tn": "2907",
       "tc": "blue",
       "ti": 1229639,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-009",
@@ -2787,7 +2787,7 @@
       "tn": "8853",
       "tc": "yellow",
       "ti": 1692616,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-011",
@@ -2805,7 +2805,7 @@
       "rl": "4",
       "st": "caution",
       "nt": "Havran — Belianske Tatry NPR. Sezónne.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-012",
@@ -2823,7 +2823,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "Veľká Kamenistá — v sezóne.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-013",
@@ -2838,14 +2838,14 @@
       "ar": "TANAP",
       "ac": "NP",
       "bl": 3,
-      "rl": "3",
-      "st": "ok",
+      "rl": "5",
+      "st": "danger",
       "nt": "Kresanica — v sezóne.",
       "tr": 0,
       "tn": "Ciemniak - Małołączniak",
       "tc": "red",
       "ti": 3349288,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-014",
@@ -2867,7 +2867,7 @@
       "tn": "Tatranská magistrála",
       "tc": "red",
       "ti": 1782601,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-015",
@@ -3615,9 +3615,9 @@
       "ac": "NP",
       "bl": 3,
       "rl": "3",
-      "st": "ok",
+      "st": "danger",
       "nt": "Smrečiny — Z. Tatry, v sezóne.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-055",
@@ -3632,10 +3632,10 @@
       "ar": "TANAP",
       "ac": "NP",
       "bl": 3,
-      "rl": "3",
-      "st": "ok",
+      "rl": "5",
+      "st": "danger",
       "nt": "Veľká Kopa — Z. Tatry, v sezóne.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-056",
@@ -3650,10 +3650,10 @@
       "ar": "TANAP",
       "ac": "NP",
       "bl": 3,
-      "rl": "3",
-      "st": "ok",
+      "rl": "5",
+      "st": "danger",
       "nt": "Veľká Brdárová grapa — Z. Tatry, v sezóne.",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-057",
@@ -3675,7 +3675,7 @@
       "tn": "5807",
       "tc": "green",
       "ti": 1692927,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-058",
@@ -3730,7 +3730,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NP Slovenský raj. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/PO-061",
@@ -4390,9 +4390,12 @@
       "nt": "Rysy — v sezóne (16.6.–31.10.). Uzávera 1.11.–31.5.",
       "tr": 6,
       "tn": "0933",
+      "sr": true,
+      "sf": "1.11.",
+      "se": "31.5.",      
       "tc": "red",
       "ti": 1246205,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/TN-001",
@@ -5455,7 +5458,7 @@
       "tn": "8622",
       "tc": "yellow",
       "ti": 1697503,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-002",
@@ -5472,12 +5475,14 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "Jakubiná — v sezóne.",
+      "sr": true,
+      "sf": "1.11.",
+      "se": "31.5.",
       "tr": 22,
       "tn": "5610",
       "tc": "green",
       "ti": 1692077,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-003",
@@ -5499,7 +5504,7 @@
       "tn": "5613",
       "tc": "green",
       "ti": 1520559,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-004",
@@ -5516,12 +5521,14 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "Baníkov — Roháče, v sezóne.",
+      "sr": true,
+      "sf": "1.11.",
+      "se": "31.5.",
       "tr": 25,
       "tn": "0862b",
       "tc": "red",
       "ti": 1518344,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-005",
@@ -5538,12 +5545,14 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "Klin — v sezóne.",
+      "sr": true,
+      "sf": "1.11.",
+      "se": "31.5.",      
       "tr": 5,
       "tn": "Starorobociański Wierch - Gaborowa Przełęcz Wyżnia",
       "tc": "red",
       "ti": 3349225,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-006",
@@ -5582,12 +5591,14 @@
       "bl": 3,
       "rl": "4",
       "st": "caution",
-      "nt": "Sivý vrch — NPR! Prístupný, ale 4. stupeň.",
+      "sr": true,
+      "sf": "1.11.",
+      "se": "31.5.",
       "tr": 4,
       "tn": "0862b",
       "tc": "red",
       "ti": 1518344,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-008",
@@ -5630,7 +5641,7 @@
       "tn": "2709X",
       "tc": "blue",
       "ti": 2966697,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-010",
@@ -5652,7 +5663,7 @@
       "tn": "8626",
       "tc": "yellow",
       "ti": 1119092,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-012",
@@ -5674,7 +5685,7 @@
       "tn": "8627",
       "tc": "yellow",
       "ti": 1623343,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-013",
@@ -5717,7 +5728,7 @@
       "tn": "5612",
       "tc": "green",
       "ti": 1706131,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-015",
@@ -5940,7 +5951,7 @@
       "tn": "2709",
       "tc": "blue",
       "ti": 1404435,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-025",
@@ -5952,7 +5963,7 @@
       "rn": "Žilinský",
       "p": 6,
       "a": 7,
-      "ar": "NAPANT",
+      "ar": "NP Nízke Tatry",
       "ac": "NP",
       "bl": 3,
       "rl": "3",
@@ -5962,7 +5973,7 @@
       "tn": "5619V",
       "tc": "green",
       "ti": 3153957,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-026",
@@ -6377,7 +6388,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-045",
@@ -7150,12 +7161,14 @@
       "bl": 3,
       "rl": "3",
       "st": "ok",
-      "nt": "Plačlivé — CELOROČNE (žltá značka)!",
+      "sr": true,
+      "sf": "1.11.",
+      "se": "31.5.",
       "tr": 10,
       "tn": "0862b",
       "tc": "red",
       "ti": 1518344,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-081",
@@ -7177,7 +7190,7 @@
       "tn": "2711",
       "tc": "blue",
       "ti": 1692061,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-082",
@@ -7198,7 +7211,7 @@
       "tr": 196,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-083",
@@ -7257,7 +7270,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-086",
@@ -7320,7 +7333,7 @@
       "tn": "0863",
       "tc": "red",
       "ti": 1119094,
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-089",
@@ -7356,7 +7369,7 @@
       "rl": "3",
       "st": "ok",
       "nt": "NAPANT. Len po znacenych chodnikoch. Overit na maps.sopsr.sk",
-      "v": 0
+      "v": 2
     },
     {
       "c": "OM/ZA-091",
