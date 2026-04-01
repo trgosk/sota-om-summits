@@ -12,15 +12,23 @@ Slovakia has 5 levels of nature protection (*stupne ochrany*). Operating a radio
 
 This tool maps every OM summit to its protection level so you can plan activations responsibly.
 
-## Protection levels at a glance
+## Summit categories
 
-| Level | Territory | SOTA impact |
-|-------|-----------|-------------|
-| **1** | General (whole Slovakia) | ✅ No restrictions |
-| **2** | CHKO (landscape protected areas) | ✅ Free pedestrian movement |
-| **3** | National Parks, Zone C | ⚠️ Marked trails only |
-| **4** | Nature reserves, Zone B | ⛔ Marked trails only, additional restrictions |
-| **5** | Strict reserves, Zone A | 🚫 No disturbance — radio may be prohibited |
+| Category | Meaning | SOTA impact |
+|----------|---------|-------------|
+| **Safe** | No restrictions | ✅ Freely activate |
+| **Rules** | Conditions apply (trail, season, other) | ⚠️ Follow the rules and you're fine |
+| **Stop** | Permission required from state/owner | 🚫 Do not activate without permission |
+
+Summits also carry a protection level (1–5) from Slovak law for reference:
+
+| Level | Territory | Note |
+|-------|-----------|------|
+| **1** | General (whole Slovakia) | No restrictions |
+| **2** | CHKO (landscape protected areas) | Free pedestrian movement |
+| **3** | National Parks, Zone C | Marked trails only |
+| **4** | Nature reserves, Zone B | Marked trails + restrictions |
+| **5** | Strict reserves, Zone A | No disturbance — radio may be prohibited |
 
 ## Data sources
 
@@ -31,20 +39,15 @@ This tool maps every OM summit to its protection level so you can plan activatio
 
 ## ⚠️ Important disclaimer
 
-**This data is AI-generated and NOT fully verified.** Every summit has a `v` (verified) field:
-- `"v": 0` — AI-generated classification based on bounding box overlap and web research. **Check before activation!**
-- `"v": 1` — Verified by a human operator against [maps.sopsr.sk](https://maps.sopsr.sk/)
-
-42 summits in National Parks have been individually researched with specific notes. The remaining ~82 NP summits have base level 3 assigned but may have NPR/PR overlaps raising them to level 4–5.
-
-**Always verify on [maps.sopsr.sk](https://maps.sopsr.sk/) before activating any summit rated level 3+.**
+All 379 summits have been verified by operators against [maps.sopsr.sk](https://maps.sopsr.sk/). However, protection zones and trail closures can change — **always check current conditions before activating any summit categorized as Rules or Stop.**
 
 ## Features
 
-- 🗺️ Interactive Leaflet map with all 379 summits color-coded by protection level
+- 🗺️ Interactive Leaflet map with all 379 summits color-coded by category (safe/rules/stop)
 - 🔍 Search by code, name, or protected area
-- 🏷️ Filter by region (BA–ZA), protection level (1–5), and verification status
+- 🏷️ Filter by region (BA–ZA) and category
 - 🛰️ ŠOPSR WMS overlay toggle — see official protection zones on the map
+- 🗂️ NP/CHKO boundary and nature reserve polygon overlays
 - 🌙 Dark/light theme with system preference detection
 - 📋 Summit data in `summits.json` — one per line, easy to edit and contribute
 
@@ -56,31 +59,40 @@ The best way to help is to **verify summits**:
 2. Find the summit by its code (e.g. `OM/ZA-014`)
 3. Check it on [maps.sopsr.sk](https://maps.sopsr.sk/) — enable the "Stupne ochrany" layer
 4. Update the fields:
-   - `"rl"` — researched level (e.g. `"3"`, `"4"`, `"5"`)
-   - `"st"` — status: `"safe"`, `"ok"`, `"caution"`, or `"danger"`
+   - `"cat"` — category: `"safe"`, `"rules"`, or `"stop"`
+   - `"rl"` — researched protection level (e.g. `"3"`, `"4"`, `"5"`)
    - `"nt"` — your notes (what you found)
-   - `"v": 1` — mark as verified
 5. Submit a pull request
 
 ### Data fields reference
 
 ```
-c   = summit code (OM/XX-NNN)
-n   = summit name
-la  = latitude
-lo  = longitude
-e   = elevation in meters
-r   = region code (BA, BB, KE, NR, PO, TN, TT, ZA)
-rn  = region name
-p   = SOTA points
-a   = activation count
-ar  = protected area name (or empty)
-ac  = area category (NP, CHKO, or empty)
-bl  = base protection level (1–5, from bounding box)
-rl  = researched protection level (may differ from bl)
-st  = activation status: safe / ok / caution / danger
-nt  = notes (Slovak/English)
-v   = verified: 0 = AI-generated, 1 = verified by operator
+c    = summit code (OM/XX-NNN)
+n    = summit name
+la   = latitude
+lo   = longitude
+e    = elevation in meters
+r    = region code (BA, BB, KE, NR, PO, TN, TT, ZA)
+p    = SOTA points
+a    = activation count
+ar   = protected area name (or empty)
+ac   = area category (NP, CHKO, or empty)
+rl   = researched protection level (string, may be range e.g. "4-5")
+cat  = category: safe / rules / stop
+nt   = notes (Slovak/English)
+v    = verified: 1 = verified by operator
+```
+
+**Rules-specific fields** (when `cat = "rules"`):
+```
+rules          = array of rule types: "trail", "season", "warning_other"
+warning_other  = free-text warning (when "warning_other" in rules)
+```
+
+**Stop-specific fields** (when `cat = "stop"`):
+```
+stop           = key into stop_reasons lookup (e.g. "OSOBITA")
+stop_reasons   = root-level lookup object with full stop reason text
 ```
 
 ## Hosting on GitHub Pages

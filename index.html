@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.4.0">
+<meta name="version" content="1.5.0">
 <title>OM SOTA Protection Database</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -115,11 +115,9 @@ header h1{font-size:15px}
 .tag{font-size:11px;padding:4px 10px;border-radius:20px;cursor:pointer;border:1.5px solid var(--bg3);background:var(--card);color:var(--ink3);font-family:var(--mono);font-weight:500;transition:all .15s;user-select:none}
 .tag:hover{border-color:var(--ink4);color:var(--ink2)}
 .tag.on{border-color:var(--teal);background:var(--teal-bg);color:var(--teal)}
-.tag.s1{border-color:var(--green);background:var(--green-bg);color:var(--green)}
-.tag.s2{border-color:var(--green);background:var(--green-lt);color:var(--green)}
-.tag.s3{border-color:var(--amber);background:var(--amber-bg);color:var(--amber)}
-.tag.s4{border-color:var(--coral);background:var(--coral-bg);color:var(--coral)}
-.tag.s5{border-color:var(--red);background:var(--red-bg);color:var(--red)}
+.tag.cat-safe{border-color:var(--green);background:var(--green-bg);color:var(--green)}
+.tag.cat-rules{border-color:var(--amber);background:var(--amber-bg);color:var(--amber)}
+.tag.cat-stop{border-color:var(--red);background:var(--red-bg);color:var(--red)}
 .tag.vr{border-color:var(--amber);background:var(--amber-bg);color:var(--amber)}
 .tag.vy{border-color:var(--green);background:var(--green-bg);color:var(--green)}
 
@@ -140,6 +138,8 @@ header h1{font-size:15px}
 .b-ok{background:var(--amber-bg);color:var(--amber)}
 .b-caution{background:var(--coral-bg);color:var(--coral)}
 .b-danger{background:var(--red-bg);color:var(--red)}
+.b-rules{background:var(--amber-bg);color:var(--amber)}
+.b-stop{background:var(--red-bg);color:var(--red)}
 .b-rev{background:var(--amber-bg);color:var(--amber);font-size:9px;padding:2px 6px}
 .b-ver{background:var(--green-bg);color:var(--green);font-size:9px;padding:2px 6px}
 
@@ -208,8 +208,8 @@ header h1{font-size:15px}
   <h1><em>OM</em> SOTA Protection Database</h1>
   <div class="hdr-stats">
     <span class="sp sp-safe"><b>{{counts.safe}}</b> safe</span>
-    <span class="sp sp-ok"><b>{{counts.ok}}</b> ok</span>
-    <span class="sp sp-bad"><b>{{counts.caution+counts.danger}}</b> restricted</span>
+    <span class="sp sp-ok"><b>{{counts.rules}}</b> rules</span>
+    <span class="sp sp-bad"><b>{{counts.stop}}</b> stop</span>
     <span v-if="counts.inreview" class="sp sp-ok">{{counts.inreview}} in review</span>
     <span style="color:var(--ink4)">{{filtered.length}}/{{summits.length}}</span>
   </div>
@@ -248,15 +248,13 @@ header h1{font-size:15px}
         <span v-for="r in regions" class="tag" :class="{on:rF===r}" @click="rF=rF===r?'':r">{{r}}</span>
       </div>
       <div class="filters">
-        <span class="flabel">Level</span>
-        <span class="tag" :class="{on:!sF}" @click="sF=''">Any</span>
-        <span class="tag s1" :class="{on:sF==='1'}" @click="sF=sF==='1'?'':'1'">L1</span>
-        <span class="tag s2" :class="{on:sF==='2'}" @click="sF=sF==='2'?'':'2'">L2</span>
-        <span class="tag s3" :class="{on:sF==='3'}" @click="sF=sF==='3'?'':'3'">L3</span>
-        <span class="tag s4" :class="{on:sF==='4'}" @click="sF=sF==='4'?'':'4'">L4</span>
-        <span class="tag s5" :class="{on:sF==='5'}" @click="sF=sF==='5'?'':'5'">L5</span>
+        <span class="flabel">Category</span>
+        <span class="tag" :class="{on:!catF}" @click="catF=''">Any</span>
+        <span class="tag cat-safe" :class="{on:catF==='safe'}" @click="catF=catF==='safe'?'':'safe'">Safe</span>
+        <span class="tag cat-rules" :class="{on:catF==='rules'}" @click="catF=catF==='rules'?'':'rules'">Rules</span>
+        <span class="tag cat-stop" :class="{on:catF==='stop'}" @click="catF=catF==='stop'?'':'stop'">Stop</span>
       </div>
-      <div class="filters">
+      <div class="filters" v-if="counts.inreview">
         <span class="flabel">Verified</span>
         <span class="tag" :class="{on:vF===''}" @click="vF=''">All</span>
         <span class="tag vr" :class="{on:vF==='2'}" @click="vF=vF==='2'?'':'2'">In review</span>
@@ -268,9 +266,9 @@ header h1{font-size:15px}
       <div v-for="s in filtered" :key="s.c" class="row" :class="{sel:sel&&sel.c===s.c}" @click="pick(s)">
         <span class="code">{{s.c}}</span>
         <span class="badges">
-          <span class="badge" :class="'b-'+s.st">{{badgeText(s)}}</span>
-          <span v-if="s.v===2" class="badge b-rev">REV</span>
-          <span v-else class="badge b-ver">OK</span>
+          <span class="badge" :class="'b-'+s.cat">{{badgeText(s)}}</span>
+          <span v-if="counts.inreview && s.v===2" class="badge b-rev">REV</span>
+          <span v-else-if="counts.inreview" class="badge b-ver">OK</span>
         </span>
         <span class="name">{{s.n}}</span>
         <span class="meta">{{s.e}}m · {{s.p}}pt · {{s.a}} act · {{s.ar||'–'}}</span>
@@ -289,15 +287,16 @@ header h1{font-size:15px}
     <div class="legend" :class="{collapsed:!legendOpen}">
       <h4 class="legend-toggle" @click="legendOpen=!legendOpen">Legend <span class="legend-arrow">{{legendOpen?'▾':'▸'}}</span></h4>
       <div class="legend-body" v-show="legendOpen">
-        <h4>Protection</h4>
-        <div class="lg-row"><span class="lg-dot" style="background:#2d7a4f"></span> Level 1–2 safe</div>
-        <div class="lg-row"><span class="lg-dot" style="background:#c49215"></span> Level 3 trails only</div>
-        <div class="lg-row"><span class="lg-dot" style="background:#c44d2b"></span> Level 4 reserve</div>
-        <div class="lg-row"><span class="lg-dot" style="background:#b83232"></span> Level 5 strict</div>
+        <h4>Category</h4>
+        <div class="lg-row"><span class="lg-dot" style="background:#2d7a4f"></span> Safe — no restrictions</div>
+        <div class="lg-row"><span class="lg-dot" style="background:#c49215"></span> Rules — conditions apply</div>
+        <div class="lg-row"><span class="lg-dot" style="background:#b83232"></span> Stop — do not activate</div>
         <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
+        <template v-if="counts.inreview">
         <div class="lg-row"><span class="lg-dot" style="background:var(--amber);opacity:.75"></span> In review</div>
         <div class="lg-row"><span class="lg-dot" style="background:var(--green)"></span> Verified by operator</div>
         <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
+        </template>
         <h4>Boundaries</h4>
         <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #b83232"></span> National Park</div>
         <div class="lg-row"><span class="lg-dot" style="background:transparent;border:2px solid #c49215"></span> CHKO</div>
@@ -339,9 +338,17 @@ header h1{font-size:15px}
         <div class="d-cell"><label>Activations</label><div class="v">{{sel.a}}</div></div>
         <div class="d-cell"><label>Level</label><div class="v">{{sel.rl}}</div></div>
       </div>
-      <div class="d-note" :class="'b-'+sel.st">
+      <div class="d-note" :class="'b-'+sel.cat">
         <strong>{{sel.ar||'No protected area'}} {{sel.ac?'('+sel.ac+')':''}}</strong><br>
         {{sel.nt}}
+      </div>
+      <div v-if="sel.cat==='rules' && sel.rules" class="d-note b-rules" style="margin-top:8px">
+        <div v-if="sel.rules.includes('trail')">🥾 Must stay on marked trail</div>
+        <div v-if="sel.rules.includes('season')">⏳ Seasonal restriction applies</div>
+        <div v-if="sel.rules.includes('warning_other') && sel.warning_other">⚠ {{sel.warning_other}}</div>
+      </div>
+      <div v-if="sel.cat==='stop' && sel.stop" class="d-note b-stop" style="margin-top:8px">
+        <strong>⛔ {{stopReason(sel.stop)}}</strong>
       </div>
       <div v-if="sel.tr!=null" class="d-trail has-trail">
         <span class="trail-dot" :style="{background:trailColor(sel.tc)}"></span>
@@ -375,17 +382,17 @@ header h1{font-size:15px}
 </div>
 
 <script>
-let D=[];
+let D=[];let stopReasons={};
 </script>
 <script>
 const {createApp,ref,computed,onMounted,watch,nextTick}=Vue;
-const COL_L={safe:'#2d7a4f',ok:'#c49215',caution:'#c44d2b',danger:'#b83232'};
-const COL_D={safe:'#4ade80',ok:'#fbbf24',caution:'#fb923c',danger:'#f87171'};
+const COL_L={safe:'#2d7a4f',rules:'#c49215',stop:'#b83232'};
+const COL_D={safe:'#4ade80',rules:'#fbbf24',stop:'#f87171'};
 createApp({
 setup(){
   const summits=ref(D);
   const loading=ref(true);
-  const q=ref('');const rF=ref('');const sF=ref('');const vF=ref('');const sel=ref(null);const wms=ref(false);const showContrib=ref(true);
+  const q=ref('');const rF=ref('');const catF=ref('');const vF=ref('');const sel=ref(null);const wms=ref(false);const showContrib=ref(true);
   const showNpChko=ref(false);const loadingNpChko=ref(false);
   const showReserves=ref(false);const loadingReserves=ref(false);
   const uiVersion=ref('');const dataVersion=ref('');
@@ -416,25 +423,24 @@ setup(){
     let l=summits.value;
     if(q.value){const t=q.value.toLowerCase();l=l.filter(s=>s.c.toLowerCase().includes(t)||s.n.toLowerCase().includes(t)||s.ar.toLowerCase().includes(t))}
     if(rF.value)l=l.filter(s=>s.r===rF.value);
-    if(sF.value)l=l.filter(s=>s.rl===sF.value||s.rl.includes(sF.value));
+    if(catF.value)l=l.filter(s=>s.cat===catF.value);
     if(vF.value)l=l.filter(s=>String(s.v)===vF.value);
     return l;
   });
   const counts=computed(()=>{
-    const c={safe:0,ok:0,caution:0,danger:0,inreview:0,verified:0};
-    summits.value.forEach(s=>{c[s.st]=(c[s.st]||0)+1;if(s.v===2)c.inreview++;else c.verified++});return c;
+    const c={safe:0,rules:0,stop:0,inreview:0,verified:0};
+    summits.value.forEach(s=>{if(s.cat)c[s.cat]++;if(s.v===2)c.inreview++;else c.verified++});return c;
   });
-  const activeFilterCount=computed(()=>(rF.value?1:0)+(sF.value?1:0)+(vF.value?1:0));
+  const activeFilterCount=computed(()=>(rF.value?1:0)+(catF.value?1:0)+(vF.value?1:0));
   function togglePanel(){panelOpen.value=!panelOpen.value}
   function badgeText(s){
-    if(s.st==='safe')return 'L'+s.rl+' Safe';
-    if(s.st==='ok')return 'L'+s.rl+' OK';
-    if(s.st==='caution')return 'L'+s.rl+' Caution';
-    return 'L'+s.rl+' Restricted';
+    if(s.cat==='safe')return 'Safe';
+    if(s.cat==='rules')return 'Rules';
+    return 'Stop';
   }
   function mkIcon(s){
     const pal=dark.value?COL_D:COL_L;
-    const c=pal[s.st]||'#888';
+    const c=pal[s.cat]||'#888';
     const ring=dark.value?'rgba(0,0,0,.6)':'#fff';
     const sz=Math.max(7,Math.min(13,s.p*1.5+5));
     const op=s.v===1?1:0.75;
@@ -452,11 +458,11 @@ setup(){
     map=L.map('map',{zoomControl:false}).setView([48.8,19.5],8);
     L.control.zoom({position:'topleft'}).addTo(map);
     tileLayer=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'OSM/CARTO',maxZoom:19}).addTo(map);
-    wmsLayer=L.tileLayer.wms('https://maps.sopsr.sk/geoserver/ows',{layers:'sopsr:CHU_zonacia_ekoforest',format:'image/png',transparent:true,opacity:0.45,version:'1.1.1'});
+    wmsLayer=L.tileLayer.wms('https://maps.sopsr.sk/geoserver/ows',{layers:'sopsr:UEV_konsolidovane,sopsr:zonacia_chko_horna_orava,sopsr:zonacia_slovensky_raj,sopsr:zonacia_mur_planina,sopsr:zonacia_pienap,sopsr:chkobk_cha_tematinske-vrchy_zony',format:'image/png',transparent:true,opacity:0.45,version:'1.1.1'});
     mGroup=L.layerGroup().addTo(map);
     summits.value.forEach(s=>{
       const m=L.marker([s.la,s.lo],{icon:mkIcon(s)});
-      m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · L${s.rl} ${s.v===1?'✓':'(rev)'}`,{className:'tip'});
+      m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · ${s.cat==='stop'?'⛔ Stop':s.cat==='rules'?'⚠ Rules':'✓ Safe'} ${s.v===1?'✓':'(rev)'}`,{className:'tip'});
       m.on('click',()=>pick(s));
       m.addTo(mGroup);markers[s.c]=m;
     });
@@ -541,11 +547,12 @@ setup(){
     }
   }
 
+  function stopReason(key){return stopReasons[key]||key}
   function srcDomain(url){try{return new URL(url).hostname}catch(e){return url}}
   function trailColor(tc){const m={red:'#e74c3c',blue:'#2980b9',green:'#27ae60',yellow:'#f1c40f'};return m[tc]||'var(--ink3)'}
   onMounted(async()=>{
     applyTheme();
-    try{const r=await fetch('summits.json');const j=await r.json();D=j.summits;summits.value=D;dataVersion.value=j._dataVersion||''}
+    try{const r=await fetch('summits.json');const j=await r.json();D=j.summits;stopReasons=j.stop_reasons||{};summits.value=D;dataVersion.value=j._dataVersion||''}
     catch(e){console.error('Failed to load summits.json',e)}
     const vm=document.querySelector('meta[name="version"]');uiVersion.value=vm?vm.content:'dev'
     loading.value=false;
@@ -560,7 +567,7 @@ setup(){
   });
   watch(panelOpen,()=>{setTimeout(()=>{if(map)map.invalidateSize()},380)});
   watch(sidebarOpen,()=>{setTimeout(()=>{if(map)map.invalidateSize()},350)});
-  return{summits,loading,q,rF,sF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,filtersOpen,sidebarOpen,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain,trailColor,uiVersion,dataVersion};
+  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,filtersOpen,sidebarOpen,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion};
 }
 }).mount('#app');
 </script>
