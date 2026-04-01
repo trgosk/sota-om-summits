@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.5.2">
+<meta name="version" content="1.6.0">
 <script>
 (function(){
   try{
@@ -19,11 +19,18 @@
   }catch(e){}
 })();
 </script>
-<title>OM SOTA Check before activation</title>
+<title>OM SOTA — Activation Precheck</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<script src="https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1a7a6d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="SOTA OM">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -213,6 +220,13 @@ header h1{font-size:15px}
 .dark .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(1.1)}
 .dark .leaflet-control-zoom a{background:var(--card);color:var(--ink);border-color:var(--bg3)}
 
+.offline-badge{display:inline-flex;align-items:center;gap:5px;background:var(--amber-bg);color:var(--amber);font-size:11px;font-weight:600;padding:4px 12px;border-radius:20px;font-family:var(--mono)}
+.offline-badge .off-dot{width:7px;height:7px;border-radius:50%;background:var(--amber);animation:pulse-off 2s infinite}
+@keyframes pulse-off{0%,100%{opacity:1}50%{opacity:.3}}
+.sw-update-bar{position:fixed;bottom:0;left:0;right:0;z-index:10000;background:var(--teal);color:#fff;padding:10px 24px;font-size:13px;font-family:var(--font);display:flex;align-items:center;justify-content:center;gap:12px;box-shadow:0 -2px 12px rgba(0,0,0,.15)}
+.sw-update-bar button{background:#fff;color:var(--teal);border:none;border-radius:20px;padding:5px 16px;font-size:12px;font-weight:600;cursor:pointer;font-family:var(--font)}
+.sw-update-bar button:hover{opacity:.9}
+
 </style>
 </head>
 <body>
@@ -220,7 +234,7 @@ header h1{font-size:15px}
 <div v-if="loading" style="display:flex;align-items:center;justify-content:center;height:100vh;font-family:var(--font);color:var(--ink3);font-size:1.1rem">Loading summit data&hellip;</div>
 <template v-else>
 <header>
-  <h1><em>OM</em> SOTA Protection Database</h1>
+  <h1><em>OM</em> Activation Precheck</h1>
   <div class="hdr-stats">
     <span class="sp sp-safe"><b>{{counts.safe}}</b> safe</span>
     <span class="sp sp-ok"><b>{{counts.rules}}</b> rules</span>
@@ -234,6 +248,7 @@ header h1{font-size:15px}
       GitHub
     </a>
     <button class="theme-btn" @click="toggleTheme" :title="dark?'Light mode':'Dark mode'">{{dark?'☀️':'🌙'}}</button>
+    <span v-if="isOffline" class="offline-badge"><span class="off-dot"></span>Offline</span>
   </div>
 </header>
 
@@ -394,6 +409,9 @@ header h1{font-size:15px}
   </div>
 </div>
 </template>
+<div class="sw-update-bar" v-if="swUpdate">
+  New version available <button @click="swReload">Reload</button>
+</div>
 </div>
 
 <script>
@@ -417,6 +435,9 @@ setup(){
   const layersOpen=ref(false);
   const filtersOpen=ref(true);
   const sidebarOpen=ref(true);
+  const isOffline=ref(!navigator.onLine);
+  const swUpdate=ref(false);
+  let swWaiting=null;
   let map,markers={},wmsLayer,mGroup,tileLayer;
   let npChkoLayer=null,npChkoData=null;
   let reservesLayer=null,reservesData=null;
@@ -565,8 +586,20 @@ setup(){
   function stopReason(key){return stopReasons[key]||key}
   function srcDomain(url){try{return new URL(url).hostname}catch(e){return url}}
   function trailColor(tc){const m={red:'#e74c3c',blue:'#2980b9',green:'#27ae60',yellow:'#f1c40f'};return m[tc]||'var(--ink3)'}
+  function swReload(){if(swWaiting){swWaiting.postMessage({type:'SKIP_WAITING'})};location.reload()}
   onMounted(async()=>{
     applyTheme();
+    window.addEventListener('online',()=>{isOffline.value=false});
+    window.addEventListener('offline',()=>{isOffline.value=true});
+    if('serviceWorker' in navigator){
+      try{
+        const reg=await navigator.serviceWorker.register('sw.js');
+        reg.addEventListener('updatefound',()=>{
+          const nw=reg.installing;
+          if(nw){nw.addEventListener('statechange',()=>{if(nw.state==='installed'&&navigator.serviceWorker.controller){swWaiting=nw;swUpdate.value=true}})}
+        });
+      }catch(e){console.warn('SW registration failed',e)}
+    }
     try{const r=await fetch('summits.json');const j=await r.json();D=j.summits;stopReasons=j.stop_reasons||{};summits.value=D;dataVersion.value=j._dataVersion||''}
     catch(e){console.error('Failed to load summits.json',e)}
     const vm=document.querySelector('meta[name="version"]');uiVersion.value=vm?vm.content:'dev'
@@ -582,7 +615,7 @@ setup(){
   });
   watch(panelOpen,()=>{setTimeout(()=>{if(map)map.invalidateSize()},380)});
   watch(sidebarOpen,()=>{setTimeout(()=>{if(map)map.invalidateSize()},350)});
-  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,filtersOpen,sidebarOpen,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion};
+  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload};
 }
 }).mount('#app');
 </script>

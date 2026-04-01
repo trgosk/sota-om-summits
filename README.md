@@ -49,6 +49,8 @@ All 379 summits have been verified by operators against [maps.sopsr.sk](https://
 - 🛰️ ŠOPSR WMS overlay toggle — see official protection zones on the map
 - 🗂️ NP/CHKO boundary and nature reserve polygon overlays
 - 🌙 Dark/light theme with system preference detection
+- 📱 Installable PWA — add to home screen on Android/iOS
+- 📶 Offline support — cached summit data and map tiles work without internet
 - 📋 Summit data in `summits.json` — one per line, easy to edit and contribute
 
 ## How to contribute
@@ -107,10 +109,11 @@ To fork and host your own:
 ## Tech stack
 
 Single `index.html` + `summits.json` data file, no build step:
-- [Vue.js 3](https://vuejs.org/) (CDN)
+- [Vue.js 3](https://vuejs.org/) (CDN, pinned to 3.5.13)
 - [Leaflet](https://leafletjs.com/) (CDN)
 - [CARTO basemap](https://carto.com/basemaps/) (light, inverted for dark mode)
 - [ŠOPSR GeoServer WMS](https://maps.sopsr.sk/geoserver/ows) (optional overlay)
+- Service worker with offline caching (app shell + Google Fonts + map tiles)
 - Fonts: [Outfit](https://fonts.google.com/specimen/Outfit) + [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
 ## License
