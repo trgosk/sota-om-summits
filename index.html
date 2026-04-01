@@ -3,8 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.5.0">
-<title>OM SOTA Protection Database</title>
+<meta name="version" content="1.5.1">
+<script>
+(function(){
+  try{
+    var m=document.querySelector('meta[name="version"]');
+    if(!m)return;
+    var cur=m.content;
+    if(sessionStorage.getItem('v-ok')===cur)return;
+    sessionStorage.setItem('v-ok',cur);
+    fetch('version.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){
+      var remote=j.v||j.uiVersion;
+      if(remote&&remote!==cur)location.reload();
+    }).catch(function(){});
+  }catch(e){}
+})();
+</script>
+<title>OM SOTA Check before activation</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
