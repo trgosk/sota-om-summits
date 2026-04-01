@@ -3,7 +3,7 @@
  * 3-tier caching: app-shell (precache), google-fonts, map-tiles
  */
 
-const APP_VERSION = '1.6.0';
+const APP_VERSION = '1.6.1';
 const CACHE_SHELL   = 'app-shell-v' + APP_VERSION;
 const CACHE_FONTS   = 'google-fonts-v1';
 const CACHE_TILES   = 'map-tiles-v1';
@@ -17,6 +17,7 @@ const SHELL_URLS = [
   'osm_pa.json',
   'icon.svg',
   'icon-192.png',
+  'favicon.ico',
   'manifest.json',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
