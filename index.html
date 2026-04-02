@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.7.4">
+<meta name="version" content="1.7.5">
 <script>
 (function(){
   try{
@@ -443,6 +443,7 @@ let D=[];let stopReasons={};
 const {createApp,ref,computed,onMounted,watch,nextTick}=Vue;
 const COL_L={safe:'#2d7a4f',rules:'#c49215',stop:'#b83232'};
 const COL_D={safe:'#4ade80',rules:'#fbbf24',stop:'#f87171'};
+function removeDiacritics(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
 createApp({
 setup(){
   const summits=ref(D);
@@ -485,7 +486,7 @@ setup(){
   const regions=computed(()=>[...new Set(summits.value.map(s=>s.r))].sort());
   const filtered=computed(()=>{
     let l=summits.value;
-    if(q.value){const t=q.value.toLowerCase();l=l.filter(s=>s.c.toLowerCase().includes(t)||s.n.toLowerCase().includes(t)||s.ar.toLowerCase().includes(t))}
+    if(q.value){const t=removeDiacritics(q.value.toLowerCase());l=l.filter(s=>removeDiacritics(s.c.toLowerCase()).includes(t)||removeDiacritics(s.n.toLowerCase()).includes(t)||removeDiacritics(s.ar.toLowerCase()).includes(t))}
     if(rF.value)l=l.filter(s=>s.r===rF.value);
     if(catF.value)l=l.filter(s=>s.cat===catF.value);
     if(vF.value)l=l.filter(s=>String(s.v)===vF.value);

@@ -3,7 +3,7 @@
  * 3-tier caching: app-shell (precache), google-fonts, map-tiles
  */
 
-const APP_VERSION = '1.7.4';
+const APP_VERSION = '1.7.5';
 const CACHE_SHELL   = 'app-shell-v' + APP_VERSION;
 const CACHE_FONTS   = 'google-fonts-v1';
 const CACHE_TILES   = 'map-tiles-v1';
