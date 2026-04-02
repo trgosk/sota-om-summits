@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.7.0">
+<meta name="version" content="1.7.1">
 <script>
 (function(){
   try{
@@ -445,7 +445,7 @@ setup(){
   let npChkoLayer=null,npChkoData=null;
   let reservesLayer=null,reservesData=null;
   const mapyCzKey='__MAPY_CZ_KEY__';
-  const hasMapyCz=mapyCzKey&&mapyCzKey!=='__MAPY_CZ_KEY__';
+  const hasMapyCz=mapyCzKey&&!mapyCzKey.startsWith('__');
   let mapyCzLayer=null;
   const showMapyCz=ref(false);
 
