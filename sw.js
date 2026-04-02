@@ -3,7 +3,7 @@
  * 3-tier caching: app-shell (precache), google-fonts, map-tiles
  */
 
-const APP_VERSION = '1.6.1';
+const APP_VERSION = '1.7.2';
 const CACHE_SHELL   = 'app-shell-v' + APP_VERSION;
 const CACHE_FONTS   = 'google-fonts-v1';
 const CACHE_TILES   = 'map-tiles-v1';
@@ -76,8 +76,8 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // 5) Map tiles (CARTO basemap) — cache-first + FIFO eviction
-  if (url.hostname.endsWith('.basemaps.cartocdn.com')) {
+  // 5) Map tiles (CARTO basemap, Mapy.cz) — cache-first + FIFO eviction
+  if (url.hostname.endsWith('.basemaps.cartocdn.com') || url.hostname === 'api.mapy.cz') {
     e.respondWith(cacheTile(e.request));
     return;
   }

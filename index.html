@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.7.1">
+<meta name="version" content="1.7.2">
 <script>
 (function(){
   try{
@@ -107,7 +107,7 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .detail{bottom:80px;left:8px;right:8px}
 .legend{top:12px;bottom:auto;right:8px;left:auto;max-height:50vh;overflow-y:auto;font-size:10px;padding:8px 10px}
 .overlay-toggles.desktop-only{display:none}
-.mob-layers-panel{display:block;position:absolute;bottom:24px;right:8px;z-index:1500;background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius);padding:10px 12px;box-shadow:var(--shadow);font-size:11px}
+.mob-layers-panel{display:block;position:fixed;bottom:24px;right:8px;z-index:1500;background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius);padding:10px 12px;box-shadow:var(--shadow);font-size:11px}
 .mob-layers-panel.collapsed{padding:6px 10px}
 .mob-layers-toggle{display:flex;align-items:center;gap:6px;background:none;border:none;cursor:pointer;color:var(--ink3);font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;font-family:var(--font);user-select:none;padding:0}
 .mob-layers-toggle svg{color:var(--teal);flex-shrink:0}
@@ -447,7 +447,7 @@ setup(){
   const mapyCzKey='__MAPY_CZ_KEY__';
   const hasMapyCz=mapyCzKey&&!mapyCzKey.startsWith('__');
   let mapyCzLayer=null;
-  const showMapyCz=ref(false);
+  const showMapyCz=ref(hasMapyCz);
 
   function applyTheme(){
     document.documentElement.classList.toggle('dark',dark.value);
@@ -500,8 +500,8 @@ setup(){
   function initMap(){
     map=L.map('map',{zoomControl:false}).setView([48.8,19.5],8);
     L.control.zoom({position:'topleft'}).addTo(map);
-    tileLayer=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'OSM/CARTO',maxZoom:19}).addTo(map);
-    if(hasMapyCz)mapyCzLayer=L.tileLayer('https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey='+mapyCzKey+'&lang=sk',{attribution:'<a href="https://api.mapy.cz/copyright">&copy; Seznam.cz a.s.</a>',maxZoom:20});
+    tileLayer=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'OSM/CARTO',maxZoom:19});
+    if(hasMapyCz){mapyCzLayer=L.tileLayer('https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey='+mapyCzKey+'&lang=sk',{attribution:'<a href="https://api.mapy.cz/copyright">&copy; Seznam.cz a.s.</a>',maxZoom:20});mapyCzLayer.addTo(map)}else{tileLayer.addTo(map)}
     wmsLayer=L.tileLayer.wms('https://maps.sopsr.sk/geoserver/ows',{layers:'sopsr:UEV_konsolidovane,sopsr:zonacia_chko_horna_orava,sopsr:zonacia_slovensky_raj,sopsr:zonacia_mur_planina,sopsr:zonacia_pienap,sopsr:chkobk_cha_tematinske-vrchy_zony',format:'image/png',transparent:true,opacity:0.45,version:'1.1.1'});
     mGroup=L.layerGroup().addTo(map);
     summits.value.forEach(s=>{
