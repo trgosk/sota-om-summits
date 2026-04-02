@@ -122,6 +122,11 @@ Single `index.html` + `summits.json` data file, no build step:
 - Service worker with offline caching (app shell + Google Fonts + map tiles)
 - Fonts: [Outfit](https://fonts.google.com/specimen/Outfit) + [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
+## TODO
+
+- [ ] Add a useful links element/popup (e.g. https://sota.telesweb.sk)
+- [x] Integrate mapy.com as a map layer
+
 ## License
 
 MIT — see [LICENSE](LICENSE)
