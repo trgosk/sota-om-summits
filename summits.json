@@ -1,5 +1,5 @@
 {
-  "_dataVersion": "2026-04-01.1",
+  "_dataVersion": "2026-04-02.1",
   "_fields": {
     "c": "Summit code (OM/XX-NNN)",
     "n": "Summit name",
@@ -52,7 +52,7 @@
       "tn": "2407",
       "tc": "blue",
       "ti": 571354,
-      "v": 1,
+      "v": 2,
       "cat": "safe"
     },
     {
@@ -73,7 +73,7 @@
       "tr": 5,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 1,
+      "v": 2,
       "cat": "safe"
     },
     {
@@ -94,7 +94,7 @@
       "tr": 223,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 1,
+      "v": 2,
       "cat": "safe"
     },
     {
@@ -116,7 +116,7 @@
       "tn": "0701",
       "tc": "red",
       "ti": 546943,
-      "v": 1,
+      "v": 2,
       "cat": "safe"
     },
     {
@@ -134,7 +134,7 @@
       "st": "safe",
       "nt": "CHKO Malé Karpaty. Voľný pohyb pešo. OK.",
       "lr": "2026-03-21",
-      "v": 1,
+      "v": 2,
       "cat": "safe"
     },
     {
@@ -156,7 +156,7 @@
       "tn": "8109",
       "tc": "yellow",
       "ti": 569515,
-      "v": 1,
+      "v": 2,
       "cat": "safe"
     },
     {
@@ -2450,7 +2450,7 @@
       "tn": "Rudná magistrála",
       "tc": "red",
       "ti": 1810447,
-      "v": 1,
+      "v": 2,
       "cat": "safe"
     },
     {
@@ -5356,7 +5356,7 @@
       "tr": 30,
       "tn": "European long distance path E8 - part Slovakia",
       "ti": 192031,
-      "v": 1,
+      "v": 2,
       "cat": "safe"
     },
     {
