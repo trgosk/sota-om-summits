@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://trgosk.github.io/sota-om-summits/">
+    <img src="icon.svg" alt="SOTA OM Summits" width="120">
+  </a>
+</p>
+
 # sota-om-summits
 
 Nature protection level database for all **379 Slovak (OM) SOTA summits**, helping ham radio operators determine which summits are safe to activate under Slovak nature protection law.
