@@ -4,3 +4,5 @@ Thumbs.db
 *.swo
 *~
 *.env
+node_modules
+scripts/trails_cache.json

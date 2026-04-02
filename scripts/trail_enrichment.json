@@ -1,0 +1,1544 @@
+{
+  "OM/BA-001": {
+    "tr": 8,
+    "tn": "2407",
+    "tc": "blue",
+    "ti": 571354
+  },
+  "OM/BA-002": {
+    "tr": 5,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/BA-003": {
+    "tr": 223,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/BA-004": {
+    "tr": 1,
+    "tn": "0701",
+    "tc": "red",
+    "ti": 546943
+  },
+  "OM/BA-006": {
+    "tr": 80,
+    "tn": "8109",
+    "tc": "yellow",
+    "ti": 569515
+  },
+  "OM/BB-001": {
+    "tr": 1,
+    "tn": "0801X",
+    "tc": "red",
+    "ti": 20375675
+  },
+  "OM/BB-002": {
+    "tr": 59,
+    "tn": "8447",
+    "tc": "yellow",
+    "ti": 2163358
+  },
+  "OM/BB-003": {
+    "tr": 1,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/BB-004": {
+    "tr": 0,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/BB-005": {
+    "tr": 4,
+    "tn": "5424",
+    "tc": "green",
+    "ti": 192021
+  },
+  "OM/BB-006": {
+    "tr": 8,
+    "tn": "2835",
+    "tc": "blue",
+    "ti": 906675
+  },
+  "OM/BB-007": {
+    "tr": 37,
+    "tn": "Rudná magistrála",
+    "tc": "red",
+    "ti": 1691232
+  },
+  "OM/BB-008": {
+    "tr": 11,
+    "tn": "8425",
+    "tc": "yellow",
+    "ti": 1110215
+  },
+  "OM/BB-010": {
+    "tr": 3,
+    "tn": "Rudná magistrála",
+    "tc": "red",
+    "ti": 1110217
+  },
+  "OM/BB-012": {
+    "tr": 12,
+    "tn": "8485",
+    "tc": "yellow",
+    "ti": 1694201
+  },
+  "OM/BB-013": {
+    "tr": 21,
+    "tn": "Chodník Andreja Kmeťa",
+    "tc": "blue",
+    "ti": 1106848
+  },
+  "OM/BB-014": {
+    "tr": 22,
+    "tn": "0825b",
+    "tc": "red",
+    "ti": 274257
+  },
+  "OM/BB-015": {
+    "tr": 26,
+    "tn": "",
+    "tc": "green",
+    "ti": 7494924
+  },
+  "OM/BB-021": {
+    "tr": 20,
+    "tn": "0835",
+    "tc": "red",
+    "ti": 918128
+  },
+  "OM/BB-022": {
+    "tr": 186,
+    "tn": "8487",
+    "tc": "yellow",
+    "ti": 1152513
+  },
+  "OM/BB-024": {
+    "tr": 21,
+    "tn": "8483",
+    "tc": "yellow",
+    "ti": 1113509
+  },
+  "OM/BB-026": {
+    "tr": 197,
+    "tn": "2650",
+    "tc": "blue",
+    "ti": 1690502
+  },
+  "OM/BB-027": {
+    "tr": 257,
+    "tn": "Rudná magistrála",
+    "tc": "red",
+    "ti": 326280
+  },
+  "OM/BB-028": {
+    "tr": 19,
+    "tn": "5529",
+    "tc": "green",
+    "ti": 918126
+  },
+  "OM/BB-029": {
+    "tr": 153,
+    "tn": "8496",
+    "tc": "yellow",
+    "ti": 7399579
+  },
+  "OM/BB-030": {
+    "tr": 3,
+    "tn": "Z, Északi Zöld",
+    "tc": "green",
+    "ti": 3848246
+  },
+  "OM/BB-031": {
+    "tr": 1,
+    "tn": "5461V",
+    "tc": "green",
+    "ti": 10528749
+  },
+  "OM/BB-032": {
+    "tr": 49,
+    "tn": "0896M",
+    "tc": "red",
+    "ti": 1902848
+  },
+  "OM/BB-033": {
+    "tr": 191,
+    "tn": "2661",
+    "tc": "blue",
+    "ti": 10741739
+  },
+  "OM/BB-036": {
+    "tr": 6,
+    "tn": "0805V",
+    "tc": "red",
+    "ti": 17370206
+  },
+  "OM/BB-037": {
+    "tr": 326,
+    "tn": "2835",
+    "tc": "blue",
+    "ti": 906675
+  },
+  "OM/BB-038": {
+    "tr": 15,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/BB-039": {
+    "tr": 378,
+    "tn": "2614",
+    "tc": "blue",
+    "ti": 1702770
+  },
+  "OM/BB-040": {
+    "tr": 7,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/BB-041": {
+    "tr": 5,
+    "tn": "Rudná magistrála",
+    "tc": "red",
+    "ti": 1691232
+  },
+  "OM/BB-045": {
+    "tr": 247,
+    "tn": "5429",
+    "tc": "green",
+    "ti": 1579007
+  },
+  "OM/BB-046": {
+    "tr": 238,
+    "tn": "Cesta Márie Széchy",
+    "tc": "red",
+    "ti": 1573367
+  },
+  "OM/BB-047": {
+    "tr": 13,
+    "tn": "",
+    "tc": "green",
+    "ti": 13083450
+  },
+  "OM/BB-049": {
+    "tr": 8,
+    "tn": "2616",
+    "tc": "blue",
+    "ti": 1578864
+  },
+  "OM/BB-050": {
+    "tr": 15,
+    "tn": "8446V",
+    "tc": "yellow",
+    "ti": 2527833
+  },
+  "OM/BB-051": {
+    "tr": 389,
+    "tn": "NCH Meandre Hrona",
+    "tc": "green",
+    "ti": 13514555
+  },
+  "OM/BB-052": {
+    "tr": 295,
+    "tn": "2612",
+    "tc": "blue",
+    "ti": 1701173
+  },
+  "OM/BB-054": {
+    "tr": 376,
+    "tn": "5520b",
+    "tc": "green",
+    "ti": 1482118
+  },
+  "OM/BB-056": {
+    "tr": 52,
+    "tn": "Rudná magistrála",
+    "tc": "red",
+    "ti": 1592122
+  },
+  "OM/BB-057": {
+    "tr": 11,
+    "tn": "5505",
+    "tc": "green",
+    "ti": 929722
+  },
+  "OM/BB-058": {
+    "tr": 431,
+    "tn": "Rudná magistrála",
+    "tc": "red",
+    "ti": 1691232
+  },
+  "OM/BB-062": {
+    "tr": 16,
+    "tn": "5534",
+    "tc": "green",
+    "ti": 1797763
+  },
+  "OM/BB-063": {
+    "tr": 13,
+    "tn": "5530",
+    "tc": "green",
+    "ti": 1799648
+  },
+  "OM/BB-064": {
+    "tr": 6,
+    "tn": "8523",
+    "tc": "yellow",
+    "ti": 1697403
+  },
+  "OM/BB-068": {
+    "tr": 12,
+    "tn": "5486",
+    "tc": "green",
+    "ti": 296056
+  },
+  "OM/KE-001": {
+    "tr": 21,
+    "tn": "2827b",
+    "tc": "blue",
+    "ti": 1208358
+  },
+  "OM/KE-002": {
+    "tr": 10,
+    "tn": "8746",
+    "tc": "yellow",
+    "ti": 3368004
+  },
+  "OM/KE-003": {
+    "tr": 15,
+    "tn": "8743V",
+    "tc": "yellow",
+    "ti": 1855509
+  },
+  "OM/KE-004": {
+    "tr": 15,
+    "tn": "0907",
+    "tc": "red",
+    "ti": 897977
+  },
+  "OM/KE-005": {
+    "tr": 180,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/KE-006": {
+    "tr": 27,
+    "tn": "5722",
+    "tc": "green",
+    "ti": 1215752
+  },
+  "OM/KE-007": {
+    "tr": 5,
+    "tn": "5704b",
+    "tc": "green",
+    "ti": 445938
+  },
+  "OM/KE-008": {
+    "tr": 32,
+    "tn": "5750",
+    "tc": "green",
+    "ti": 964391
+  },
+  "OM/KE-009": {
+    "tr": 65,
+    "tn": "",
+    "tc": "red",
+    "ti": 9206936
+  },
+  "OM/KE-010": {
+    "tr": 374,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/KE-012": {
+    "tr": 320,
+    "tn": "5759",
+    "tc": "green",
+    "ti": 964460
+  },
+  "OM/KE-013": {
+    "tr": 32,
+    "tn": "",
+    "tc": "yellow",
+    "ti": 4864810
+  },
+  "OM/KE-014": {
+    "tr": 19,
+    "tn": "Chodník Pavla Jozefa Šafárika",
+    "tc": "green",
+    "ti": 1493097
+  },
+  "OM/KE-015": {
+    "tr": 12,
+    "tn": "8725",
+    "tc": "yellow",
+    "ti": 1230811
+  },
+  "OM/KE-016": {
+    "tr": 1,
+    "tn": "0915b",
+    "tc": "red",
+    "ti": 357001
+  },
+  "OM/KE-017": {
+    "tr": 15,
+    "tn": "K, OKT 27. (Nagy-nyugodó (Sátoraljaújhely) – Hollóháza)",
+    "tc": "blue",
+    "ti": 2866943
+  },
+  "OM/KE-022": {
+    "tr": 98,
+    "tn": "2835",
+    "tc": "blue",
+    "ti": 906675
+  },
+  "OM/KE-023": {
+    "tr": 23,
+    "tn": "Chodník Pavla Jozefa Šafárika",
+    "tc": "green",
+    "ti": 1689362
+  },
+  "OM/KE-024": {
+    "tr": 408,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/KE-025": {
+    "tr": 292,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/KE-026": {
+    "tr": 325,
+    "tn": "8769",
+    "tc": "yellow",
+    "ti": 1692970
+  },
+  "OM/KE-028": {
+    "tr": 171,
+    "tn": "5745",
+    "tc": "green",
+    "ti": 1707024
+  },
+  "OM/KE-029": {
+    "tr": 10,
+    "tn": "",
+    "tc": "red",
+    "ti": 11379233
+  },
+  "OM/KE-030": {
+    "tr": 28,
+    "tn": "0912",
+    "tc": "red",
+    "ti": 537260
+  },
+  "OM/KE-031": {
+    "tr": 26,
+    "tn": "5715",
+    "tc": "green",
+    "ti": 908142
+  },
+  "OM/KE-033": {
+    "tr": 188,
+    "tn": "0909",
+    "tc": "red",
+    "ti": 581910
+  },
+  "OM/KE-034": {
+    "tr": 209,
+    "tn": "2821a",
+    "tc": "blue",
+    "ti": 905852
+  },
+  "OM/KE-035": {
+    "tr": 7,
+    "tn": "5714",
+    "tc": "green",
+    "ti": 937130
+  },
+  "OM/KE-036": {
+    "tr": 24,
+    "tn": "",
+    "tc": "yellow",
+    "ti": 12342893
+  },
+  "OM/KE-037": {
+    "tr": 8,
+    "tn": "5891",
+    "tc": "green",
+    "ti": 18517382
+  },
+  "OM/NR-001": {
+    "tr": 18,
+    "tn": "Rudná magistrála",
+    "tc": "red",
+    "ti": 1810447
+  },
+  "OM/NR-002": {
+    "tr": 15,
+    "tn": "2430",
+    "tc": "blue",
+    "ti": 1297766
+  },
+  "OM/NR-004": {
+    "tr": 5,
+    "tn": "0706I",
+    "tc": "red",
+    "ti": 376379
+  },
+  "OM/NR-005": {
+    "tr": 14,
+    "tn": "5120",
+    "tc": "green",
+    "ti": 572160
+  },
+  "OM/NR-007": {
+    "tr": 47,
+    "tn": "5129",
+    "tc": "green",
+    "ti": 376304
+  },
+  "OM/PO-004": {
+    "tr": 467,
+    "tn": "0933",
+    "tc": "red",
+    "ti": 1246205
+  },
+  "OM/PO-006": {
+    "tr": 22,
+    "tn": "2903",
+    "tc": "blue",
+    "ti": 1692597
+  },
+  "OM/PO-007": {
+    "tr": 494,
+    "tn": "2907",
+    "tc": "blue",
+    "ti": 1229639
+  },
+  "OM/PO-008": {
+    "tr": 457,
+    "tn": "Czarny Staw pod Rysami - Mięguszowiecka Przełęcz pod Chłopkiem",
+    "tc": "green",
+    "ti": 1593587
+  },
+  "OM/PO-009": {
+    "tr": 424,
+    "tn": "8853",
+    "tc": "yellow",
+    "ti": 1692616
+  },
+  "OM/PO-010": {
+    "tr": 12,
+    "tn": "Świnicka Przełęcz - Świnica",
+    "tc": "red",
+    "ti": 3349333
+  },
+  "OM/PO-013": {
+    "tr": 0,
+    "tn": "Ciemniak - Małołączniak",
+    "tc": "red",
+    "ti": 3349288
+  },
+  "OM/PO-014": {
+    "tr": 225,
+    "tn": "Tatranská magistrála",
+    "tc": "red",
+    "ti": 1782601
+  },
+  "OM/PO-017": {
+    "tr": 37,
+    "tn": "2834",
+    "tc": "blue",
+    "ti": 1956508
+  },
+  "OM/PO-018": {
+    "tr": 12,
+    "tn": "8896",
+    "tc": "yellow",
+    "ti": 1711603
+  },
+  "OM/PO-019": {
+    "tr": 6,
+    "tn": "Východokarpatská magistrála",
+    "tc": "red",
+    "ti": 1252026
+  },
+  "OM/PO-020": {
+    "tr": 26,
+    "tn": "0905V",
+    "tc": "red",
+    "ti": 11488928
+  },
+  "OM/PO-021": {
+    "tr": 19,
+    "tn": "2802a",
+    "tc": "blue",
+    "ti": 1252006
+  },
+  "OM/PO-023": {
+    "tr": 0,
+    "tn": "8764",
+    "tc": "yellow",
+    "ti": 899663
+  },
+  "OM/PO-024": {
+    "tr": 1,
+    "tn": "",
+    "tc": "green",
+    "ti": 1711602
+  },
+  "OM/PO-027": {
+    "tr": 25,
+    "tn": "8761",
+    "tc": "yellow",
+    "ti": 974235
+  },
+  "OM/PO-028": {
+    "tr": 13,
+    "tn": "",
+    "tc": "blue",
+    "ti": 7419036
+  },
+  "OM/PO-029": {
+    "tr": 11,
+    "tn": "2821a",
+    "tc": "blue",
+    "ti": 905852
+  },
+  "OM/PO-030": {
+    "tr": 30,
+    "tn": "0912",
+    "tc": "red",
+    "ti": 537260
+  },
+  "OM/PO-031": {
+    "tr": 1,
+    "tn": "Východokarpatská magistrála",
+    "tc": "red",
+    "ti": 1126873
+  },
+  "OM/PO-032": {
+    "tr": 19,
+    "tn": "5747",
+    "tc": "green",
+    "ti": 1833784
+  },
+  "OM/PO-033": {
+    "tr": 17,
+    "tn": "European long distance path E3 - part Slovakia (east)",
+    "tc": "",
+    "ti": 1981340
+  },
+  "OM/PO-034": {
+    "tr": 96,
+    "tn": "0915a",
+    "tc": "red",
+    "ti": 1112973
+  },
+  "OM/PO-036": {
+    "tr": 217,
+    "tn": "",
+    "tc": "green",
+    "ti": 3467549
+  },
+  "OM/PO-038": {
+    "tr": 33,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/PO-039": {
+    "tr": 8,
+    "tn": "2913",
+    "tc": "blue",
+    "ti": 2150561
+  },
+  "OM/PO-040": {
+    "tr": 5,
+    "tn": "Rzeszów - Grybów",
+    "tc": "blue",
+    "ti": 1730439
+  },
+  "OM/PO-043": {
+    "tr": 8,
+    "tn": "Ścieżka Przyrodniczo-Historyczna Olchowiec",
+    "tc": "",
+    "ti": 8515110
+  },
+  "OM/PO-045": {
+    "tr": 7,
+    "tn": "2853",
+    "tc": "blue",
+    "ti": 1389948
+  },
+  "OM/PO-046": {
+    "tr": 30,
+    "tn": "8706",
+    "tc": "yellow",
+    "ti": 1126546
+  },
+  "OM/PO-049": {
+    "tr": 19,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/PO-051": {
+    "tr": 351,
+    "tn": "0901Z",
+    "tc": "red",
+    "ti": 20375676
+  },
+  "OM/PO-052": {
+    "tr": 38,
+    "tn": "Cesta okolo hradu",
+    "tc": "",
+    "ti": 16088271
+  },
+  "OM/PO-057": {
+    "tr": 494,
+    "tn": "5807",
+    "tc": "green",
+    "ti": 1692927
+  },
+  "OM/PO-061": {
+    "tr": 2,
+    "tn": "0915a",
+    "tc": "red",
+    "ti": 1112973
+  },
+  "OM/PO-062": {
+    "tr": 21,
+    "tn": "Kvetnica - Zámčisko - Kvetnica",
+    "tc": "green",
+    "ti": 1557390
+  },
+  "OM/PO-064": {
+    "tr": 52,
+    "tn": "Pieninská cesta",
+    "tc": "red",
+    "ti": 1520546
+  },
+  "OM/PO-065": {
+    "tr": 236,
+    "tn": "8721",
+    "tc": "yellow",
+    "ti": 1162802
+  },
+  "OM/PO-066": {
+    "tr": 198,
+    "tn": "Zvonica na bojisku I. sv. vojny pod vrchom Skory",
+    "tc": "green",
+    "ti": 11111265
+  },
+  "OM/PO-067": {
+    "tr": 392,
+    "tn": "Pieninská cesta",
+    "tc": "red",
+    "ti": 1520546
+  },
+  "OM/PO-069": {
+    "tr": 21,
+    "tn": "5872",
+    "tc": "green",
+    "ti": 1417686
+  },
+  "OM/PO-075": {
+    "tr": 86,
+    "tn": "Pamätník I. svetovej vojny na vrchu Kaštielik",
+    "tc": "green",
+    "ti": 18910820
+  },
+  "OM/PO-077": {
+    "tr": 4,
+    "tn": "2844",
+    "tc": "blue",
+    "ti": 2273024
+  },
+  "OM/PO-079": {
+    "tr": 481,
+    "tn": "5746",
+    "tc": "green",
+    "ti": 2036744
+  },
+  "OM/PO-080": {
+    "tr": 16,
+    "tn": "",
+    "tc": "green",
+    "ti": 2162746
+  },
+  "OM/PO-084": {
+    "tr": 25,
+    "tn": "5789a",
+    "tc": "green",
+    "ti": 965007
+  },
+  "OM/PO-086": {
+    "tr": 135,
+    "tn": "",
+    "tc": "green",
+    "ti": 2981466
+  },
+  "OM/PO-088": {
+    "tr": 11,
+    "tn": "Náučný chodník Humenský Sokol",
+    "tc": "green",
+    "ti": 8249552
+  },
+  "OM/PO-091": {
+    "tr": 160,
+    "tn": "Brekovský turistický chodník",
+    "tc": "green",
+    "ti": 10082652
+  },
+  "OM/PO-092": {
+    "tr": 6,
+    "tn": "0933",
+    "tc": "red",
+    "ti": 1246205
+  },
+  "OM/TN-001": {
+    "tr": 23,
+    "tn": "Ponitrianska magistrála",
+    "tc": "red",
+    "ti": 1129869
+  },
+  "OM/TN-002": {
+    "tr": 26,
+    "tn": "0811",
+    "tc": "red",
+    "ti": 1287224
+  },
+  "OM/TN-003": {
+    "tr": 1,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/TN-004": {
+    "tr": 17,
+    "tn": "0705",
+    "tc": "red",
+    "ti": 544031
+  },
+  "OM/TN-005": {
+    "tr": 5,
+    "tn": "Chodník Alexandra Dubčeka",
+    "tc": "red",
+    "ti": 1548003
+  },
+  "OM/TN-006": {
+    "tr": 15,
+    "tn": "Chodník Alexandra Dubčeka",
+    "tc": "red",
+    "ti": 1548003
+  },
+  "OM/TN-007": {
+    "tr": 102,
+    "tn": "2691",
+    "tc": "blue",
+    "ti": 540996
+  },
+  "OM/TN-008": {
+    "tr": 36,
+    "tn": "Chodník Alexandra Dubčeka",
+    "tc": "red",
+    "ti": 1548003
+  },
+  "OM/TN-010": {
+    "tr": 48,
+    "tn": "0701",
+    "tc": "red",
+    "ti": 546943
+  },
+  "OM/TN-011": {
+    "tr": 71,
+    "tn": "",
+    "tc": "yellow",
+    "ti": 1945633
+  },
+  "OM/TN-012": {
+    "tr": 3,
+    "tn": "[Č] Malý Javorník - Požár",
+    "tc": "red",
+    "ti": 173398
+  },
+  "OM/TN-013": {
+    "tr": 0,
+    "tn": "2420",
+    "tc": "blue",
+    "ti": 1059915
+  },
+  "OM/TN-016": {
+    "tr": 9,
+    "tn": "",
+    "tc": "",
+    "ti": 9951276
+  },
+  "OM/TN-018": {
+    "tr": 29,
+    "tn": "",
+    "tc": "yellow",
+    "ti": 16098926
+  },
+  "OM/TN-022": {
+    "tr": 46,
+    "tn": "",
+    "tc": "red",
+    "ti": 6529139
+  },
+  "OM/TN-024": {
+    "tr": 9,
+    "tn": "Náučný chodník Klapy",
+    "tc": "green",
+    "ti": 12378001
+  },
+  "OM/TN-025": {
+    "tr": 13,
+    "tn": "Žalostiná - Chvojnica",
+    "tc": "green",
+    "ti": 4848958
+  },
+  "OM/TN-026": {
+    "tr": 469,
+    "tn": "Náučný chodník Milochov",
+    "tc": "green",
+    "ti": 1958859
+  },
+  "OM/TN-027": {
+    "tr": 13,
+    "tn": "Výstup na Salášky",
+    "tc": "blue",
+    "ti": 8254749
+  },
+  "OM/TN-028": {
+    "tr": 175,
+    "tn": "0713",
+    "tc": "red",
+    "ti": 544024
+  },
+  "OM/TN-029": {
+    "tr": 12,
+    "tn": "",
+    "tc": "yellow",
+    "ti": 10772491
+  },
+  "OM/TN-030": {
+    "tr": 85,
+    "tn": "2695",
+    "tc": "blue",
+    "ti": 456938
+  },
+  "OM/TN-031": {
+    "tr": 9,
+    "tn": "",
+    "tc": "red",
+    "ti": 1688576
+  },
+  "OM/TN-032": {
+    "tr": 32,
+    "tn": "2423b",
+    "tc": "blue",
+    "ti": 1060770
+  },
+  "OM/TN-033": {
+    "tr": 231,
+    "tn": "2693",
+    "tc": "blue",
+    "ti": 569714
+  },
+  "OM/TN-034": {
+    "tr": 365,
+    "tn": "2693",
+    "tc": "blue",
+    "ti": 569714
+  },
+  "OM/TN-036": {
+    "tr": 25,
+    "tn": "2421",
+    "tc": "blue",
+    "ti": 2366289
+  },
+  "OM/TN-037": {
+    "tr": 19,
+    "tn": "",
+    "tc": "blue",
+    "ti": 3222121
+  },
+  "OM/TN-039": {
+    "tr": 20,
+    "tn": "8118",
+    "tc": "yellow",
+    "ti": 2881449
+  },
+  "OM/TN-041": {
+    "tr": 153,
+    "tn": "2694",
+    "tc": "blue",
+    "ti": 2226040
+  },
+  "OM/TN-042": {
+    "tr": 159,
+    "tn": "2423b",
+    "tc": "blue",
+    "ti": 1060770
+  },
+  "OM/TN-043": {
+    "tr": 29,
+    "tn": "",
+    "tc": "yellow",
+    "ti": 2424503
+  },
+  "OM/TN-044": {
+    "tr": 25,
+    "tn": "",
+    "tc": "yellow",
+    "ti": 6414892
+  },
+  "OM/TN-045": {
+    "tr": 95,
+    "tn": "5109",
+    "tc": "green",
+    "ti": 1208328
+  },
+  "OM/TN-046": {
+    "tr": 16,
+    "tn": "8115",
+    "tc": "yellow",
+    "ti": 569507
+  },
+  "OM/TT-001": {
+    "tr": 30,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/TT-002": {
+    "tr": 12,
+    "tn": "0705",
+    "tc": "red",
+    "ti": 544031
+  },
+  "OM/ZA-001": {
+    "tr": 12,
+    "tn": "8622",
+    "tc": "yellow",
+    "ti": 1697503
+  },
+  "OM/ZA-002": {
+    "tr": 22,
+    "tn": "5610",
+    "tc": "green",
+    "ti": 1692077
+  },
+  "OM/ZA-003": {
+    "tr": 6,
+    "tn": "5613",
+    "tc": "green",
+    "ti": 1520559
+  },
+  "OM/ZA-004": {
+    "tr": 25,
+    "tn": "0862b",
+    "tc": "red",
+    "ti": 1518344
+  },
+  "OM/ZA-005": {
+    "tr": 5,
+    "tn": "Starorobociański Wierch - Gaborowa Przełęcz Wyżnia",
+    "tc": "red",
+    "ti": 3349225
+  },
+  "OM/ZA-006": {
+    "tr": 19,
+    "tn": "0801Y",
+    "tc": "red",
+    "ti": 1413799
+  },
+  "OM/ZA-007": {
+    "tr": 4,
+    "tn": "0862b",
+    "tc": "red",
+    "ti": 1518344
+  },
+  "OM/ZA-008": {
+    "tr": 37,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/ZA-009": {
+    "tr": 15,
+    "tn": "2709X",
+    "tc": "blue",
+    "ti": 2966697
+  },
+  "OM/ZA-010": {
+    "tr": 29,
+    "tn": "8626",
+    "tc": "yellow",
+    "ti": 1119092
+  },
+  "OM/ZA-011": {
+    "tr": 5,
+    "tn": "Chodník Mila Urbana",
+    "tc": "yellow",
+    "ti": 2947204
+  },
+  "OM/ZA-012": {
+    "tr": 28,
+    "tn": "8627",
+    "tc": "yellow",
+    "ti": 1623343
+  },
+  "OM/ZA-013": {
+    "tr": 15,
+    "tn": "",
+    "tc": "red",
+    "ti": 1644097
+  },
+  "OM/ZA-014": {
+    "tr": 303,
+    "tn": "5612",
+    "tc": "green",
+    "ti": 1706131
+  },
+  "OM/ZA-015": {
+    "tr": 22,
+    "tn": "",
+    "tc": "red",
+    "ti": 2174285
+  },
+  "OM/ZA-016": {
+    "tr": 10,
+    "tn": "5609a",
+    "tc": "green",
+    "ti": 191531
+  },
+  "OM/ZA-017": {
+    "tr": 12,
+    "tn": "",
+    "tc": "red",
+    "ti": 1469916
+  },
+  "OM/ZA-018": {
+    "tr": 61,
+    "tn": "5560",
+    "tc": "green",
+    "ti": 1099781
+  },
+  "OM/ZA-019": {
+    "tr": 2,
+    "tn": "Internationaler Bergwanderweg Eisenach–Budapest (Slowakei West)",
+    "tc": "red",
+    "ti": 4673482
+  },
+  "OM/ZA-020": {
+    "tr": 1,
+    "tn": "Veľkofatranská magistrála",
+    "tc": "red",
+    "ti": 1272893
+  },
+  "OM/ZA-021": {
+    "tr": 0,
+    "tn": "5600",
+    "tc": "green",
+    "ti": 1272894
+  },
+  "OM/ZA-022": {
+    "tr": 23,
+    "tn": "8619V",
+    "tc": "yellow",
+    "ti": 2923026
+  },
+  "OM/ZA-023": {
+    "tr": 11,
+    "tn": "5567",
+    "tc": "green",
+    "ti": 3003306
+  },
+  "OM/ZA-024": {
+    "tr": 5,
+    "tn": "2709",
+    "tc": "blue",
+    "ti": 1404435
+  },
+  "OM/ZA-025": {
+    "tr": 4,
+    "tn": "5619V",
+    "tc": "green",
+    "ti": 3153957
+  },
+  "OM/ZA-026": {
+    "tr": 8,
+    "tn": "Veľkofatranská magistrála",
+    "tc": "red",
+    "ti": 1272893
+  },
+  "OM/ZA-028": {
+    "tr": 22,
+    "tn": "8614",
+    "tc": "yellow",
+    "ti": 1830687
+  },
+  "OM/ZA-029": {
+    "tr": 15,
+    "tn": "Internationaler Bergwanderweg Eisenach–Budapest (Slowakei West)",
+    "tc": "red",
+    "ti": 4673482
+  },
+  "OM/ZA-030": {
+    "tr": 5,
+    "tn": "5641",
+    "tc": "green",
+    "ti": 1360423
+  },
+  "OM/ZA-031": {
+    "tr": 3,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/ZA-032": {
+    "tr": 17,
+    "tn": "0802b",
+    "tc": "red",
+    "ti": 1252191
+  },
+  "OM/ZA-033": {
+    "tr": 5,
+    "tn": "Veľkofatranská magistrála",
+    "tc": "red",
+    "ti": 1272893
+  },
+  "OM/ZA-034": {
+    "tr": 2,
+    "tn": "2721",
+    "tc": "blue",
+    "ti": 2213965
+  },
+  "OM/ZA-035": {
+    "tr": 2,
+    "tn": "5620",
+    "tc": "green",
+    "ti": 1706100
+  },
+  "OM/ZA-036": {
+    "tr": 35,
+    "tn": "5642b",
+    "tc": "green",
+    "ti": 1351709
+  },
+  "OM/ZA-037": {
+    "tr": 144,
+    "tn": "2751b",
+    "tc": "blue",
+    "ti": 1251718
+  },
+  "OM/ZA-038": {
+    "tr": 162,
+    "tn": "5630",
+    "tc": "green",
+    "ti": 1016408
+  },
+  "OM/ZA-040": {
+    "tr": 23,
+    "tn": "0847a",
+    "tc": "red",
+    "ti": 1692059
+  },
+  "OM/ZA-041": {
+    "tr": 17,
+    "tn": "5620",
+    "tc": "green",
+    "ti": 1706100
+  },
+  "OM/ZA-042": {
+    "tr": 24,
+    "tn": "2720V",
+    "tc": "blue",
+    "ti": 2280335
+  },
+  "OM/ZA-043": {
+    "tr": 2,
+    "tn": "2757",
+    "tc": "blue",
+    "ti": 2120123
+  },
+  "OM/ZA-045": {
+    "tr": 24,
+    "tn": "5542",
+    "tc": "green",
+    "ti": 1438085
+  },
+  "OM/ZA-046": {
+    "tr": 28,
+    "tn": "2762",
+    "tc": "blue",
+    "ti": 2120411
+  },
+  "OM/ZA-048": {
+    "tr": 21,
+    "tn": "5555",
+    "tc": "green",
+    "ti": 1252185
+  },
+  "OM/ZA-049": {
+    "tr": 8,
+    "tn": "Internationaler Bergwanderweg Eisenach–Budapest (Slowakei West)",
+    "tc": "red",
+    "ti": 4673482
+  },
+  "OM/ZA-051": {
+    "tr": 2,
+    "tn": "0801V",
+    "tc": "red",
+    "ti": 20375673
+  },
+  "OM/ZA-053": {
+    "tr": 20,
+    "tn": "0802a",
+    "tc": "red",
+    "ti": 9342582
+  },
+  "OM/ZA-054": {
+    "tr": 260,
+    "tn": "Veľkofatranská magistrála",
+    "tc": "red",
+    "ti": 1632838
+  },
+  "OM/ZA-055": {
+    "tr": 15,
+    "tn": "8660",
+    "tc": "yellow",
+    "ti": 1952970
+  },
+  "OM/ZA-057": {
+    "tr": 19,
+    "tn": "8609a",
+    "tc": "yellow",
+    "ti": 5462736
+  },
+  "OM/ZA-058": {
+    "tr": 378,
+    "tn": "Veľkofatranská magistrála",
+    "tc": "red",
+    "ti": 1272893
+  },
+  "OM/ZA-059": {
+    "tr": 77,
+    "tn": "2678a",
+    "tc": "blue",
+    "ti": 2856506
+  },
+  "OM/ZA-060": {
+    "tr": 19,
+    "tn": "8611",
+    "tc": "yellow",
+    "ti": 4479275
+  },
+  "OM/ZA-061": {
+    "tr": 11,
+    "tn": "2678a",
+    "tc": "blue",
+    "ti": 2856506
+  },
+  "OM/ZA-062": {
+    "tr": 17,
+    "tn": "0856",
+    "tc": "red",
+    "ti": 1636422
+  },
+  "OM/ZA-064": {
+    "tr": 8,
+    "tn": "5660",
+    "tc": "green",
+    "ti": 1614242
+  },
+  "OM/ZA-066": {
+    "tr": 21,
+    "tn": "0842",
+    "tc": "red",
+    "ti": 9069125
+  },
+  "OM/ZA-067": {
+    "tr": 8,
+    "tn": "[Č] Mosty u Jablunkova (žst.) - Bumbálka",
+    "tc": "red",
+    "ti": 1471864
+  },
+  "OM/ZA-068": {
+    "tr": 9,
+    "tn": "8612V",
+    "tc": "yellow",
+    "ti": 3874295
+  },
+  "OM/ZA-070": {
+    "tr": 103,
+    "tn": "5643",
+    "tc": "green",
+    "ti": 1437404
+  },
+  "OM/ZA-072": {
+    "tr": 9,
+    "tn": "2674",
+    "tc": "blue",
+    "ti": 1903928
+  },
+  "OM/ZA-073": {
+    "tr": 11,
+    "tn": "2751a",
+    "tc": "blue",
+    "ti": 1437906
+  },
+  "OM/ZA-074": {
+    "tr": 276,
+    "tn": "5551",
+    "tc": "green",
+    "ti": 8439084
+  },
+  "OM/ZA-075": {
+    "tr": 233,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/ZA-076": {
+    "tr": 19,
+    "tn": "5650a",
+    "tc": "green",
+    "ti": 1110197
+  },
+  "OM/ZA-077": {
+    "tr": 12,
+    "tn": "5650a",
+    "tc": "green",
+    "ti": 1110197
+  },
+  "OM/ZA-078": {
+    "tr": 48,
+    "tn": "5657",
+    "tc": "green",
+    "ti": 1102585
+  },
+  "OM/ZA-080": {
+    "tr": 10,
+    "tn": "0862b",
+    "tc": "red",
+    "ti": 1518344
+  },
+  "OM/ZA-081": {
+    "tr": 8,
+    "tn": "2711",
+    "tc": "blue",
+    "ti": 1692061
+  },
+  "OM/ZA-082": {
+    "tr": 196,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/ZA-084": {
+    "tr": 186,
+    "tn": "5600",
+    "tc": "green",
+    "ti": 1272894
+  },
+  "OM/ZA-086": {
+    "tr": 22,
+    "tn": "2754b",
+    "tc": "blue",
+    "ti": 1778605
+  },
+  "OM/ZA-088": {
+    "tr": 18,
+    "tn": "0863",
+    "tc": "red",
+    "ti": 1119094
+  },
+  "OM/ZA-093": {
+    "tr": 2,
+    "tn": "5605",
+    "tc": "green",
+    "ti": 3393987
+  },
+  "OM/ZA-098": {
+    "tr": 5,
+    "tn": "0864",
+    "tc": "red",
+    "ti": 1520562
+  },
+  "OM/ZA-104": {
+    "tr": 370,
+    "tn": "0886b",
+    "tc": "red",
+    "ti": 3177410
+  },
+  "OM/ZA-105": {
+    "tr": 3,
+    "tn": "2743",
+    "tc": "blue",
+    "ti": 4464970
+  },
+  "OM/ZA-106": {
+    "tr": 109,
+    "tn": "2744",
+    "tc": "blue",
+    "ti": 1439949
+  },
+  "OM/ZA-107": {
+    "tr": 1,
+    "tn": "8570",
+    "tc": "yellow",
+    "ti": 7581473
+  },
+  "OM/ZA-108": {
+    "tr": 29,
+    "tn": "European long distance path E8 - part Slovakia",
+    "tc": "",
+    "ti": 192031
+  },
+  "OM/ZA-109": {
+    "tr": 27,
+    "tn": "5543",
+    "tc": "green",
+    "ti": 3156576
+  },
+  "OM/ZA-111": {
+    "tr": 65,
+    "tn": "8657",
+    "tc": "yellow",
+    "ti": 1437573
+  },
+  "OM/ZA-112": {
+    "tr": 252,
+    "tn": "0886a",
+    "tc": "red",
+    "ti": 1437681
+  },
+  "OM/ZA-114": {
+    "tr": 3,
+    "tn": "5650a",
+    "tc": "green",
+    "ti": 1110197
+  },
+  "OM/ZA-116": {
+    "tr": 296,
+    "tn": "0880a",
+    "tc": "red",
+    "ti": 937486
+  }
+}
