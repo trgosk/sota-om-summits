@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.7.3">
+<meta name="version" content="1.7.4">
 <script>
 (function(){
   try{
@@ -56,8 +56,8 @@
 --teal:#5eead4;--teal-bg:rgba(94,234,212,.1);
 --shadow:0 1px 3px rgba(0,0,0,0.2),0 4px 12px rgba(0,0,0,0.15);
 }
-html,body{height:100%;font-family:var(--font);background:var(--bg);color:var(--ink);transition:background .3s,color .3s}
-#app{display:grid;grid-template-rows:auto auto 1fr;height:100vh;overflow:hidden}
+html,body{height:100%;font-family:var(--font);background:var(--bg);color:var(--ink);transition:background .3s,color .3s;overflow:hidden}
+#app{display:grid;grid-template-rows:auto auto 1fr;height:100vh;height:100dvh;overflow:hidden}
 
 header{background:var(--card);border-bottom:1px solid var(--bg3);padding:14px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;transition:background .3s}
 header h1{font-size:18px;font-weight:700;letter-spacing:-0.5px;white-space:nowrap}
@@ -75,6 +75,13 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .gh-link{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:600;color:var(--ink3);text-decoration:none;padding:6px 12px;border:1.5px solid var(--bg3);border-radius:20px;transition:all .15s;white-space:nowrap}
 .gh-link:hover{border-color:var(--teal);color:var(--teal)}
 .gh-link svg{width:16px;height:16px;fill:currentColor}
+.links-dropdown{position:relative}
+.links-btn{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:600;color:var(--ink3);background:none;cursor:pointer;padding:6px 12px;border:1.5px solid var(--bg3);border-radius:20px;transition:all .15s;white-space:nowrap;font-family:var(--font)}
+.links-btn:hover,.links-btn.open{border-color:var(--teal);color:var(--teal)}
+.links-btn svg{width:16px;height:16px;flex-shrink:0}
+.links-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:180px;background:var(--card);border:1px solid var(--bg3);border-radius:var(--radius-sm);box-shadow:var(--shadow),0 8px 24px rgba(0,0,0,0.08);padding:4px;z-index:3000}
+.links-menu a{display:block;padding:8px 12px;font-size:12px;font-weight:500;color:var(--ink2);text-decoration:none;border-radius:6px;transition:background .15s}
+.links-menu a:hover{background:var(--bg2);color:var(--teal)}
 .contrib-bar{background:var(--teal-bg);border-bottom:1px solid var(--bg3);padding:6px 24px;font-size:11px;color:var(--teal);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .contrib-bar a{color:var(--teal);font-weight:600;text-decoration:underline;text-underline-offset:2px}
 .contrib-bar .cb-close{background:none;border:none;color:var(--teal);cursor:pointer;font-size:14px;margin-left:auto;padding:0 4px;opacity:.6}
@@ -91,8 +98,7 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .panel-col-btn{position:absolute;top:50%;left:0;transform:translateY(-50%);z-index:1100;width:24px;height:48px;border:1px solid var(--bg3);border-left:none;border-radius:0 8px 8px 0;background:var(--card);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink3);font-size:14px;box-shadow:2px 0 6px rgba(0,0,0,0.06);transition:background .3s}
 .panel-col-btn:hover{background:var(--bg);color:var(--teal)}
 @media(max-width:900px){
-.main{grid-template-columns:1fr;grid-template-rows:1fr;position:relative;height:100dvh}
-.map-wrap{height:100%}
+.main{grid-template-columns:1fr;grid-template-rows:1fr;position:relative}
 .panel{position:fixed;bottom:0;left:0;right:0;height:75vh;height:75dvh;z-index:2000;border-right:none;border-top-left-radius:16px;border-top-right-radius:16px;box-shadow:0 -4px 24px rgba(0,0,0,0.12);transform:translateY(100%);transition:transform .35s cubic-bezier(.4,0,.2,1);will-change:transform}
 .panel.panel-open{transform:translateY(0)}
 .mob-panel-header{display:flex;align-items:center;justify-content:center;padding:10px 16px 4px;cursor:pointer;position:relative}
@@ -118,6 +124,9 @@ header h1 em{font-style:normal;color:var(--teal);font-weight:600}
 .panel-col-btn{display:none}
 .hdr-stats{display:none}
 .gh-link{display:none}
+.links-btn span{display:none}
+.links-btn{padding:6px 8px}
+.links-menu{right:-8px}
 header{padding:10px 16px}
 header h1{font-size:15px}
 }
@@ -245,6 +254,15 @@ header h1{font-size:15px}
     <span style="color:var(--ink4)">{{filtered.length}}/{{summits.length}}</span>
   </div>
   <div class="hdr-right">
+    <div class="links-dropdown" ref="linksDropdown">
+      <button class="links-btn" :class="{open:linksOpen}" @click.stop="linksOpen=!linksOpen" title="Useful links">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        <span>Links</span>
+      </button>
+      <div class="links-menu" v-show="linksOpen">
+        <a href="https://sota.telesweb.sk" target="_blank">SOTA Slovakia</a>
+      </div>
+    </div>
     <a class="gh-link" href="https://github.com/trgosk/sota-om-summits" target="_blank" title="Contribute on GitHub">
       <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
       GitHub
@@ -437,6 +455,8 @@ setup(){
   const panelOpen=ref(false);
   const legendOpen=ref(window.innerWidth>900);
   const layersOpen=ref(false);
+  const linksOpen=ref(false);
+  const linksDropdown=ref(null);
   const filtersOpen=ref(true);
   const sidebarOpen=ref(true);
   const isOffline=ref(!navigator.onLine);
@@ -599,6 +619,7 @@ setup(){
   function swReload(){if(swWaiting){swWaiting.postMessage({type:'SKIP_WAITING'})};location.reload()}
   onMounted(async()=>{
     applyTheme();
+    document.addEventListener('click',e=>{if(linksDropdown.value&&!linksDropdown.value.contains(e.target))linksOpen.value=false});
     window.addEventListener('online',()=>{isOffline.value=false});
     window.addEventListener('offline',()=>{isOffline.value=true});
     if('serviceWorker' in navigator){
@@ -625,7 +646,7 @@ setup(){
   });
   watch(panelOpen,()=>{setTimeout(()=>{if(map)map.invalidateSize()},380)});
   watch(sidebarOpen,()=>{setTimeout(()=>{if(map)map.invalidateSize()},350)});
-  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload};
+  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload};
 }
 }).mount('#app');
 </script>
