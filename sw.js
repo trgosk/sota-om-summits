@@ -3,7 +3,7 @@
  * 3-tier caching: app-shell (precache), google-fonts, map-tiles
  */
 
-const APP_VERSION = '1.7.5';
+const APP_VERSION = '1.8.0';
 const CACHE_SHELL   = 'app-shell-v' + APP_VERSION;
 const CACHE_FONTS   = 'google-fonts-v1';
 const CACHE_TILES   = 'map-tiles-v1';
@@ -22,6 +22,7 @@ const SHELL_URLS = [
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
   'https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js',
+  'https://unpkg.com/socket.io-client@4.7.5/dist/socket.io.min.js',
 ];
 
 /* ── Install: pre-cache app shell ────────────────────────── */
@@ -52,6 +53,14 @@ self.addEventListener('fetch', (e) => {
 
   // 1) ŠOPSR WMS — network only (fail silently offline)
   if (url.hostname === 'maps.sopsr.sk') {
+    e.respondWith(
+      fetch(e.request).catch(() => new Response('', { status: 503 }))
+    );
+    return;
+  }
+
+  // 1b) point2point API / Socket.IO — network only
+  if (url.hostname === 'point2point.trgo.sk') {
     e.respondWith(
       fetch(e.request).catch(() => new Response('', { status: 503 }))
     );
