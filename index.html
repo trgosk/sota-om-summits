@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.8.4">
+<meta name="version" content="1.8.5">
 <script>
 (function(){
   try{
@@ -245,6 +245,8 @@ header h1{font-size:15px}
 .link-tool-btn{position:relative}
 .link-tool-btn.active{background:var(--teal-bg);border-color:var(--teal);color:var(--teal)}
 .link-tool-btn .lt-hint{position:absolute;top:calc(100% + 6px);left:50%;transform:translateX(-50%);white-space:nowrap;background:var(--card);border:1px solid var(--bg3);border-radius:6px;padding:4px 10px;font-size:10px;color:var(--ink3);box-shadow:var(--shadow);pointer-events:none;z-index:2000}
+.link-tool-btn .lt-help{display:none;position:absolute;top:calc(100% + 6px);right:0;white-space:nowrap;text-align:left;font-size:10px;background:var(--card);border:1px solid var(--bg3);border-radius:6px;padding:8px 12px;color:var(--ink3);box-shadow:var(--shadow);pointer-events:none;z-index:2000;line-height:1.6}
+.link-tool-btn:not(.active):hover .lt-help{display:block}
 .map-crosshair .leaflet-container{cursor:crosshair!important}
 .map-crosshair .leaflet-interactive{cursor:crosshair!important}
 .sel-ring{animation:sel-pulse 1.5s ease-in-out infinite}
@@ -399,6 +401,7 @@ header h1{font-size:15px}
         Link
         <span class="lt-hint" v-if="linkToolActive && !linkFrom">Click a summit (From)</span>
         <span class="lt-hint" v-if="linkToolActive && linkFrom && !linkTo">Click a summit (To)</span>
+        <span class="lt-help"><b>RF Link Profile</b><br>─────────────────<br>Left-click · Summit A, then B<br>Right-click · Arbitrary map point<br>ESC · Cancel / clear</span>
       </button>
     </div>
     <div class="legend" :class="{collapsed:!legendOpen}">
@@ -424,7 +427,7 @@ header h1{font-size:15px}
         <div class="lg-row" style="font-size:10px;color:var(--ink4)">v{{uiVersion||'dev'}} &middot; data {{dataVersion}}</div>
       </div>
     </div>
-    <div class="mob-layers-panel" :class="{collapsed:!layersOpen}" v-show="!sel">
+    <div class="mob-layers-panel" :class="{collapsed:!layersOpen}" v-show="!sel && !linkPanelOpen">
       <button class="mob-layers-toggle" @click="layersOpen=!layersOpen">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
         <span>Layers</span>
@@ -441,7 +444,7 @@ header h1{font-size:15px}
         </button>
       </div>
     </div>
-    <button class="mob-fab" @click="togglePanel" :class="{hidden: panelOpen || sel}">
+    <button class="mob-fab" @click="togglePanel" :class="{hidden: panelOpen || sel || linkPanelOpen}">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="5" x2="17" y2="5"/><line x1="3" y1="10" x2="17" y2="10"/><line x1="3" y1="15" x2="17" y2="15"/></svg>
       <span class="fab-badge" v-if="activeFilterCount">{{activeFilterCount}}</span>
     </button>
