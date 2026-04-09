@@ -3,7 +3,7 @@
  * 3-tier caching: app-shell (precache), google-fonts, map-tiles
  */
 
-const APP_VERSION = '1.8.0';
+const APP_VERSION = '1.8.4';
 const CACHE_SHELL   = 'app-shell-v' + APP_VERSION;
 const CACHE_FONTS   = 'google-fonts-v1';
 const CACHE_TILES   = 'map-tiles-v1';
@@ -91,8 +91,8 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // 6) App shell & data — cache-first (pre-cached on install)
-  e.respondWith(cacheFirst(e.request, CACHE_SHELL));
+  // 6) App shell & data — network-first during dev, ensures latest code on refresh
+  e.respondWith(networkFirst(e.request, CACHE_SHELL));
 });
 
 /* ── Strategies ──────────────────────────────────────────── */
