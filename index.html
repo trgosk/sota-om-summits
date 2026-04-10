@@ -20,6 +20,20 @@
 })();
 </script>
 <title>OM SOTA — Activation Precheck</title>
+<meta name="description" content="Skontroluj stav ochrany prírody všetkých 379 slovenských SOTA vrcholov pred aktiváciou. Interaktívna mapa, zóny ochrany, predpisy.">
+<meta name="keywords" content="SOTA, Summits on the Air, OM, Slovensko, rádioamatér, ham radio, ochrana prírody, vrcholy">
+<meta property="og:type" content="website">
+<meta property="og:title" content="OM SOTA — Activation Precheck">
+<meta property="og:description" content="Skontroluj stav ochrany prírody všetkých 379 slovenských SOTA vrcholov pred aktiváciou. Interaktívna mapa, zóny ochrany, predpisy.">
+<meta property="og:image" content="icon-512.png">
+<meta property="og:locale" content="sk_SK">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OM SOTA — Activation Precheck">
+<meta name="twitter:description" content="Skontroluj stav ochrany prírody všetkých 379 slovenských SOTA vrcholov pred aktiváciou. Interaktívna mapa, zóny ochrany, predpisy.">
+<meta name="twitter:image" content="icon-512.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"OM SOTA — Activation Precheck","description":"Skontroluj stav ochrany prírody všetkých 379 slovenských SOTA vrcholov pred aktiváciou. Interaktívna mapa, zóny ochrany, predpisy.","applicationCategory":"UtilityApplication","operatingSystem":"All","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}
+</script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js"></script>
@@ -303,6 +317,10 @@ header h1{font-size:15px}
 </style>
 </head>
 <body>
+<noscript>
+<h1>OM SOTA — Activation Precheck</h1>
+<p>Skontroluj stav ochrany prírody všetkých 379 slovenských SOTA vrcholov pred aktiváciou. Interaktívna mapa so zónami ochrany a predpismi.</p>
+</noscript>
 <div id="app">
 <div v-if="loading" style="display:flex;align-items:center;justify-content:center;height:100vh;font-family:var(--font);color:var(--ink3);font-size:1.1rem">Loading summit data&hellip;</div>
 <template v-else>
