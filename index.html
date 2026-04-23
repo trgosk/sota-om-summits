@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.8.6">
+<meta name="version" content="1.8.7">
 <script>
 (function(){
   try{
@@ -41,6 +41,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#1a7a6d">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="SOTA OM">
@@ -192,6 +193,8 @@ header h1{font-size:15px}
 .b-stop{background:var(--red-bg);color:var(--red)}
 .b-rev{background:var(--amber-bg);color:var(--amber);font-size:9px;padding:2px 6px}
 .b-ver{background:var(--green-bg);color:var(--green);font-size:9px;padding:2px 6px}
+.b-world{background:var(--bg2);color:var(--ink3);font-size:9px;padding:2px 6px}
+.d-note.b-world{background:var(--bg2);color:var(--ink2)}
 
 .map-wrap{position:relative}
 #map{height:100%;width:100%}
@@ -255,11 +258,14 @@ header h1{font-size:15px}
 .sw-update-bar button{background:#fff;color:var(--teal);border:none;border-radius:20px;padding:5px 16px;font-size:12px;font-weight:600;cursor:pointer;font-family:var(--font)}
 .sw-update-bar button:hover{opacity:.9}
 
-/* Link tool */
-.link-tool-btn{position:relative}
-.link-tool-btn.active{background:var(--teal-bg);border-color:var(--teal);color:var(--teal)}
-.link-tool-btn .lt-hint{position:absolute;top:calc(100% + 6px);left:50%;transform:translateX(-50%);white-space:nowrap;background:var(--card);border:1px solid var(--bg3);border-radius:6px;padding:4px 10px;font-size:10px;color:var(--ink3);box-shadow:var(--shadow);pointer-events:none;z-index:2000}
-.link-tool-btn .lt-help{display:none;position:absolute;top:calc(100% + 6px);right:0;white-space:nowrap;text-align:left;font-size:10px;background:var(--card);border:1px solid var(--bg3);border-radius:6px;padding:8px 12px;color:var(--ink3);box-shadow:var(--shadow);pointer-events:none;z-index:2000;line-height:1.6}
+/* Link tool — standalone map tool button (Leaflet-control styled) */
+.map-tool-btn{position:absolute;top:56px;right:12px;left:auto;z-index:1000;width:34px;height:34px;border-radius:4px;background:var(--card);border:1px solid var(--bg3);box-shadow:0 1px 4px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--ink2);padding:0;transition:background .15s,color .15s,border-color .15s,top .25s ease}
+.map-tool-btn.legend-expanded{top:296px}
+.map-tool-btn:hover{background:var(--bg);color:var(--teal);border-color:var(--teal)}
+.map-tool-btn.active{background:var(--teal);border-color:var(--teal);color:#fff}
+.map-tool-btn.active svg{color:#fff}
+.link-tool-btn .lt-hint{position:absolute;top:50%;left:auto;right:calc(100% + 8px);transform:translateY(-50%);white-space:nowrap;background:var(--card);border:1px solid var(--bg3);border-radius:6px;padding:4px 10px;font-size:10px;color:var(--ink3);box-shadow:var(--shadow);pointer-events:none;z-index:2000}
+.link-tool-btn .lt-help{display:none;position:absolute;top:0;left:auto;right:calc(100% + 8px);white-space:nowrap;text-align:left;font-size:10px;background:var(--card);border:1px solid var(--bg3);border-radius:6px;padding:8px 12px;color:var(--ink3);box-shadow:var(--shadow);pointer-events:none;z-index:2000;line-height:1.6}
 .link-tool-btn:not(.active):hover .lt-help{display:block}
 .map-crosshair .leaflet-container{cursor:crosshair!important}
 .map-crosshair .leaflet-interactive{cursor:crosshair!important}
@@ -354,7 +360,7 @@ header h1{font-size:15px}
 
 <div class="contrib-bar" v-if="showContrib">
   <span>📡</span>
-  <span>Found a bug? Help verify summits — check on <a href="https://maps.sopsr.sk/" target="_blank">maps.sopsr.sk</a> and contribute on <a href="https://github.com/trgosk/sota-om-summits" target="_blank">GitHub</a>.</span>
+  <span>Spotted something off? Help improve the data — contribute on <a href="https://github.com/trgosk/sota-om-summits" target="_blank">GitHub</a>.</span>
   <button class="cb-close" @click="showContrib=false" title="Dismiss">&times;</button>
 </div>
 
@@ -396,12 +402,13 @@ header h1{font-size:15px}
       <div v-for="s in filtered" :key="s.c" class="row" :class="{sel:sel&&sel.c===s.c}" @click="pick(s)">
         <span class="code">{{s.c}}</span>
         <span class="badges">
-          <span class="badge" :class="'b-'+s.cat">{{badgeText(s)}}</span>
+          <span v-if="s.cat" class="badge" :class="'b-'+s.cat">{{badgeText(s)}}</span>
+          <span v-else class="badge b-world">Nearby</span>
           <span v-if="counts.inreview && s.v===2" class="badge b-rev">REV</span>
-          <span v-else-if="counts.inreview" class="badge b-ver">OK</span>
+          <span v-else-if="counts.inreview && s.cat" class="badge b-ver">OK</span>
         </span>
         <span class="name">{{s.n}}</span>
-        <span class="meta">{{s.e}}m · {{s.p}}pt · {{s.a}} act · {{s.ar||'–'}}</span>
+        <span class="meta">{{s.e}}m · {{s.p}}pt · {{s.a}} act · {{s.ar||neighborCountry(s)||'–'}}</span>
       </div>
     </div>
   </div>
@@ -409,18 +416,23 @@ header h1{font-size:15px}
   <div class="map-wrap">
     <button class="panel-col-btn" :class="{'above-link':linkPanelOpen}" @click="sidebarOpen=!sidebarOpen" :title="sidebarOpen?'Collapse panel':'Expand panel'">{{sidebarOpen?'◀':'▶'}}</button>
     <div id="map"></div>
+    <button v-if="!isOffline" class="map-tool-btn link-tool-btn" :class="{active:linkToolActive, 'legend-expanded':legendOpen}" @click="toggleLinkTool" title="RF Link Profile">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="4" cy="7" r="1.8" fill="currentColor"/>
+        <circle cx="20" cy="7" r="1.8" fill="currentColor"/>
+        <line x1="6" y1="7" x2="18" y2="7" stroke-dasharray="2 2"/>
+        <polyline points="3,18 8,12 12,16 16,10 21,18"/>
+      </svg>
+      <span class="lt-hint" v-if="linkToolActive && !linkFrom">Click summit A (or right-click / long-press for arbitrary point)</span>
+      <span class="lt-hint" v-if="linkToolActive && linkFrom && !linkTo">Click summit B (or right-click / long-press for arbitrary point)</span>
+      <span class="lt-help"><b>RF Link Profile</b><br>─────────────────<br>Left-click · Summit A, then B<br>Right-click · Arbitrary map point<br>Long-press · Arbitrary (mobile)<br>ESC · Cancel / clear</span>
+    </button>
     <div class="overlay-toggles desktop-only">
       <button v-if="hasMapyCz" class="overlay-toggle" :class="{on:showMapyCz}" @click="toggleMapyCz"><span class="dot-toggle"></span> Mapy.cz Outdoor</button>
       <button class="overlay-toggle" :class="{on:wms}" @click="toggleWms"><span class="dot-toggle"></span> ŠOPSR zones</button>
       <button class="overlay-toggle" :class="{on:showNpChko,loading:loadingNpChko}" @click="toggleNpChko"><span class="dot-toggle"></span> NP / CHKO</button>
       <button class="overlay-toggle" :class="{on:showReserves,loading:loadingReserves}" @click="toggleReserves"><span class="dot-toggle"></span> Reserves</button>
-      <button v-if="!isOffline" class="overlay-toggle link-tool-btn" :class="{active:linkToolActive}" @click="toggleLinkTool">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="19" r="3"/><circle cx="19" cy="5" r="3"/><line x1="7.5" y1="17" x2="16.5" y2="7"/></svg>
-        Link
-        <span class="lt-hint" v-if="linkToolActive && !linkFrom">Click a summit (From)</span>
-        <span class="lt-hint" v-if="linkToolActive && linkFrom && !linkTo">Click a summit (To)</span>
-        <span class="lt-help"><b>RF Link Profile</b><br>─────────────────<br>Left-click · Summit A, then B<br>Right-click · Arbitrary map point<br>Long-press · Arbitrary (mobile)<br>ESC · Cancel / clear</span>
-      </button>
+      <button class="overlay-toggle" :class="{on:showWorld,loading:loadingWorld}" @click="toggleWorld"><span class="dot-toggle"></span> Nearby SOTA</button>
     </div>
     <div class="legend" :class="{collapsed:!legendOpen}">
       <h4 class="legend-toggle" @click="legendOpen=!legendOpen">Legend <span class="legend-arrow">{{legendOpen?'▾':'▸'}}</span></h4>
@@ -429,6 +441,7 @@ header h1{font-size:15px}
         <div class="lg-row"><span class="lg-dot" style="background:#2d7a4f"></span> Safe — no restrictions</div>
         <div class="lg-row"><span class="lg-dot" style="background:#c49215"></span> Rules — conditions apply</div>
         <div class="lg-row"><span class="lg-dot" style="background:#b83232"></span> Stop — do not activate</div>
+        <div class="lg-row"><span class="lg-dot" style="background:#7a7870;opacity:.55"></span> Nearby SOTA (OK/SP/HA/OE/UT)</div>
         <div style="border-top:1px solid var(--bg3);margin:6px 0"></div>
         <template v-if="counts.inreview">
         <div class="lg-row"><span class="lg-dot" style="background:var(--amber);opacity:.75"></span> In review</div>
@@ -456,12 +469,7 @@ header h1{font-size:15px}
         <button class="overlay-toggle" :class="{on:wms}" @click="toggleWms"><span class="dot-toggle"></span> ŠOPSR zones</button>
         <button class="overlay-toggle" :class="{on:showNpChko,loading:loadingNpChko}" @click="toggleNpChko"><span class="dot-toggle"></span> NP / CHKO</button>
         <button class="overlay-toggle" :class="{on:showReserves,loading:loadingReserves}" @click="toggleReserves"><span class="dot-toggle"></span> Reserves</button>
-        <button v-if="!isOffline" class="overlay-toggle link-tool-btn" :class="{active:linkToolActive}" @click="toggleLinkTool">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="19" r="3"/><circle cx="19" cy="5" r="3"/><line x1="7.5" y1="17" x2="16.5" y2="7"/></svg>
-          Link
-          <span class="lt-hint" v-if="linkToolActive && !linkFrom">Tap summit or long-press map (From)</span>
-          <span class="lt-hint" v-if="linkToolActive && linkFrom && !linkTo">Tap summit or long-press map (To)</span>
-        </button>
+        <button class="overlay-toggle" :class="{on:showWorld,loading:loadingWorld}" @click="toggleWorld"><span class="dot-toggle"></span> Nearby SOTA</button>
       </div>
     </div>
     <button class="mob-fab" @click="togglePanel" :class="{hidden: panelOpen || sel || linkPanelOpen}">
@@ -481,45 +489,54 @@ header h1{font-size:15px}
         <div class="d-cell"><label>Elevation</label><div class="v">{{sel.e}}m</div></div>
         <div class="d-cell"><label>Points</label><div class="v">{{sel.p}}</div></div>
         <div class="d-cell"><label>Activations</label><div class="v">{{sel.a}}</div></div>
-        <div class="d-cell"><label>Level</label><div class="v">{{sel.rl}}</div></div>
+        <div v-if="sel.cat" class="d-cell"><label>Level</label><div class="v">{{sel.rl}}</div></div>
+        <div v-else class="d-cell"><label>Country</label><div class="v">{{neighborCountry(sel)||sel.as||'–'}}</div></div>
       </div>
-      <div class="d-note" :class="'b-'+sel.cat">
-        <strong>{{sel.ar||'No protected area'}} {{sel.ac?'('+sel.ac+')':''}}</strong><br>
-        {{sel.nt}}
-      </div>
-      <div v-if="sel.cat==='rules' && sel.rules" class="d-note b-rules" style="margin-top:8px">
-        <div v-if="sel.rules.includes('trail')">🥾 Must stay on marked trail</div>
-        <div v-if="sel.rules.includes('season')">⏳ Seasonal restriction applies</div>
-        <div v-if="sel.rules.includes('warning_other') && sel.warning_other">⚠ {{sel.warning_other}}</div>
-      </div>
-      <div v-if="sel.cat==='stop' && sel.stop" class="d-note b-stop" style="margin-top:8px">
-        <strong>⛔ {{stopReason(sel.stop)}}</strong>
-      </div>
-      <div v-if="sel.tr!=null" class="d-trail has-trail">
-        <span class="trail-dot" :style="{background:trailColor(sel.tc)}"></span>
-        <span v-if="sel.tr<=25">Marked trail crosses summit</span>
-        <span v-else>Marked trail within <strong>{{sel.tr}}m</strong></span>
-        <span v-if="sel.tn"> — {{sel.tn}}</span>
-        <a v-if="sel.ti" :href="'https://www.openstreetmap.org/relation/'+sel.ti" target="_blank" title="View on OpenStreetMap">[OSM]</a>
-      </div>
-      <div v-else class="d-trail no-trail">
-        <span>⚠</span> No marked hiking trail within 500m
-      </div>
-      <div class="d-verif">
-        <span class="vdot" :style="{background:sel.v===1?'var(--green)':'var(--amber)'}"></span>
-        <span v-if="sel.v===2" style="color:var(--amber)">In review — verification in progress</span>
-        <span v-else style="color:var(--green)">Verified by operator</span>
-      </div>
-      <div class="d-season" v-if="sel.sr">
-        <span>⏳</span> Seasonal closure: <strong>{{sel.sf}} – {{sel.se}}</strong>
-      </div>
-      <div class="d-footer" v-if="sel.lr || (sel.src && sel.src.length)">
-        <span v-if="sel.lr" class="d-reviewed">Reviewed: {{sel.lr}}</span>
-        <div v-if="sel.src && sel.src.length" class="d-sources">
-          <span>Sources:</span>
-          <a v-for="(url,i) in sel.src" :key="i" :href="url" target="_blank" class="d-src-link">{{srcDomain(url)}}</a>
+      <template v-if="sel.cat">
+        <div class="d-note" :class="'b-'+sel.cat">
+          <strong>{{sel.ar||'No protected area'}} {{sel.ac?'('+sel.ac+')':''}}</strong><br>
+          {{sel.nt}}
         </div>
-      </div>
+        <div v-if="sel.cat==='rules' && sel.rules" class="d-note b-rules" style="margin-top:8px">
+          <div v-if="sel.rules.includes('trail')">🥾 Must stay on marked trail</div>
+          <div v-if="sel.rules.includes('season')">⏳ Seasonal restriction applies</div>
+          <div v-if="sel.rules.includes('warning_other') && sel.warning_other">⚠ {{sel.warning_other}}</div>
+        </div>
+        <div v-if="sel.cat==='stop' && sel.stop" class="d-note b-stop" style="margin-top:8px">
+          <strong>⛔ {{stopReason(sel.stop)}}</strong>
+        </div>
+        <div v-if="sel.tr!=null" class="d-trail has-trail">
+          <span class="trail-dot" :style="{background:trailColor(sel.tc)}"></span>
+          <span v-if="sel.tr<=25">Marked trail crosses summit</span>
+          <span v-else>Marked trail within <strong>{{sel.tr}}m</strong></span>
+          <span v-if="sel.tn"> — {{sel.tn}}</span>
+          <a v-if="sel.ti" :href="'https://www.openstreetmap.org/relation/'+sel.ti" target="_blank" title="View on OpenStreetMap">[OSM]</a>
+        </div>
+        <div v-else class="d-trail no-trail">
+          <span>⚠</span> No marked hiking trail within 500m
+        </div>
+        <div class="d-verif">
+          <span class="vdot" :style="{background:sel.v===1?'var(--green)':'var(--amber)'}"></span>
+          <span v-if="sel.v===2" style="color:var(--amber)">In review — verification in progress</span>
+          <span v-else style="color:var(--green)">Verified by operator</span>
+        </div>
+        <div class="d-season" v-if="sel.sr">
+          <span>⏳</span> Seasonal closure: <strong>{{sel.sf}} – {{sel.se}}</strong>
+        </div>
+        <div class="d-footer" v-if="sel.lr || (sel.src && sel.src.length)">
+          <span v-if="sel.lr" class="d-reviewed">Reviewed: {{sel.lr}}</span>
+          <div v-if="sel.src && sel.src.length" class="d-sources">
+            <span>Sources:</span>
+            <a v-for="(url,i) in sel.src" :key="i" :href="url" target="_blank" class="d-src-link">{{srcDomain(url)}}</a>
+          </div>
+        </div>
+      </template>
+      <template v-else>
+        <div class="d-note b-world">
+          <strong>Nearby SOTA summit</strong><br>
+          Nature-protection data is only tracked for OM (Slovakia). For details, see <a :href="'https://sotl.as/summits/'+sel.c" target="_blank">sotl.as/summits/{{sel.c}}</a>.
+        </div>
+      </template>
     </div>
     <!-- Link profile panel -->
     <div class="link-panel" :class="{open: linkPanelOpen}">
@@ -587,6 +604,7 @@ setup(){
   const q=ref('');const rF=ref('');const catF=ref('');const vF=ref('');const sel=ref(null);const wms=ref(false);const showContrib=ref(true);
   const showNpChko=ref(false);const loadingNpChko=ref(false);
   const showReserves=ref(false);const loadingReserves=ref(false);
+  const showWorld=ref(false);const loadingWorld=ref(false);
   const uiVersion=ref('');const dataVersion=ref('');
   const dark=ref(localStorage.getItem('sota-dark')==='1'||(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches));
   const panelOpen=ref(false);
@@ -602,6 +620,7 @@ setup(){
   let map,markers={},wmsLayer,mGroup,tileLayer;
   let npChkoLayer=null,npChkoData=null;
   let reservesLayer=null,reservesData=null;
+  let worldGroup=null,worldData=null,worldCanvas=null;
   const mapyCzKey='__MAPY_CZ_KEY__';
   const hasMapyCz=mapyCzKey&&!mapyCzKey.startsWith('__');
   let mapyCzLayer=null;
@@ -650,6 +669,11 @@ setup(){
     if(rF.value)l=l.filter(s=>s.r===rF.value);
     if(catF.value)l=l.filter(s=>s.cat===catF.value);
     if(vF.value)l=l.filter(s=>String(s.v)===vF.value);
+    if(showWorld.value && q.value && worldData){
+      const t=removeDiacritics(q.value.toLowerCase());
+      const w=worldData.filter(s=>removeDiacritics(s.c.toLowerCase()).includes(t)||removeDiacritics(s.n.toLowerCase()).includes(t)).slice(0,200);
+      l=l.concat(w);
+    }
     return l;
   });
   const counts=computed(()=>{
@@ -692,7 +716,7 @@ setup(){
     const pal=dark.value?COL_D:COL_L;
     const c=pal[s.cat]||'#888';
     const ring=dark.value?'rgba(0,0,0,.6)':'#fff';
-    const sz=Math.max(7,Math.min(13,s.p*1.5+5));
+    const sz=13;
     const op=s.v===1?1:0.75;
     return L.divIcon({className:'',html:`<div style="width:${sz}px;height:${sz}px;background:${c};border:2px solid ${ring};border-radius:50%;box-shadow:0 1px 4px ${c}60;opacity:${op}"></div>`,iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]});
   }
@@ -707,34 +731,9 @@ setup(){
   function initMap(){
     map=L.map('map',{zoomControl:false}).setView([48.8,19.5],8);
     L.control.zoom({position:'topleft'}).addTo(map);
-    // Right-click handler for link tool arbitrary points
+    // Right-click / long-press handler for link tool arbitrary points
+    // Leaflet emits 'contextmenu' on mobile long-press automatically — single source of truth
     map.on('contextmenu',handleLinkMapRightClick);
-    // Long-press handler — mobile equivalent of right-click for link tool
-    const lpContainer=map.getContainer();
-    let lpTimer=null,lpStart=null;
-    const LP_MS=500,LP_MOVE_PX=10;
-    const lpCancel=()=>{if(lpTimer){clearTimeout(lpTimer);lpTimer=null}lpStart=null};
-    lpContainer.addEventListener('touchstart',(e)=>{
-      if(!linkToolActive.value)return;
-      if(e.touches.length!==1){lpCancel();return}
-      const t=e.touches[0];
-      lpStart={x:t.clientX,y:t.clientY};
-      lpTimer=setTimeout(()=>{
-        const rect=lpContainer.getBoundingClientRect();
-        const pt=L.point(lpStart.x-rect.left,lpStart.y-rect.top);
-        const ll=map.containerPointToLatLng(pt);
-        setLinkPoint({lat:ll.lat,lon:ll.lng});
-        if(navigator.vibrate)navigator.vibrate(30);
-        lpTimer=null;
-      },LP_MS);
-    },{passive:true});
-    lpContainer.addEventListener('touchmove',(e)=>{
-      if(!lpTimer||!lpStart)return;
-      const t=e.touches[0];
-      if(Math.hypot(t.clientX-lpStart.x,t.clientY-lpStart.y)>LP_MOVE_PX)lpCancel();
-    },{passive:true});
-    lpContainer.addEventListener('touchend',lpCancel,{passive:true});
-    lpContainer.addEventListener('touchcancel',lpCancel,{passive:true});
     tileLayer=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'OSM/CARTO',maxZoom:19});
     if(hasMapyCz){mapyCzLayer=L.tileLayer('https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey='+mapyCzKey+'&lang=sk',{attribution:'<a href="https://api.mapy.cz/copyright">&copy; Seznam.cz a.s.</a>',maxZoom:20});mapyCzLayer.addTo(map)}else{tileLayer.addTo(map)}
     wmsLayer=L.tileLayer.wms('https://maps.sopsr.sk/geoserver/ows',{layers:'sopsr:UEV_konsolidovane,sopsr:zonacia_chko_horna_orava,sopsr:zonacia_slovensky_raj,sopsr:zonacia_mur_planina,sopsr:zonacia_pienap,sopsr:chkobk_cha_tematinske-vrchy_zony',format:'image/png',transparent:true,opacity:0.45,version:'1.1.1'});
@@ -857,6 +856,37 @@ setup(){
     }
   }
 
+  const NEIGHBOR_NAMES={OK:'Czechia',SP:'Poland',HA:'Hungary',OE:'Austria',UT:'Ukraine'};
+  function neighborCountry(s){return s&&s.as?NEIGHBOR_NAMES[s.as]:''}
+  async function toggleWorld(){
+    showWorld.value=!showWorld.value;
+    if(showWorld.value){
+      if(!worldData){
+        loadingWorld.value=true;
+        try{
+          const r=await fetch('neighbor_summits.json');
+          const j=await r.json();
+          worldData=j.summits||[];
+        }catch(e){console.error('Failed to load neighbor_summits.json',e);showWorld.value=false;loadingWorld.value=false;return}
+        loadingWorld.value=false;
+      }
+      if(!worldGroup){
+        if(!worldCanvas)worldCanvas=L.canvas({padding:0.5});
+        worldGroup=L.layerGroup();
+        worldData.forEach(s=>{
+          const m=L.circleMarker([s.la,s.lo],{radius:4,weight:1,color:'#fff',fillColor:'#7a7870',fillOpacity:0.6,opacity:0.6,renderer:worldCanvas,interactive:true});
+          m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · ${s.p}pt · ${s.a} act`,{className:'tip'});
+          m.on('click',()=>pick(s));
+          m.addTo(worldGroup);
+        });
+      }
+      worldGroup.addTo(map);
+      if(worldGroup.bringToBack)worldGroup.bringToBack();
+    }else{
+      if(worldGroup)map.removeLayer(worldGroup);
+    }
+  }
+
   function stopReason(key){return stopReasons[key]||key}
   function srcDomain(url){try{return new URL(url).hostname}catch(e){return url}}
   function trailColor(tc){const m={red:'#e74c3c',blue:'#2980b9',green:'#27ae60',yellow:'#f1c40f'};return m[tc]||'var(--ink3)'}
@@ -933,6 +963,7 @@ setup(){
   function handleLinkMapRightClick(e){
     if(!linkToolActive.value)return;
     setLinkPoint({lat:e.latlng.lat,lon:e.latlng.lng});
+    if(navigator.vibrate)navigator.vibrate(30);
   }
 
   function connectSocketIO(){
@@ -1334,7 +1365,7 @@ setup(){
       if(linkHoverMarker){map.removeLayer(linkHoverMarker);linkHoverMarker=null}
     }
   });
-  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload,linkToolActive,linkFrom,linkTo,linkProfile,linkMeta,linkLoading,linkError,linkStatusText,linkProgress,linkSamples,linkFreqMhz,linkHeightA,linkHeightB,linkTreeHeight,linkHoverIdx,linkPanelOpen,linkFromLabel,linkToLabel,linkVerdict,linkVerdictText,profileCanvas,toggleLinkTool,clearLink,requestProfile};
+  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,showWorld,loadingWorld,toggleWorld,neighborCountry,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload,linkToolActive,linkFrom,linkTo,linkProfile,linkMeta,linkLoading,linkError,linkStatusText,linkProgress,linkSamples,linkFreqMhz,linkHeightA,linkHeightB,linkTreeHeight,linkHoverIdx,linkPanelOpen,linkFromLabel,linkToLabel,linkVerdict,linkVerdictText,profileCanvas,toggleLinkTool,clearLink,requestProfile};
 }
 }).mount('#app');
 </script>
