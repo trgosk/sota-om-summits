@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.8.7">
+<meta name="version" content="1.9.0">
 <script>
 (function(){
   try{
@@ -1065,16 +1065,21 @@ setup(){
     const cw=w-padL-padR;
     const ch=h-padT-padB;
 
-    // Find data ranges
+    // Convex (bulge-earth) shift: every plotted Y in data-space gets earth_curve_m added.
+    // LOS becomes a straight chord A->B; terrain visually bulges up in the middle.
+    const curveOf=p=>(p.earth_curve_m||0);
+
+    // Find data ranges (in displayed/bulged space)
     const maxDist=pts[pts.length-1].distance_m;
     let minElev=Infinity,maxElev=-Infinity;
     pts.forEach(p=>{
-      const lo=p.elevation_m;
-      let hi=p.los_m;
-      if(p.fresnel_r1_m)hi=Math.max(hi,p.los_m+p.fresnel_r1_m);
+      const c=curveOf(p);
+      const lo=p.elevation_m+c;
+      let hi=p.los_m+c;
+      if(p.fresnel_r1_m)hi=Math.max(hi,p.los_m+p.fresnel_r1_m+c);
       if(lo<minElev)minElev=lo;
       if(hi>maxElev)maxElev=hi;
-      if(p.elevation_m>maxElev)maxElev=p.elevation_m;
+      if(p.elevation_m+c>maxElev)maxElev=p.elevation_m+c;
     });
     // Add some padding to elevation range
     const elevRange=maxElev-minElev||100;
@@ -1111,12 +1116,16 @@ setup(){
       ctx.fillText((d/1000).toFixed(1)+'km',x,h-padB+14);
     }
 
-    // Earth curvature reference curve
+    // Earth curvature reference curve (convex: arcs upward between A and B)
     if(pts.length>2&&pts[0].earth_curve_m!=null){
-      const baseElev=pts[0].elevation_m;
+      const elevA=pts[0].elevation_m;
+      const elevB=pts[pts.length-1].elevation_m;
+      const totalD=pts[pts.length-1].distance_m||1;
       ctx.beginPath();
       pts.forEach((p,i)=>{
-        const y=yOf(baseElev-p.earth_curve_m);
+        const t=p.distance_m/totalD;
+        const baseLine=elevA+(elevB-elevA)*t;
+        const y=yOf(baseLine+p.earth_curve_m);
         const x=xOf(p.distance_m);
         if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
       });
@@ -1125,29 +1134,34 @@ setup(){
       ctx.setLineDash([3,4]);
       ctx.stroke();
       ctx.setLineDash([]);
-      // Label at rightmost point
-      const lastP=pts[pts.length-1];
-      const ly=yOf(baseElev-lastP.earth_curve_m);
+      // Label near the apex (midpoint, where bulge is largest)
+      const midI=Math.floor(pts.length/2);
+      const midP=pts[midI];
+      const tMid=midP.distance_m/totalD;
+      const baseMid=elevA+(elevB-elevA)*tMid;
+      const ly=yOf(baseMid+midP.earth_curve_m);
       ctx.font='8px IBM Plex Mono,monospace';
-      ctx.textAlign='right';
+      ctx.textAlign='center';
       ctx.fillStyle=isDark?'rgba(255,255,255,.25)':'rgba(0,0,0,.2)';
-      ctx.fillText('Earth curve',w-padR-2,ly-4);
+      ctx.fillText('Earth curve',xOf(midP.distance_m),ly-4);
     }
 
-    // Fresnel zone (upper/lower) fill
+    // Fresnel zone (upper/lower) fill — shifted by curvature so it rides on the straight LOS
     if(meta&&pts.length>2){
       ctx.beginPath();
       // Upper boundary forward
       pts.forEach((p,i)=>{
+        const c=curveOf(p);
         const x=xOf(p.distance_m);
-        const y=yOf(p.los_m+p.fresnel_r1_m);
+        const y=yOf(p.los_m+p.fresnel_r1_m+c);
         if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
       });
       // Lower boundary backward
       for(let i=pts.length-1;i>=0;i--){
         const p=pts[i];
+        const c=curveOf(p);
         const x=xOf(p.distance_m);
-        const y=yOf(p.los_m-p.fresnel_r1_m);
+        const y=yOf(p.los_m-p.fresnel_r1_m+c);
         ctx.lineTo(x,y);
       }
       ctx.closePath();
@@ -1155,11 +1169,11 @@ setup(){
       ctx.fill();
     }
 
-    // LOS line (follows per-point los_m for earth curvature)
+    // LOS line — convex view: los_m + earth_curve_m is the straight chord A->B
     if(pts.length>=2){
       ctx.beginPath();
       pts.forEach((p,i)=>{
-        const x=xOf(p.distance_m),y=yOf(p.los_m);
+        const x=xOf(p.distance_m),y=yOf(p.los_m+curveOf(p));
         if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
       });
       ctx.strokeStyle=isDark?'rgba(94,234,212,.5)':'rgba(26,122,109,.4)';
@@ -1169,11 +1183,11 @@ setup(){
       ctx.setLineDash([]);
     }
 
-    // Terrain fill
+    // Terrain fill (bulged)
     ctx.beginPath();
-    ctx.moveTo(xOf(pts[0].distance_m),yOf(pts[0].elevation_m));
+    ctx.moveTo(xOf(pts[0].distance_m),yOf(pts[0].elevation_m+curveOf(pts[0])));
     pts.forEach((p,i)=>{
-      if(i>0)ctx.lineTo(xOf(p.distance_m),yOf(p.elevation_m));
+      if(i>0)ctx.lineTo(xOf(p.distance_m),yOf(p.elevation_m+curveOf(p)));
     });
     // Close to bottom
     ctx.lineTo(xOf(pts[pts.length-1].distance_m),yOf(minElev));
@@ -1191,18 +1205,18 @@ setup(){
     ctx.fillStyle=grd;
     ctx.fill();
 
-    // Terrain stroke
+    // Terrain stroke (bulged)
     ctx.beginPath();
     pts.forEach((p,i)=>{
       const x=xOf(p.distance_m);
-      const y=yOf(p.elevation_m);
+      const y=yOf(p.elevation_m+curveOf(p));
       if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
     });
     ctx.strokeStyle=isDark?'rgba(200,180,120,.6)':'rgba(120,100,40,.5)';
     ctx.lineWidth=1.5;
     ctx.stroke();
 
-    // Clearance coloring along terrain
+    // Clearance coloring along terrain (bulged)
     if(meta){
       for(let i=1;i<pts.length;i++){
         const p=pts[i];
@@ -1210,8 +1224,8 @@ setup(){
         if(p.clearance_m<0){
           // obstructed segment
           ctx.beginPath();
-          ctx.moveTo(xOf(pp.distance_m),yOf(pp.elevation_m));
-          ctx.lineTo(xOf(p.distance_m),yOf(p.elevation_m));
+          ctx.moveTo(xOf(pp.distance_m),yOf(pp.elevation_m+curveOf(pp)));
+          ctx.lineTo(xOf(p.distance_m),yOf(p.elevation_m+curveOf(p)));
           ctx.strokeStyle=isDark?'rgba(248,113,113,.8)':'rgba(184,50,50,.7)';
           ctx.lineWidth=2.5;
           ctx.stroke();
@@ -1223,7 +1237,7 @@ setup(){
     if(meta&&meta.worst_point_index!=null&&pts[meta.worst_point_index]){
       const wp=pts[meta.worst_point_index];
       const wx=xOf(wp.distance_m);
-      const wy=yOf(wp.elevation_m);
+      const wy=yOf(wp.elevation_m+curveOf(wp));
       ctx.beginPath();
       ctx.arc(wx,wy,4,0,Math.PI*2);
       ctx.fillStyle=meta.min_clearance_pct>=60?(isDark?'#4ade80':'#2d7a4f'):(meta.min_clearance_pct>=0?(isDark?'#fbbf24':'#c49215'):(isDark?'#f87171':'#b83232'));
@@ -1238,8 +1252,8 @@ setup(){
     ctx.textAlign='center';
     ctx.fillStyle=isDark?'#5eead4':'#1a7a6d';
     if(pts.length>0){
-      ctx.fillText('A',xOf(pts[0].distance_m),yOf(pts[0].elevation_m)-8);
-      ctx.fillText('B',xOf(pts[pts.length-1].distance_m),yOf(pts[pts.length-1].elevation_m)-8);
+      ctx.fillText('A',xOf(pts[0].distance_m),yOf(pts[0].elevation_m+curveOf(pts[0]))-8);
+      ctx.fillText('B',xOf(pts[pts.length-1].distance_m),yOf(pts[pts.length-1].elevation_m+curveOf(pts[pts.length-1]))-8);
     }
 
     // Store coordinate mapping for hover handler
@@ -1259,14 +1273,14 @@ setup(){
       ctx.setLineDash([4,3]);
       ctx.stroke();
       ctx.setLineDash([]);
-      // Dot on terrain
-      const ty=yOf(p.elevation_m);
+      // Dot on terrain (bulged)
+      const ty=yOf(p.elevation_m+curveOf(p));
       ctx.beginPath();ctx.arc(hx,ty,3.5,0,Math.PI*2);
       ctx.fillStyle=isDark?'#fbbf24':'#c49215';ctx.fill();
       ctx.strokeStyle=isDark?'#1e1d1b':'#fff';ctx.lineWidth=1;ctx.stroke();
-      // Dot on LOS
+      // Dot on LOS (bulged so it tracks the straight chord)
       if(p.los_m!=null){
-        const ly=yOf(p.los_m);
+        const ly=yOf(p.los_m+curveOf(p));
         ctx.beginPath();ctx.arc(hx,ly,2.5,0,Math.PI*2);
         ctx.fillStyle=isDark?'#5eead4':'#1a7a6d';ctx.fill();
       }
