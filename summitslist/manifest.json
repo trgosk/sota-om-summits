@@ -2,905 +2,1129 @@
   "source": "summitslist.csv",
   "checksum": "976dac3f423dc79229608ddcc8786b65a8553c5074ec0989aa52a18816cfad7f",
   "algorithm": "sha256",
-  "generated_at": "2026-06-05T09:05:07+00:00",
+  "generated_at": "2026-06-05T09:21:21+00:00",
   "banner": "SOTA Summits List (Date=05/06/2026)",
   "total_summits": 181037,
   "association_count": 224,
   "associations": {
     "3Y": {
       "file": "3Y.csv",
+      "name": "Bouvet Island",
       "count": 1
     },
     "4O": {
       "file": "4O.csv",
+      "name": "Montenegro",
       "count": 308
     },
     "4X": {
       "file": "4X.csv",
+      "name": "Israel",
       "count": 25
     },
     "5B": {
       "file": "5B.csv",
+      "name": "Cyprus",
       "count": 48
     },
     "7P": {
       "file": "7P.csv",
+      "name": "Lesotho",
       "count": 103
     },
     "8P": {
       "file": "8P.csv",
+      "name": "Barbados",
       "count": 1
     },
     "9A": {
       "file": "9A.csv",
+      "name": "Croatia",
       "count": 508
     },
     "9H": {
       "file": "9H.csv",
+      "name": "Malta",
       "count": 2
     },
     "9M2": {
       "file": "9M2.csv",
+      "name": "West Malaysia",
       "count": 373
     },
     "9M6": {
       "file": "9M6.csv",
+      "name": "East Malaysia",
       "count": 1
     },
     "9V": {
       "file": "9V.csv",
+      "name": "Singapore",
       "count": 1
     },
     "A6": {
       "file": "A6.csv",
+      "name": "United Arab Emirates",
       "count": 110
     },
     "BV": {
       "file": "BV.csv",
+      "name": "Taiwan",
       "count": 589
     },
     "C3": {
       "file": "C3.csv",
+      "name": "Andorra",
       "count": 11
     },
     "CE3": {
       "file": "CE3.csv",
+      "name": "Chile - Metropolitan Region",
       "count": 140
     },
     "CT": {
       "file": "CT.csv",
+      "name": "Portugal",
       "count": 286
     },
     "CT3": {
       "file": "CT3.csv",
+      "name": "Madeira",
       "count": 21
     },
     "CU": {
       "file": "CU.csv",
+      "name": "Azores",
       "count": 29
     },
     "CX": {
       "file": "CX.csv",
+      "name": "Uruguay",
       "count": 18
     },
     "D4": {
       "file": "D4.csv",
+      "name": "Cape Verde",
       "count": 87
     },
     "DL": {
       "file": "DL.csv",
+      "name": "Germany (Alpine)",
       "count": 1104
     },
     "DM": {
       "file": "DM.csv",
+      "name": "Germany (Low Mountains)",
       "count": 4021
     },
     "DU2": {
       "file": "DU2.csv",
+      "name": "Philippines - North Luzon",
       "count": 769
     },
     "DU3": {
       "file": "DU3.csv",
+      "name": "Philippines - Central Luzon",
       "count": 214
     },
     "DU4": {
       "file": "DU4.csv",
+      "name": "Philippines - Bicol",
       "count": 173
     },
     "DUC": {
       "file": "DUC.csv",
+      "name": "Philippines - Calabarzon",
       "count": 146
     },
     "E5": {
       "file": "E5.csv",
+      "name": "Cook Islands",
       "count": 7
     },
     "E7": {
       "file": "E7.csv",
+      "name": "Bosnia and Herzegovina",
       "count": 650
     },
     "EA1": {
       "file": "EA1.csv",
+      "name": "Spain - North West",
       "count": 1334
     },
     "EA2": {
       "file": "EA2.csv",
+      "name": "Spain - North",
       "count": 821
     },
     "EA3": {
       "file": "EA3.csv",
+      "name": "Spain - Catalunya",
       "count": 435
     },
     "EA4": {
       "file": "EA4.csv",
+      "name": "Spain - Central",
       "count": 542
     },
     "EA5": {
       "file": "EA5.csv",
+      "name": "Spain - South East",
       "count": 545
     },
     "EA6": {
       "file": "EA6.csv",
+      "name": "Spain - Balearic Islands",
       "count": 105
     },
     "EA7": {
       "file": "EA7.csv",
+      "name": "Spain - South",
       "count": 704
     },
     "EA8": {
       "file": "EA8.csv",
+      "name": "Spain - Canary Islands",
       "count": 122
     },
     "EA9": {
       "file": "EA9.csv",
+      "name": "Spain - Ceuta",
       "count": 1
     },
     "EI": {
       "file": "EI.csv",
+      "name": "Ireland",
       "count": 390
     },
     "ER": {
       "file": "ER.csv",
+      "name": "Moldova",
       "count": 26
     },
     "ES": {
       "file": "ES.csv",
+      "name": "Estonia",
       "count": 4
     },
     "F": {
       "file": "F.csv",
+      "name": "France",
       "count": 2879
     },
     "FG": {
       "file": "FG.csv",
+      "name": "Guadeloupe",
       "count": 19
     },
     "FH": {
       "file": "FH.csv",
+      "name": "Mayotte",
       "count": 11
     },
     "FJ": {
       "file": "FJ.csv",
+      "name": "Saint Barthelemy",
       "count": 3
     },
     "FK": {
       "file": "FK.csv",
+      "name": "New Caledonia",
       "count": 347
     },
     "FL": {
       "file": "FL.csv",
+      "name": "France - Low",
       "count": 474
     },
     "FM": {
       "file": "FM.csv",
+      "name": "Martinique",
       "count": 15
     },
     "FP": {
       "file": "FP.csv",
+      "name": "St. Pierre & Miquelon",
       "count": 4
     },
     "FR": {
       "file": "FR.csv",
+      "name": "La Réunion",
       "count": 19
     },
     "FS": {
       "file": "FS.csv",
+      "name": "Saint Martin",
       "count": 2
     },
     "FW": {
       "file": "FW.csv",
+      "name": "Wallis et Futuna",
       "count": 3
     },
     "G": {
       "file": "G.csv",
+      "name": "England",
       "count": 189
     },
     "GD": {
       "file": "GD.csv",
+      "name": "Isle Of Man",
       "count": 5
     },
     "GI": {
       "file": "GI.csv",
+      "name": "Northern Ireland",
       "count": 66
     },
     "GJ": {
       "file": "GJ.csv",
+      "name": "Bailiwick of Jersey",
       "count": 1
     },
     "GM": {
       "file": "GM.csv",
+      "name": "Scotland",
       "count": 1230
     },
     "GU": {
       "file": "GU.csv",
+      "name": "Bailiwick of Guernsey",
       "count": 2
     },
     "GW": {
       "file": "GW.csv",
+      "name": "Wales",
       "count": 160
     },
     "HA": {
       "file": "HA.csv",
+      "name": "Hungary",
       "count": 254
     },
     "HB": {
       "file": "HB.csv",
+      "name": "Switzerland",
       "count": 1532
     },
     "HB0": {
       "file": "HB0.csv",
+      "name": "Liechtenstein",
       "count": 12
     },
     "HI": {
       "file": "HI.csv",
+      "name": "Dominican Republic",
       "count": 418
     },
     "HL": {
       "file": "HL.csv",
+      "name": "South Korea",
       "count": 2465
     },
     "HR": {
       "file": "HR.csv",
+      "name": "Honduras",
       "count": 890
     },
     "I": {
       "file": "I.csv",
+      "name": "Italy",
       "count": 4094
     },
     "IA": {
       "file": "IA.csv",
+      "name": "Isole Africane d`Italia",
       "count": 3
     },
     "IS0": {
       "file": "IS0.csv",
+      "name": "Sardinia",
       "count": 319
     },
     "J8": {
       "file": "J8.csv",
+      "name": "Saint Vincent and the Grenadines",
       "count": 12
     },
     "JA": {
       "file": "JA.csv",
+      "name": "Japan - Honshu",
       "count": 4600
     },
     "JA5": {
       "file": "JA5.csv",
+      "name": "Japan - Shikoku",
       "count": 617
     },
     "JA6": {
       "file": "JA6.csv",
+      "name": "Japan - Kyushu_Okinawa",
       "count": 1052
     },
     "JA8": {
       "file": "JA8.csv",
+      "name": "Japan - Hokaido",
       "count": 942
     },
     "JW": {
       "file": "JW.csv",
+      "name": "Svalbard",
       "count": 1422
     },
     "JX": {
       "file": "JX.csv",
+      "name": "Jan Mayen",
       "count": 4
     },
     "K0M": {
       "file": "K0M.csv",
+      "name": "USA - Minnesota ",
       "count": 33
     },
     "KH0": {
       "file": "KH0.csv",
+      "name": "USA - Northern Mariana Islands",
       "count": 19
     },
     "KH2": {
       "file": "KH2.csv",
+      "name": "USA - Guam",
       "count": 3
     },
     "KH6": {
       "file": "KH6.csv",
+      "name": "USA - Hawaii",
       "count": 67
     },
     "KH8": {
       "file": "KH8.csv",
+      "name": "American Samoa",
       "count": 11
     },
     "KLA": {
       "file": "KLA.csv",
+      "name": "Alaska - Anchorage",
       "count": 10440
     },
     "KLF": {
       "file": "KLF.csv",
+      "name": "Alaska - Fairbanks",
       "count": 7266
     },
     "KLS": {
       "file": "KLS.csv",
+      "name": "Alaska - Southeast",
       "count": 1827
     },
     "KP4": {
       "file": "KP4.csv",
+      "name": "USA - Puerto Rico",
       "count": 99
     },
     "LA": {
       "file": "LA.csv",
+      "name": "Norway",
       "count": 6933
     },
     "LUD": {
       "file": "LUD.csv",
+      "name": "Argentina - Buenos Aires",
       "count": 48
     },
     "LUH": {
       "file": "LUH.csv",
+      "name": "Argentina - Córdoba",
       "count": 36
     },
     "LUI": {
       "file": "LUI.csv",
+      "name": "Argentina - Misiones",
       "count": 3
     },
     "LUK": {
       "file": "LUK.csv",
+      "name": "Argentina - Tucumán",
       "count": 88
     },
     "LUM": {
       "file": "LUM.csv",
+      "name": "Argentina - Mendoza",
       "count": 821
     },
     "LUN": {
       "file": "LUN.csv",
+      "name": "Argentina - Santiago del Estero",
       "count": 2
     },
     "LUP": {
       "file": "LUP.csv",
+      "name": "Argentina - San Juan",
       "count": 865
     },
     "LUQ": {
       "file": "LUQ.csv",
+      "name": "Argentina - San Luis",
       "count": 30
     },
     "LUR": {
       "file": "LUR.csv",
+      "name": "Argentina - Catamarca",
       "count": 797
     },
     "LUU": {
       "file": "LUU.csv",
+      "name": "Argentina - La Pampa",
       "count": 1
     },
     "LUV": {
       "file": "LUV.csv",
+      "name": "Argentina - Rio Negro",
       "count": 397
     },
     "LUY": {
       "file": "LUY.csv",
+      "name": "Argentina - Neuquén",
       "count": 902
     },
     "LX": {
       "file": "LX.csv",
+      "name": "Luxembourg",
       "count": 5
     },
     "LY": {
       "file": "LY.csv",
+      "name": "Lithuania",
       "count": 3
     },
     "LZ": {
       "file": "LZ.csv",
+      "name": "Bulgaria",
       "count": 701
     },
     "OD": {
       "file": "OD.csv",
+      "name": "Lebanon",
       "count": 16
     },
     "OE": {
       "file": "OE.csv",
+      "name": "Austria",
       "count": 3881
     },
     "OH": {
       "file": "OH.csv",
+      "name": "Finland",
       "count": 310
     },
     "OK": {
       "file": "OK.csv",
+      "name": "Czechia",
       "count": 1029
     },
     "OM": {
       "file": "OM.csv",
+      "name": "Slovakia",
       "count": 379
     },
     "ON": {
       "file": "ON.csv",
+      "name": "Belgium",
       "count": 31
     },
     "OY": {
       "file": "OY.csv",
+      "name": "Faroes",
       "count": 108
     },
     "OZ": {
       "file": "OZ.csv",
+      "name": "Denmark",
       "count": 12
     },
     "P4": {
       "file": "P4.csv",
+      "name": "Aruba",
       "count": 1
     },
     "PA": {
       "file": "PA.csv",
+      "name": "Netherlands",
       "count": 5
     },
     "PJ2": {
       "file": "PJ2.csv",
+      "name": "Curaçao",
       "count": 3
     },
     "PJ4": {
       "file": "PJ4.csv",
+      "name": "Bonaire",
       "count": 1
     },
     "PJ5": {
       "file": "PJ5.csv",
+      "name": "Sint Eustatius",
       "count": 2
     },
     "PJ6": {
       "file": "PJ6.csv",
+      "name": "Saba",
       "count": 2
     },
     "PJ7": {
       "file": "PJ7.csv",
+      "name": "Sint Maarten",
       "count": 3
     },
     "PP1": {
       "file": "PP1.csv",
+      "name": "Brazil - Espírito Santo",
       "count": 1538
     },
     "PP2": {
       "file": "PP2.csv",
+      "name": "Brazil - Goiás",
       "count": 756
     },
     "PP5": {
       "file": "PP5.csv",
+      "name": "Brazil - Santa Catarina",
       "count": 600
     },
     "PP6": {
       "file": "PP6.csv",
+      "name": "Brazil - Sergipe",
       "count": 30
     },
     "PP7": {
       "file": "PP7.csv",
+      "name": "Brazil - Alagoas",
       "count": 123
     },
     "PQ2": {
       "file": "PQ2.csv",
+      "name": "Brazil - Tocantins",
       "count": 374
     },
     "PR8": {
       "file": "PR8.csv",
+      "name": "Brazil - Maranhão",
       "count": 102
     },
     "PS7": {
       "file": "PS7.csv",
+      "name": "Brazil - Rio Grande do Norte",
       "count": 212
     },
     "PS8": {
       "file": "PS8.csv",
+      "name": "Brazil - Piauí",
       "count": 122
     },
     "PT2": {
       "file": "PT2.csv",
+      "name": "Brazil - Federal District",
       "count": 4
     },
     "PT7": {
       "file": "PT7.csv",
+      "name": "Brazil - Ceará",
       "count": 745
     },
     "PY1": {
       "file": "PY1.csv",
+      "name": "Brazil - Rio de Janeiro",
       "count": 1290
     },
     "PY2": {
       "file": "PY2.csv",
+      "name": "Brazil - Sao Paulo",
       "count": 804
     },
     "PY3": {
       "file": "PY3.csv",
+      "name": "Brazil - Rio Grande do Sul",
       "count": 220
     },
     "PY4": {
       "file": "PY4.csv",
+      "name": "Brazil - Minas Gerais",
       "count": 4058
     },
     "PY5": {
       "file": "PY5.csv",
+      "name": "Brazil - Paraná",
       "count": 377
     },
     "PY6": {
       "file": "PY6.csv",
+      "name": "Brazil - Bahia",
       "count": 2471
     },
     "PYF": {
       "file": "PYF.csv",
+      "name": "Brazil - Fernando de Noronha",
       "count": 2
     },
     "PYT": {
       "file": "PYT.csv",
+      "name": "Brazil - Trindade & Martim Vaz Is.",
       "count": 2
     },
     "R3": {
       "file": "R3.csv",
+      "name": "Russia (European)",
       "count": 9
     },
     "R9U": {
       "file": "R9U.csv",
+      "name": "Russia - Urals",
       "count": 348
     },
     "S5": {
       "file": "S5.csv",
+      "name": "Slovenia",
       "count": 519
     },
     "S7": {
       "file": "S7.csv",
+      "name": "Seychelles",
       "count": 23
     },
     "SM": {
       "file": "SM.csv",
+      "name": "Sweden",
       "count": 1112
     },
     "SP": {
       "file": "SP.csv",
+      "name": "Poland",
       "count": 241
     },
     "SV": {
       "file": "SV.csv",
+      "name": "Greece",
       "count": 850
     },
     "TF": {
       "file": "TF.csv",
+      "name": "Iceland",
       "count": 912
     },
     "TI": {
       "file": "TI.csv",
+      "name": "Costa Rica",
       "count": 400
     },
     "TK": {
       "file": "TK.csv",
+      "name": "Corsica",
       "count": 169
     },
     "UT": {
       "file": "UT.csv",
+      "name": "Ukraine",
       "count": 429
     },
     "V5": {
       "file": "V5.csv",
+      "name": "Namibia",
       "count": 2719
     },
     "VE1": {
       "file": "VE1.csv",
+      "name": "Canada - Nova Scotia",
       "count": 37
     },
     "VE2": {
       "file": "VE2.csv",
+      "name": "Canada - Québec",
       "count": 3267
     },
     "VE3": {
       "file": "VE3.csv",
+      "name": "Canada - Ontario",
       "count": 1000
     },
     "VE4": {
       "file": "VE4.csv",
+      "name": "Canada - Manitoba",
       "count": 20
     },
     "VE5": {
       "file": "VE5.csv",
+      "name": "Canada - Saskatchewan",
       "count": 104
     },
     "VE6": {
       "file": "VE6.csv",
+      "name": "Canada - Alberta",
       "count": 2306
     },
     "VE7": {
       "file": "VE7.csv",
+      "name": "Canada - British Columbia",
       "count": 4423
     },
     "VE9": {
       "file": "VE9.csv",
+      "name": "Canada - New Brunswick",
       "count": 125
     },
     "VK1": {
       "file": "VK1.csv",
+      "name": "Australia - Capital Territory",
       "count": 48
     },
     "VK2": {
       "file": "VK2.csv",
+      "name": "Australia - NSW",
       "count": 1223
     },
     "VK3": {
       "file": "VK3.csv",
+      "name": "Australia - Victoria",
       "count": 739
     },
     "VK4": {
       "file": "VK4.csv",
+      "name": "Australia - Queensland",
       "count": 1474
     },
     "VK5": {
       "file": "VK5.csv",
+      "name": "Australia - South Australia",
       "count": 346
     },
     "VK6": {
       "file": "VK6.csv",
+      "name": "Australia - WA",
       "count": 482
     },
     "VK7": {
       "file": "VK7.csv",
+      "name": "Australia - Tasmania",
       "count": 796
     },
     "VK8": {
       "file": "VK8.csv",
+      "name": "Australia - Northern Territory",
       "count": 246
     },
     "VK9": {
       "file": "VK9.csv",
+      "name": "Australia - Islands",
       "count": 7
     },
     "VKH": {
       "file": "VKH.csv",
+      "name": "Heard Island",
       "count": 5
     },
     "VKM": {
       "file": "VKM.csv",
+      "name": "Macquarie Island",
       "count": 3
     },
     "VO1": {
       "file": "VO1.csv",
+      "name": "Canada - Newfoundland",
       "count": 329
     },
     "VO2": {
       "file": "VO2.csv",
+      "name": "Canada - Labrador",
       "count": 1
     },
     "VP0": {
       "file": "VP0.csv",
+      "name": "South Georgia and the South Sandwich Islands",
       "count": 244
     },
     "VP8": {
       "file": "VP8.csv",
+      "name": "Falkland Islands",
       "count": 76
     },
     "VR": {
       "file": "VR.csv",
+      "name": "Hong Kong",
       "count": 72
     },
     "VY1": {
       "file": "VY1.csv",
+      "name": "Canada - Yukon",
       "count": 561
     },
     "VY2": {
       "file": "VY2.csv",
+      "name": "Canada - PEI",
       "count": 2
     },
     "W0C": {
       "file": "W0C.csv",
+      "name": "USA - Colorado",
       "count": 1805
     },
     "W0D": {
       "file": "W0D.csv",
+      "name": "USA - Dakotas",
       "count": 236
     },
     "W0I": {
       "file": "W0I.csv",
+      "name": "USA - Iowa",
       "count": 2
     },
     "W0M": {
       "file": "W0M.csv",
+      "name": "USA - Missouri",
       "count": 57
     },
     "W0N": {
       "file": "W0N.csv",
+      "name": "USA - Nebraska",
       "count": 15
     },
     "W1": {
       "file": "W1.csv",
+      "name": "USA - CT / ME / MA / NH / RI / VT",
       "count": 1103
     },
     "W2": {
       "file": "W2.csv",
+      "name": "USA - NJ / NY",
       "count": 720
     },
     "W3": {
       "file": "W3.csv",
+      "name": "USA - DE / MD / PA",
       "count": 305
     },
     "W4A": {
       "file": "W4A.csv",
+      "name": "USA - Alabama",
       "count": 71
     },
     "W4C": {
       "file": "W4C.csv",
+      "name": "USA - Carolinas",
       "count": 532
     },
     "W4G": {
       "file": "W4G.csv",
+      "name": "USA - Georgia",
       "count": 136
     },
     "W4K": {
       "file": "W4K.csv",
+      "name": "USA - Kentucky",
       "count": 221
     },
     "W4T": {
       "file": "W4T.csv",
+      "name": "USA - Tennessee",
       "count": 295
     },
     "W4V": {
       "file": "W4V.csv",
+      "name": "USA - Virginia",
       "count": 565
     },
     "W5A": {
       "file": "W5A.csv",
+      "name": "USA - Arkansas",
       "count": 127
     },
     "W5M": {
       "file": "W5M.csv",
+      "name": "USA - Mississippi",
       "count": 1
     },
     "W5N": {
       "file": "W5N.csv",
+      "name": "USA - New Mexico",
       "count": 1105
     },
     "W5O": {
       "file": "W5O.csv",
+      "name": "USA - Oklahoma",
       "count": 184
     },
     "W5T": {
       "file": "W5T.csv",
+      "name": "USA - Texas",
       "count": 550
     },
     "W6": {
       "file": "W6.csv",
+      "name": "USA - California",
       "count": 4329
     },
     "W7A": {
       "file": "W7A.csv",
+      "name": "USA - Arizona",
       "count": 2650
     },
     "W7I": {
       "file": "W7I.csv",
+      "name": "USA - Idaho",
       "count": 2549
     },
     "W7M": {
       "file": "W7M.csv",
+      "name": "USA - Montana",
       "count": 2740
     },
     "W7N": {
       "file": "W7N.csv",
+      "name": "USA - Nevada",
       "count": 2665
     },
     "W7O": {
       "file": "W7O.csv",
+      "name": "USA - Oregon",
       "count": 2066
     },
     "W7U": {
       "file": "W7U.csv",
+      "name": "USA - Utah",
       "count": 1592
     },
     "W7W": {
       "file": "W7W.csv",
+      "name": "USA - Washington",
       "count": 2806
     },
     "W7Y": {
       "file": "W7Y.csv",
+      "name": "USA - Wyoming",
       "count": 1229
     },
     "W8M": {
       "file": "W8M.csv",
+      "name": "USA - Michigan",
       "count": 97
     },
     "W8O": {
       "file": "W8O.csv",
+      "name": "USA - Ohio",
       "count": 57
     },
     "W8V": {
       "file": "W8V.csv",
+      "name": "USA - West Virginia",
       "count": 354
     },
     "W9": {
       "file": "W9.csv",
+      "name": "USA - W9",
       "count": 54
     },
     "XE1": {
       "file": "XE1.csv",
+      "name": "Mexico - Central",
       "count": 4547
     },
     "XE2": {
       "file": "XE2.csv",
+      "name": "Mexico - North",
       "count": 11091
     },
     "XE3": {
       "file": "XE3.csv",
+      "name": "Mexico South",
       "count": 3383
     },
     "XF4": {
       "file": "XF4.csv",
+      "name": "Revillagigedo",
       "count": 3
     },
     "YBB": {
       "file": "YBB.csv",
+      "name": "Indonesia - Bali",
       "count": 38
     },
     "YBE": {
       "file": "YBE.csv",
+      "name": "Indonesia - Eastern Islands of Sumatera",
       "count": 193
     },
     "YBJ": {
       "file": "YBJ.csv",
+      "name": "Indonesia - Java",
       "count": 590
     },
     "YBS": {
       "file": "YBS.csv",
+      "name": "Indonesia - Sumatera",
       "count": 2323
     },
     "YL": {
       "file": "YL.csv",
+      "name": "Latvia",
       "count": 3
     },
     "YO": {
       "file": "YO.csv",
+      "name": "Romania",
       "count": 1167
     },
     "YU": {
       "file": "YU.csv",
+      "name": "Serbia",
       "count": 430
     },
     "Z3": {
       "file": "Z3.csv",
+      "name": "North Macedonia",
       "count": 275
     },
     "ZB2": {
       "file": "ZB2.csv",
+      "name": "Gibraltar",
       "count": 1
     },
     "ZD": {
       "file": "ZD.csv",
+      "name": "UK South Atlantic",
       "count": 12
     },
     "ZL1": {
       "file": "ZL1.csv",
+      "name": "New Zealand - North Island",
       "count": 1388
     },
     "ZL3": {
       "file": "ZL3.csv",
+      "name": "New Zealand - South Island",
       "count": 4117
     },
     "ZL7": {
       "file": "ZL7.csv",
+      "name": "Chatham Islands",
       "count": 8
     },
     "ZL8": {
       "file": "ZL8.csv",
+      "name": "Kermadec Islands",
       "count": 3
     },
     "ZL9": {
       "file": "ZL9.csv",
+      "name": "Sub-Antarctic Territories",
       "count": 25
     },
     "ZS": {
       "file": "ZS.csv",
+      "name": "South Africa",
       "count": 4703
     },
     "ZS8": {
       "file": "ZS8.csv",
+      "name": "Marion and Prince Edward Islands",
       "count": 2
     }
   }
