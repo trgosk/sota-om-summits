@@ -1,0 +1,20 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+CX/CG-001,Uruguay,"Cuchilla Grande","Cerro Catedral - Cordillera",514,1685,-54.6742,-34.3828,-54.67420,-34.38280,4,3,01/06/2017,31/12/2099,5,27/07/2025,CX1TF
+CX/CG-002,Uruguay,"Cuchilla Grande","Cerro de las Ánimas",501,1643,-55.3208,-34.7475,-55.32080,-34.74750,4,3,01/06/2017,31/12/2099,0,,
+CX/CG-003,Uruguay,"Cuchilla Grande","Cerro Tupambaé",467,1532,-55.3369,-34.6736,-55.33690,-34.67360,2,3,01/06/2017,31/12/2099,0,,
+CX/CG-004,Uruguay,"Cuchilla Grande",CX/CG-004,424,1391,-54.9950,-34.4556,-54.99500,-34.45560,2,3,01/06/2017,31/12/2099,1,03/07/2023,CX/K6KM
+CX/CG-005,Uruguay,"Cuchilla Grande","Cerro Betete",423,1387,-55.3167,-34.6911,-55.31670,-34.69110,2,3,01/06/2017,31/12/2099,1,03/07/2023,CX/K6KM
+CX/CG-006,Uruguay,"Cuchilla Grande","Cerro Mirador",391,1282,-55.3308,-34.5269,-55.33080,-34.52690,1,0,01/06/2017,31/12/2099,0,,
+CX/CG-007,Uruguay,"Cuchilla Grande","Cerro Pan de Azúcar",389,1276,-55.2589,-34.8100,-55.25890,-34.81000,1,0,01/06/2017,31/12/2099,2,23/03/2019,CX3ACS
+CX/CG-008,Uruguay,"Cuchilla Grande","Cerro Esperelitas",387,1269,-55.2689,-34.0494,-55.26890,-34.04940,1,0,01/06/2017,31/12/2099,0,,
+CX/CG-009,Uruguay,"Cuchilla Grande","Cerro Rocha",332,1089,-54.3867,-34.3656,-54.38670,-34.36560,1,0,01/06/2017,31/12/2099,0,,
+CX/CG-010,Uruguay,"Cuchilla Grande","Cerro del Aguila",255,836,-54.6544,-34.1242,-54.65440,-34.12420,1,0,01/06/2017,31/12/2099,0,,
+CX/CG-011,Uruguay,"Cuchilla Grande","Cerro del Toro",253,829,-55.2528,-34.8636,-55.25280,-34.86360,1,0,01/06/2017,31/12/2099,3,06/12/2025,CX/DM5RE
+CX/CH-001,Uruguay,"Cuchilla de Haedo","Puntas Tres Cruces",419,1374,-56.1692,-31.3228,-56.16920,-31.32280,2,3,01/06/2017,31/12/2099,0,,
+CX/CH-002,Uruguay,"Cuchilla de Haedo","Cerro Areycuá",362,1186,-55.3336,-31.6114,-55.33360,-31.61140,1,0,01/06/2017,31/12/2099,0,,
+CX/CH-003,Uruguay,"Cuchilla de Haedo","Cerro Alpargata - Zapato",323,1059,-55.6147,-31.6297,-55.61470,-31.62970,1,0,01/06/2017,31/12/2099,0,,
+CX/NE-001,Uruguay,Noreste,"Cerro Brum",389,1274,-54.3636,-31.8800,-54.36360,-31.88000,1,0,01/06/2017,31/12/2099,0,,
+CX/NE-002,Uruguay,Noreste,"Cerro Colorado",379,1243,-54.5208,-32.8308,-54.52080,-32.83080,1,0,01/06/2017,31/12/2099,0,,
+CX/NE-003,Uruguay,Noreste,CX/NE-003,363,1190,-54.2403,-32.6100,-54.24030,-32.61000,1,0,01/06/2017,31/12/2099,1,09/12/2024,CX/HB9RYV/P
+CX/NE-004,Uruguay,Noreste,CX/NE-004,360,1181,-53.9039,-32.2531,-53.90390,-32.25310,1,0,01/06/2017,31/12/2099,0,,

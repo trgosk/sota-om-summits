@@ -1,0 +1,798 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VK7/CH-001,"Australia - Tasmania","Central Highlands","Mt Ossa",1619,5312,146.0334,-41.8710,146.03340,-41.87100,10,3,01/10/2014,31/12/2099,3,11/07/2024,VK7FADZ
+VK7/CH-002,"Australia - Tasmania","Central Highlands","Mt Pelion West",1560,5118,145.9795,-41.8319,145.97951,-41.83190,10,3,01/10/2014,31/12/2099,1,30/09/2023,VK7FADZ
+VK7/CH-003,"Australia - Tasmania","Central Highlands","Barn Bluff",1559,5115,145.9232,-41.7230,145.92320,-41.72300,10,3,01/10/2014,31/12/2099,2,04/05/2024,VK7FADZ
+VK7/CH-004,"Australia - Tasmania","Central Highlands","Cradle Mountain",1545,5069,145.9511,-41.6842,145.95110,-41.68420,10,3,01/10/2014,31/12/2099,5,04/05/2024,VK7FADZ
+VK7/CH-005,"Australia - Tasmania","Central Highlands","Ducane Range",1511,4957,146.0508,-41.9191,146.05080,-41.91910,10,3,01/10/2014,31/12/2099,1,29/11/2017,VK3KX/7
+VK7/CH-006,"Australia - Tasmania","Central Highlands","Mt Massif",1510,4954,146.0649,-41.9061,146.06490,-41.90610,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-007,"Australia - Tasmania","Central Highlands","Falling Mountain",1477,4846,146.0951,-41.9114,146.09509,-41.91140,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-008,"Australia - Tasmania","Central Highlands","Mt Thetis",1472,4829,145.9981,-41.8633,145.99809,-41.86330,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-009,"Australia - Tasmania","Central Highlands","Walls of Jerusalem 1470",1470,4823,146.2872,-41.8169,146.28720,-41.81690,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-010,"Australia - Tasmania","Central Highlands","Mt Jerusalem",1459,4787,146.3241,-41.8209,146.32410,-41.82090,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-011,"Australia - Tasmania","Central Highlands","Clumner Bluff",1452,4764,146.2569,-41.7611,146.25690,-41.76110,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-012,"Australia - Tasmania","Central Highlands","The Acropolis",1451,4760,146.0610,-41.9361,146.06100,-41.93610,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-013,"Australia - Tasmania","Central Highlands","Mt Olympus",1448,4751,146.0941,-42.0383,146.09410,-42.03830,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-014,"Australia - Tasmania","Central Highlands","Ironstone Mountain",1444,4737,146.4768,-41.7113,146.47681,-41.71130,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-015,"Australia - Tasmania","Central Highlands","Eldon Peak",1440,4724,145.7324,-41.9738,145.73241,-41.97380,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-016,"Australia - Tasmania","Central Highlands","Turrana Bluff",1440,4724,146.3521,-41.7587,146.35210,-41.75870,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-017,"Australia - Tasmania","Central Highlands","Mt Emmett",1432,4698,145.9819,-41.7102,145.98190,-41.71020,10,3,01/10/2014,31/12/2099,1,08/07/2024,VK7FADZ
+VK7/CH-018,"Australia - Tasmania","Central Highlands","Walled Mountain",1431,4695,146.0191,-41.9385,146.01910,-41.93850,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-019,"Australia - Tasmania","Central Highlands","Western Bluff",1420,4659,146.2823,-41.6176,146.28230,-41.61760,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-020,"Australia - Tasmania","Central Highlands","Mt Rufus",1416,4646,146.1008,-42.1249,146.10080,-42.12490,10,3,01/10/2014,31/12/2099,5,05/01/2019,VK7TW
+VK7/CH-021,"Australia - Tasmania","Central Highlands","Mount Hugel",1403,4603,146.0859,-42.1046,146.08591,-42.10460,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-022,"Australia - Tasmania","Central Highlands","Rats Castle",1397,4583,146.6504,-41.8392,146.65041,-41.83920,10,3,01/10/2014,31/12/2099,4,13/10/2018,VK7FAMP/P
+VK7/CH-023,"Australia - Tasmania","Central Highlands","Mt Pelion East",1397,4583,146.0681,-41.8574,146.06810,-41.85740,10,3,01/10/2014,31/12/2099,2,11/07/2024,VK7FADZ
+VK7/CH-024,"Australia - Tasmania","Central Highlands","Wild Dog Tier 1394",1394,4573,146.5805,-41.7831,146.58051,-41.78310,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-025,"Australia - Tasmania","Central Highlands","Sandbanks Tier",1391,4564,146.8651,-41.8377,146.86510,-41.83770,10,3,01/10/2014,31/12/2099,8,02/01/2026,VK7JZ
+VK7/CH-026,"Australia - Tasmania","Central Highlands","The Guardians",1390,4560,146.0232,-41.9735,146.02319,-41.97350,10,3,01/10/2014,31/12/2099,1,28/11/2017,VK3KX/7
+VK7/CH-027,"Australia - Tasmania","Central Highlands","Bishop Peak",1390,4560,146.1174,-41.8826,146.11740,-41.88260,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-028,"Australia - Tasmania","Central Highlands","Mt Manfred",1382,4534,146.0216,-42.0067,146.02161,-42.00670,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-029,"Australia - Tasmania","Central Highlands","Mt Cuvier",1380,4528,146.0242,-42.0244,146.02420,-42.02440,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-030,"Australia - Tasmania","Central Highlands","Perrins Bluff",1380,4528,145.9690,-41.8758,145.96899,-41.87580,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-031,"Australia - Tasmania","Central Highlands","Mt Byron",1378,4521,146.0589,-42.0297,146.05890,-42.02970,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-032,"Australia - Tasmania","Central Highlands","Eldon Bluff",1348,4423,145.8232,-41.9752,145.82320,-41.97520,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-033,"Australia - Tasmania","Central Highlands","Macs Mountain",1330,4363,145.9834,-41.9357,145.98340,-41.93570,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-034,"Australia - Tasmania","Central Highlands","High Dome",1330,4363,145.9266,-41.9885,145.92661,-41.98850,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-035,"Australia - Tasmania","Central Highlands","Mt Rogoona",1330,4363,146.1981,-41.8895,146.19810,-41.88950,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-036,"Australia - Tasmania","Central Highlands","Mt Oakleigh",1286,4219,146.0379,-41.8030,146.03790,-41.80300,10,3,01/10/2014,31/12/2099,3,16/07/2025,VK7FADZ
+VK7/CH-037,"Australia - Tasmania","Central Highlands","Mt Inglis",1282,4206,145.8778,-41.7405,145.87781,-41.74050,10,3,01/10/2014,31/12/2099,1,09/07/2024,VK7FADZ
+VK7/CH-038,"Australia - Tasmania","Central Highlands","Mt Ida",1241,4071,146.1623,-42.0198,146.16229,-42.01980,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-039,"Australia - Tasmania","Central Highlands","Mt Campbell",1240,4068,145.9720,-41.6566,145.97200,-41.65660,10,3,01/10/2014,31/12/2099,10,04/05/2024,VK7FAD
+VK7/CH-040,"Australia - Tasmania","Central Highlands","Mt Pillinger",1214,3983,146.1288,-41.8157,146.12880,-41.81570,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-041,"Australia - Tasmania","Central Highlands","Millers Bluff",1211,3973,147.1732,-41.9355,147.17320,-41.93550,10,3,01/10/2014,31/12/2099,1,13/05/2018,VK7ZMS
+VK7/CH-042,"Australia - Tasmania","Central Highlands","Wentworth Hills",1210,3970,146.3121,-42.2178,146.31210,-42.21780,10,3,01/10/2014,31/12/2099,0,,
+VK7/CH-043,"Australia - Tasmania","Central Highlands","Parson and Clerk Mountain",1190,3904,147.0363,-41.9151,147.03630,-41.91510,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-044,"Australia - Tasmania","Central Highlands","Mt Nereus",1180,3871,145.9352,-41.9207,145.93520,-41.92070,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-045,"Australia - Tasmania","Central Highlands","Castle Mountain",1170,3839,145.8442,-41.9903,145.84419,-41.99030,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-046,"Australia - Tasmania","Central Highlands","Dome Hill",1170,3839,145.8350,-41.9328,145.83501,-41.93280,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-047,"Australia - Tasmania","Central Highlands","Mt Penny West",1152,3779,146.9482,-42.0300,146.94820,-42.03000,8,0,01/10/2014,31/12/2099,5,07/03/2026,VK7VXT
+VK7/CH-048,"Australia - Tasmania","Central Highlands","Mt Proteus",1144,3753,145.9279,-41.8182,145.92790,-41.81820,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-049,"Australia - Tasmania","Central Highlands","The Amphitheatre 1124",1124,3687,145.9621,-42.0015,145.96210,-42.00150,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-050,"Australia - Tasmania","Central Highlands","Table Mountain",1095,3592,147.1386,-42.2358,147.13860,-42.23580,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-051,"Australia - Tasmania","Central Highlands","Alma Tier",1075,3527,147.0556,-42.1121,147.05560,-42.11210,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-052,"Australia - Tasmania","Central Highlands","Jilletts Tier",1055,3461,146.9718,-42.0885,146.97180,-42.08850,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-053,"Australia - Tasmania","Central Highlands","Mt Charles",1050,3445,146.2503,-42.1556,146.25031,-42.15560,8,0,01/10/2014,31/12/2099,2,20/10/2020,VK7LTD/P
+VK7/CH-054,"Australia - Tasmania","Central Highlands","Bradys Sugarloaf Tower",1020,3346,146.5316,-42.2591,146.53160,-42.25910,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-055,"Australia - Tasmania","Central Highlands","Stevensons Lookout",1015,3330,147.1335,-41.9712,147.13350,-41.97120,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-056,"Australia - Tasmania","Central Highlands","Granite Tor",1011,3317,145.7820,-41.7400,145.78200,-41.74000,8,0,01/10/2014,31/12/2099,0,,
+VK7/CH-057,"Australia - Tasmania","Central Highlands","Mt Dromedary",990,3248,147.1164,-42.7128,147.11639,-42.71280,6,0,01/10/2014,31/12/2099,10,04/10/2023,VK7XHJ
+VK7/CH-058,"Australia - Tasmania","Central Highlands","Platform Peak",979,3212,147.0591,-42.6920,147.05910,-42.69200,6,0,01/10/2014,31/12/2099,5,20/03/2026,VK7JZ
+VK7/CH-059,"Australia - Tasmania","Central Highlands","Sophia Peak",960,3150,145.7082,-41.8050,145.70821,-41.80500,6,0,01/10/2014,31/12/2099,0,,
+VK7/CH-060,"Australia - Tasmania","Central Highlands","Mt Romulus",955,3133,145.7371,-41.6831,145.73711,-41.68310,6,0,01/10/2014,31/12/2099,0,,
+VK7/CH-061,"Australia - Tasmania","Central Highlands","Victoria Peak",950,3117,145.6799,-41.7966,145.67990,-41.79660,6,0,01/10/2014,31/12/2099,0,,
+VK7/CH-062,"Australia - Tasmania","Central Highlands","Bluff River 930",930,3051,145.8037,-41.8079,145.80370,-41.80790,6,0,01/10/2014,31/12/2099,0,,
+VK7/CH-063,"Australia - Tasmania","Central Highlands","Woods Quoin",923,3028,147.0936,-42.2889,147.09360,-42.28890,6,0,01/10/2014,31/12/2099,1,02/07/2023,VK7ID
+VK7/CH-064,"Australia - Tasmania","Central Highlands","Tanina Bluff",890,2920,147.0304,-42.6549,147.03040,-42.65490,6,0,01/10/2014,31/12/2099,2,28/10/2017,VK7FAMP/P
+VK7/CH-065,"Australia - Tasmania","Central Highlands","Blue Hill",882,2894,146.8614,-42.3328,146.86140,-42.33280,6,0,01/10/2014,31/12/2099,0,,
+VK7/CH-066,"Australia - Tasmania","Central Highlands","Dens Hill",854,2802,147.0826,-42.4412,147.08260,-42.44120,6,0,01/10/2014,31/12/2099,0,,
+VK7/CH-067,"Australia - Tasmania","Central Highlands",804,804,2638,146.2448,-41.6862,146.24480,-41.68620,6,0,01/10/2014,31/12/2099,0,,
+VK7/CH-068,"Australia - Tasmania","Central Highlands","Parangana Sugarloaf",794,2605,146.2351,-41.6537,146.23511,-41.65370,4,0,01/10/2014,31/12/2099,0,,
+VK7/CH-069,"Australia - Tasmania","Central Highlands","High Tor",786,2579,145.7134,-41.7375,145.71339,-41.73750,4,0,01/10/2014,31/12/2099,0,,
+VK7/CH-070,"Australia - Tasmania","Central Highlands","Chalmers Creek 727",727,2385,145.8425,-41.8350,145.84250,-41.83500,4,0,01/10/2014,31/12/2099,0,,
+VK7/CH-071,"Australia - Tasmania","Central Highlands","Mt Farrell",712,2336,145.6374,-41.7488,145.63741,-41.74880,4,0,01/10/2014,31/12/2099,1,21/04/2026,VK3WMD/P
+VK7/CH-072,"Australia - Tasmania","Central Highlands","Wetheron Tier",701,2300,147.0574,-42.4912,147.05740,-42.49120,4,0,01/10/2014,31/12/2099,0,,
+VK7/CH-073,"Australia - Tasmania","Central Highlands","Plough Hill",685,2247,146.1222,-41.6487,146.12219,-41.64870,4,0,01/10/2014,31/12/2099,0,,
+VK7/CH-074,"Australia - Tasmania","Central Highlands","Pallawah Hill",685,2247,146.1070,-41.5917,146.10699,-41.59170,4,0,01/10/2014,31/12/2099,0,,
+VK7/CH-075,"Australia - Tasmania","Central Highlands","Blackmans Hill",659,2162,146.9720,-42.5159,146.97200,-42.51590,4,0,01/10/2014,31/12/2099,0,,
+VK7/CH-076,"Australia - Tasmania","Central Highlands","Taylors Tier",646,2119,146.9996,-42.6021,146.99960,-42.60210,2,0,01/10/2014,31/12/2099,0,,
+VK7/CH-077,"Australia - Tasmania","Central Highlands","O'Connors Peak",615,2018,147.0940,-41.8597,147.09399,-41.85970,2,0,01/10/2014,31/12/2099,0,,
+VK7/CH-078,"Australia - Tasmania","Central Highlands","Mangalore Tier",612,2008,147.1632,-42.6295,147.16319,-42.62950,2,0,01/10/2014,31/12/2099,0,,
+VK7/CH-079,"Australia - Tasmania","Central Highlands","Jacobs Sugarloaf",610,2001,147.3083,-41.9428,147.30830,-41.94280,2,0,01/10/2014,31/12/2099,0,,
+VK7/CH-080,"Australia - Tasmania","Central Highlands","Northumbria Hill",578,1896,147.2693,-42.3669,147.26930,-42.36690,2,0,01/10/2014,31/12/2099,0,,
+VK7/CH-081,"Australia - Tasmania","Central Highlands","Big White Hill",575,1886,147.2068,-42.4291,147.20680,-42.42910,2,0,01/10/2014,31/12/2099,0,,
+VK7/CH-082,"Australia - Tasmania","Central Highlands","Big Hill",549,1801,147.1953,-42.5568,147.19530,-42.55680,2,0,01/10/2014,31/12/2099,0,,
+VK7/CH-083,"Australia - Tasmania","Central Highlands","Macquarie Tier",508,1667,147.4013,-41.9459,147.40131,-41.94590,2,0,01/10/2014,31/12/2099,0,,
+VK7/CH-084,"Australia - Tasmania","Central Highlands","Bells Bare Hill",499,1637,146.7212,-42.4144,146.72121,-42.41440,1,0,01/10/2014,31/12/2099,0,,
+VK7/CH-085,"Australia - Tasmania","Central Highlands","Johnsons Hill",492,1614,147.1537,-42.5358,147.15370,-42.53580,1,0,01/10/2014,31/12/2099,0,,
+VK7/CH-086,"Australia - Tasmania","Central Highlands","Hummocky Hills",481,1578,147.2459,-41.7404,147.24590,-41.74040,1,0,01/10/2014,31/12/2099,0,,
+VK7/CH-087,"Australia - Tasmania","Central Highlands",Belmont,458,1503,146.9712,-42.7142,146.97121,-42.71420,1,0,01/10/2014,31/12/2099,0,,
+VK7/CH-088,"Australia - Tasmania","Central Highlands","Harry Walker Tier",449,1473,147.1382,-42.5785,147.13820,-42.57850,1,0,01/10/2014,31/12/2099,0,,
+VK7/CH-089,"Australia - Tasmania","Central Highlands","Mount Thunderbolt",395,1296,146.6606,-42.4533,146.66060,-42.45330,1,0,01/10/2014,31/12/2099,0,,
+VK7/CH-090,"Australia - Tasmania","Central Highlands","Mount Gould",1485,4872,146.0504,-41.9746,146.05040,-41.97460,10,3,01/11/2016,31/12/2099,0,,
+VK7/CH-091,"Australia - Tasmania","Central Highlands","Wild Dog Tier",1390,4560,146.5696,-41.7945,146.56960,-41.79450,10,3,01/11/2016,31/12/2099,0,,
+VK7/CH-092,"Australia - Tasmania","Central Highlands","Mount Achilles",1363,4472,145.9776,-41.8593,145.97760,-41.85930,10,3,01/11/2016,31/12/2099,0,,
+VK7/CH-093,"Australia - Tasmania","Central Highlands",VK7/CH-093,1326,4350,146.1807,-41.9416,146.18069,-41.94160,10,3,01/11/2016,31/12/2099,0,,
+VK7/CH-094,"Australia - Tasmania","Central Highlands",VK7/CH-094,1321,4334,145.8040,-41.9673,145.80400,-41.96730,10,3,01/11/2016,31/12/2099,0,,
+VK7/CH-095,"Australia - Tasmania","Central Highlands","Brewery Knob",1203,3947,145.9124,-41.6462,145.91240,-41.64620,10,3,01/11/2016,31/12/2099,2,05/05/2024,VK7FADZ
+VK7/CH-096,"Australia - Tasmania","Central Highlands",VK7/CH-096,936,3071,146.2264,-42.2426,146.22639,-42.24260,6,0,01/11/2016,31/12/2099,0,,
+VK7/CH-097,"Australia - Tasmania","Central Highlands","Bedlam Wall",922,3025,146.1948,-42.1469,146.19479,-42.14690,6,0,01/11/2016,31/12/2099,5,26/08/2024,VK7LTD
+VK7/CH-098,"Australia - Tasmania","Central Highlands","Snake Tier",851,2792,146.4996,-42.3090,146.49960,-42.30900,6,0,01/11/2016,31/12/2099,0,,
+VK7/CH-099,"Australia - Tasmania","Central Highlands",VK7/CH-099,824,2703,145.7434,-41.7663,145.74339,-41.76630,6,0,01/11/2016,31/12/2099,0,,
+VK7/CH-100,"Australia - Tasmania","Central Highlands","Mount Swallow",763,2503,145.7112,-41.7156,145.71120,-41.71560,4,0,01/11/2016,31/12/2099,0,,
+VK7/CH-101,"Australia - Tasmania","Central Highlands",VK7/CH-101,660,2165,147.0205,-42.5394,147.02049,-42.53940,4,0,01/11/2016,31/12/2099,0,,
+VK7/CH-102,"Australia - Tasmania","Central Highlands","Green Hill",620,2034,147.1155,-42.3874,147.11549,-42.38740,2,0,01/11/2016,31/12/2099,0,,
+VK7/CH-103,"Australia - Tasmania","Central Highlands","Barrs Hill",616,2021,147.0734,-42.3725,147.07339,-42.37250,2,0,01/11/2016,31/12/2099,0,,
+VK7/CH-104,"Australia - Tasmania","Central Highlands","Alexandra Hills",556,1824,145.6836,-41.7490,145.68359,-41.74900,2,0,01/11/2016,31/12/2099,0,,
+VK7/CH-105,"Australia - Tasmania","Central Highlands","Huntingdon Tier",545,1788,147.1668,-42.5734,147.16679,-42.57340,2,0,01/11/2016,31/12/2099,0,,
+VK7/EC-001,"Australia - Tasmania","East Coast","St Pauls Dome",1027,3369,147.8335,-41.7685,147.83350,-41.76850,8,0,01/10/2014,31/12/2099,1,19/05/2021,VK7AN
+VK7/EC-002,"Australia - Tasmania","East Coast","Mount Foster",1012,3320,147.8868,-41.7336,147.88680,-41.73360,8,0,01/10/2014,31/12/2099,0,,
+VK7/EC-003,"Australia - Tasmania","East Coast","Campbells Hill",995,3264,147.8276,-41.8951,147.82761,-41.89510,6,0,01/10/2014,31/12/2099,0,,
+VK7/EC-004,"Australia - Tasmania","East Coast","Quoin Mountain",900,2953,147.2798,-42.5462,147.27980,-42.54620,6,0,01/10/2014,31/12/2099,0,,
+VK7/EC-005,"Australia - Tasmania","East Coast","Fingal Tier 872",872,2861,148.0739,-41.6571,148.07390,-41.65710,6,0,01/10/2014,31/12/2099,0,,
+VK7/EC-006,"Australia - Tasmania","East Coast","Mount Hobbs",823,2700,147.5903,-42.5046,147.59030,-42.50460,6,0,01/10/2014,31/12/2099,12,26/04/2026,VK7JZ
+VK7/EC-007,"Australia - Tasmania","East Coast","Mount Ponsonby",814,2671,147.5311,-42.4547,147.53110,-42.45470,6,0,01/10/2014,31/12/2099,0,,
+VK7/EC-008,"Australia - Tasmania","East Coast","Gibsons Hill",813,2667,147.7377,-41.9009,147.73770,-41.90090,6,0,01/10/2014,31/12/2099,0,,
+VK7/EC-009,"Australia - Tasmania","East Coast","Mount Morriston",804,2638,147.7277,-42.0733,147.72771,-42.07330,6,0,01/10/2014,31/12/2099,1,09/03/2023,VK7ID
+VK7/EC-010,"Australia - Tasmania","East Coast","Brown Mountain",792,2598,147.5312,-42.5978,147.53120,-42.59780,4,0,01/10/2014,31/12/2099,2,27/07/2019,VK7LTD/P
+VK7/EC-011,"Australia - Tasmania","East Coast","Mount Punter",791,2595,148.1190,-41.7498,148.11900,-41.74980,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-012,"Australia - Tasmania","East Coast","Mount St John Range",784,2572,148.0991,-41.7760,148.09911,-41.77600,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-013,"Australia - Tasmania","East Coast","Mt Elephant",757,2484,148.2475,-41.6175,148.24750,-41.61750,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-014,"Australia - Tasmania","East Coast","Moaners Tier",747,2451,147.8666,-42.2480,147.86659,-42.24800,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-015,"Australia - Tasmania","East Coast","Mount Seymour",740,2428,147.4704,-42.3689,147.47040,-42.36890,4,0,01/10/2014,31/12/2099,1,24/10/2015,VK7ZMS
+VK7/EC-016,"Australia - Tasmania","East Coast","Pikes Hill",699,2293,147.3489,-42.3830,147.34891,-42.38300,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-017,"Australia - Tasmania","East Coast","Bisdee Tier",694,2277,147.2923,-42.4488,147.29230,-42.44880,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-018,"Australia - Tasmania","East Coast","Mackies Hill",688,2257,147.3605,-42.4729,147.36050,-42.47290,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-019,"Australia - Tasmania","East Coast","St Patricks Head",683,2241,148.2358,-41.5725,148.23579,-41.57250,4,0,01/10/2014,31/12/2099,3,08/03/2025,VK7MAT
+VK7/EC-020,"Australia - Tasmania","East Coast","Mount Henry",675,2215,147.9933,-41.8401,147.99330,-41.84010,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-021,"Australia - Tasmania","East Coast","Butlers Hill",670,2198,147.3049,-42.6212,147.30490,-42.62120,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-022,"Australia - Tasmania","East Coast","Faddens Tier",654,2146,147.6478,-42.2451,147.64780,-42.24510,4,0,01/10/2014,31/12/2099,0,,
+VK7/EC-023,"Australia - Tasmania","East Coast","Lookout Hill",640,2100,148.2143,-41.7466,148.21429,-41.74660,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-024,"Australia - Tasmania","East Coast","Murderers Tier",634,2080,147.5466,-42.3202,147.54660,-42.32020,2,0,01/10/2014,31/12/2099,1,26/09/2015,VK7TW/
+VK7/EC-025,"Australia - Tasmania","East Coast","Penny Hill",630,2067,147.6286,-42.1449,147.62860,-42.14490,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-026,"Australia - Tasmania","East Coast","Black Tier",627,2057,147.5212,-42.2231,147.52119,-42.22310,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-027,"Australia - Tasmania","East Coast","Mount Freycinet",620,2034,148.3038,-42.2167,148.30380,-42.21670,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-028,"Australia - Tasmania","East Coast","Bluestone Tier",613,2011,147.7923,-42.4929,147.79230,-42.49290,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-029,"Australia - Tasmania","East Coast","Vincents Hill",612,2008,147.4205,-42.2473,147.42050,-42.24730,2,0,01/10/2014,31/12/2099,1,24/10/2015,VK7ZMS
+VK7/EC-030,"Australia - Tasmania","East Coast","Mount Graham",579,1900,148.3172,-42.2117,148.31720,-42.21170,2,0,01/10/2014,31/12/2099,2,03/10/2016,VK7TW/
+VK7/EC-031,"Australia - Tasmania","East Coast","Lynes Sugarloaf",552,1811,148.1407,-41.9076,148.14070,-41.90760,2,0,01/10/2014,31/12/2099,1,23/02/2024,VK7ID
+VK7/EC-032,"Australia - Tasmania","East Coast","Sunnyside Hill",549,1801,147.5203,-42.6585,147.52029,-42.65850,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-033,"Australia - Tasmania","East Coast","Coal River Sugarloaf",536,1759,147.4122,-42.6361,147.41220,-42.63610,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-034,"Australia - Tasmania","East Coast","Coggle Hills",514,1686,148.0383,-41.8435,148.03830,-41.84350,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-035,"Australia - Tasmania","East Coast","Mount Bruche",504,1654,147.5445,-42.1815,147.54449,-42.18150,2,0,01/10/2014,31/12/2099,0,,
+VK7/EC-036,"Australia - Tasmania","East Coast","Mount Dove",485,1591,148.3080,-42.1516,148.30800,-42.15160,1,0,01/10/2014,31/12/2099,1,14/08/2021,VK7FADZ
+VK7/EC-037,"Australia - Tasmania","East Coast","Mount Amos",454,1490,148.2995,-42.1537,148.29950,-42.15370,1,0,01/10/2014,31/12/2099,5,23/11/2019,VK/DC8TM/P
+VK7/EC-038,"Australia - Tasmania","East Coast","Mount Story",420,1378,148.2858,-42.3222,148.28580,-42.32220,1,0,01/10/2014,31/12/2099,4,25/01/2025,VK7TW
+VK7/EC-039,"Australia - Tasmania","East Coast","Mount Mayson",415,1362,148.2843,-42.1587,148.28430,-42.15870,1,0,01/10/2014,31/12/2099,0,,
+VK7/EC-040,"Australia - Tasmania","East Coast","Brains Hill",412,1352,147.3921,-42.6940,147.39211,-42.69400,1,0,01/10/2014,31/12/2099,0,,
+VK7/EC-041,"Australia - Tasmania","East Coast","Gunns Sugarloaf",375,1230,147.3547,-42.7227,147.35471,-42.72270,1,0,01/10/2014,31/12/2099,1,22/12/2018,VK7ZMS
+VK7/EC-042,"Australia - Tasmania","East Coast","Mount Murray",317,1040,147.9797,-42.4676,147.97971,-42.46760,1,0,01/10/2014,31/12/2099,1,20/04/2016,VK7ZMS
+VK7/EC-043,"Australia - Tasmania","East Coast","Mount Peter",293,961,148.2525,-42.0303,148.25250,-42.03030,1,0,01/10/2014,31/12/2099,0,,
+VK7/EC-044,"Australia - Tasmania","East Coast","Mount Paul",282,925,148.2536,-42.0591,148.25360,-42.05910,1,0,01/10/2014,31/12/2099,0,,
+VK7/EC-045,"Australia - Tasmania","East Coast","Cape Lodi 274",274,899,148.3122,-41.9184,148.31219,-41.91840,1,0,01/10/2014,31/12/2099,2,04/02/2015,VK3PF/7
+VK7/EC-046,"Australia - Tasmania","East Coast","Bicheno 245",245,804,148.2714,-41.8643,148.27139,-41.86430,1,0,01/10/2014,31/12/2099,0,,
+VK7/EC-047,"Australia - Tasmania","East Coast","Cape Geographe 221",221,725,148.3029,-42.2771,148.30290,-42.27710,1,0,01/10/2014,31/12/2099,0,,
+VK7/EC-048,"Australia - Tasmania","East Coast","Den Hill",772,2533,147.6401,-41.8558,147.64011,-41.85580,4,0,01/11/2016,31/12/2099,0,,
+VK7/EC-049,"Australia - Tasmania","East Coast","Devils Backbone",698,2290,147.2762,-42.5857,147.27620,-42.58570,4,0,01/11/2016,31/12/2099,0,,
+VK7/EC-050,"Australia - Tasmania","East Coast","Little Swanport Hill",536,1759,147.8425,-42.3984,147.84250,-42.39840,2,0,01/11/2016,31/12/2099,0,,
+VK7/EC-051,"Australia - Tasmania","East Coast","Red Rock",454,1490,147.9706,-41.7973,147.97060,-41.79730,1,0,01/11/2016,31/12/2099,0,,
+VK7/EC-052,"Australia - Tasmania","East Coast","Cape Bougainville",184,603,148.0026,-42.5126,148.00259,-42.51260,1,0,01/11/2016,31/12/2099,0,,
+VK7/NC-001,"Australia - Tasmania","North Coast","Drys Bluff",1330,4364,146.8072,-41.7161,146.80721,-41.71610,10,3,01/10/2014,31/12/2099,0,,
+VK7/NC-002,"Australia - Tasmania","North Coast","Mother Cummings Peak",1270,4167,146.5430,-41.6793,146.54300,-41.67930,10,3,01/10/2014,31/12/2099,3,11/02/2021,VK7LTD/P
+VK7/NC-003,"Australia - Tasmania","North Coast","Mt Roland",1234,4049,146.2657,-41.4618,146.26570,-41.46180,10,3,01/10/2014,31/12/2099,3,17/01/2021,VK7TW
+VK7/NC-004,"Australia - Tasmania","North Coast","Quamby Bluff",1226,4022,146.6954,-41.6539,146.69540,-41.65390,10,3,01/10/2014,31/12/2099,7,04/02/2024,VK7FADZ
+VK7/NC-005,"Australia - Tasmania","North Coast","Mt Claude",966,3169,146.1986,-41.4921,146.19859,-41.49210,6,0,01/10/2014,31/12/2099,4,19/01/2024,VK7TW
+VK7/NC-006,"Australia - Tasmania","North Coast","Gum Top",839,2753,146.7570,-41.6348,146.75700,-41.63480,6,0,01/10/2014,31/12/2099,0,,
+VK7/NC-007,"Australia - Tasmania","North Coast","Warners Sugarloaf",803,2635,146.6478,-41.6823,146.64780,-41.68230,6,0,01/10/2014,31/12/2099,0,,
+VK7/NC-008,"Australia - Tasmania","North Coast","Gog Range",744,2441,146.4654,-41.5125,146.46539,-41.51250,4,0,01/10/2014,31/12/2099,0,,
+VK7/NC-009,"Australia - Tasmania","North Coast","Solomons Dome",700,2297,146.2482,-41.5415,146.24820,-41.54150,4,0,01/10/2014,31/12/2099,0,,
+VK7/NC-010,"Australia - Tasmania","North Coast","Standard Hill",685,2247,146.2704,-41.5330,146.27040,-41.53300,4,0,01/10/2014,31/12/2099,0,,
+VK7/NC-011,"Australia - Tasmania","North Coast","Archers Sugarloaf",641,2103,146.6146,-41.6761,146.61459,-41.67610,2,0,01/10/2014,31/12/2099,0,,
+VK7/NC-012,"Australia - Tasmania","North Coast","Kellys Lookout",574,1883,146.7756,-41.3035,146.77560,-41.30350,2,0,01/10/2014,31/12/2099,1,27/09/2016,VK7ZMS
+VK7/NC-013,"Australia - Tasmania","North Coast","Kimberleys Lookout",548,1798,146.3552,-41.3633,146.35519,-41.36330,2,0,01/10/2014,31/12/2099,3,11/11/2025,VK3WMD/P
+VK7/NC-014,"Australia - Tasmania","North Coast","Stephens Hill",540,1772,146.6659,-41.4368,146.66589,-41.43680,2,0,01/10/2014,31/12/2099,0,,
+VK7/NC-015,"Australia - Tasmania","North Coast","Christmas Hills",529,1736,146.6044,-41.4526,146.60440,-41.45260,2,0,01/10/2014,31/12/2099,2,18/08/2016,VK7ZMS
+VK7/NC-016,"Australia - Tasmania","North Coast","Black Sugarloaf",503,1650,146.8015,-41.3896,146.80150,-41.38960,2,0,01/10/2014,31/12/2099,0,,
+VK7/NC-017,"Australia - Tasmania","North Coast",491,491,1611,146.5352,-41.5400,146.53520,-41.54000,1,0,01/10/2014,31/12/2099,1,14/10/2015,VK7ZMS
+VK7/NC-018,"Australia - Tasmania","North Coast","The Tump",490,1608,146.8771,-41.3717,146.87711,-41.37170,1,0,01/10/2014,31/12/2099,1,05/06/2015,VK7BO/P
+VK7/NC-019,"Australia - Tasmania","North Coast","Bonneys Tier",465,1526,146.3534,-41.2946,146.35339,-41.29460,1,0,01/10/2014,31/12/2099,0,,
+VK7/NC-020,"Australia - Tasmania","North Coast","Dogs Head Hill",445,1460,146.3017,-41.5254,146.30170,-41.52540,1,0,01/10/2014,31/12/2099,0,,
+VK7/NC-021,"Australia - Tasmania","North Coast",Magog,443,1453,146.5086,-41.5262,146.50861,-41.52620,1,0,01/10/2014,31/12/2099,0,,
+VK7/NC-022,"Australia - Tasmania","North Coast","Grassy Hut Tier",410,1345,147.0384,-41.4542,147.03841,-41.45420,1,0,01/10/2014,31/12/2099,3,12/06/2024,VK7AN
+VK7/NC-023,"Australia - Tasmania","North Coast","Flowers Hill",390,1280,146.6935,-41.1634,146.69350,-41.16340,1,0,01/10/2014,31/12/2099,1,01/06/2015,VK7BO/P
+VK7/NC-024,"Australia - Tasmania","North Coast","Asbestos Range",385,1263,146.6953,-41.1330,146.69530,-41.13300,1,0,01/10/2014,31/12/2099,0,,
+VK7/NC-025,"Australia - Tasmania","North Coast","Notley Hills",374,1227,146.9287,-41.3601,146.92870,-41.36010,1,0,01/10/2014,31/12/2099,2,01/01/2024,VK7HAM
+VK7/NC-026,"Australia - Tasmania","North Coast","Peaked Hill",337,1106,146.8050,-41.2445,146.80499,-41.24450,1,0,01/10/2014,31/12/2099,0,,
+VK7/NC-027,"Australia - Tasmania","North Coast","Drys Sugarloaf",321,1053,146.6372,-41.2610,146.63721,-41.26100,1,0,01/10/2014,31/12/2099,0,,
+VK7/NC-028,"Australia - Tasmania","North Coast","Mount Vandyke",1084,3556,146.2595,-41.4904,146.25951,-41.49040,8,0,01/11/2016,31/12/2099,5,20/01/2024,VK7TW
+VK7/NC-029,"Australia - Tasmania","North Coast",VK7/NC-029,510,1673,146.7662,-41.3498,146.76620,-41.34980,2,0,01/11/2016,31/12/2099,0,,
+VK7/NC-030,"Australia - Tasmania","North Coast","Mount Careless",503,1650,146.7868,-41.3236,146.78680,-41.32360,2,0,01/11/2016,31/12/2099,0,,
+VK7/NC-031,"Australia - Tasmania","North Coast","Gibsons Sugarloaf",446,1463,146.5098,-41.6110,146.50980,-41.61100,1,0,01/11/2016,31/12/2099,0,,
+VK7/NC-032,"Australia - Tasmania","North Coast","Porcupine Hill",309,1014,146.2677,-41.2402,146.26770,-41.24020,1,0,01/11/2016,31/12/2099,0,,
+VK7/NC-033,"Australia - Tasmania","North Coast","Kelcey Tier",247,810,146.3184,-41.2148,146.31841,-41.21480,1,0,01/11/2016,31/12/2099,1,10/11/2025,VK3WMD/P
+VK7/NE-001,"Australia - Tasmania","North East","Legges Tor",1572,5157,147.6584,-41.5329,147.65840,-41.53290,10,3,01/10/2014,31/12/2099,24,14/04/2025,VK2HRX
+VK7/NE-002,"Australia - Tasmania","North East","Stacks Bluff",1527,5010,147.6886,-41.6261,147.68860,-41.62610,10,3,01/10/2014,31/12/2099,4,07/03/2026,VK7JZ
+VK7/NE-003,"Australia - Tasmania","North East","Mount Barrow",1406,4613,147.4187,-41.3766,147.41870,-41.37660,10,3,01/10/2014,31/12/2099,22,23/04/2026,VK3WMD/7
+VK7/NE-004,"Australia - Tasmania","North East","Ragged Jack",1369,4491,147.5853,-41.5554,147.58530,-41.55540,10,3,01/10/2014,31/12/2099,1,14/10/2016,VK7XDM/P
+VK7/NE-005,"Australia - Tasmania","North East","Ben Nevis",1368,4488,147.6270,-41.4097,147.62700,-41.40970,10,3,01/10/2014,31/12/2099,3,25/04/2026,VK3WMD/7
+VK7/NE-006,"Australia - Tasmania","North East","Mount Saddleback",1256,4121,147.7594,-41.3980,147.75940,-41.39800,10,3,01/10/2014,31/12/2099,5,14/04/2024,VK7FADZ
+VK7/NE-007,"Australia - Tasmania","North East","Mount Victoria",1213,3980,147.8406,-41.3330,147.84061,-41.33300,10,3,01/10/2014,31/12/2099,6,14/04/2024,VK7FADZ
+VK7/NE-008,"Australia - Tasmania","North East","Mount Arthur",1188,3898,147.2897,-41.2776,147.28970,-41.27760,8,0,01/10/2014,31/12/2099,9,16/05/2026,VK7HH
+VK7/NE-009,"Australia - Tasmania","North East","East Tower",1122,3681,147.8534,-41.5477,147.85339,-41.54770,8,0,01/10/2014,31/12/2099,8,06/03/2026,VK7JZ
+VK7/NE-010,"Australia - Tasmania","North East","Mount Maurice",1121,3678,147.5871,-41.3052,147.58710,-41.30520,8,0,01/10/2014,31/12/2099,0,,
+VK7/NE-011,"Australia - Tasmania","North East","Mount Albert",1120,3675,147.8718,-41.3489,147.87180,-41.34890,8,0,01/10/2014,31/12/2099,3,24/04/2026,VK3WMD/7
+VK7/NE-012,"Australia - Tasmania","North East","Byatts Razorback",1018,3340,147.8152,-41.5737,147.81520,-41.57370,8,0,01/10/2014,31/12/2099,0,,
+VK7/NE-013,"Australia - Tasmania","North East","Midday Hill",947,3107,147.5779,-41.6286,147.57790,-41.62860,6,0,01/10/2014,31/12/2099,0,,
+VK7/NE-014,"Australia - Tasmania","North East","Sunset Ridge",920,3018,147.5413,-41.3679,147.54131,-41.36790,6,0,01/10/2014,31/12/2099,1,23/04/2026,VK3WMD/7
+VK7/NE-015,"Australia - Tasmania","North East","Mount Young",894,2933,147.9572,-41.3602,147.95720,-41.36020,6,0,01/10/2014,31/12/2099,1,16/02/2015,VK3MCD/P7
+VK7/NE-016,"Australia - Tasmania","North East","Mount Blackboy",882,2894,147.8783,-41.4020,147.87830,-41.40200,6,0,01/10/2014,31/12/2099,1,16/02/2015,VK3MCD/P7
+VK7/NE-017,"Australia - Tasmania","North East","Mount Nicholas",869,2851,148.1049,-41.5420,148.10490,-41.54200,6,0,01/10/2014,31/12/2099,0,,
+VK7/NE-018,"Australia - Tasmania","North East","Mount Littlechild",850,2789,147.9742,-41.2027,147.97420,-41.20270,6,0,01/10/2014,31/12/2099,2,19/10/2022,VK7HAM
+VK7/NE-019,"Australia - Tasmania","North East","Rigney Hills",833,2733,147.6203,-41.6686,147.62030,-41.66860,6,0,01/10/2014,31/12/2099,0,,
+VK7/NE-020,"Australia - Tasmania","North East","South Sister",811,2661,148.1724,-41.5346,148.17239,-41.53460,6,0,01/10/2014,31/12/2099,5,01/12/2024,VK2IO/P
+VK7/NE-021,"Australia - Tasmania","North East","Dalrymple Hill",805,2641,147.7468,-41.6866,147.74680,-41.68660,6,0,01/10/2014,31/12/2099,0,,
+VK7/NE-022,"Australia - Tasmania","North East",790,790,2592,147.6386,-41.2933,147.63860,-41.29330,4,0,01/10/2014,31/12/2099,0,,
+VK7/NE-023,"Australia - Tasmania","North East","Bendover Hill",786,2579,147.9267,-41.2921,147.92670,-41.29210,4,0,01/10/2014,31/12/2099,0,,
+VK7/NE-024,"Australia - Tasmania","North East","Strzelecki Peak",782,2566,148.0774,-40.2032,148.07739,-40.20320,4,0,01/10/2014,31/12/2099,0,,
+VK7/NE-025,"Australia - Tasmania","North East","Stringy Bark Tier",780,2559,147.3980,-41.5379,147.39799,-41.53790,4,0,01/10/2014,31/12/2099,0,,
+VK7/NE-026,"Australia - Tasmania","North East",Knockup,761,2497,147.4038,-41.2723,147.40379,-41.27230,4,0,01/10/2014,31/12/2099,8,10/09/2025,VK7AN
+VK7/NE-027,"Australia - Tasmania","North East","Mount Durham",760,2493,148.0641,-41.5454,148.06410,-41.54540,4,0,01/10/2014,31/12/2099,0,,
+VK7/NE-028,"Australia - Tasmania","North East","Coxs Hill",746,2448,147.4613,-41.5129,147.46130,-41.51290,4,0,01/10/2014,31/12/2099,1,27/09/2020,VK7HAM
+VK7/NE-029,"Australia - Tasmania","North East","Cuckoo Hill",733,2405,147.6372,-41.2371,147.63721,-41.23710,4,0,01/10/2014,31/12/2099,3,19/06/2024,VK7AN
+VK7/NE-030,"Australia - Tasmania","North East","Sideling Range 719",719,2359,147.4213,-41.2356,147.42130,-41.23560,4,0,01/10/2014,31/12/2099,6,02/06/2024,VK7HAM/P
+VK7/NE-031,"Australia - Tasmania","North East","Mount Munro",711,2333,148.1174,-40.3705,148.11740,-40.37050,4,0,01/10/2014,31/12/2099,0,,
+VK7/NE-032,"Australia - Tasmania","North East","Peddles Hill",690,2264,147.6694,-41.2510,147.66940,-41.25100,4,0,01/10/2014,31/12/2099,0,,
+VK7/NE-033,"Australia - Tasmania","North East","Ballroom Hill",680,2231,147.4047,-41.5087,147.40469,-41.50870,4,0,01/10/2014,31/12/2099,2,29/05/2024,VK7AN
+VK7/NE-034,"Australia - Tasmania","North East","Mount Horror",676,2218,147.7339,-41.0668,147.73390,-41.06680,4,0,01/10/2014,31/12/2099,5,14/11/2024,VK7VXT
+VK7/NE-035,"Australia - Tasmania","North East","Mount Christie",655,2149,147.6708,-41.7412,147.67081,-41.74120,4,0,01/10/2014,31/12/2099,0,,
+VK7/NE-036,"Australia - Tasmania","North East","Ben Stewart",648,2126,147.5844,-41.7645,147.58440,-41.76450,2,0,01/10/2014,31/12/2099,0,,
+VK7/NE-037,"Australia - Tasmania","North East","Bonners Hill",643,2110,147.4879,-41.2623,147.48790,-41.26230,2,0,01/10/2014,31/12/2099,2,30/11/2022,VK7AN
+VK7/NE-038,"Australia - Tasmania","North East","Mount Cameron",551,1808,147.9425,-40.9818,147.94250,-40.98180,2,0,01/10/2014,31/12/2099,1,16/04/2022,VK2HRX
+VK7/NE-039,"Australia - Tasmania","North East","Browns Hill",540,1772,147.2003,-41.2724,147.20030,-41.27240,2,0,01/10/2014,31/12/2099,1,04/12/2015,VK7BO/P
+VK7/NE-040,"Australia - Tasmania","North East","Dismal Range",522,1713,147.1091,-41.2565,147.10910,-41.25650,2,0,01/10/2014,31/12/2099,0,,
+VK7/NE-041,"Australia - Tasmania","North East","Johnstones Hill",520,1706,147.6128,-41.2248,147.61279,-41.22480,2,0,01/10/2014,31/12/2099,2,31/08/2022,VK7AN
+VK7/NE-042,"Australia - Tasmania","North East","Double Peak",510,1673,148.1429,-40.3873,148.14290,-40.38730,2,0,01/10/2014,31/12/2099,0,,
+VK7/NE-043,"Australia - Tasmania","North East","Mount Kerferd",503,1650,148.3606,-40.4346,148.36060,-40.43460,2,0,01/10/2014,31/12/2099,0,,
+VK7/NE-044,"Australia - Tasmania","North East","Mount Leventhorpe",501,1644,148.0969,-40.0727,148.09689,-40.07270,2,0,01/10/2014,31/12/2099,1,12/02/2015,VK7AN
+VK7/NE-045,"Australia - Tasmania","North East","Mount Stronach",490,1608,147.5654,-41.1740,147.56540,-41.17400,1,0,01/10/2014,31/12/2099,5,14/04/2026,VK7AN
+VK7/NE-046,"Australia - Tasmania","North East","Counsels Peak",485,1591,148.1038,-40.1063,148.10381,-40.10630,1,0,01/10/2014,31/12/2099,1,02/11/2015,VK3XDM/7
+VK7/NE-047,"Australia - Tasmania","North East","Loila Tier",471,1545,148.1990,-41.3807,148.19901,-41.38070,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-048,"Australia - Tasmania","North East","Mount Pearson",465,1526,148.2347,-41.2418,148.23470,-41.24180,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-049,"Australia - Tasmania","North East","Brougham Sugarloaf",458,1503,147.9955,-40.0359,147.99550,-40.03590,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-050,"Australia - Tasmania","North East","Copper Show Ridge",397,1302,148.1524,-41.3872,148.15240,-41.38720,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-051,"Australia - Tasmania","North East",Tippogoree,380,1247,146.9573,-41.1329,146.95731,-41.13290,1,0,01/10/2014,31/12/2099,2,18/06/2025,VK7AN
+VK7/NE-052,"Australia - Tasmania","North East","Hogans Hill",378,1240,148.4165,-40.4317,148.41650,-40.43170,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-053,"Australia - Tasmania","North East","Rodondo Island",351,1152,146.3871,-39.2316,146.38710,-39.23160,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-054,"Australia - Tasmania","North East","Curtis Island",335,1099,146.6446,-39.4757,146.64461,-39.47570,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-055,"Australia - Tasmania","North East","Mount Tanner",332,1089,147.8239,-39.8817,147.82390,-39.88170,1,0,01/10/2014,31/12/2099,2,30/10/2015,VK3XDM/7
+VK7/NE-056,"Australia - Tasmania","North East","Doctors Peak",319,1047,148.2059,-41.1981,148.20590,-41.19810,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-057,"Australia - Tasmania","North East","Mount Killiecrankie",318,1043,147.8614,-39.8113,147.86140,-39.81130,1,0,01/10/2014,31/12/2099,2,20/07/2016,VK7AN
+VK7/NE-058,"Australia - Tasmania","North East","Big Silver",314,1030,148.1299,-40.1133,148.12990,-40.11330,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-059,"Australia - Tasmania","North East","South Bluff (Deal Island)",296,971,147.3202,-39.4928,147.32021,-39.49280,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-060,"Australia - Tasmania","North East","Mount Echo",283,928,148.1857,-41.3406,148.18570,-41.34060,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-061,"Australia - Tasmania","North East","Phils Hill",275,902,148.2575,-40.3843,148.25751,-40.38430,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-062,"Australia - Tasmania","North East","Mount Blyth",274,899,147.9099,-39.8216,147.90990,-39.82160,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-063,"Australia - Tasmania","North East","Mount Boyes",274,899,147.9209,-39.8598,147.92090,-39.85980,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-064,"Australia - Tasmania","North East","Battery Bay Hills",274,899,148.2351,-40.4330,148.23511,-40.43300,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-065,"Australia - Tasmania","North East","Quoin Hill",254,833,147.9273,-39.7662,147.92731,-39.76620,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-066,"Australia - Tasmania","North East","Big Stony Hill",238,781,148.3211,-40.3582,148.32111,-40.35820,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-067,"Australia - Tasmania","North East","Dover Island",236,774,147.2849,-39.4752,147.28490,-39.47520,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-068,"Australia - Tasmania","North East","North Patriach",235,771,148.2083,-39.9731,148.20830,-39.97310,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-069,"Australia - Tasmania","North East","Steep Hill (Clarke Island)",204,669,148.1526,-40.5100,148.15260,-40.51000,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-070,"Australia - Tasmania","North East","The Dutchman",202,663,148.1660,-40.1233,148.16600,-40.12330,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-071,"Australia - Tasmania","North East","South Patriach ridge",201,659,148.2049,-40.0034,148.20490,-40.00340,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-072,"Australia - Tasmania","North East","Mount Capuchin",200,656,148.3318,-39.9473,148.33180,-39.94730,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-073,"Australia - Tasmania","North East","Mount Chappell",198,650,147.9271,-40.2736,147.92709,-40.27360,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-074,"Australia - Tasmania","North East","East Hill (Inner Sister Island)",195,640,147.9281,-39.6970,147.92810,-39.69700,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-075,"Australia - Tasmania","North East","Outer Sister Island",187,614,147.9785,-39.6598,147.97850,-39.65980,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-076,"Australia - Tasmania","North East",177,177,581,147.7379,-40.0938,147.73790,-40.09380,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-077,"Australia - Tasmania","North East","Erith Island",173,568,147.2911,-39.4429,147.29111,-39.44290,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-078,"Australia - Tasmania","North East","Guncarriage Hill",166,545,148.3009,-40.2754,148.30090,-40.27540,1,0,01/10/2014,31/12/2099,0,,
+VK7/NE-079,"Australia - Tasmania","North East",VK7/NE-079,1365,4478,147.6426,-41.5832,147.64259,-41.58320,10,3,01/11/2016,31/12/2099,0,,
+VK7/NE-080,"Australia - Tasmania","North East",VK7/NE-080,996,3268,147.5933,-41.6104,147.59331,-41.61040,6,0,01/11/2016,31/12/2099,0,,
+VK7/NE-081,"Australia - Tasmania","North East","Huntsmans Cap",740,2428,148.1050,-41.5228,148.10500,-41.52280,4,0,01/11/2016,31/12/2099,0,,
+VK7/NE-082,"Australia - Tasmania","North East",VK7/NE-082,518,1699,147.3013,-41.4679,147.30130,-41.46790,2,0,01/11/2016,31/12/2099,0,,
+VK7/NE-083,"Australia - Tasmania","North East","Mount William",216,709,148.1880,-40.9081,148.18800,-40.90810,1,0,01/11/2016,31/12/2099,2,20/06/2024,VK5DG/7
+VK7/NW-001,"Australia - Tasmania","North West","Black Bluff Range",1336,4383,145.9379,-41.4578,145.93790,-41.45780,10,3,01/10/2014,31/12/2099,0,,
+VK7/NW-002,"Australia - Tasmania","North West","Mt Kate",1147,3763,145.9594,-41.6167,145.95940,-41.61670,8,0,01/10/2014,31/12/2099,0,,
+VK7/NW-003,"Australia - Tasmania","North West","Mt Beecroft",1140,3740,145.8383,-41.5729,145.83830,-41.57290,8,0,01/10/2014,31/12/2099,1,21/02/2023,VK/K0MOS/P
+VK7/NW-004,"Australia - Tasmania","North West","Mt Tor",1110,3642,145.8927,-41.4286,145.89270,-41.42860,8,0,01/10/2014,31/12/2099,0,,
+VK7/NW-005,"Australia - Tasmania","North West","St Valentines Peak",1107,3632,145.7559,-41.3565,145.75591,-41.35650,8,0,01/10/2014,31/12/2099,0,,
+VK7/NW-006,"Australia - Tasmania","North West",Stormont,1008,3307,146.0193,-41.5062,146.01930,-41.50620,8,0,01/10/2014,31/12/2099,0,,
+VK7/NW-007,"Australia - Tasmania","North West","Mt Pearse",1002,3287,145.6130,-41.5007,145.61301,-41.50070,8,0,01/10/2014,31/12/2099,0,,
+VK7/NW-008,"Australia - Tasmania","North West","Mt Cripps",941,3087,145.7654,-41.5797,145.76540,-41.57970,6,0,01/10/2014,31/12/2099,0,,
+VK7/NW-009,"Australia - Tasmania","North West","Mt Cattley",928,3045,145.8591,-41.4891,145.85910,-41.48910,6,0,01/10/2014,31/12/2099,0,,
+VK7/NW-010,"Australia - Tasmania","North West","Parsons Hood",915,3002,145.3365,-41.6853,145.33650,-41.68530,6,0,01/10/2014,31/12/2099,0,,
+VK7/NW-011,"Australia - Tasmania","North West","Mt Everett",892,2926,145.8652,-41.3600,145.86520,-41.36000,6,0,01/10/2014,31/12/2099,0,,
+VK7/NW-012,"Australia - Tasmania","North West","Mt Cleveland",870,2854,145.3863,-41.4446,145.38631,-41.44460,6,0,01/10/2014,31/12/2099,1,07/01/2018,VK7ZMS
+VK7/NW-013,"Australia - Tasmania","North West","Mt Charter",850,2789,145.6753,-41.6229,145.67529,-41.62290,6,0,01/10/2014,31/12/2099,1,22/04/2026,VK3WMD/P
+VK7/NW-014,"Australia - Tasmania","North West","Companion Hill",850,2789,145.7282,-41.3411,145.72820,-41.34110,6,0,01/10/2014,31/12/2099,1,04/12/2018,VK7ZMS
+VK7/NW-015,"Australia - Tasmania","North West",833,833,2732,145.2712,-41.5772,145.27119,-41.57720,6,0,01/10/2014,31/12/2099,0,,
+VK7/NW-016,"Australia - Tasmania","North West","Wombat Hill",830,2723,145.4445,-41.4929,145.44450,-41.49290,6,0,01/10/2014,31/12/2099,0,,
+VK7/NW-017,"Australia - Tasmania","North West","Mt Ramsay",826,2710,145.4637,-41.5806,145.46370,-41.58060,6,0,01/10/2014,31/12/2099,0,,
+VK7/NW-018,"Australia - Tasmania","North West","Mt Meredith",810,2657,145.2464,-41.5685,145.24640,-41.56850,6,0,01/10/2014,31/12/2099,0,,
+VK7/NW-019,"Australia - Tasmania","North West","Mt Bell",803,2634,146.1081,-41.4635,146.10809,-41.46350,6,0,01/10/2014,31/12/2099,2,24/02/2023,VK/K0MOS/P
+VK7/NW-020,"Australia - Tasmania","North West","Mt Block",794,2605,145.6399,-41.6555,145.63989,-41.65550,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-021,"Australia - Tasmania","North West","Mt Bischoff",785,2575,145.5210,-41.4278,145.52100,-41.42780,4,0,01/10/2014,31/12/2099,1,05/07/2015,VK7BO/P
+VK7/NW-022,"Australia - Tasmania","North West","Mt Livingston",781,2562,145.2656,-41.6770,145.26559,-41.67700,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-023,"Australia - Tasmania","North West","Mt Edith",771,2529,145.0028,-41.4520,145.00281,-41.45200,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-024,"Australia - Tasmania","North West","Mt Norfolk",760,2493,144.9612,-41.4463,144.96120,-41.44630,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-025,"Australia - Tasmania","North West","Mt Hadmar",723,2372,145.0323,-41.4590,145.03230,-41.45900,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-026,"Australia - Tasmania","North West",709,709,2326,145.5640,-41.6522,145.56400,-41.65220,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-027,"Australia - Tasmania","North West","Loyetea Peak",706,2316,145.9573,-41.3177,145.95731,-41.31770,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-028,"Australia - Tasmania","North West","Mt Bertha",703,2306,145.2401,-41.2871,145.24010,-41.28710,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-029,"Australia - Tasmania","North West","Mt Sunday",699,2293,145.0178,-41.5149,145.01781,-41.51490,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-030,"Australia - Tasmania","North West","Mt Housetop",685,2247,145.8900,-41.3023,145.89000,-41.30230,4,0,01/10/2014,31/12/2099,0,,
+VK7/NW-031,"Australia - Tasmania","North West","Mt Duncan",665,2182,146.0353,-41.1944,146.03529,-41.19440,4,0,01/10/2014,31/12/2099,1,29/12/2022,VK7DP
+VK7/NW-032,"Australia - Tasmania","North West","Mt Hazelton",649,2129,144.9296,-41.3628,144.92960,-41.36280,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-033,"Australia - Tasmania","North West","Mt Riana",610,2001,146.0180,-41.2051,146.01801,-41.20510,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-034,"Australia - Tasmania","North West","Mt Holloway",585,1919,144.9809,-41.4230,144.98090,-41.42300,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-035,"Australia - Tasmania","North West",583,583,1913,145.7580,-41.6417,145.75800,-41.64170,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-036,"Australia - Tasmania","North West","Mt Lorymer",562,1844,146.0466,-41.2257,146.04660,-41.22570,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-037,"Australia - Tasmania","North West",557,557,1827,145.3338,-41.7477,145.33380,-41.74770,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-038,"Australia - Tasmania","North West","Mt Kershaw",556,1824,145.5263,-41.7186,145.52631,-41.71860,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-039,"Australia - Tasmania","North West","Detention Peak",554,1818,145.4673,-41.0228,145.46730,-41.02280,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-040,"Australia - Tasmania","North West",Longback,518,1699,145.0964,-41.5469,145.09641,-41.54690,2,0,01/10/2014,31/12/2099,0,,
+VK7/NW-041,"Australia - Tasmania","North West","Mt Montgomery",471,1545,146.0652,-41.1507,146.06520,-41.15070,1,0,01/10/2014,31/12/2099,2,12/06/2017,VK7JON
+VK7/NW-042,"Australia - Tasmania","North West","Eardley Tor",449,1473,146.2294,-41.3141,146.22940,-41.31410,1,0,01/10/2014,31/12/2099,0,,
+VK7/NW-043,"Australia - Tasmania","North West","Mt Frankland",448,1470,144.9306,-41.2880,144.93060,-41.28800,1,0,01/10/2014,31/12/2099,0,,
+VK7/NW-044,"Australia - Tasmania","North West","Mt Donaldson",438,1437,145.0658,-41.6104,145.06580,-41.61040,1,0,01/10/2014,31/12/2099,0,,
+VK7/NW-045,"Australia - Tasmania","North West","Mt Balfour",436,1430,144.8810,-41.2871,144.88100,-41.28710,1,0,01/10/2014,31/12/2099,0,,
+VK7/NW-046,"Australia - Tasmania","North West","Tinkers Lookout",291,955,145.4963,-40.8789,145.49631,-40.87890,1,0,01/10/2014,31/12/2099,8,30/12/2023,ZL1SKL
+VK7/NW-047,"Australia - Tasmania","North West","South Hummock",237,778,144.8982,-40.4708,144.89819,-40.47080,1,0,01/10/2014,31/12/2099,0,,
+VK7/NW-048,"Australia - Tasmania","North West","Gentle Annie",162,531,144.0185,-40.0349,144.01849,-40.03490,1,0,01/10/2014,31/12/2099,1,03/04/2015,VK3XDM/7
+VK7/NW-049,"Australia - Tasmania","North West","Rocky Sugarloaf",974,3196,145.6263,-41.5130,145.62630,-41.51300,6,0,01/11/2016,31/12/2099,0,,
+VK7/NW-050,"Australia - Tasmania","North West","Loongana Range",895,2936,145.9513,-41.3867,145.95129,-41.38670,6,0,01/11/2016,31/12/2099,0,,
+VK7/NW-051,"Australia - Tasmania","North West",VK7/NW-051,775,2543,145.9339,-41.3438,145.93390,-41.34380,4,0,01/11/2016,31/12/2099,0,,
+VK7/NW-052,"Australia - Tasmania","North West",VK7/NW-052,764,2507,145.3336,-41.3024,145.33360,-41.30240,4,0,01/11/2016,31/12/2099,0,,
+VK7/NW-053,"Australia - Tasmania","North West","Three Brothers",750,2461,146.0377,-41.3849,146.03770,-41.38490,4,0,01/11/2016,31/12/2099,0,,
+VK7/NW-054,"Australia - Tasmania","North West",VK7/NW-054,727,2385,145.9565,-41.3354,145.95650,-41.33540,4,0,01/11/2016,31/12/2099,0,,
+VK7/NW-055,"Australia - Tasmania","North West","Mount Mabel",700,2297,144.9490,-41.4226,144.94901,-41.42260,4,0,01/11/2016,31/12/2099,0,,
+VK7/NW-056,"Australia - Tasmania","North West",VK7/NW-056,650,2133,145.6381,-41.6819,145.63811,-41.68190,4,0,01/11/2016,31/12/2099,0,,
+VK7/NW-057,"Australia - Tasmania","North West",VK7/NW-057,606,1988,145.0482,-41.4928,145.04820,-41.49280,2,0,01/11/2016,31/12/2099,0,,
+VK7/NW-058,"Australia - Tasmania","North West","Kings Hill",569,1867,146.2315,-41.3445,146.23151,-41.34450,2,0,01/11/2016,31/12/2099,0,,
+VK7/NW-059,"Australia - Tasmania","North West",VK7/NW-059,558,1831,145.4034,-41.6246,145.40340,-41.62460,2,0,01/11/2016,31/12/2099,0,,
+VK7/NW-060,"Australia - Tasmania","North West",VK7/NW-060,545,1788,145.5825,-41.6954,145.58250,-41.69540,2,0,01/11/2016,31/12/2099,0,,
+VK7/NW-061,"Australia - Tasmania","North West","Interview Pinnacle",508,1667,145.0429,-41.5255,145.04289,-41.52550,2,0,01/11/2016,31/12/2099,0,,
+VK7/NW-062,"Australia - Tasmania","North West","Mount Gnomon",470,1542,146.0334,-41.1748,146.03340,-41.17480,1,0,01/11/2016,31/12/2099,6,01/07/2024,VK5DG/7
+VK7/NW-063,"Australia - Tasmania","North West",VK7/NW-063,381,1250,145.6010,-41.7215,145.60100,-41.72150,1,0,01/11/2016,31/12/2099,0,,
+VK7/SC-001,"Australia - Tasmania","South Coast","Mt Wellington",1270,4167,147.2367,-42.8960,147.23669,-42.89600,10,3,01/10/2014,31/12/2099,100,07/02/2026,VK7JZ
+VK7/SC-002,"Australia - Tasmania","South Coast","Collins Bonnett",1229,4032,147.1490,-42.8834,147.14900,-42.88340,10,3,01/10/2014,31/12/2099,33,14/04/2026,VK7JZ
+VK7/SC-003,"Australia - Tasmania","South Coast","Mt Marian",1134,3720,147.1041,-42.8792,147.10410,-42.87920,8,0,01/10/2014,31/12/2099,14,07/03/2026,VK7FADZ
+VK7/SC-004,"Australia - Tasmania","South Coast","Trestle Mountain",1128,3701,147.1274,-42.8872,147.12740,-42.88720,8,0,01/10/2014,31/12/2099,16,06/05/2026,VK7VXT
+VK7/SC-005,"Australia - Tasmania","South Coast","Mount Styx",1089,3573,146.7456,-42.8315,146.74561,-42.83150,8,0,01/10/2014,31/12/2099,4,30/04/2017,VK7LTD/P
+VK7/SC-006,"Australia - Tasmania","South Coast","Collins Cap",1063,3488,147.1400,-42.8615,147.14000,-42.86150,8,0,01/10/2014,31/12/2099,35,13/03/2026,VK7FADZ
+VK7/SC-007,"Australia - Tasmania","South Coast","Mt Faulkner",900,2953,147.1918,-42.7959,147.19180,-42.79590,6,0,01/10/2014,31/12/2099,4,12/12/2024,VK7HH
+VK7/SC-008,"Australia - Tasmania","South Coast","Grey Mountain",822,2697,147.1164,-43.0913,147.11639,-43.09130,6,0,01/10/2014,31/12/2099,12,21/06/2025,VK7FADZ
+VK7/SC-009,"Australia - Tasmania","South Coast","Herring Back",737,2418,147.1397,-43.0068,147.13969,-43.00680,4,0,01/10/2014,31/12/2099,12,11/02/2026,VK7VXT
+VK7/SC-010,"Australia - Tasmania","South Coast","Barn Back",721,2365,146.7610,-42.9975,146.76100,-42.99750,4,0,01/10/2014,31/12/2099,2,24/09/2023,VK7ID
+VK7/SC-011,"Australia - Tasmania","South Coast","Mt Maria",711,2333,148.1098,-42.6207,148.10980,-42.62070,4,0,01/10/2014,31/12/2099,1,15/12/2023,VK7HH
+VK7/SC-012,"Australia - Tasmania","South Coast","Prossers Sugarloaf",650,2133,147.8250,-42.6733,147.82500,-42.67330,4,0,01/10/2014,31/12/2099,2,07/10/2017,VK7LTD/P
+VK7/SC-013,"Australia - Tasmania","South Coast",618,618,2028,146.9392,-43.0659,146.93919,-43.06590,2,0,01/10/2014,31/12/2099,1,18/06/2016,VK7ZMS
+VK7/SC-014,"Australia - Tasmania","South Coast","Woodbridge Hill",601,1972,147.1900,-43.1510,147.19000,-43.15100,2,0,01/10/2014,31/12/2099,0,,
+VK7/SC-015,"Australia - Tasmania","South Coast","Mt Cygnet",584,1916,147.1635,-43.1960,147.16350,-43.19600,2,0,01/10/2014,31/12/2099,1,26/06/2016,VK7ZMS
+VK7/SC-016,"Australia - Tasmania","South Coast",Tongatabu,573,1880,146.9575,-43.2293,146.95750,-43.22930,2,0,01/10/2014,31/12/2099,0,,
+VK7/SC-017,"Australia - Tasmania","South Coast","Mt Mangana",571,1873,147.2866,-43.3717,147.28661,-43.37170,2,0,01/10/2014,31/12/2099,8,21/11/2024,VK2IO/P
+VK7/SC-018,"Australia - Tasmania","South Coast","Macgregor Peak",557,1827,147.9467,-42.9779,147.94670,-42.97790,2,0,01/10/2014,31/12/2099,8,15/05/2026,VK7TO
+VK7/SC-019,"Australia - Tasmania","South Coast","Middle Peak",555,1821,147.8236,-42.7195,147.82359,-42.71950,2,0,01/10/2014,31/12/2099,0,,
+VK7/SC-020,"Australia - Tasmania","South Coast","Blue Hill",553,1814,146.7794,-43.0983,146.77940,-43.09830,2,0,01/10/2014,31/12/2099,4,30/09/2024,VK7JZ
+VK7/SC-021,"Australia - Tasmania","South Coast","Three Thumbs",550,1804,147.8639,-42.6012,147.86391,-42.60120,2,0,01/10/2014,31/12/2099,8,13/03/2025,VK7/VK3KR
+VK7/SC-022,"Australia - Tasmania","South Coast","Mt Midway",547,1795,147.2971,-43.4171,147.29710,-43.41710,2,0,01/10/2014,31/12/2099,0,,
+VK7/SC-023,"Australia - Tasmania","South Coast","Grasstree Hill",544,1785,147.3540,-42.7760,147.35400,-42.77600,2,0,01/10/2014,31/12/2099,1,01/12/2018,VK7ZMS
+VK7/SC-024,"Australia - Tasmania","South Coast","Mt Walter",536,1759,147.8657,-42.7278,147.86571,-42.72780,2,0,01/10/2014,31/12/2099,1,19/08/2023,VK7ID
+VK7/SC-025,"Australia - Tasmania","South Coast",528,528,1732,147.3076,-43.4369,147.30760,-43.43690,2,0,01/10/2014,31/12/2099,0,,
+VK7/SC-026,"Australia - Tasmania","South Coast","Tatnells Hill",528,1732,147.9369,-43.0684,147.93690,-43.06840,2,0,01/10/2014,31/12/2099,4,28/11/2020,VK7FADZ
+VK7/SC-027,"Australia - Tasmania","South Coast","Mt Phipps",513,1683,147.5920,-42.6638,147.59200,-42.66380,2,0,01/10/2014,31/12/2099,8,09/05/2026,VK7JZ
+VK7/SC-028,"Australia - Tasmania","South Coast","Mt Bruny",504,1654,147.2906,-43.4803,147.29060,-43.48030,2,0,01/10/2014,31/12/2099,0,,
+VK7/SC-029,"Australia - Tasmania","South Coast","She Oak Hills",500,1640,146.8976,-43.0117,146.89760,-43.01170,2,0,01/10/2014,31/12/2099,1,19/06/2016,VK7ZMS
+VK7/SC-030,"Australia - Tasmania","South Coast","Mt Clark",497,1631,147.7794,-43.1034,147.77940,-43.10340,1,0,01/10/2014,31/12/2099,3,12/10/2019,VK7FAMP/P
+VK7/SC-031,"Australia - Tasmania","South Coast","Tylers Hill",491,1611,146.9929,-43.3772,146.99290,-43.37720,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-032,"Australia - Tasmania","South Coast","High Yellow Bluff",485,1591,147.9849,-42.9254,147.98489,-42.92540,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-033,"Australia - Tasmania","South Coast","Mt Fortescue",484,1588,147.9656,-43.1712,147.96561,-43.17120,1,0,01/10/2014,31/12/2099,1,26/09/2024,VK7MPB
+VK7/SC-034,"Australia - Tasmania","South Coast","Mt Grosse",460,1509,147.2039,-43.2532,147.20390,-43.25320,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-035,"Australia - Tasmania","South Coast","Black Mtn",457,1499,147.8076,-43.1777,147.80760,-43.17770,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-036,"Australia - Tasmania","South Coast","Mt Raoul",453,1486,147.7857,-43.2061,147.78571,-43.20610,1,0,01/10/2014,31/12/2099,1,28/06/2019,VK7XDM/P
+VK7/SC-037,"Australia - Tasmania","South Coast","Mt Direction",448,1470,147.3070,-42.7980,147.30701,-42.79800,1,0,01/10/2014,31/12/2099,10,01/05/2024,VK7LTD/P
+VK7/SC-038,"Australia - Tasmania","South Coast","Mother Browns Bonnett",412,1352,147.7432,-42.8035,147.74319,-42.80350,1,0,01/10/2014,31/12/2099,1,01/03/2023,VK7ID
+VK7/SC-039,"Australia - Tasmania","South Coast","Mt Esperance",405,1329,147.0321,-43.2665,147.03210,-43.26650,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-040,"Australia - Tasmania","South Coast",404,404,1325,147.9113,-42.6876,147.91130,-42.68760,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-041,"Australia - Tasmania","South Coast","Big Blue Hill",403,1322,147.7919,-42.8612,147.79190,-42.86120,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-042,"Australia - Tasmania","South Coast","Mt Windsor",398,1306,147.0350,-43.1856,147.03500,-43.18560,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-043,"Australia - Tasmania","South Coast","Craigow Hill",396,1299,147.4075,-42.8141,147.40750,-42.81410,1,0,01/10/2014,31/12/2099,1,21/06/2023,VK7LTD
+VK7/SC-044,"Australia - Tasmania","South Coast","Coal Hill",370,1214,146.8797,-43.3855,146.87970,-43.38550,1,0,01/10/2014,31/12/2099,2,14/04/2023,VK7ID
+VK7/SC-045,"Australia - Tasmania","South Coast","Mt Rumney",357,1171,147.4539,-42.8604,147.45390,-42.86040,1,0,01/10/2014,31/12/2099,30,13/09/2025,VK7DBX
+VK7/SC-046,"Australia - Tasmania","South Coast","Denison Hill",354,1161,146.8308,-43.0127,146.83080,-43.01270,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-047,"Australia - Tasmania","South Coast","Mt Communication",341,1119,147.6566,-43.0588,147.65660,-43.05880,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-048,"Australia - Tasmania","South Coast","Reeves Hill",335,1099,147.0275,-43.2964,147.02750,-43.29640,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-049,"Australia - Tasmania","South Coast",329,329,1079,148.0424,-42.7188,148.04240,-42.71880,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-050,"Australia - Tasmania","South Coast","Driscolls Hill",303,994,147.2862,-43.2955,147.28619,-43.29550,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-051,"Australia - Tasmania","South Coast","Mt Forestier",294,965,147.8548,-42.9105,147.85480,-42.91050,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-052,"Australia - Tasmania","South Coast","Tinderbox Hills",290,951,147.3214,-43.0325,147.32140,-43.03250,1,0,01/10/2014,31/12/2099,23,17/04/2026,VK7TO
+VK7/SC-053,"Australia - Tasmania","South Coast","Pontos Hills",278,912,147.4922,-42.7800,147.49220,-42.78000,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-054,"Australia - Tasmania","South Coast","Bare Hill",277,909,146.8591,-43.6106,146.85910,-43.61060,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-055,"Australia - Tasmania","South Coast","Tasman Island",239,784,148.0026,-43.2391,148.00259,-43.23910,1,0,01/10/2014,31/12/2099,1,08/03/2025,VK7ID
+VK7/SC-056,"Australia - Tasmania","South Coast","Mt Elizabeth",235,771,147.6152,-42.7884,147.61520,-42.78840,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-057,"Australia - Tasmania","South Coast","Butchers Hills",226,741,147.4306,-42.7524,147.43060,-42.75240,1,0,01/10/2014,31/12/2099,1,18/10/2015,VK7ZMS
+VK7/SC-058,"Australia - Tasmania","South Coast","Lowes Hill",212,696,147.3522,-43.0924,147.35220,-43.09240,1,0,01/10/2014,31/12/2099,2,20/11/2024,VK2IO/P
+VK7/SC-059,"Australia - Tasmania","South Coast","Roberts Hill",211,692,147.3170,-43.1549,147.31700,-43.15490,1,0,01/10/2014,31/12/2099,1,07/09/2016,VK7ZMS
+VK7/SC-060,"Australia - Tasmania","South Coast","West Cloudy Head",180,591,147.1796,-43.4846,147.17960,-43.48460,1,0,01/10/2014,31/12/2099,0,,
+VK7/SC-061,"Australia - Tasmania","South Coast","Church Hill",179,587,147.4078,-43.2229,147.40781,-43.22290,1,0,01/10/2014,31/12/2099,1,08/11/2020,VK7FADZ
+VK7/SC-062,"Australia - Tasmania","South Coast","Mt Augustus",172,564,147.4921,-42.9659,147.49210,-42.96590,1,0,01/10/2014,31/12/2099,2,08/11/2024,VK2IO/P
+VK7/SC-063,"Australia - Tasmania","South Coast","Mount Montagu",1063,3488,147.1721,-42.9207,147.17210,-42.92070,8,0,01/11/2016,31/12/2099,13,20/03/2026,VK7FADZ
+VK7/SC-064,"Australia - Tasmania","South Coast",VK7/SC-064,880,2887,146.8102,-42.8918,146.81020,-42.89180,6,0,01/11/2016,31/12/2099,0,,
+VK7/SC-065,"Australia - Tasmania","South Coast","Taylors Ridge",750,2461,146.8106,-43.2208,146.81059,-43.22080,4,0,01/11/2016,31/12/2099,0,,
+VK7/SC-066,"Australia - Tasmania","South Coast","Kermandie Divide",700,2297,146.8717,-43.2172,146.87170,-43.21720,4,0,01/11/2016,31/12/2099,1,13/03/2023,VK7ID
+VK7/SC-067,"Australia - Tasmania","South Coast","Sherwood Hill",631,2070,147.0980,-43.0358,147.09801,-43.03580,2,0,01/11/2016,31/12/2099,0,,
+VK7/SC-068,"Australia - Tasmania","South Coast",VK7/SC-068,582,1909,146.8590,-43.2996,146.85899,-43.29960,2,0,01/11/2016,31/12/2099,1,29/12/2023,VK7ID
+VK7/SC-069,"Australia - Tasmania","South Coast","Mount Tobin",546,1788,147.3039,-43.3898,147.30389,-43.38980,2,0,01/11/2016,31/12/2099,0,,
+VK7/SC-070,"Australia - Tasmania","South Coast","Clennett Hills",508,1667,147.2122,-43.2181,147.21220,-43.21810,2,0,01/11/2016,31/12/2099,0,,
+VK7/SC-071,"Australia - Tasmania","South Coast","Mount Koonya",486,1594,147.8060,-43.1124,147.80600,-43.11240,1,0,01/11/2016,31/12/2099,2,14/11/2024,VK2IO/P
+VK7/SC-072,"Australia - Tasmania","South Coast","Mount Cook",459,1506,147.3312,-43.3943,147.33121,-43.39430,1,0,01/11/2016,31/12/2099,0,,
+VK7/SC-073,"Australia - Tasmania","South Coast","Storm Hill",442,1450,146.9802,-43.2770,146.98019,-43.27700,1,0,01/11/2016,31/12/2099,0,,
+VK7/SC-074,"Australia - Tasmania","South Coast","Gordon Sugarloaf",415,1362,147.7524,-42.7736,147.75240,-42.77360,1,0,01/11/2016,31/12/2099,0,,
+VK7/SC-075,"Australia - Tasmania","South Coast","Benders Hill",403,1322,147.8300,-42.7840,147.83000,-42.78400,1,0,01/11/2016,31/12/2099,1,14/05/2026,VK7TO
+VK7/SC-076,"Australia - Tasmania","South Coast","Simmonds Hill",333,1092,147.9210,-43.1268,147.92101,-43.12680,1,0,01/11/2016,31/12/2099,0,,
+VK7/SC-077,"Australia - Tasmania","South Coast","Hellfire Bluff",315,1033,147.9328,-42.7344,147.93280,-42.73440,1,0,01/11/2016,31/12/2099,0,,
+VK7/SC-078,"Australia - Tasmania","South Coast","Griffiths Ridge",293,961,147.7148,-43.0762,147.71480,-43.07620,1,0,01/11/2016,31/12/2099,0,,
+VK7/SC-079,"Australia - Tasmania","South Coast","Ashlin Hill",285,935,146.9409,-43.1811,146.94090,-43.18110,1,0,01/11/2016,31/12/2099,0,,
+VK7/SC-080,"Australia - Tasmania","South Coast","Watts Sugarloaf",279,915,147.4959,-42.7125,147.49590,-42.71250,1,0,01/11/2016,31/12/2099,1,05/04/2024,VK3KR/7
+VK7/SC-081,"Australia - Tasmania","South Coast","Fluted Cape",272,892,147.3750,-43.3605,147.37500,-43.36050,1,0,01/11/2016,31/12/2099,4,21/11/2024,VK2IO/P
+VK7/SC-082,"Australia - Tasmania","South Coast","Single Hill",206,676,147.5019,-42.8743,147.50191,-42.87430,1,0,01/11/2016,31/12/2099,16,24/04/2026,VK7JZ
+VK7/SC-083,"Australia - Tasmania","South Coast","Mount Mather",176,577,147.4750,-42.9279,147.47501,-42.92790,1,0,01/11/2016,31/12/2099,1,08/11/2024,VK2IO/P
+VK7/SW-001,"Australia - Tasmania","South West","Mount Anne",1423,4669,146.4240,-42.9428,146.42400,-42.94280,10,3,01/10/2014,31/12/2099,3,29/11/2024,VK7FADZ
+VK7/SW-002,"Australia - Tasmania","South West","Snowy South",1398,4587,146.6583,-42.9425,146.65829,-42.94250,10,3,01/10/2014,31/12/2099,4,10/06/2024,VK7FADZ
+VK7/SW-003,"Australia - Tasmania","South West","Nevada Peak",1390,4560,146.6397,-42.9199,146.63969,-42.91990,10,3,01/10/2014,31/12/2099,1,05/12/2023,VK7FADZ
+VK7/SW-004,"Australia - Tasmania","South West","Mount Weld",1345,4413,146.5774,-43.0043,146.57739,-43.00430,10,3,01/10/2014,31/12/2099,0,,
+VK7/SW-005,"Australia - Tasmania","South West","Mount Picton",1327,4354,146.6072,-43.1573,146.60719,-43.15730,10,3,01/10/2014,31/12/2099,1,02/09/2021,VK7FADZ
+VK7/SW-006,"Australia - Tasmania","South West","Mount Sarah Jane",1290,4232,146.4430,-42.9789,146.44299,-42.97890,10,3,01/10/2014,31/12/2099,1,11/05/2024,VK7FADZ
+VK7/SW-007,"Australia - Tasmania","South West","Snowy North",1262,4140,146.6453,-42.8609,146.64529,-42.86090,10,3,01/10/2014,31/12/2099,1,06/04/2024,VK7FADZ
+VK7/SW-008,"Australia - Tasmania","South West","Hartz Peak",1254,4114,146.7679,-43.2451,146.76790,-43.24510,10,3,01/10/2014,31/12/2099,30,01/03/2026,VK7VXT
+VK7/SW-009,"Australia - Tasmania","South West","Pindars Peak",1230,4035,146.6846,-43.5146,146.68460,-43.51460,10,3,01/10/2014,31/12/2099,0,,
+VK7/SW-010,"Australia - Tasmania","South West","Federation Peak",1225,4019,146.4758,-43.2714,146.47580,-43.27140,10,3,01/10/2014,31/12/2099,1,12/02/2024,VK7FADZ
+VK7/SW-011,"Australia - Tasmania","South West","Adamsons Peak",1225,4019,146.8248,-43.3502,146.82480,-43.35020,10,3,01/10/2014,31/12/2099,3,29/05/2024,VK7FADZ
+VK7/SW-012,"Australia - Tasmania","South West","West Portal",1181,3875,146.4110,-43.1950,146.41100,-43.19500,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-013,"Australia - Tasmania","South West","Maxwell Ridge",1160,3806,146.7212,-43.4908,146.72121,-43.49080,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-014,"Australia - Tasmania","South West","Mount La Perouse",1158,3799,146.7427,-43.5041,146.74271,-43.50410,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-015,"Australia - Tasmania","South West","Mount Orion",1151,3776,146.2671,-43.1405,146.26711,-43.14050,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-016,"Australia - Tasmania","South West","Precipitous Bluff",1145,3757,146.6033,-43.4700,146.60330,-43.47000,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-017,"Australia - Tasmania","South West","Mount Victoria Cross",1120,3675,146.6601,-43.4593,146.66010,-43.45930,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-018,"Australia - Tasmania","South West","Mount Hayes",1119,3671,146.2472,-43.1324,146.24719,-43.13240,8,0,01/10/2014,31/12/2099,1,04/01/2026,VK2BNY
+VK7/SW-019,"Australia - Tasmania","South West","Mount Bobs",1111,3645,146.5969,-43.2946,146.59689,-43.29460,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-020,"Australia - Tasmania","South West","Mount Wylly",1110,3642,146.6592,-43.4791,146.65919,-43.47910,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-021,"Australia - Tasmania","South West","The Dial",1108,3635,146.4491,-43.2288,146.44910,-43.22880,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-022,"Australia - Tasmania","South West","Mount Aldebaran",1107,3632,146.3435,-43.1774,146.34351,-43.17740,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-023,"Australia - Tasmania","South West","Mount Scorpio",1106,3629,146.3455,-43.1613,146.34550,-43.16130,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-024,"Australia - Tasmania","South West","Mount Hesperus",1098,3602,146.2302,-43.1184,146.23019,-43.11840,8,0,01/10/2014,31/12/2099,1,03/01/2026,VK2BNY
+VK7/SW-025,"Australia - Tasmania","South West","Anderson Bluff",1092,3583,146.5793,-43.2204,146.57930,-43.22040,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-026,"Australia - Tasmania","South West","The Pheonix",1091,3579,146.3672,-43.1783,146.36720,-43.17830,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-027,"Australia - Tasmania","South West","Schnells Ridge",1087,3566,146.4202,-43.0242,146.42020,-43.02420,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-028,"Australia - Tasmania","South West","Mount Hopetoun",1087,3566,146.5031,-43.2465,146.50310,-43.24650,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-029,"Australia - Tasmania","South West","Frankland Peak",1083,3553,146.1471,-42.9872,146.14709,-42.98720,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-030,"Australia - Tasmania","South West","The Boomerang",1081,3547,146.6147,-43.2989,146.61470,-43.29890,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-031,"Australia - Tasmania","South West","Dorado Peak",1068,3504,146.2991,-43.1539,146.29910,-43.15390,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-032,"Australia - Tasmania","South West","Mount Pegasus",1063,3488,146.2773,-43.1483,146.27730,-43.14830,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-033,"Australia - Tasmania","South West","Ironbound Range",1061,3481,146.4704,-43.4996,146.47040,-43.49960,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-034,"Australia - Tasmania","South West","Double Peak",1061,3481,146.0164,-42.9273,146.01640,-42.92730,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-035,"Australia - Tasmania","South West","Mount Sprent",1059,3474,145.9636,-42.7918,145.96359,-42.79180,8,0,01/10/2014,31/12/2099,1,16/12/2024,VK7JZ
+VK7/SW-036,"Australia - Tasmania","South West","Esperance Peak",1056,3465,146.8094,-43.3026,146.80940,-43.30260,8,0,01/10/2014,31/12/2099,1,04/03/2025,VK7FADZ
+VK7/SW-037,"Australia - Tasmania","South West","Centaurus Ridge",1043,3422,146.3785,-43.1876,146.37849,-43.18760,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-038,"Australia - Tasmania","South West","Mount Columba",1042,3419,146.3010,-43.1672,146.30099,-43.16720,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-039,"Australia - Tasmania","South West","Moonlight Ridge",1036,3399,146.7597,-43.4696,146.75970,-43.46960,8,0,01/10/2014,31/12/2099,1,25/01/2026,VK7VXT
+VK7/SW-040,"Australia - Tasmania","South West","Crest Range",1020,3346,146.5137,-43.2864,146.51370,-43.28640,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-041,"Australia - Tasmania","South West","Greystone Bluff",1019,3343,146.0544,-43.0760,146.05440,-43.07600,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-042,"Australia - Tasmania","South West","Jubilee Range",1013,3323,146.5490,-42.8816,146.54900,-42.88160,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-043,"Australia - Tasmania","South West","Mount Bisdee",1005,3297,146.6838,-43.4311,146.68381,-43.43110,8,0,01/10/2014,31/12/2099,0,,
+VK7/SW-044,"Australia - Tasmania","South West","Remote Peak",989,3245,146.0466,-42.9661,146.04660,-42.96610,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-045,"Australia - Tasmania","South West","Gallagher Plateau",984,3228,146.4768,-43.0290,146.47681,-43.02900,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-046,"Australia - Tasmania","South West","Mount Norold",978,3209,146.2598,-43.2567,146.25980,-43.25670,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-047,"Australia - Tasmania","South West","Sentinel Range",974,3196,146.2427,-42.8696,146.24271,-42.86960,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-048,"Australia - Tasmania","South West","Folded Range",966,3169,146.1500,-43.0278,146.14999,-43.02780,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-049,"Australia - Tasmania","South West",963,963,3159,146.2623,-43.2358,146.26230,-43.23580,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-050,"Australia - Tasmania","South West","Mount Maconochie",958,3143,146.0873,-43.0531,146.08730,-43.05310,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-051,"Australia - Tasmania","South West","Crest Range 934",934,3064,146.5399,-43.2900,146.53990,-43.29000,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-052,"Australia - Tasmania","South West","Mount Louisa",931,3054,146.4044,-43.4549,146.40440,-43.45490,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-053,"Australia - Tasmania","South West","Mount Pollux",916,3005,146.3858,-43.2940,146.38580,-43.29400,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-054,"Australia - Tasmania","South West","Propsting Range",894,2933,145.8887,-43.0621,145.88870,-43.06210,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-055,"Australia - Tasmania","South West","Mount Robinson",887,2910,146.1595,-43.1367,146.15950,-43.13670,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-056,"Australia - Tasmania","South West",887,887,2910,146.3799,-43.0568,146.37990,-43.05680,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-057,"Australia - Tasmania","South West","Provis Hills",883,2897,146.4854,-43.4179,146.48540,-43.41790,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-058,"Australia - Tasmania","South West","The Coronets",876,2874,146.2309,-42.8939,146.23090,-42.89390,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-059,"Australia - Tasmania","South West",864,864,2835,146.1324,-43.0066,146.13240,-43.00660,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-060,"Australia - Tasmania","South West","Mount Solitary",852,2795,146.2508,-42.9571,146.25079,-42.95710,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-061,"Australia - Tasmania","South West","Cinder Hill",850,2789,146.0376,-43.0359,146.03760,-43.03590,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-062,"Australia - Tasmania","South West","Ray Range 834",834,2736,146.3152,-43.4185,146.31520,-43.41850,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-063,"Australia - Tasmania","South West",833,833,2733,146.4662,-43.2957,146.46620,-43.29570,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-064,"Australia - Tasmania","South West","Ray Range 825",825,2707,146.2891,-43.4050,146.28909,-43.40500,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-065,"Australia - Tasmania","South West",823,823,2700,146.3248,-43.1946,146.32480,-43.19460,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-066,"Australia - Tasmania","South West",818,818,2684,146.1832,-42.8822,146.18320,-42.88220,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-067,"Australia - Tasmania","South West","Wombat Peak",805,2641,146.1359,-43.0716,146.13589,-43.07160,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-068,"Australia - Tasmania","South West","Mount Counsel",802,2631,146.2347,-43.4482,146.23470,-43.44820,6,0,01/10/2014,31/12/2099,0,,
+VK7/SW-069,"Australia - Tasmania","South West","Ripple Mountain",795,2608,146.3090,-43.2620,146.30901,-43.26200,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-070,"Australia - Tasmania","South West",794,794,2605,146.4190,-43.3294,146.41901,-43.32940,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-071,"Australia - Tasmania","South West",783,783,2569,145.9498,-42.7676,145.94980,-42.76760,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-072,"Australia - Tasmania","South West","Mount Leillateah",780,2559,146.8011,-43.5191,146.80110,-43.51910,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-073,"Australia - Tasmania","South West","Mount Castor",773,2536,146.3607,-43.2735,146.36070,-43.27350,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-074,"Australia - Tasmania","South West","Mount Rugby",771,2530,146.1120,-43.3282,146.11200,-43.32820,4,0,01/10/2014,31/12/2099,1,01/03/2017,VK3EQ/P7
+VK7/SW-075,"Australia - Tasmania","South West",767,767,2516,146.4966,-43.3740,146.49660,-43.37400,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-076,"Australia - Tasmania","South West","Mount Wilson",761,2497,146.2490,-43.2765,146.24899,-43.27650,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-077,"Australia - Tasmania","South West",761,761,2497,145.8674,-43.1334,145.86740,-43.13340,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-078,"Australia - Tasmania","South West","High Round Mountain",760,2493,146.2986,-43.3373,146.29860,-43.33730,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-079,"Australia - Tasmania","South West",751,751,2464,146.1719,-42.8312,146.17191,-42.83120,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-080,"Australia - Tasmania","South West","Mount Hean",748,2454,145.8232,-43.1600,145.82320,-43.16000,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-081,"Australia - Tasmania","South West",742,742,2434,146.4854,-43.3229,146.48540,-43.32290,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-082,"Australia - Tasmania","South West","Harrys Bluff",739,2425,146.2902,-43.3001,146.29021,-43.30010,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-083,"Australia - Tasmania","South West","Mount Helder",737,2418,146.1497,-42.8884,146.14970,-42.88840,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-084,"Australia - Tasmania","South West","Detached Peak",735,2411,145.9995,-42.8140,145.99950,-42.81400,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-085,"Australia - Tasmania","South West","Mount Cawthorn",731,2398,146.1318,-42.9014,146.13181,-42.90140,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-086,"Australia - Tasmania","South West","Buckies Bonnet",728,2388,146.1564,-42.9245,146.15640,-42.92450,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-087,"Australia - Tasmania","South West","Mount Braddon",727,2385,146.1490,-43.1823,146.14900,-43.18230,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-088,"Australia - Tasmania","South West","Mount Legge",723,2372,146.1107,-43.2351,146.11070,-43.23510,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-089,"Australia - Tasmania","South West","Twelvetrees Range",711,2333,146.0698,-42.7678,146.06979,-42.76780,4,0,01/10/2014,31/12/2099,2,29/05/2024,VK7LTD
+VK7/SW-090,"Australia - Tasmania","South West","Piners Peak",696,2283,145.9349,-43.0682,145.93491,-43.06820,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-091,"Australia - Tasmania","South West","Atkins Range",690,2264,146.1012,-42.7450,146.10120,-42.74500,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-092,"Australia - Tasmania","South West","South West Cape Range",687,2254,146.0483,-43.4904,146.04829,-43.49040,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-093,"Australia - Tasmania","South West",682,682,2238,146.4974,-43.4435,146.49741,-43.44350,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-094,"Australia - Tasmania","South West","De Witt Range",678,2224,145.8422,-43.1886,145.84219,-43.18860,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-095,"Australia - Tasmania","South West",669,673,2208,146.5643,-43.3234,146.56430,-43.32340,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-096,"Australia - Tasmania","South West","Scotts Peak",669,2195,146.2781,-43.0045,146.27811,-43.00450,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-097,"Australia - Tasmania","South West",664,664,2178,146.2346,-43.0497,146.23460,-43.04970,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-098,"Australia - Tasmania","South West",662,662,2172,146.1427,-43.1602,146.14270,-43.16020,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-099,"Australia - Tasmania","South West",660A,660,2165,146.4762,-43.1076,146.47620,-43.10760,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-100,"Australia - Tasmania","South West",660B,660,2165,146.5361,-43.2210,146.53610,-43.22100,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-101,"Australia - Tasmania","South West","Starfish Hill",660,2165,146.0226,-42.8619,146.02260,-42.86190,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-102,"Australia - Tasmania","South West","Ray Range Point 657",657,2156,146.2798,-43.3668,146.27980,-43.36680,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-103,"Australia - Tasmania","South West","Marsden Range 657",657,2156,146.3176,-42.9231,146.31760,-42.92310,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-104,"Australia - Tasmania","South West","Mount King",652,2139,146.1113,-43.2586,146.11130,-43.25860,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-105,"Australia - Tasmania","South West","Mount Berry",651,2136,146.0227,-43.3027,146.02271,-43.30270,4,0,01/10/2014,31/12/2099,2,07/03/2022,VK7XDM/P
+VK7/SW-106,"Australia - Tasmania","South West",650,650,2133,146.1299,-42.7917,146.12990,-42.79170,4,0,01/10/2014,31/12/2099,0,,
+VK7/SW-107,"Australia - Tasmania","South West","Mount Rallinga",645,2116,146.0802,-43.4243,146.08020,-43.42430,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-108,"Australia - Tasmania","South West","Propsting Range 643",643,2110,145.8862,-43.0175,145.88620,-43.01750,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-109,"Australia - Tasmania","South West",641,641,2103,146.1840,-42.9031,146.18401,-42.90310,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-110,"Australia - Tasmania","South West",627,627,2057,145.9765,-42.7575,145.97650,-42.75750,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-111,"Australia - Tasmania","South West",625,625,2051,145.9020,-43.1347,145.90199,-43.13470,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-112,"Australia - Tasmania","South West","Ray Range 616",616,2021,146.3499,-43.4318,146.34990,-43.43180,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-113,"Australia - Tasmania","South West","Ray Range 610",610,2001,146.2780,-43.3813,146.27800,-43.38130,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-114,"Australia - Tasmania","South West",610,610,2001,146.2441,-43.0903,146.24409,-43.09030,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-115,"Australia - Tasmania","South West","Harlequin Hill",605,1985,146.3340,-42.9788,146.33400,-42.97880,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-116,"Australia - Tasmania","South West",605,605,1985,146.1727,-42.9140,146.17270,-42.91400,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-117,"Australia - Tasmania","South West",600,600,1969,146.0024,-42.7729,146.00240,-42.77290,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-118,"Australia - Tasmania","South West","Mount Melaleuca",598,1962,146.0938,-43.4759,146.09380,-43.47590,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-119,"Australia - Tasmania","South West","Bakers Ridge",580,1903,146.0818,-43.2055,146.08180,-43.20550,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-120,"Australia - Tasmania","South West","Stillwater Hill",580,1903,146.1220,-42.8549,146.12199,-42.85490,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-121,"Australia - Tasmania","South West",574,574,1883,146.1649,-43.2115,146.16490,-43.21150,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-122,"Australia - Tasmania","South West",570,570,1870,146.0380,-43.1119,146.03799,-43.11190,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-123,"Australia - Tasmania","South West","Dohertys Range 570",570,1870,145.9485,-42.8859,145.94850,-42.88590,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-124,"Australia - Tasmania","South West","Junction Range",569,1867,146.1415,-42.7168,146.14149,-42.71680,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-125,"Australia - Tasmania","South West","Lawson Range 558",558,1831,145.6959,-42.9624,145.69591,-42.96240,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-126,"Australia - Tasmania","South West","New Harbour Range",550,1804,146.1929,-43.4970,146.19290,-43.49700,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-127,"Australia - Tasmania","South West","White Spur",532,1745,146.0310,-42.7698,146.03101,-42.76980,2,0,01/10/2014,31/12/2099,1,01/02/2015,VK3PF/7
+VK7/SW-128,"Australia - Tasmania","South West","South West Cape Range 522",527,1729,146.0470,-43.4240,146.04700,-43.42400,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-129,"Australia - Tasmania","South West",523,523,1716,145.8248,-43.0902,145.82480,-43.09020,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-130,"Australia - Tasmania","South West",522,522,1713,146.4789,-43.1283,146.47890,-43.12830,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-131,"Australia - Tasmania","South West","Mount Gaffney",519,1703,145.7885,-43.0733,145.78850,-43.07330,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-132,"Australia - Tasmania","South West","Lune Sugarloaf",514,1686,146.8757,-43.4674,146.87570,-43.46740,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-133,"Australia - Tasmania","South West","Davey Sugarloaf",512,1680,146.0124,-43.1675,146.01241,-43.16750,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-134,"Australia - Tasmania","South West","Lone Hill",505,1657,146.3510,-43.3901,146.35100,-43.39010,2,0,01/10/2014,31/12/2099,0,,
+VK7/SW-135,"Australia - Tasmania","South West",499,499,1637,146.0910,-43.1252,146.09100,-43.12520,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-136,"Australia - Tasmania","South West",489,489,1604,145.9131,-43.0334,145.91310,-43.03340,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-137,"Australia - Tasmania","South West","Mount Jean",489,1604,145.7130,-42.8911,145.71300,-42.89110,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-138,"Australia - Tasmania","South West","Mount Fulton",482,1581,146.1984,-43.3775,146.19839,-43.37750,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-139,"Australia - Tasmania","South West","Lawson Range 475",475,1558,145.6719,-42.9833,145.67191,-42.98330,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-140,"Australia - Tasmania","South West",471,471,1545,145.9553,-42.9589,145.95531,-42.95890,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-141,"Australia - Tasmania","South West","Havelock Bluff",445,1460,146.4608,-43.5340,146.46080,-43.53400,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-142,"Australia - Tasmania","South West","The Razorback",444,1457,146.4808,-43.1701,146.48080,-43.17010,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-143,"Australia - Tasmania","South West",437,437,1434,145.8399,-43.0325,145.83990,-43.03250,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-144,"Australia - Tasmania","South West",436,436,1430,146.0910,-43.1430,146.09100,-43.14300,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-145,"Australia - Tasmania","South West",430,430,1411,145.7565,-42.8432,145.75650,-42.84320,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-146,"Australia - Tasmania","South West",429A,429,1407,146.3298,-43.3992,146.32980,-43.39920,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-147,"Australia - Tasmania","South West",429B,429,1407,146.0604,-43.1593,146.06039,-43.15930,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-148,"Australia - Tasmania","South West","Hardwood Hill 426",426,1398,145.8179,-42.9232,145.81790,-42.92320,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-149,"Australia - Tasmania","South West","Propsting Range 422",422,1385,145.8632,-42.9574,145.86320,-42.95740,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-150,"Australia - Tasmania","South West","Moores Lookout",414,1358,145.6833,-42.7942,145.68330,-42.79420,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-151,"Australia - Tasmania","South West",389,389,1276,145.8959,-42.8851,145.89590,-42.88510,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-152,"Australia - Tasmania","South West",374,374,1227,145.8804,-43.1844,145.88040,-43.18440,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-153,"Australia - Tasmania","South West","De Witt Island",363,1191,146.3532,-43.6019,146.35320,-43.60190,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-154,"Australia - Tasmania","South West","Mount Nicholls",362,1188,146.0285,-43.3576,146.02850,-43.35760,1,0,01/10/2014,31/12/2099,2,10/03/2018,VK3EQ
+VK7/SW-155,"Australia - Tasmania","South West","Davey Head",346,1135,145.8714,-43.3058,145.87140,-43.30580,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-156,"Australia - Tasmania","South West","Gorge Ridge",337,1106,146.3464,-43.2626,146.34641,-43.26260,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-157,"Australia - Tasmania","South West","Isolated Hill",325,1066,145.7660,-43.1064,145.76601,-43.10640,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-158,"Australia - Tasmania","South West",312,312,1024,146.1452,-43.4753,146.14520,-43.47530,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-159,"Australia - Tasmania","South West","Poimena Hills",306,1004,146.3887,-43.3501,146.38870,-43.35010,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-160,"Australia - Tasmania","South West",290,290,951,146.8003,-43.5650,146.80029,-43.56500,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-161,"Australia - Tasmania","South West",286,285,935,145.9873,-43.2706,145.98730,-43.27060,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-162,"Australia - Tasmania","South West","Maatsuyker Island",284,932,146.2807,-43.6514,146.28070,-43.65140,1,0,01/10/2014,31/12/2099,2,08/03/2018,VK3EQ
+VK7/SW-163,"Australia - Tasmania","South West","Mount Beattie",276,906,146.1157,-43.3630,146.11571,-43.36300,1,0,01/10/2014,31/12/2099,5,21/03/2023,VK3EQ
+VK7/SW-164,"Australia - Tasmania","South West","Smoke Signal Hill",270,886,146.1655,-43.5094,146.16550,-43.50940,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-165,"Australia - Tasmania","South West","Junction Ridge",263,863,146.3135,-43.2829,146.31351,-43.28290,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-166,"Australia - Tasmania","South West",247,247,810,145.8424,-43.2866,145.84241,-43.28660,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-167,"Australia - Tasmania","South West","Moulders Hill",240,787,146.8884,-43.5983,146.88840,-43.59830,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-168,"Australia - Tasmania","South West","South West Cape",235,771,146.0374,-43.5614,146.03740,-43.56140,1,0,01/10/2014,31/12/2099,0,,
+VK7/SW-169,"Australia - Tasmania","South West","Going Hill",217,712,145.9377,-43.3855,145.93770,-43.38550,1,0,01/10/2014,31/12/2099,1,28/02/2017,VK3EQ/P7
+VK7/SW-170,"Australia - Tasmania","South West","Morning Hill",204,669,145.9858,-43.3345,145.98579,-43.33450,1,0,01/10/2014,31/12/2099,1,03/03/2016,VK3EQ/P
+VK7/SW-171,"Australia - Tasmania","South West","Sunset Hill",182,597,145.9835,-43.3689,145.98351,-43.36890,1,0,01/10/2014,31/12/2099,1,27/02/2017,VK3EQ/P7
+VK7/SW-172,"Australia - Tasmania","South West","Mount Lot",1262,4140,146.4429,-42.9517,146.44290,-42.95170,10,3,01/11/2016,31/12/2099,1,11/05/2024,VK7FADZ
+VK7/SW-173,"Australia - Tasmania","South West","Bobs Knobs",981,3219,146.6042,-43.3283,146.60420,-43.32830,6,0,01/11/2016,31/12/2099,0,,
+VK7/SW-174,"Australia - Tasmania","South West",VK7/SW-174,884,2900,146.1859,-43.0065,146.18590,-43.00650,6,0,01/11/2016,31/12/2099,0,,
+VK7/SW-175,"Australia - Tasmania","South West",VK7/SW-175,835,2740,146.7449,-43.1607,146.74490,-43.16070,6,0,01/11/2016,31/12/2099,0,,
+VK7/SW-176,"Australia - Tasmania","South West",VK7/SW-176,790,2592,146.2694,-42.9580,146.26939,-42.95800,4,0,01/11/2016,31/12/2099,0,,
+VK7/SW-177,"Australia - Tasmania","South West",VK7/SW-177,659,2162,145.9020,-43.1069,145.90199,-43.10690,4,0,01/11/2016,31/12/2099,0,,
+VK7/SW-178,"Australia - Tasmania","South West",VK7/SW-178,645,2116,146.1627,-42.8069,146.16270,-42.80690,2,0,01/11/2016,31/12/2099,0,,
+VK7/SW-179,"Australia - Tasmania","South West",VK7/SW-179,486,1594,146.0481,-43.1342,146.04810,-43.13420,1,0,01/11/2016,31/12/2099,0,,
+VK7/SW-180,"Australia - Tasmania","South West","Johnstones Lookout",479,1572,146.2299,-42.9854,146.22990,-42.98540,1,0,01/11/2016,31/12/2099,0,,
+VK7/SW-181,"Australia - Tasmania","South West",VK7/SW-181,421,1381,145.9477,-43.1046,145.94769,-43.10460,1,0,01/11/2016,31/12/2099,0,,
+VK7/SW-182,"Australia - Tasmania","South West","North Broken Hills",380,1247,145.6489,-42.8898,145.64890,-42.88980,1,0,01/11/2016,31/12/2099,0,,
+VK7/SW-183,"Australia - Tasmania","South West",VK7/SW-183,342,1122,146.4152,-43.3859,146.41521,-43.38590,1,0,01/11/2016,31/12/2099,0,,
+VK7/SW-184,"Australia - Tasmania","South West","Spica Hills",327,1073,146.3627,-43.4692,146.36270,-43.46920,1,0,01/11/2016,31/12/2099,0,,
+VK7/WC-001,"Australia - Tasmania","West Coast","Mount Gell",1447,4747,146.0252,-42.1528,146.02521,-42.15280,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-002,"Australia - Tasmania","West Coast","Frenchmans Cap",1446,4744,145.8284,-42.2687,145.82840,-42.26870,10,3,01/10/2014,31/12/2099,2,29/04/2026,VK7FADZ
+VK7/WC-003,"Australia - Tasmania","West Coast","Mount Field West",1434,4705,146.5149,-42.6563,146.51489,-42.65630,10,3,01/10/2014,31/12/2099,9,24/04/2026,VK7TO
+VK7/WC-004,"Australia - Tasmania","West Coast","Goulds Sugarloaf",1425,4675,146.0001,-42.0668,146.00011,-42.06680,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-005,"Australia - Tasmania","West Coast","Rodway Range",1377,4518,146.5658,-42.6762,146.56580,-42.67620,10,3,01/10/2014,31/12/2099,19,20/02/2026,VK7TO
+VK7/WC-006,"Australia - Tasmania","West Coast","Florentine Peak",1376,4514,146.5344,-42.6888,146.53439,-42.68880,10,3,01/10/2014,31/12/2099,4,24/04/2026,VK7TO
+VK7/WC-007,"Australia - Tasmania","West Coast","Mount King William II",1361,4465,146.1432,-42.3041,146.14320,-42.30410,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-008,"Australia - Tasmania","West Coast","Wylds Craig",1339,4393,146.3902,-42.4735,146.39020,-42.47350,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-009,"Australia - Tasmania","West Coast","Mount King William I",1324,4344,146.1385,-42.2241,146.13850,-42.22410,10,3,01/10/2014,31/12/2099,2,13/03/2017,VK7FAMP
+VK7/WC-010,"Australia - Tasmania","West Coast","Reeds Peak",1290,4232,146.2781,-42.5488,146.27811,-42.54880,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-011,"Australia - Tasmania","West Coast","Philps Peak",1282,4206,145.8632,-42.2852,145.86320,-42.28520,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-012,"Australia - Tasmania","West Coast","Mount Murchison",1275,4183,145.6182,-41.8090,145.61819,-41.80900,10,3,01/10/2014,31/12/2099,1,04/04/2026,VK7FADZ
+VK7/WC-013,"Australia - Tasmania","West Coast","Mount Field East",1274,4180,146.6459,-42.6544,146.64590,-42.65440,10,3,01/10/2014,31/12/2099,31,20/04/2026,VK3WMD/P
+VK7/WC-014,"Australia - Tasmania","West Coast",Clytemnestra,1271,4170,145.8174,-42.2852,145.81740,-42.28520,10,3,01/10/2014,31/12/2099,1,30/04/2026,VK7FADZ
+VK7/WC-015,"Australia - Tasmania","West Coast","Bonds Craig",1260,4134,146.2781,-42.5339,146.27811,-42.53390,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-016,"Australia - Tasmania","West Coast","Pyramid Mountain",1255,4117,145.9394,-42.0475,145.93941,-42.04750,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-017,"Australia - Tasmania","West Coast","Mount Mueller",1245,4085,146.4565,-42.7754,146.45650,-42.77540,10,3,01/10/2014,31/12/2099,1,01/07/2023,VK7FADZ
+VK7/WC-018,"Australia - Tasmania","West Coast","Mount Hobhouse",1222,4009,146.2496,-42.3107,146.24960,-42.31070,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-019,"Australia - Tasmania","West Coast","Mount Shakespeare",1221,4006,146.4002,-42.4341,146.40021,-42.43410,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-020,"Australia - Tasmania","West Coast","Loddon Bluff",1220,4003,146.0955,-42.2748,146.09550,-42.27480,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-021,"Australia - Tasmania","West Coast","The Thumbs",1204,3950,146.3532,-42.6739,146.35320,-42.67390,10,3,01/10/2014,31/12/2099,0,,
+VK7/WC-022,"Australia - Tasmania","West Coast","Clear Hill",1198,3930,146.2725,-42.6757,146.27251,-42.67570,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-023,"Australia - Tasmania","West Coast","Rocky Hill",1194,3917,145.8665,-42.0483,145.86650,-42.04830,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-024,"Australia - Tasmania","West Coast","Mount Geikie",1191,3907,145.5800,-41.9698,145.58000,-41.96980,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-025,"Australia - Tasmania","West Coast","Camp Hill",1172,3845,145.8382,-42.0466,145.83820,-42.04660,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-026,"Australia - Tasmania","West Coast","Mount Jukes",1168,3832,145.5822,-42.1729,145.58220,-42.17290,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-027,"Australia - Tasmania","West Coast","Mount Wedge",1147,3763,146.2971,-42.8453,146.29710,-42.84530,8,0,01/10/2014,31/12/2099,5,24/02/2024,VK7FADZ
+VK7/WC-028,"Australia - Tasmania","West Coast","Mount Owen",1146,3760,145.6037,-42.0975,145.60370,-42.09750,8,0,01/10/2014,31/12/2099,2,22/10/2020,VK7LTD/P
+VK7/WC-029,"Australia - Tasmania","West Coast","Mount Sedgwick",1146,3760,145.6165,-42.0030,145.61650,-42.00300,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-030,"Australia - Tasmania","West Coast","Mount Sorell",1144,3753,145.5423,-42.2726,145.54230,-42.27260,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-031,"Australia - Tasmania","West Coast","Mount Dundas",1143,3750,145.4730,-41.8955,145.47301,-41.89550,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-032,"Australia - Tasmania","West Coast","Pokana Peak",1127,3698,146.1946,-42.5623,146.19460,-42.56230,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-033,"Australia - Tasmania","West Coast","Mount Read",1124,3688,145.5416,-41.8448,145.54160,-41.84480,8,0,01/10/2014,31/12/2099,1,05/12/2018,VK7ZMS
+VK7/WC-034,"Australia - Tasmania","West Coast","Conical Mountain",1124,3688,146.1559,-42.5290,146.15590,-42.52900,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-035,"Australia - Tasmania","West Coast","Flame Peak",1122,3681,146.1318,-42.5057,146.13181,-42.50570,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-036,"Australia - Tasmania","West Coast","Mount Wright",1112,3648,146.3351,-42.6212,146.33510,-42.62120,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-037,"Australia - Tasmania","West Coast","The Chimera",1111,3645,146.0799,-42.1610,146.07990,-42.16100,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-038,"Australia - Tasmania","West Coast","Stepped Hills",1111,3645,146.2896,-42.6354,146.28960,-42.63540,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-039,"Australia - Tasmania","West Coast","The Hippogriff",1109,3638,146.0711,-42.1444,146.07111,-42.14440,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-040,"Australia - Tasmania","West Coast","Abbotts Lookout",1106,3629,146.6537,-42.7806,146.65370,-42.78060,8,0,01/10/2014,31/12/2099,5,27/03/2026,VK7JZ
+VK7/WC-041,"Australia - Tasmania","West Coast","Marriots Lookout",1100,3609,146.6788,-42.7650,146.67880,-42.76500,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-042,"Australia - Tasmania","West Coast","Sticht Range",1090,3576,145.6491,-41.8937,145.64909,-41.89370,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-043,"Australia - Tasmania","West Coast","Innes High Rocky",1083,3553,146.1388,-42.4765,146.13879,-42.47650,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-044,"Australia - Tasmania","West Coast","The Pleiades",1082,3550,146.1355,-42.6184,146.13550,-42.61840,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-045,"Australia - Tasmania","West Coast","Algonkian Mountain",1073,3520,146.0549,-42.3923,146.05490,-42.39230,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-046,"Australia - Tasmania","West Coast","Mount Humboldt",1069,3507,145.9779,-42.5659,145.97791,-42.56590,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-047,"Australia - Tasmania","West Coast","Diamond Peak",1066,3497,146.0481,-42.4625,146.04810,-42.46250,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-048,"Australia - Tasmania","West Coast","Mount Curly",1065,3494,146.1842,-42.5289,146.18420,-42.52890,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-049,"Australia - Tasmania","West Coast","Raglan Range",1063,3488,145.7939,-42.1388,145.79390,-42.13880,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-050,"Australia - Tasmania","West Coast","Wards Bluff",1060,3478,145.8760,-42.1940,145.87601,-42.19400,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-051,"Australia - Tasmania","West Coast","Prince of Wales Range 1043",1043,3422,146.0591,-42.4414,146.05910,-42.44140,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-052,"Australia - Tasmania","West Coast","Lorkins Lookout",1034,3392,146.7240,-42.7453,146.72400,-42.74530,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-053,"Australia - Tasmania","West Coast","Mount Darwin",1033,3389,145.5854,-42.2546,145.58540,-42.25460,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-054,"Australia - Tasmania","West Coast","The Needles",1032,3386,146.4492,-42.7332,146.44920,-42.73320,8,0,01/10/2014,31/12/2099,20,19/04/2026,VK7JZ
+VK7/WC-055,"Australia - Tasmania","West Coast",1026,1026,3366,145.6844,-41.8770,145.68440,-41.87700,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-056,"Australia - Tasmania","West Coast","Wellington Range 1025",1025,3363,146.9490,-42.8825,146.94901,-42.88250,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-057,"Australia - Tasmania","West Coast","Mount Mary",1012,3320,145.7869,-42.1951,145.78690,-42.19510,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-058,"Australia - Tasmania","West Coast","Wherretts Lookout",1008,3307,146.4976,-42.7059,146.49760,-42.70590,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-059,"Australia - Tasmania","West Coast","The Beehive",1001,3284,146.0681,-42.1935,146.06810,-42.19350,8,0,01/10/2014,31/12/2099,0,,
+VK7/WC-060,"Australia - Tasmania","West Coast","Gooseneck Hill",990,3248,145.5693,-41.8571,145.56931,-41.85710,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-061,"Australia - Tasmania","West Coast","North Star",986,3235,146.2329,-42.5317,146.23289,-42.53170,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-062,"Australia - Tasmania","West Coast","Mount Alma",970,3182,145.9670,-42.1773,145.96700,-42.17730,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-063,"Australia - Tasmania","West Coast","Mount Emma",964,3163,145.9739,-42.3087,145.97391,-42.30870,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-064,"Australia - Tasmania","West Coast","Mount Bowes",956,3136,146.4088,-42.8553,146.40880,-42.85530,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-065,"Australia - Tasmania","West Coast",955,955,3133,145.9304,-42.0954,145.93040,-42.09540,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-066,"Australia - Tasmania","West Coast","Tim Shea",954,3130,146.4677,-42.7175,146.46770,-42.71750,6,0,01/10/2014,31/12/2099,9,25/04/2026,VK7VXT
+VK7/WC-067,"Australia - Tasmania","West Coast","Centre Star",943,3094,146.2343,-42.5705,146.23430,-42.57050,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-068,"Australia - Tasmania","West Coast","Mount Lyne",942,3091,145.8199,-42.3332,145.81990,-42.33320,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-069,"Australia - Tasmania","West Coast","Hamilton Range",934,3064,145.9540,-42.6975,145.95399,-42.69750,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-070,"Australia - Tasmania","West Coast","Mount Black",929,3048,145.5641,-41.7625,145.56410,-41.76250,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-071,"Australia - Tasmania","West Coast","Mount Huxley",926,3038,145.5924,-42.1408,145.59241,-42.14080,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-072,"Australia - Tasmania","West Coast","Julia Peak",918,3012,145.5947,-41.8911,145.59470,-41.89110,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-073,"Australia - Tasmania","West Coast","Mount Lyell",917,3009,145.6140,-42.0502,145.61400,-42.05020,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-074,"Australia - Tasmania","West Coast",914,914,2999,145.8018,-42.0774,145.80180,-42.07740,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-075,"Australia - Tasmania","West Coast","Elliot Range",911,2989,145.7206,-42.4781,145.72060,-42.47810,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-076,"Australia - Tasmania","West Coast","Cracroft Hills 891",900,2953,145.7087,-42.4111,145.70869,-42.41110,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-077,"Australia - Tasmania","West Coast","Pickaxe Ridge",900,2953,145.8994,-42.2464,145.89940,-42.24640,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-078,"Australia - Tasmania","West Coast","Loddon Range",900,2953,146.0369,-42.2423,146.03690,-42.24230,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-079,"Australia - Tasmania","West Coast","Deception Range 890",890,2920,145.8191,-42.3790,145.81911,-42.37900,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-080,"Australia - Tasmania","West Coast","South Star",888,2913,146.2350,-42.5944,146.23500,-42.59440,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-081,"Australia - Tasmania","West Coast",884,884,2900,146.4057,-42.8749,146.40570,-42.87490,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-082,"Australia - Tasmania","West Coast","Mount Seal",874,2867,145.8746,-42.3826,145.87460,-42.38260,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-083,"Australia - Tasmania","West Coast",864,864,2835,146.3433,-42.8438,146.34331,-42.84380,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-084,"Australia - Tasmania","West Coast",858,858,2815,145.6570,-41.8709,145.65700,-41.87090,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-085,"Australia - Tasmania","West Coast","Philps Lookout",854,2802,146.1508,-42.4613,146.15080,-42.46130,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-086,"Australia - Tasmania","West Coast","Wings Lookout",853,2799,146.2411,-42.6877,146.24110,-42.68770,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-087,"Australia - Tasmania","West Coast","Mount Strahan",852,2795,145.5193,-42.2414,145.51930,-42.24140,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-088,"Australia - Tasmania","West Coast","Mount Agnew",846,2776,145.2269,-41.8935,145.22690,-41.89350,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-089,"Australia - Tasmania","West Coast","Mount Julia",843,2766,145.5641,-41.8842,145.56410,-41.88420,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-090,"Australia - Tasmania","West Coast","Whitecliffe Hills",826,2710,145.6675,-41.8550,145.66750,-41.85500,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-091,"Australia - Tasmania","West Coast","Gordon Range",820,2690,146.3759,-42.5653,146.37590,-42.56530,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-092,"Australia - Tasmania","West Coast","Mount Fincham",802,2631,145.7046,-42.2295,145.70461,-42.22950,6,0,01/10/2014,31/12/2099,0,,
+VK7/WC-093,"Australia - Tasmania","West Coast","Mount Lewis",798,2618,145.7024,-42.7156,145.70239,-42.71560,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-094,"Australia - Tasmania","West Coast",793,793,2602,146.0372,-42.6001,146.03720,-42.60010,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-095,"Australia - Tasmania","West Coast","Cracroft Hills 792",792,2598,145.6707,-42.3825,145.67070,-42.38250,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-096,"Australia - Tasmania","West Coast",790,790,2592,146.1896,-42.4424,146.18961,-42.44240,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-097,"Australia - Tasmania","West Coast","O'Boyles Sugarloaf",788,2585,145.8534,-42.3741,145.85339,-42.37410,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-098,"Australia - Tasmania","West Coast","Junction Hill",788,2585,146.3820,-42.8214,146.38200,-42.82140,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-099,"Australia - Tasmania","West Coast",785,785,2575,146.1446,-42.6608,146.14461,-42.66080,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-100,"Australia - Tasmania","West Coast","Mount Madge",780,2559,145.7239,-42.1901,145.72391,-42.19010,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-101,"Australia - Tasmania","West Coast","Ragged Range",778,2552,146.3106,-42.7683,146.31059,-42.76830,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-102,"Australia - Tasmania","West Coast",777,777,2549,146.1079,-42.4990,146.10789,-42.49900,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-103,"Australia - Tasmania","West Coast",775,775,2543,146.0619,-42.6315,146.06190,-42.63150,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-104,"Australia - Tasmania","West Coast","Mount Thunderbolt",773,2536,146.5783,-42.4830,146.57829,-42.48300,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-105,"Australia - Tasmania","West Coast","Celtic Hill",771,2530,146.3613,-42.9325,146.36130,-42.93250,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-106,"Australia - Tasmania","West Coast","Mount Maud",770,2526,145.7515,-42.2141,145.75150,-42.21410,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-107,"Australia - Tasmania","West Coast","Saw Back Range",770,2526,146.3508,-42.7743,146.35080,-42.77430,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-108,"Australia - Tasmania","West Coast","Mount McCall 755",755,2477,145.7246,-42.3710,145.72459,-42.37100,4,0,01/10/2014,31/12/2099,1,10/04/2025,VK2HRX
+VK7/WC-109,"Australia - Tasmania","West Coast","Everlasting Hills",750,2461,146.0268,-42.3052,146.02679,-42.30520,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-110,"Australia - Tasmania","West Coast","Deception Range 749",749,2457,145.7870,-42.4076,145.78700,-42.40760,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-111,"Australia - Tasmania","West Coast",745,745,2444,145.7710,-42.2775,145.77100,-42.27750,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-112,"Australia - Tasmania","West Coast","McKays Peak",744,2441,146.0537,-42.2224,146.05370,-42.22240,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-113,"Australia - Tasmania","West Coast","Engineer Range",742,2434,145.7390,-42.3175,145.73900,-42.31750,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-114,"Australia - Tasmania","West Coast","Mount Heemskirk",742,2434,145.1732,-41.8515,145.17320,-41.85150,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-115,"Australia - Tasmania","West Coast","Cracroft Hills 738",738,2421,145.6960,-42.4005,145.69600,-42.40050,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-116,"Australia - Tasmania","West Coast","Mount Lee",736,2415,145.5993,-42.6098,145.59930,-42.60980,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-117,"Australia - Tasmania","West Coast","Tiger Range",730,2395,146.4253,-42.6737,146.42529,-42.67370,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-118,"Australia - Tasmania","West Coast","Mount Zeehan",701,2300,145.3229,-41.9267,145.32291,-41.92670,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-119,"Australia - Tasmania","West Coast","Franklin Hills",687,2254,145.9698,-42.2358,145.96980,-42.23580,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-120,"Australia - Tasmania","West Coast","Black Hill",684,2244,145.4266,-41.8511,145.42661,-41.85110,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-121,"Australia - Tasmania","West Coast","Princess Range",682,2238,145.8262,-42.5783,145.82620,-42.57830,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-122,"Australia - Tasmania","West Coast","D'Aguilar Range",680,2231,145.6194,-42.5959,145.61940,-42.59590,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-123,"Australia - Tasmania","West Coast","Commonwealth Hill",676,2218,145.4354,-41.8201,145.43539,-41.82010,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-124,"Australia - Tasmania","West Coast","Junction Peak",667,2188,145.9382,-42.2074,145.93820,-42.20740,4,0,01/10/2014,31/12/2099,0,,
+VK7/WC-125,"Australia - Tasmania","West Coast","Thureau Hills",639,2096,145.6365,-42.1320,145.63651,-42.13200,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-126,"Australia - Tasmania","West Coast","Lancelot Hill",618,2028,145.9392,-42.5493,145.93919,-42.54930,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-127,"Australia - Tasmania","West Coast","Colebrook Hill range",614,2014,145.4911,-41.8216,145.49110,-41.82160,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-128,"Australia - Tasmania","West Coast","Abel Peak",602,1975,145.8332,-42.4597,145.83321,-42.45970,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-129,"Australia - Tasmania","West Coast","Mount Norway",598,1962,145.9340,-42.3989,145.93401,-42.39890,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-130,"Australia - Tasmania","West Coast","Convict Peak",587,1926,145.7899,-42.5323,145.78990,-42.53230,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-131,"Australia - Tasmania","West Coast","Mount Razorback",580,1903,145.4174,-41.8651,145.41740,-41.86510,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-132,"Australia - Tasmania","West Coast","Boyd Island",579,1900,146.2488,-42.7736,146.24879,-42.77360,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-133,"Australia - Tasmania","West Coast","Goodwins Peak",574,1883,145.7895,-42.4733,145.78951,-42.47330,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-134,"Australia - Tasmania","West Coast","Norway Range",573,1880,145.9023,-42.4497,145.90230,-42.44970,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-135,"Australia - Tasmania","West Coast","Artist Hill",566,1857,145.9931,-42.2094,145.99310,-42.20940,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-136,"Australia - Tasmania","West Coast",565A,565,1854,145.3798,-41.8065,145.37981,-41.80650,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-137,"Australia - Tasmania","West Coast",565B,565,1854,146.2429,-42.8293,146.24290,-42.82930,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-138,"Australia - Tasmania","West Coast","The Twins",557,1827,145.6510,-42.6792,145.65100,-42.67920,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-139,"Australia - Tasmania","West Coast",557,557,1827,145.8380,-42.4367,145.83800,-42.43670,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-140,"Australia - Tasmania","West Coast","King Billy Range",550,1804,145.6845,-42.6179,145.68449,-42.61790,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-141,"Australia - Tasmania","West Coast","Little Farrell",543,1781,145.6343,-41.7666,145.63429,-41.76660,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-142,"Australia - Tasmania","West Coast","River Peak North",534,1752,145.9780,-42.4177,145.97800,-42.41770,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-143,"Australia - Tasmania","West Coast",528,528,1732,145.6450,-42.2724,145.64500,-42.27240,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-144,"Australia - Tasmania","West Coast","Western Hills",527,1729,145.3745,-41.7823,145.37450,-41.78230,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-145,"Australia - Tasmania","West Coast","Nicholls Range 516",516,1693,145.8475,-42.7039,145.84750,-42.70390,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-146,"Australia - Tasmania","West Coast","Warnes Lookout",512,1680,145.9943,-42.4010,145.99429,-42.40100,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-147,"Australia - Tasmania","West Coast",511,511,1677,145.6800,-42.1105,145.67999,-42.11050,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-148,"Australia - Tasmania","West Coast",510,510,1673,145.6870,-42.1995,145.68700,-42.19950,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-149,"Australia - Tasmania","West Coast","Mount Bethune",508,1667,146.7564,-42.6008,146.75639,-42.60080,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-150,"Australia - Tasmania","West Coast","Dohertys Range 507",507,1663,145.9154,-42.8558,145.91541,-42.85580,2,0,01/10/2014,31/12/2099,0,,
+VK7/WC-151,"Australia - Tasmania","West Coast","Dohertys Range 491",491,1611,145.9003,-42.8111,145.90030,-42.81110,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-152,"Australia - Tasmania","West Coast",487,487,1598,146.3418,-42.9030,146.34180,-42.90300,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-153,"Australia - Tasmania","West Coast",481,481,1578,145.8311,-42.7909,145.83110,-42.79090,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-154,"Australia - Tasmania","West Coast",476,476,1562,146.2451,-42.7937,146.24510,-42.79370,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-155,"Australia - Tasmania","West Coast",470,470,1542,145.9150,-42.7681,145.91499,-42.76810,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-156,"Australia - Tasmania","West Coast",469,469,1539,145.6420,-42.4913,145.64200,-42.49130,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-157,"Australia - Tasmania","West Coast",466,466,1529,145.6128,-42.4187,145.61279,-42.41870,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-158,"Australia - Tasmania","West Coast",462,462,1516,145.7941,-42.6797,145.79410,-42.67970,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-159,"Australia - Tasmania","West Coast",458,458,1503,145.7513,-42.7228,145.75130,-42.72280,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-160,"Australia - Tasmania","West Coast","Dohertys Range 451",451,1480,145.8992,-42.7877,145.89920,-42.78770,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-161,"Australia - Tasmania","West Coast","Flat Top Hill",446,1463,145.5795,-42.4631,145.57950,-42.46310,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-162,"Australia - Tasmania","West Coast",440,440,1444,145.5023,-42.1629,145.50230,-42.16290,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-163,"Australia - Tasmania","West Coast",437,437,1434,145.7955,-42.6975,145.79550,-42.69750,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-164,"Australia - Tasmania","West Coast","Lodders Lookout",430,1411,145.4393,-42.0201,145.43930,-42.02010,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-165,"Australia - Tasmania","West Coast","Professor Range",416,1365,145.3886,-41.9857,145.38860,-41.98570,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-166,"Australia - Tasmania","West Coast",401,401,1316,145.9234,-42.6007,145.92340,-42.60070,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-167,"Australia - Tasmania","West Coast",395,395,1296,145.7827,-42.6639,145.78270,-42.66390,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-168,"Australia - Tasmania","West Coast","Nicholls Range 391",391,1283,145.8675,-42.7303,145.86749,-42.73030,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-169,"Australia - Tasmania","West Coast",390,390,1280,145.5303,-42.1748,145.53030,-42.17480,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-170,"Australia - Tasmania","West Coast","Misery Hill",373,1224,145.3989,-41.8876,145.39890,-41.88760,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-171,"Australia - Tasmania","West Coast","Mount Osmund",368,1207,145.5365,-42.8618,145.53650,-42.86180,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-172,"Australia - Tasmania","West Coast",270,270,886,145.4130,-42.4321,145.41299,-42.43210,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-173,"Australia - Tasmania","West Coast","Tikkawoppa Plateau",253,830,145.0416,-41.6268,145.04160,-41.62680,1,0,01/10/2014,31/12/2099,0,,
+VK7/WC-174,"Australia - Tasmania","West Coast",VK7/WC-174,1238,4062,145.8844,-42.2917,145.88440,-42.29170,10,3,01/11/2016,31/12/2099,0,,
+VK7/WC-175,"Australia - Tasmania","West Coast","Mount Lord",1198,3930,146.5247,-42.6084,146.52470,-42.60840,8,0,01/11/2016,31/12/2099,0,,
+VK7/WC-176,"Australia - Tasmania","West Coast","Mount Tyndall",1179,3868,145.5912,-41.9335,145.59120,-41.93350,8,0,01/11/2016,31/12/2099,0,,
+VK7/WC-177,"Australia - Tasmania","West Coast","Walford Peak",1009,3310,145.6318,-41.9379,145.63181,-41.93790,8,0,01/11/2016,31/12/2099,0,,
+VK7/WC-178,"Australia - Tasmania","West Coast",VK7/WC-178,945,3100,146.1109,-42.3355,146.11090,-42.33550,6,0,01/11/2016,31/12/2099,0,,
+VK7/WC-179,"Australia - Tasmania","West Coast","Red Hills",932,3058,145.5906,-41.8558,145.59061,-41.85580,6,0,01/11/2016,31/12/2099,0,,
+VK7/WC-180,"Australia - Tasmania","West Coast","Battlement Hills",917,3009,146.2626,-42.4911,146.26260,-42.49110,6,0,01/11/2016,31/12/2099,0,,
+VK7/WC-181,"Australia - Tasmania","West Coast",VK7/WC-181,893,2930,146.2830,-42.4850,146.28300,-42.48500,6,0,01/11/2016,31/12/2099,0,,
+VK7/WC-182,"Australia - Tasmania","West Coast","Newton Peak",800,2625,145.6020,-41.9052,145.60201,-41.90520,6,0,01/11/2016,31/12/2099,0,,
+VK7/WC-183,"Australia - Tasmania","West Coast","Mount Llewellyn",736,2415,145.8741,-42.3617,145.87410,-42.36170,4,0,01/11/2016,31/12/2099,0,,
+VK7/WC-184,"Australia - Tasmania","West Coast",VK7/WC-184,728,2388,145.9995,-42.6527,145.99950,-42.65270,4,0,01/11/2016,31/12/2099,0,,
+VK7/WC-185,"Australia - Tasmania","West Coast",VK7/WC-185,690,2264,145.4916,-41.9352,145.49159,-41.93520,4,0,01/11/2016,31/12/2099,0,,
+VK7/WC-186,"Australia - Tasmania","West Coast",VK7/WC-186,670,2198,146.0077,-42.2426,146.00771,-42.24260,4,0,01/11/2016,31/12/2099,0,,
+VK7/WC-187,"Australia - Tasmania","West Coast",VK7/WC-187,670,2198,145.7207,-42.0842,145.72070,-42.08420,4,0,01/11/2016,31/12/2099,0,,
+VK7/WC-188,"Australia - Tasmania","West Coast","Olegas Bluff",659,2162,145.9469,-42.6563,145.94690,-42.65630,4,0,01/11/2016,31/12/2099,0,,
+VK7/WC-189,"Australia - Tasmania","West Coast",VK7/WC-189,648,2126,145.6004,-42.5755,145.60040,-42.57550,2,0,01/11/2016,31/12/2099,0,,
+VK7/WC-190,"Australia - Tasmania","West Coast","Thirkell Hill",421,1381,145.5934,-42.6944,145.59340,-42.69440,1,0,01/11/2016,31/12/2099,0,,
+VK7/WC-191,"Australia - Tasmania","West Coast",VK7/WC-191,406,1332,145.8817,-42.7587,145.88170,-42.75870,1,0,01/11/2016,31/12/2099,0,,
+VK7/WC-192,"Australia - Tasmania","West Coast",VK7/WC-192,366,1201,145.5943,-42.3318,145.59430,-42.33180,1,0,01/11/2016,31/12/2099,0,,
+VK7/WC-193,"Australia - Tasmania","West Coast",VK7/WC-193,357,1171,145.8611,-42.6349,145.86110,-42.63490,1,0,01/11/2016,31/12/2099,0,,

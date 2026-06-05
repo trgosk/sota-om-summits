@@ -1,0 +1,50 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+LUD/TA-001,"Argentina - Buenos Aires",Tandilia,LUD/TA-001,520,1706,-59.3031,-37.6008,-59.30310,-37.60080,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-002,"Argentina - Buenos Aires",Tandilia,LUD/TA-002,485,1591,-59.0835,-37.3572,-59.08350,-37.35720,2,0,01/06/2018,31/12/2099,3,15/06/2023,LU2DHH
+LUD/TA-003,"Argentina - Buenos Aires",Tandilia,LUD/TA-003,482,1581,-59.3608,-37.4311,-59.36080,-37.43110,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-004,"Argentina - Buenos Aires",Tandilia,LUD/TA-004,459,1505,-59.1022,-37.5114,-59.10220,-37.51140,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-005,"Argentina - Buenos Aires",Tandilia,LUD/TA-005,442,1450,-59.4228,-37.6091,-59.42280,-37.60910,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-006,"Argentina - Buenos Aires",Tandilia,"Cerro San Luis",435,1427,-58.9649,-37.3596,-58.96490,-37.35960,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-007,"Argentina - Buenos Aires",Tandilia,LUD/TA-007,430,1410,-59.1603,-37.5508,-59.16030,-37.55080,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-008,"Argentina - Buenos Aires",Tandilia,"Cerro El Sombrero",425,1394,-58.5699,-37.8128,-58.56990,-37.81280,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-009,"Argentina - Buenos Aires",Tandilia,"Cerro El Bote",423,1387,-58.6376,-37.8254,-58.63760,-37.82540,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-010,"Argentina - Buenos Aires",Tandilia,LUD/TA-010,388,1272,-58.1495,-37.8013,-58.14950,-37.80130,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-011,"Argentina - Buenos Aires",Tandilia,LUD/TA-011,382,1253,-58.1914,-37.8153,-58.19140,-37.81530,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-012,"Argentina - Buenos Aires",Tandilia,LUD/TA-012,381,1250,-58.5289,-37.8550,-58.52890,-37.85500,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-013,"Argentina - Buenos Aires",Tandilia,"Cerro San Luis",375,1230,-58.8408,-37.8439,-58.84080,-37.84390,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-014,"Argentina - Buenos Aires",Tandilia,LUD/TA-014,363,1190,-58.0504,-37.8216,-58.05040,-37.82160,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-015,"Argentina - Buenos Aires",Tandilia,"Colina La Chata",357,1171,-58.3808,-37.8759,-58.38080,-37.87590,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-016,"Argentina - Buenos Aires",Tandilia,"Cerro Paulino",354,1161,-58.1285,-37.8033,-58.12850,-37.80330,2,0,01/06/2018,31/12/2099,0,,
+LUD/TA-017,"Argentina - Buenos Aires",Tandilia,"Cerro Amarante",345,1131,-58.3629,-37.8440,-58.36290,-37.84400,1,0,01/06/2018,31/12/2099,0,,
+LUD/TA-018,"Argentina - Buenos Aires",Tandilia,LUD/TA-018,340,1115,-58.2608,-37.8839,-58.26080,-37.88390,1,0,01/06/2018,31/12/2099,0,,
+LUD/TA-019,"Argentina - Buenos Aires",Tandilia,LUD/TA-019,317,1040,-58.2500,-37.7295,-58.25000,-37.72950,1,0,01/06/2018,31/12/2099,0,,
+LUD/TA-020,"Argentina - Buenos Aires",Tandilia,LUD/TA-020,302,990,-58.0571,-37.8987,-58.05710,-37.89870,1,0,01/06/2018,31/12/2099,4,28/01/2023,LU1MAW/D
+LUD/TA-021,"Argentina - Buenos Aires",Tandilia,LUD/TA-021,271,889,-57.9917,-37.8767,-57.99170,-37.87670,1,0,01/06/2018,31/12/2099,2,26/01/2020,LU1ELM
+LUD/TA-022,"Argentina - Buenos Aires",Tandilia,LUD/TA-022,254,833,-57.8472,-37.9050,-57.84720,-37.90500,1,0,01/06/2018,31/12/2099,7,12/06/2021,LW6DNF
+LUD/VE-001,"Argentina - Buenos Aires",Ventania,"Cerro Tres Picos",1239,4064,-61.9524,-38.1580,-61.95240,-38.15800,10,3,01/06/2018,31/12/2099,3,09/12/2023,LU/EA6LU/D
+LUD/VE-002,"Argentina - Buenos Aires",Ventania,"Cerro de la Ventana",1134,3720,-62.0197,-38.0491,-62.01970,-38.04910,10,3,01/06/2018,31/12/2099,0,,
+LUD/VE-003,"Argentina - Buenos Aires",Ventania,"Cerro Napostá",1110,3641,-61.9599,-38.1328,-61.95990,-38.13280,10,3,01/06/2018,31/12/2099,2,20/08/2021,LU1DLK/D
+LUD/VE-004,"Argentina - Buenos Aires",Ventania,"Cerro de la Carpa",1066,3497,-61.9343,-38.1804,-61.93430,-38.18040,10,3,01/06/2018,31/12/2099,0,,
+LUD/VE-005,"Argentina - Buenos Aires",Ventania,"Cerro Cura Malal Grande",1026,3366,-62.2342,-37.7219,-62.23420,-37.72190,8,3,01/06/2018,31/12/2099,0,,
+LUD/VE-006,"Argentina - Buenos Aires",Ventania,"Cerro Chaco",975,3198,-62.1253,-37.9153,-62.12530,-37.91530,8,3,01/06/2018,31/12/2099,0,,
+LUD/VE-007,"Argentina - Buenos Aires",Ventania,LUD/VE-007,973,3192,-62.0411,-38.0008,-62.04110,-38.00080,8,3,01/06/2018,31/12/2099,0,,
+LUD/VE-008,"Argentina - Buenos Aires",Ventania,LUD/VE-008,949,3113,-62.1283,-37.8422,-62.12830,-37.84220,8,3,01/06/2018,31/12/2099,0,,
+LUD/VE-009,"Argentina - Buenos Aires",Ventania,LUD/VE-009,942,3090,-62.0789,-37.8522,-62.07890,-37.85220,8,3,01/06/2018,31/12/2099,0,,
+LUD/VE-010,"Argentina - Buenos Aires",Ventania,"Cerro Guanaco",929,3047,-62.0574,-37.8743,-62.05740,-37.87430,8,3,01/06/2018,31/12/2099,0,,
+LUD/VE-011,"Argentina - Buenos Aires",Ventania,LUD/VE-011,808,2650,-62.1136,-37.8733,-62.11360,-37.87330,6,0,01/06/2018,31/12/2099,0,,
+LUD/VE-012,"Argentina - Buenos Aires",Ventania,LUD/VE-012,801,2627,-62.1503,-37.7458,-62.15030,-37.74580,6,0,01/06/2018,31/12/2099,0,,
+LUD/VE-013,"Argentina - Buenos Aires",Ventania,LUD/VE-013,800,2624,-61.9031,-38.2400,-61.90310,-38.24000,6,0,01/06/2018,31/12/2099,0,,
+LUD/VE-014,"Argentina - Buenos Aires",Ventania,LUD/VE-014,758,2486,-62.1686,-37.8347,-62.16860,-37.83470,6,0,01/06/2018,31/12/2099,0,,
+LUD/VE-015,"Argentina - Buenos Aires",Ventania,"Cerro de los 3 picos de Las Tunas",758,2486,-61.7842,-37.9875,-61.78420,-37.98750,6,0,01/06/2018,31/12/2099,0,,
+LUD/VE-016,"Argentina - Buenos Aires",Ventania,"Cerro Barrancoso",751,2463,-62.1078,-37.7858,-62.10780,-37.78580,6,0,01/06/2018,31/12/2099,0,,
+LUD/VE-017,"Argentina - Buenos Aires",Ventania,"Cerro Pan de Azúcar",741,2431,-62.1800,-37.9461,-62.18000,-37.94610,6,0,01/06/2018,31/12/2099,0,,
+LUD/VE-018,"Argentina - Buenos Aires",Ventania,"Cerro Sombra del Toro",653,2142,-62.0207,-38.2350,-62.02070,-38.23500,4,0,01/06/2018,31/12/2099,0,,
+LUD/VE-019,"Argentina - Buenos Aires",Ventania,"Cerro El Bonete",651,2135,-61.6876,-38.1626,-61.68760,-38.16260,4,0,01/06/2018,31/12/2099,0,,
+LUD/VE-020,"Argentina - Buenos Aires",Ventania,LUD/VE-020,642,2106,-62.0843,-38.0293,-62.08430,-38.02930,4,0,01/06/2018,31/12/2099,0,,
+LUD/VE-021,"Argentina - Buenos Aires",Ventania,"Cerro de los Vascos",629,2063,-61.9062,-38.3045,-61.90620,-38.30450,4,0,01/06/2018,31/12/2099,0,,
+LUD/VE-022,"Argentina - Buenos Aires",Ventania,"Cerro de Los Terneros",624,2047,-62.1311,-37.9928,-62.13110,-37.99280,4,0,01/06/2018,31/12/2099,0,,
+LUD/VE-023,"Argentina - Buenos Aires",Ventania,Recreo,612,2007,-62.1398,-38.0882,-62.13980,-38.08820,4,0,01/06/2018,31/12/2099,2,13/04/2024,LU1DLK/D
+LUD/VE-024,"Argentina - Buenos Aires",Ventania,LUD/VE-024,605,1984,-62.1161,-37.9683,-62.11610,-37.96830,4,0,01/06/2018,31/12/2099,0,,
+LUD/VE-025,"Argentina - Buenos Aires",Ventania,"Cerro Tornquist",576,1889,-62.1776,-38.0769,-62.17760,-38.07690,4,0,01/06/2018,31/12/2099,3,13/04/2024,LU1DLK/D
+LUD/VE-026,"Argentina - Buenos Aires",Ventania,LUD/VE-026,541,1774,-62.6158,-37.6136,-62.61580,-37.61360,4,0,01/06/2018,31/12/2099,0,,

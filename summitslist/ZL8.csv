@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+ZL8/MI-001,"Kermadec Islands","Macauley Island","Mount Haszard",238,781,-178.4352,-30.2289,-178.43520,-30.22890,1,0,01/11/2015,31/12/2099,0,,
+ZL8/RI-001,"Kermadec Islands","Raoul Island",Moumoukai,516,1692,-177.9081,-29.2680,-177.90810,-29.26800,2,0,01/11/2015,31/12/2099,0,,
+ZL8/RI-002,"Kermadec Islands","Raoul Island",Pukekohu,465,1526,-177.9428,-29.2539,-177.94279,-29.25390,1,0,01/11/2015,31/12/2099,0,,

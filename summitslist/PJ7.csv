@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+PJ7/SM-001,"Sint Maarten","Sint Maarten","Sentry Hill",341,1118,-63.0718,18.0406,-63.07180,18.04060,2,0,01/03/2026,31/12/2099,0,,
+PJ7/SM-002,"Sint Maarten","Sint Maarten","Naked Boy Hill",296,971,-63.0315,18.0397,-63.03150,18.03970,2,0,01/03/2026,31/12/2099,0,,
+PJ7/SM-003,"Sint Maarten","Sint Maarten","Fort Hill",215,705,-63.06,18.0258,-63.06000,18.02580,1,0,01/03/2026,31/12/2099,0,,

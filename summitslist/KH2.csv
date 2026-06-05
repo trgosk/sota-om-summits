@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+KH2/GU-001,"USA - Guam",Guam,"Mount Lamlam",406,1332,144.6656,13.3399,144.66560,13.33990,2,0,01/08/2018,31/12/2099,2,06/02/2021,KO4EGC
+KH2/GU-002,"USA - Guam",Guam,"Mount Alutom",327,1074,144.7126,13.4326,144.71260,13.43260,1,0,01/08/2018,31/12/2099,2,15/04/2022,N7PN/KH2
+KH2/GU-003,"USA - Guam",Guam,"Mount Santa Rosa",251,824,144.9137,13.5351,144.91370,13.53510,1,0,01/08/2018,31/12/2099,1,27/11/2019,KH2/JH0CJH

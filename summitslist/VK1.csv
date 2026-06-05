@@ -1,0 +1,50 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VK1/AC-001,"Australia - Capital Territory","Australian Capital Territory","Bimberi Peak",1913,6276,148.79000,-35.65944,148.78999,-35.65944,10,3,01/02/2013,31/12/2099,7,19/04/2019,VK1FTRA
+VK1/AC-002,"Australia - Capital Territory","Australian Capital Territory","Mt Gingera",1855,6086,148.77972,-35.57639,148.77972,-35.57639,10,3,01/02/2013,31/12/2099,51,01/05/2026,VK1AD
+VK1/AC-003,"Australia - Capital Territory","Australian Capital Territory","Mt Murray",1845,6053,148.79139,-35.69000,148.79140,-35.69000,10,3,01/02/2013,31/12/2099,2,08/11/2020,VK1TRL
+VK1/AC-004,"Australia - Capital Territory","Australian Capital Territory","Mt Kelly",1829,6001,148.87750,-35.71500,148.87750,-35.71500,10,3,01/02/2013,31/12/2099,1,31/03/2013,VK3WAM/1
+VK1/AC-005,"Australia - Capital Territory","Australian Capital Territory","Mt Scabby",1798,5899,148.85889,-35.76056,148.85889,-35.76056,8,3,01/02/2013,31/12/2099,1,30/03/2013,VK3WAM/1
+VK1/AC-006,"Australia - Capital Territory","Australian Capital Territory","Mt Namadgi",1781,5843,148.89000,-35.69611,148.89000,-35.69611,8,3,01/02/2013,31/12/2099,1,31/03/2013,VK3WAM/1
+VK1/AC-007,"Australia - Capital Territory","Australian Capital Territory","Mt Ginger Ale",1770,5807,148.76833,-35.60306,148.76833,-35.60306,8,3,01/02/2013,31/12/2099,4,26/09/2015,VK1RX
+VK1/AC-008,"Australia - Capital Territory","Australian Capital Territory","Mt Ginini",1760,5774,148.77194,-35.52917,148.77194,-35.52917,8,3,01/02/2013,31/12/2099,145,30/04/2026,VK1AD
+VK1/AC-009,"Australia - Capital Territory","Australian Capital Territory","Mt Gudgenby",1739,5705,148.91000,-35.77167,148.91000,-35.77167,8,3,01/02/2013,31/12/2099,2,25/10/2015,VK1FJAW/P
+VK1/AC-010,"Australia - Capital Territory","Australian Capital Territory","Sentry Box Mountain",1720,5643,148.90639,-35.82417,148.90639,-35.82417,8,3,01/02/2013,31/12/2099,2,13/07/2013,VK1NAM/P
+VK1/AC-011,"Australia - Capital Territory","Australian Capital Territory","Mt Mavis",1705,5594,148.90417,-35.68500,148.90417,-35.68500,8,3,01/02/2013,31/12/2099,1,31/03/2013,VK3WAM/1
+VK1/AC-012,"Australia - Capital Territory","Australian Capital Territory","Orroral Hill",1605,5266,148.93167,-35.64500,148.93167,-35.64500,6,3,01/02/2013,31/12/2099,5,04/07/2025,VK1ACE
+VK1/AC-013,"Australia - Capital Territory","Australian Capital Territory","Tidbinbilla Peak",1605,5266,148.86750,-35.44500,148.86749,-35.44500,6,3,01/02/2013,31/12/2099,6,23/08/2024,VK1ACE
+VK1/AC-014,"Australia - Capital Territory","Australian Capital Territory","Mt Clear",1603,5259,149.06417,-35.87611,149.06416,-35.87611,6,3,01/02/2013,31/12/2099,3,17/11/2013,VK1RX
+VK1/AC-015,"Australia - Capital Territory","Australian Capital Territory","Mt McKeahnie",1602,5256,148.87333,-35.57750,148.87334,-35.57750,6,3,01/02/2013,31/12/2099,0,,
+VK1/AC-016,"Australia - Capital Territory","Australian Capital Territory","Booths Hill",1583,5194,149.04083,-35.72861,149.04083,-35.72861,6,3,01/02/2013,31/12/2099,1,07/09/2014,VK1EM
+VK1/AC-017,"Australia - Capital Territory","Australian Capital Territory","Cotter Hut Hill",1510,4954,148.87306,-35.61667,148.87306,-35.61667,6,3,01/02/2013,31/12/2099,1,03/11/2023,VK1ACE
+VK1/AC-018,"Australia - Capital Territory","Australian Capital Territory","Billy Rocks Range",1510,4954,148.88000,-35.51250,148.88000,-35.51250,6,3,01/02/2013,31/12/2099,4,26/01/2022,VK1ACE
+VK1/AC-019,"Australia - Capital Territory","Australian Capital Territory","Boboyan Divide",1510,4954,149.02583,-35.91056,149.02583,-35.91056,6,3,01/02/2013,31/12/2099,14,08/07/2022,VK1ACE
+VK1/AC-020,"Australia - Capital Territory","Australian Capital Territory","Mt Domain",1506,4941,148.87000,-35.47417,148.87000,-35.47417,6,3,01/02/2013,31/12/2099,5,20/11/2021,VK1ACE
+VK1/AC-021,"Australia - Capital Territory","Australian Capital Territory","Pheasant Hill",1455,4774,148.96889,-35.86472,148.96889,-35.86472,4,3,01/02/2013,31/12/2099,35,23/08/2024,VK1AD
+VK1/AC-022,"Australia - Capital Territory","Australian Capital Territory","Nursery Hill",1428,4685,148.96917,-35.69250,148.96918,-35.69250,4,3,01/02/2013,31/12/2099,2,09/06/2013,VK1NAM/P
+VK1/AC-023,"Australia - Capital Territory","Australian Capital Territory","Mt Coree",1421,4662,148.81083,-35.30667,148.81084,-35.30667,4,3,01/02/2013,31/12/2099,130,11/04/2026,VK1AAW
+VK1/AC-024,"Australia - Capital Territory","Australian Capital Territory","Clear Range",1405,4610,149.09583,-35.81833,149.09583,-35.81833,4,3,01/02/2013,31/12/2099,1,17/11/2023,VK1ACE
+VK1/AC-025,"Australia - Capital Territory","Australian Capital Territory","Mt Tennent",1384,4541,149.04444,-35.55000,149.04443,-35.55000,4,3,01/02/2013,31/12/2099,27,16/08/2025,VK1ACE
+VK1/AC-026,"Australia - Capital Territory","Australian Capital Territory","Booroomba Rocks",1382,4534,148.98917,-35.56250,148.98917,-35.56250,4,3,01/02/2013,31/12/2099,62,19/04/2026,VK1AAW
+VK1/AC-027,"Australia - Capital Territory","Australian Capital Territory","Honeysuckle Mountain",1365,4478,148.98417,-35.59083,148.98418,-35.59083,4,3,01/02/2013,31/12/2099,15,13/10/2019,VK1AD/P
+VK1/AC-028,"Australia - Capital Territory","Australian Capital Territory","Billy Range",1332,4370,149.03167,-35.67417,149.03168,-35.67417,2,3,01/02/2013,31/12/2099,4,14/07/2019,VK1AD/P
+VK1/AC-029,"Australia - Capital Territory","Australian Capital Territory","Mount Naas",1250,4101,149.10352,-35.72562,149.10352,-35.72562,2,3,01/02/2013,31/12/2099,2,25/08/2013,VK1RX
+VK1/AC-030,"Australia - Capital Territory","Australian Capital Territory","Mt Yarara",1243,4078,149.10889,-35.69722,149.10889,-35.69722,2,3,01/02/2013,31/12/2099,4,25/08/2013,VK1RX
+VK1/AC-031,"Australia - Capital Territory","Australian Capital Territory","Mt Rob Roy",1099,3606,149.12861,-35.49500,149.12862,-35.49500,2,0,01/02/2013,31/12/2099,42,08/04/2026,VK1AAW
+VK1/AC-032,"Australia - Capital Territory","Australian Capital Territory","Castle Hill",942,3091,149.03306,-35.48083,149.03307,-35.48083,2,0,01/02/2013,31/12/2099,24,11/04/2026,VK1CAT
+VK1/AC-033,"Australia - Capital Territory","Australian Capital Territory","Bullen Range",925,3035,149.01167,-35.42444,149.01167,-35.42444,2,0,01/02/2013,31/12/2099,51,18/03/2026,VK5DG/1
+VK1/AC-034,"Australia - Capital Territory","Australian Capital Territory","Mt Majura",890,2920,149.18222,-35.23750,149.18222,-35.23750,1,0,01/02/2013,31/12/2099,96,30/05/2026,VK1ACE
+VK1/AC-035,"Australia - Capital Territory","Australian Capital Territory","One Tree Hill",876,2874,149.09167,-35.14250,149.09167,-35.14250,1,0,01/02/2013,31/12/2099,69,23/05/2026,VK1AAW
+VK1/AC-036,"Australia - Capital Territory","Australian Capital Territory",Goorooyarroo,872,2861,149.24667,-35.22917,149.24667,-35.22917,1,0,01/02/2013,31/12/2099,39,09/08/2025,VK1DI/P
+VK1/AC-037,"Australia - Capital Territory","Australian Capital Territory","Mt Taylor",856,2808,149.07500,-35.37167,149.07500,-35.37167,1,0,01/02/2013,31/12/2099,170,07/05/2026,VK1AAW
+VK1/AC-038,"Australia - Capital Territory","Australian Capital Territory","Tuggeranong Hill",855,2805,149.10806,-35.45333,149.10806,-35.45333,1,0,01/02/2013,31/12/2099,102,31/01/2026,VK1DA/P
+VK1/AC-039,"Australia - Capital Territory","Australian Capital Territory","Yellow Rabbit Hill",855,2805,148.87917,-35.34333,148.87917,-35.34333,1,0,01/02/2013,31/12/2099,80,08/05/2026,VK1AAW
+VK1/AC-040,"Australia - Capital Territory","Australian Capital Territory","Mt Ainslie",843,2766,149.15917,-35.26917,149.15916,-35.26917,1,0,01/02/2013,31/12/2099,389,04/05/2026,VK1MA
+VK1/AC-041,"Australia - Capital Territory","Australian Capital Territory","Isaacs Ridge",840,2756,149.12500,-35.38083,149.12500,-35.38083,1,0,01/02/2013,31/12/2099,126,22/05/2026,VK1DA
+VK1/AC-042,"Australia - Capital Territory","Australian Capital Territory","Black Mountain",812,2664,149.09750,-35.27417,149.09750,-35.27417,1,0,01/02/2013,31/12/2099,215,23/05/2026,VK1ACE
+VK1/AC-043,"Australia - Capital Territory","Australian Capital Territory","Mt Stromlo",782,2566,149.01139,-35.31667,149.01138,-35.31667,1,0,01/02/2013,31/12/2099,445,30/05/2026,VK1DA
+VK1/AC-044,"Australia - Capital Territory","Australian Capital Territory","Boboyan Range",1489,4885,149.00203,-35.82917,149.00203,-35.82917,4,3,01/02/2014,31/12/2099,28,03/09/2024,VK1AD
+VK1/AC-045,"Australia - Capital Territory","Australian Capital Territory","Prairie Dog Hill",1330,4364,148.91277,-35.60104,148.91277,-35.60104,2,3,01/02/2014,31/12/2099,2,13/09/2015,VK1NAM/P
+VK1/AC-046,"Australia - Capital Territory","Australian Capital Territory","Mt Brandy Flat",1316,4318,149.01853,-35.66004,149.01852,-35.66004,2,3,01/02/2014,31/12/2099,2,06/07/2014,VK1RX
+VK1/AC-047,"Australia - Capital Territory","Australian Capital Territory","Apollo Hill",1228,4029,149.00864,-35.55035,149.00864,-35.55035,2,3,01/02/2014,31/12/2099,1,24/04/2021,VK1TSK
+VK1/AC-048,"Australia - Capital Territory","Australian Capital Territory","Mount McDonald",789,2589,148.94180,-35.30746,148.94180,-35.30746,1,0,01/02/2014,31/12/2099,94,30/05/2026,VK1RT/P

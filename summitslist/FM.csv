@@ -1,0 +1,17 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+FM/FM-001,Martinique,Martinique,"Montagne Pelée",1395,4577,-61.1653,14.8092,-61.16530,14.80920,10,0,01/05/2017,31/12/2099,2,14/03/2025,FM/HB9HCS/P
+FM/FM-002,Martinique,Martinique,"Piton Lacroix",1197,3927,-61.1134,14.6986,-61.11340,14.69860,10,0,01/05/2017,31/12/2099,0,,
+FM/FM-003,Martinique,Martinique,"Piton Dumauzé",1112,3648,-61.1035,14.6950,-61.10350,14.69500,10,0,01/05/2017,31/12/2099,0,,
+FM/FM-004,Martinique,Martinique,"Piton Gelé",923,3028,-61.1055,14.7350,-61.10550,14.73500,10,0,01/05/2017,31/12/2099,0,,
+FM/FM-005,Martinique,Martinique,"Piton Mont Conil",897,2943,-61.1908,14.8393,-61.19080,14.83930,8,0,01/05/2017,31/12/2099,0,,
+FM/FM-006,Martinique,Martinique,"Morne Jacob",883,2897,-61.0853,14.7692,-61.08530,14.76920,8,0,01/05/2017,31/12/2099,0,,
+FM/FM-007,Martinique,Martinique,"Morne Larcher",478,1568,-61.0554,14.4643,-61.05540,14.46430,4,0,01/05/2017,31/12/2099,1,04/11/2021,FM/HB9BHU/P
+FM/FM-008,Martinique,Martinique,"Morne Bigot",467,1532,-61.0691,14.5153,-61.06910,14.51530,4,0,01/05/2017,31/12/2099,3,10/03/2025,FM/HB9HCS/P
+FM/FM-009,Martinique,Martinique,"Morne Gardier",400,1312,-61.0275,14.5068,-61.02750,14.50680,2,0,01/05/2017,31/12/2099,0,,
+FM/FM-010,Martinique,Martinique,"Bas Morne",399,1309,-61.0691,14.4787,-61.06910,14.47870,2,0,01/05/2017,31/12/2099,1,10/03/2025,FM/HB9HCS/P
+FM/FM-011,Martinique,Martinique,"Morne Vent",372,1220,-60.8986,14.5273,-60.89860,14.52730,2,0,01/05/2017,31/12/2099,2,12/03/2025,FM/HB9HCS/P
+FM/FM-012,Martinique,Martinique,"Morne Pavillon",363,1191,-60.9494,14.6267,-60.94940,14.62670,2,0,01/05/2017,31/12/2099,2,15/03/2025,FM/HB9HCS/P
+FM/FM-013,Martinique,Martinique,"Morne Sulpice",347,1138,-60.8685,14.5013,-60.86850,14.50130,1,0,01/05/2017,31/12/2099,0,,
+FM/FM-014,Martinique,Martinique,"Morne Réduit (Est)",321,1053,-61.0822,14.5150,-61.08220,14.51500,1,0,01/05/2017,31/12/2099,0,,
+FM/FM-015,Martinique,Martinique,Boucan,291,955,-60.8922,14.4755,-60.89220,14.47550,1,0,01/05/2017,31/12/2099,0,,

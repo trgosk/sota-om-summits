@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+XF4/RV-001,Revillagigedo,Revillagigedo,"Isla Socorro",1038,3406,-110.9753,18.7902,-110.97530,18.79020,4,0,01/09/2018,31/12/2099,0,,
+XF4/RV-002,Revillagigedo,Revillagigedo,"Isla San Benedicto",302,991,-110.8093,19.3108,-110.80930,19.31080,1,0,01/09/2018,31/12/2099,0,,
+XF4/RV-003,Revillagigedo,Revillagigedo,"Isla Clarion",298,978,-114.6992,18.3626,-114.69920,18.36260,1,0,01/09/2018,31/12/2099,0,,

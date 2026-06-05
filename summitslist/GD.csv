@@ -1,0 +1,7 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+GD/GD-001,"Isle Of Man","Isle of Man",Snaefell,621,2037,"SC 397880",,-4.46163,54.26329,8,3,01/05/2002,31/12/2099,149,12/05/2026,MD7DBF/P
+GD/GD-002,"Isle Of Man","Isle of Man","Slieau Freoaghane",488,1601,"SC 340883",,-4.54903,54.26394,4,3,01/05/2002,31/12/2099,100,22/04/2026,GD0KPE/P
+GD/GD-003,"Isle Of Man","Isle of Man","South Barrule",483,1585,"SC 257759",,-4.66929,54.14948,4,3,01/05/2002,31/12/2099,114,05/04/2026,GD5LSI
+GD/GD-004,"Isle Of Man","Isle of Man","Bradda Hill",233,764,"SC 194711",,-4.76354,54.10438,1,0,01/05/2002,31/12/2099,89,05/04/2026,GD5LSI
+GD/GD-005,"Isle Of Man","Isle of Man","Mull Hill",169,554,"SC 189676",,-4.76811,54.07313,1,0,01/05/2002,31/12/2099,140,15/05/2026,GD7RNX/P

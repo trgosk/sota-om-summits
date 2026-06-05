@@ -1,0 +1,68 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+GI/AH-001,"Northern Ireland","Antrim Hills",Trostan,550,1804,"D 179235",,-6.15540,55.04572,4,3,13/07/2002,31/12/2099,63,31/01/2026,GI6PHD/P
+GI/AH-002,"Northern Ireland","Antrim Hills",Knocklayd,514,1686,"D 115363",,-6.25102,55.16211,4,3,13/07/2002,31/12/2099,77,31/01/2026,GI6PHD/P
+GI/AH-003,"Northern Ireland","Antrim Hills",Slieveanorra,508,1667,"D 134266",,-6.22472,55.07418,4,3,13/07/2002,31/12/2099,114,08/02/2026,GI6PHD/P
+GI/AH-004,"Northern Ireland","Antrim Hills",Divis,478,1568,"J 280754",,-6.01851,54.61128,2,0,13/07/2002,31/12/2099,81,25/01/2026,GI4KSO/P
+GI/AH-005,"Northern Ireland","Antrim Hills","Agnew's Hill",474,1555,"D 327015",,-5.93421,54.84438,2,0,13/07/2002,31/12/2099,52,27/10/2025,GI4ONL/P
+GI/AH-006,"Northern Ireland","Antrim Hills","Mid Hill",444,1457,"D 202157",,-6.12361,54.97432,2,0,13/07/2002,31/12/2099,18,04/05/2023,GI4ONL/P
+GI/AH-007,"Northern Ireland","Antrim Hills",Slemish,438,1437,"D 221053",,-6.09737,54.88135,2,0,13/07/2002,31/12/2099,79,22/03/2026,MI0SRR/P
+GI/AH-008,"Northern Ireland","Antrim Hills","Big Collin",353,1158,"J 232966",,-6.08494,54.80212,1,0,13/07/2002,31/12/2099,46,10/05/2026,2I0GOK
+GI/AH-009,"Northern Ireland","Antrim Hills",Carnearny,319,1047,"J 176927",,-6.17355,54.76844,1,0,13/07/2002,31/12/2099,28,16/05/2026,2I0GOK
+GI/AH-010,"Northern Ireland","Antrim Hills",Slievetrue,312,1024,"J 346891",,-5.91023,54.73203,1,0,13/07/2002,31/12/2099,23,31/07/2021,MI7WJL/P
+GI/AH-011,"Northern Ireland","Antrim Hills","Cross Slieve",206,676,"D 236295",,-6.06458,55.09738,1,0,13/07/2002,31/12/2099,14,23/06/2023,GI6PJZ/P
+GI/CA-001,"Northern Ireland","County Armagh","Slieve Gullion",576,1890,"J 024203",,-6.43344,54.12186,4,3,13/07/2002,31/12/2099,59,06/03/2026,GI6PJZ/P
+GI/CA-002,"Northern Ireland","County Armagh","Camlough Mountain",423,1388,"J 049253",,-6.39466,54.16602,2,0,13/07/2002,31/12/2099,17,14/12/2024,MI0PYN/P
+GI/CA-003,"Northern Ireland","County Armagh",Carrigatuke,365,1198,"H 903320",,-6.61536,54.22972,1,0,13/07/2002,31/12/2099,62,01/04/2026,GI/OE5IRO/P
+GI/CA-004,"Northern Ireland","County Armagh",Croslieve,308,1010,"J 002164",,-6.46954,54.08703,1,0,13/07/2002,31/12/2099,11,28/05/2022,2I0ENR/P
+GI/CA-005,"Northern Ireland","County Armagh",Tievecrom,263,863,"J 023153",,-6.43784,54.07674,1,0,13/07/2002,31/12/2099,10,16/07/2021,MI7WJL/P
+GI/MM-001,"Northern Ireland","Mourne Mountains","Slieve Donard",850,2789,"J 358276",,-5.92080,54.18027,10,3,13/07/2002,31/12/2099,120,08/02/2026,MI0KWF/P
+GI/MM-002,"Northern Ireland","Mourne Mountains","Slieve Commedagh",767,2516,"J 346286",,-5.93875,54.18873,8,3,13/07/2002,31/12/2099,96,08/02/2026,MI0SRR/P
+GI/MM-003,"Northern Ireland","Mourne Mountains","Slieve Binnian",746,2447,"J 320233",,-5.98001,54.14193,8,3,13/07/2002,31/12/2099,72,25/04/2026,GI4KSO/P
+GI/MM-004,"Northern Ireland","Mourne Mountains","Slieve Bearnagh",739,2425,"J 313280",,-5.98953,54.18420,8,3,13/07/2002,31/12/2099,81,09/05/2026,MI/EI8HIB/P
+GI/MM-005,"Northern Ireland","Mourne Mountains","Slieve Meelbeg",702,2303,"J 300279",,-6.00829,54.18373,8,3,13/07/2002,31/12/2099,89,02/06/2026,GI/OK5WA/P
+GI/MM-006,"Northern Ireland","Mourne Mountains",Slievelamagan,702,2304,"J 328260",,-5.96606,54.16613,8,3,13/07/2002,31/12/2099,56,27/02/2026,GI6PHD/P
+GI/MM-007,"Northern Ireland","Mourne Mountains","Slieve Muck",670,2199,"J 281249",,-6.03965,54.15801,6,3,13/07/2002,31/12/2099,84,17/05/2026,MI0SRR/P
+GI/MM-008,"Northern Ireland","Mourne Mountains","Eagle Mountain",638,2093,"J 244229",,-6.09726,54.14012,6,3,13/07/2002,31/12/2099,46,29/03/2026,GI4KSO/P
+GI/MM-009,"Northern Ireland","Mourne Mountains",Slievemoughanmore,559,1834,"J 249240",,-6.08916,54.14988,4,3,13/07/2002,31/12/2099,46,31/12/2025,GI6PHD/P
+GI/MM-010,"Northern Ireland","Mourne Mountains","Slieve Croob",534,1752,"J 318453",,-5.97346,54.34001,4,3,13/07/2002,31/12/2099,120,10/05/2026,MI0SRR/P
+GI/MM-011,"Northern Ireland","Mourne Mountains",Slievemartin,485,1591,"J 201176",,-6.16512,54.09356,2,0,13/07/2002,31/12/2099,57,22/03/2026,MI0TXM
+GI/MM-012,"Northern Ireland","Mourne Mountains",Slievenaglogh,445,1460,"J 299230",,-6.01311,54.13966,2,0,13/07/2002,31/12/2099,34,12/04/2026,MI0SRR/P
+GI/MM-013,"Northern Ireland","Mourne Mountains",Gruggandoo,382,1253,"J 200255",,-6.16351,54.16451,1,0,13/07/2002,31/12/2099,23,24/08/2025,MI0TXM
+GI/MM-014,"Northern Ireland","Mourne Mountains",Knockchree,306,1004,"J 271170",,-6.05845,54.08649,1,0,13/07/2002,31/12/2099,32,07/03/2026,MI0TXM
+GI/MM-015,"Northern Ireland","Mourne Mountains",Slievenalargy,280,919,"J 297355",,-6.01079,54.25194,1,0,13/07/2002,31/12/2099,17,30/05/2024,GI6PJZ/P
+GI/MM-016,"Northern Ireland","Mourne Mountains",Knockiveagh,236,774,"J 182378",,-6.18622,54.27538,1,0,13/07/2002,13/07/2012,4,31/08/2010,GI4WSB/P
+GI/MM-017,"Northern Ireland","Mourne Mountains",Cairngaver,214,702,"J 454765",,-5.74957,54.61626,1,0,13/07/2002,31/12/2099,48,12/01/2026,MI0TXM
+GI/SM-001,"Northern Ireland","Sperrin Mountains","Sawel Mountain",678,2224,"H 617973",,-7.03942,54.81971,6,3,13/07/2002,31/12/2099,61,15/02/2026,GI0AZB/P
+GI/SM-002,"Northern Ireland","Sperrin Mountains",Mullaghclogha,635,2083,"H 557957",,-7.13413,54.80646,6,3,13/07/2002,31/12/2099,41,28/05/2026,GI0AZB/P
+GI/SM-003,"Northern Ireland","Sperrin Mountains",Mullaghaneany,627,2057,"H 685986",,-6.93477,54.83073,6,3,13/07/2002,31/12/2099,52,25/05/2026,GI0AZB/P
+GI/SM-004,"Northern Ireland","Sperrin Mountains",Carnanelly,562,1844,"H 674921",,-6.95200,54.77233,4,3,13/07/2002,31/12/2099,39,28/02/2026,GI4ONL/P
+GI/SM-005,"Northern Ireland","Sperrin Mountains",Mullaghmore,550,1804,"C 738008",,-6.85098,54.84970,4,3,13/07/2002,31/12/2099,90,18/01/2026,GI0AZB/P
+GI/SM-006,"Northern Ireland","Sperrin Mountains",Mullaghcarn,542,1778,"H 510809",,-7.20943,54.67432,4,3,13/07/2002,31/12/2099,65,20/02/2026,GI4ONL/P
+GI/SM-007,"Northern Ireland","Sperrin Mountains","Slieve Gallion",528,1732,"H 798878",,-6.76124,54.73186,4,3,13/07/2002,31/12/2099,73,25/05/2026,GI0AZB/P
+GI/SM-008,"Northern Ireland","Sperrin Mountains",Mullaghash,480,1575,"C 640019",,-7.00412,54.86075,2,0,13/07/2002,31/12/2099,19,30/12/2023,GI6PHD/P
+GI/SM-009,"Northern Ireland","Sperrin Mountains",Benbradagh,465,1526,"C 722113",,-6.87410,54.94406,2,0,13/07/2002,31/12/2099,83,31/01/2026,GI4ONL/P
+GI/SM-010,"Northern Ireland","Sperrin Mountains","Curraghchosaly Mountain",416,1365,"H 478839",,-7.25933,54.70089,2,0,13/07/2002,31/12/2099,30,29/03/2026,GI0AZB/P
+GI/SM-011,"Northern Ireland","Sperrin Mountains","Owenreagh Hill",407,1335,"H 420959",,-7.34755,54.80919,2,0,13/07/2002,31/12/2099,17,22/10/2023,MI3UIW/P
+GI/SM-012,"Northern Ireland","Sperrin Mountains","Balix Hill",403,1322,"H 475962",,-7.26197,54.81139,2,0,13/07/2002,31/12/2099,22,22/10/2023,MI3UIW/P
+GI/SM-013,"Northern Ireland","Sperrin Mountains","Donald's Hill",399,1309,"C 743173",,-6.83979,54.99764,1,0,13/07/2002,31/12/2099,24,07/02/2026,MI3UIW/P
+GI/SM-014,"Northern Ireland","Sperrin Mountains",Loughermore,396,1299,"C 589156",,-7.08073,54.98442,1,0,13/07/2002,31/12/2099,35,15/09/2023,MI3UIW/P
+GI/SM-015,"Northern Ireland","Sperrin Mountains",Binevenagh,385,1263,"C 691301",,-6.91792,55.11334,1,0,13/07/2002,31/12/2099,63,28/03/2026,EI5JEB
+GI/SM-016,"Northern Ireland","Sperrin Mountains",Craignamaddy,382,1253,"H 522894",,-7.19010,54.74985,1,0,13/07/2002,31/12/2099,13,20/07/2021,MI7WJL/P
+GI/SM-017,"Northern Ireland","Sperrin Mountains",Oughtmore,382,1253,"H 724837",,-6.87788,54.69616,1,0,13/07/2002,31/12/2099,15,21/12/2021,2I0ENR/P
+GI/SM-018,"Northern Ireland","Sperrin Mountains",Slievekirk,370,1214,"C 451082",,-7.29742,54.91940,1,0,13/07/2002,31/12/2099,27,26/02/2024,GI0AZB/P
+GI/SM-019,"Northern Ireland","Sperrin Mountains",Crocknamoghil,335,1099,"H 578851",,-7.10400,54.71061,1,0,13/07/2002,31/12/2099,13,20/07/2021,MI7WJL/P
+GI/SM-020,"Northern Ireland","Sperrin Mountains",Crockdooish,321,1053,"C 529024",,-7.17686,54.86654,1,0,13/07/2002,31/12/2099,18,30/12/2023,GI6PHD/P
+GI/SM-021,"Northern Ireland","Sperrin Mountains",Slievemore,314,1030,"H 593615",,-7.08550,54.49847,1,0,13/07/2002,31/12/2099,13,06/08/2023,GI0BFD/P
+GI/SM-022,"Northern Ireland","Sperrin Mountains","Holywell Hill",260,853,"C 385171",,-7.39915,54.99989,1,0,13/07/2002,31/12/2099,27,28/05/2025,MI/DF8KY/P
+GI/SM-023,"Northern Ireland","Sperrin Mountains","Clondermot Hill",221,725,"C 434127",,-7.32325,54.95997,1,0,13/07/2002,31/12/2099,10,01/07/2021,MI7WJL/P
+GI/SM-024,"Northern Ireland","Sperrin Mountains","Gortmonly Hill",218,715,"C 396080",,-7.38322,54.91807,1,0,13/07/2002,31/12/2099,19,08/10/2023,MI0KXT/P
+GI/SW-001,"Northern Ireland","South West","Bessy Bell",420,1378,"H 390820",,-7.39559,54.68520,2,0,13/07/2002,31/12/2099,25,28/09/2025,GI0BFD/P
+GI/SW-002,"Northern Ireland","South West","Belmore Mountain",398,1306,"H 138417",,-7.78783,54.32445,1,0,13/07/2002,31/12/2099,10,09/07/2023,GI0BFD/P
+GI/SW-003,"Northern Ireland","South West",Tullybrack,386,1266,"H 090458",,-7.86231,54.36081,1,0,13/07/2002,31/12/2099,12,23/07/2023,GI0BFD/P
+GI/SW-004,"Northern Ireland","South West","Slieve Beagh",380,1247,"H 523436",,-7.19540,54.33876,1,0,13/07/2002,31/12/2099,12,18/08/2024,GI0BFD/P
+GI/SW-005,"Northern Ireland","South West","Bolaght Mountain",345,1132,"H 259765",,-7.59966,54.63601,1,0,13/07/2002,31/12/2099,12,16/11/2025,GI0BFD/P
+GI/SW-006,"Northern Ireland","South West",Dooish,341,1119,"H 315698",,-7.51366,54.57551,1,0,13/07/2002,31/12/2099,9,19/05/2019,MI6BWA/P
+GI/SW-007,"Northern Ireland","South West","Brougher Mountain",317,1040,"H 349527",,-7.46311,54.42168,1,0,13/07/2002,31/12/2099,23,14/03/2026,MI/LA1ENA/P
+GI/SW-008,"Northern Ireland","South West",Pollnalaght,298,978,"H 369701",,-7.42908,54.57789,1,0,13/07/2002,31/12/2099,43,31/01/2026,GI0AZB/P
+GI/SW-009,"Northern Ireland","South West",Mullaghcroy,242,794,"H 329818",,-7.49066,54.68321,1,0,13/07/2002,31/12/2099,13,06/07/2025,GI0BFD/P

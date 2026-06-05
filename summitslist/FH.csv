@@ -1,0 +1,13 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+FH/GT-001,Mayotte,"Mayotte - Grande Terre","Mlima Bénara",660,2165,45.1624,-12.8801,45.16240,-12.88010,6,0,01/06/2017,31/12/2099,0,,
+FH/GT-002,Mayotte,"Mayotte - Grande Terre","Mlima Choungui",593,1946,45.1342,-12.9566,45.13420,-12.95660,4,0,01/06/2017,31/12/2099,1,19/04/2024,FH/HB9BHU/P
+FH/GT-003,Mayotte,"Mayotte - Grande Terre",Tchaourembo,581,1906,45.1449,-12.8702,45.14490,-12.87020,4,0,01/06/2017,31/12/2099,0,,
+FH/GT-004,Mayotte,"Mayotte - Grande Terre","Mlima Mtsapéré",571,1873,45.1816,-12.7653,45.18160,-12.76530,4,0,01/06/2017,31/12/2099,0,,
+FH/GT-005,Mayotte,"Mayotte - Grande Terre","Reserve Forestière des Crêtes du Nord",493,1617,45.0684,-12.7138,45.06840,-12.71380,2,0,01/06/2017,31/12/2099,0,,
+FH/GT-006,Mayotte,"Mayotte - Grande Terre","Mlima Combani",481,1578,45.1525,-12.8042,45.15250,-12.80420,2,0,01/06/2017,31/12/2099,0,,
+FH/GT-007,Mayotte,"Mayotte - Grande Terre","Mlima Dziani Bolé",472,1549,45.0887,-12.6908,45.08870,-12.69080,2,0,01/06/2017,31/12/2099,0,,
+FH/GT-008,Mayotte,"Mayotte - Grande Terre",Ngoujou,292,958,45.0913,-12.9086,45.09130,-12.90860,1,0,01/06/2017,31/12/2099,1,14/04/2024,FH/HB9BHU/P
+FH/MB-001,Mayotte,"Mayotte - Mbouzi","Chissioua Mbouzi",153,502,45.2336,-12.8118,45.23360,-12.81180,1,0,01/06/2017,31/12/9999,0,,
+FH/MT-001,Mayotte,"Mayotte - Mtsamboro","Chissioua Mtsamboro",273,896,45.0285,-12.6407,45.02850,-12.64070,1,0,01/06/2017,31/12/9999,0,,
+FH/PT-001,Mayotte,"Mayotte - Petite Terre","La Vigie",202,663,45.2888,-12.7918,45.28880,-12.79180,1,0,01/06/2017,31/12/9999,1,13/04/2024,FM/HB9BHU/P

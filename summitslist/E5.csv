@@ -1,0 +1,9 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+E5/MG-001,"Cook Islands",Mangaia,Rangimotia,169,554,-157.923462,-21.92791873,-157.92346,-21.92792,1,0,01/09/2015,31/12/2099,0,,
+E5/RA-001,"Cook Islands",Rarotonga,"Te Manga",653,2142,-159.763358,-21.23578384,-159.76335,-21.23578,4,0,01/09/2015,31/12/2099,0,,
+E5/RA-002,"Cook Islands",Rarotonga,"Te Kou",588,1929,-159.7774055,-21.24204536,-159.77740,-21.24204,2,0,01/09/2015,31/12/2099,1,25/09/2015,E51AGN
+E5/RA-003,"Cook Islands",Rarotonga,Maungatea,523,1716,-159.7829667,-21.22800521,-159.78297,-21.22800,2,0,01/09/2015,31/12/2099,0,,
+E5/RA-004,"Cook Islands",Rarotonga,Maungaroa,509,1670,-159.8041955,-21.23103844,-159.80420,-21.23104,2,0,01/09/2015,31/12/2099,0,,
+E5/RA-005,"Cook Islands",Rarotonga,Ikurangi,485,1591,-159.7626199,-21.22162551,-159.76262,-21.22163,1,0,01/09/2015,31/12/2099,0,,
+E5/RA-006,"Cook Islands",Rarotonga,Toroume,329,1079,-159.7515135,-21.25948354,-159.75151,-21.25948,1,0,01/09/2015,31/12/2099,0,,

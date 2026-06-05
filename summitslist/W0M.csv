@@ -1,0 +1,59 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+W0M/ES-001,"USA - Missouri","Eureka Springs Escarpment","Webster County HP",533,1750,-92.7414,37.2290,-92.74140,37.22900,6,3,01/02/2013,31/12/2099,105,29/03/2026,KD5ZZK
+W0M/ES-002,"USA - Missouri","Eureka Springs Escarpment","Romance Lookout",454,1490,-92.4577,36.7234,-92.45770,36.72340,4,0,01/02/2013,31/12/2099,51,21/10/2025,KF0KOS
+W0M/ES-003,"USA - Missouri","Eureka Springs Escarpment","Pilot Knob",448,1470,-93.5461,36.5473,-93.54610,36.54730,4,0,01/02/2013,31/12/2099,80,26/03/2026,KD5ZZK
+W0M/ES-004,"USA - Missouri","Eureka Springs Escarpment",1270,387,1270,-93.5406,36.6040,-93.54060,36.60400,2,0,01/02/2013,31/12/2099,12,12/10/2015,W0CP
+W0M/SF-001,"USA - Missouri","Saint Francois Mountains","Taum Sauk Mountain",540,1772,-90.7293,37.5712,-90.72930,37.57120,6,3,01/02/2013,31/12/2099,138,03/06/2026,W0MNA
+W0M/SF-002,"USA - Missouri","Saint Francois Mountains","Buford Mountain",530,1740,-90.6901,37.6970,-90.69010,37.69700,6,3,01/02/2013,31/12/2099,42,04/06/2026,W0MNA
+W0M/SF-003,"USA - Missouri","Saint Francois Mountains","Ketcherside Mountain",521,1710,-90.6695,37.5237,-90.66950,37.52370,6,3,01/02/2013,31/12/2099,7,10/02/2024,KK0U/P
+W0M/SF-004,"USA - Missouri","Saint Francois Mountains","Proffit Mountain",521,1710,-90.7811,37.5689,-90.78110,37.56890,6,3,01/02/2013,31/12/2099,10,26/02/2025,KK0U/P
+W0M/SF-005,"USA - Missouri","Saint Francois Mountains","Bell Mountain",519,1702,-90.8662,37.6262,-90.86620,37.62620,6,3,01/02/2013,31/12/2099,29,01/02/2025,KK0U/P
+W0M/SF-006,"USA - Missouri","Saint Francois Mountains","Johnson Mountain",506,1659,-90.8895,37.7272,-90.88950,37.72720,6,3,01/02/2013,31/12/2099,37,18/02/2026,KK0U
+W0M/SF-007,"USA - Missouri","Saint Francois Mountains","Stono Mountain",503,1650,-90.5491,37.7198,-90.54910,37.71980,6,3,01/02/2013,31/12/2099,4,04/04/2022,K9IR
+W0M/SF-008,"USA - Missouri","Saint Francois Mountains","Brown Mountain",503,1650,-90.5994,37.6825,-90.59940,37.68250,6,3,01/02/2013,31/12/2099,4,20/01/2020,KK0U
+W0M/SF-009,"USA - Missouri","Saint Francois Mountains","Church Mountain",502,1648,-90.7861,37.5343,-90.78610,37.53430,6,3,01/02/2013,31/12/2099,9,11/01/2024,KK0U/P
+W0M/SF-010,"USA - Missouri","Saint Francois Mountains","Oak Mountain",497,1630,-90.6271,37.6475,-90.62710,37.64750,4,0,01/02/2013,31/12/2099,7,20/04/2024,KN4LRI
+W0M/SF-011,"USA - Missouri","Saint Francois Mountains","Shepherd Mountain",490,1608,-90.6460,37.6071,-90.64600,37.60710,4,0,01/02/2013,31/12/2099,38,02/06/2026,W0ERI
+W0M/SF-012,"USA - Missouri","Saint Francois Mountains",1590,485,1590,-90.6482,37.5047,-90.64820,37.50470,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-013,"USA - Missouri","Saint Francois Mountains","Middlebrook Hill",478,1568,-90.6648,37.6593,-90.66480,37.65930,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-014,"USA - Missouri","Saint Francois Mountains","Grassy Mountain",472,1550,-90.5656,37.5537,-90.56560,37.55370,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-015,"USA - Missouri","Saint Francois Mountains","Middle Mountain",471,1544,-90.5807,37.7834,-90.58070,37.78340,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-016,"USA - Missouri","Saint Francois Mountains","Buck Mountain",466,1530,-90.5298,37.6639,-90.52980,37.66390,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-017,"USA - Missouri","Saint Francois Mountains","Patterson Mountain",460,1510,-90.5690,37.4895,-90.56900,37.48950,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-018,"USA - Missouri","Saint Francois Mountains","Pilot Knob",460,1510,-90.6248,37.6188,-90.62480,37.61880,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-019,"USA - Missouri","Saint Francois Mountains","Black Mountain",458,1502,-90.4960,37.4692,-90.49600,37.46920,4,0,01/02/2013,31/12/2099,4,26/01/2021,N0SA
+W0M/SF-020,"USA - Missouri","Saint Francois Mountains","Pine Mountain",454,1490,-90.6007,37.7213,-90.60070,37.72130,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-021,"USA - Missouri","Saint Francois Mountains","Clark Mountain",443,1452,-90.6636,37.1930,-90.66360,37.19300,4,0,01/02/2013,31/12/2099,2,01/11/2019,NM5S
+W0M/SF-022,"USA - Missouri","Saint Francois Mountains","Matthews Mountain",436,1430,-90.3471,37.4881,-90.34710,37.48810,4,0,01/02/2013,31/12/2099,5,30/06/2023,K9OZ
+W0M/SF-023,"USA - Missouri","Saint Francois Mountains","Little Pilot Knob",430,1412,-90.9774,37.9812,-90.97740,37.98120,4,0,01/02/2013,31/12/2099,38,01/06/2026,W0ERI
+W0M/SF-024,"USA - Missouri","Saint Francois Mountains","Trackler Mountain",430,1410,-90.4929,37.5095,-90.49290,37.50950,4,0,01/02/2013,31/12/2099,5,11/11/2024,KK0U/P
+W0M/SF-025,"USA - Missouri","Saint Francois Mountains","Des Arc Mountain",424,1390,-90.6085,37.2626,-90.60850,37.26260,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-026,"USA - Missouri","Saint Francois Mountains",1390,424,1390,-90.4466,37.4704,-90.44660,37.47040,4,0,01/02/2013,31/12/2099,5,11/11/2025,KK0U/P
+W0M/SF-027,"USA - Missouri","Saint Francois Mountains","Blue Mountain",424,1390,-90.4938,37.5470,-90.49380,37.54700,4,0,01/02/2013,31/12/2099,5,09/11/2023,KK0U/P
+W0M/SF-028,"USA - Missouri","Saint Francois Mountains","Johnston Mountain",416,1365,-90.8125,37.4909,-90.81250,37.49090,4,0,01/02/2013,31/12/2099,1,08/04/2018,N0MAP
+W0M/SF-029,"USA - Missouri","Saint Francois Mountains","Jayce Mountain",411,1347,-90.4712,37.5270,-90.47120,37.52700,4,0,01/02/2013,31/12/2099,4,01/03/2023,KK0U/P
+W0M/SF-030,"USA - Missouri","Saint Francois Mountains","Knob Lick Mountain",406,1333,-90.3857,37.6640,-90.38570,37.66400,4,0,01/02/2013,31/12/2099,68,04/06/2026,N4TU
+W0M/SF-031,"USA - Missouri","Saint Francois Mountains","Van East Mountain",405,1330,-90.5167,37.5577,-90.51670,37.55770,4,0,01/02/2013,31/12/2099,8,09/11/2023,KK0U/P
+W0M/SF-032,"USA - Missouri","Saint Francois Mountains","Lee Mountain",405,1330,-90.8515,37.5067,-90.85150,37.50670,4,0,01/02/2013,31/12/2099,0,,
+W0M/SF-033,"USA - Missouri","Saint Francois Mountains","Mudlick Mountain",400,1313,-90.5245,37.2619,-90.52450,37.26190,4,0,01/02/2013,31/12/2099,9,20/03/2022,KK9U
+W0M/SF-034,"USA - Missouri","Saint Francois Mountains",1310,399,1310,-90.5804,37.2515,-90.58040,37.25150,2,0,01/02/2013,31/12/2099,0,,
+W0M/SF-035,"USA - Missouri","Saint Francois Mountains","Little Grass Mountain",398,1306,-90.4052,37.4634,-90.40520,37.46340,2,0,01/02/2013,31/12/2099,7,11/06/2025,K9OZ
+W0M/SF-036,"USA - Missouri","Saint Francois Mountains","Frenchman Hill",387,1270,-90.5848,37.2290,-90.58480,37.22900,2,0,01/02/2013,31/12/2099,0,,
+W0M/SF-037,"USA - Missouri","Saint Francois Mountains","Finley Mountain",387,1270,-90.7352,37.2071,-90.73520,37.20710,2,0,01/02/2013,31/12/2099,0,,
+W0M/SF-038,"USA - Missouri","Saint Francois Mountains","Rock Pile Mountain",387,1270,-90.4197,37.4199,-90.41970,37.41990,2,0,01/02/2013,31/12/2099,1,03/03/2021,N0SA
+W0M/SF-039,"USA - Missouri","Saint Francois Mountains","Cottoner Mountain",377,1238,-90.2096,37.4634,-90.20960,37.46340,2,0,01/02/2013,31/12/2099,7,31/03/2024,AC7P
+W0M/SF-040,"USA - Missouri","Saint Francois Mountains","Evans Mountain",376,1232,-90.4683,37.6017,-90.46830,37.60170,2,0,01/02/2013,31/12/2099,0,,
+W0M/SF-041,"USA - Missouri","Saint Francois Mountains","Aley Mountain",363,1190,-90.6227,37.2214,-90.62270,37.22140,2,0,01/02/2013,31/12/2099,0,,
+W0M/SF-042,"USA - Missouri","Saint Francois Mountains",1161,354,1161,-90.4792,37.4326,-90.47920,37.43260,2,0,01/02/2013,31/12/2099,1,26/02/2014,N0SA
+W0M/SF-043,"USA - Missouri","Saint Francois Mountains","Tin Mine Mountain",348,1141,-90.4183,37.5174,-90.41830,37.51740,2,0,01/02/2013,31/12/2099,0,,
+W0M/SF-044,"USA - Missouri","Saint Francois Mountains","Green Mountain",338,1110,-90.5512,37.2778,-90.55120,37.27780,2,0,01/02/2013,31/12/2099,2,27/05/2018,N0MAP
+W0M/SF-045,"USA - Missouri","Saint Francois Mountains",1110,338,1110,-90.4184,37.4983,-90.41840,37.49830,2,0,01/02/2013,31/12/2099,0,,
+W0M/SF-046,"USA - Missouri","Saint Francois Mountains","Logan Mountain",314,1030,-90.4943,37.2301,-90.49430,37.23010,2,0,01/02/2013,31/12/2099,0,,
+W0M/SF-047,"USA - Missouri","Saint Francois Mountains","Graves Mountain",314,1030,-90.5064,37.3113,-90.50640,37.31130,2,0,01/02/2013,31/12/2099,2,05/05/2021,N0SA
+W0M/SF-048,"USA - Missouri","Saint Francois Mountains",929,283,929,-90.2727,38.0832,-90.27270,38.08320,1,0,01/02/2013,31/12/2099,0,,
+W0M/SF-049,"USA - Missouri","Saint Francois Mountains","Daffron Mountain",265,870,-90.5741,37.1949,-90.57410,37.19490,1,0,01/02/2013,31/12/2099,0,,
+W0M/SP-001,"USA - Missouri","Salem Plateau","Thorny Mountain",414,1359,-91.1787,37.0945,-91.17870,37.09450,4,0,01/02/2013,31/12/2099,1,17/06/2018,N0MAP
+W0M/SP-002,"USA - Missouri","Salem Plateau","Wildcat Mountain",388,1273,-91.2332,37.1870,-91.23320,37.18700,2,0,01/02/2013,31/12/2099,0,,
+W0M/SP-003,"USA - Missouri","Salem Plateau","Coot Mountain",383,1256,-91.2515,37.1728,-91.25150,37.17280,2,0,01/02/2013,31/12/2099,14,27/03/2024,AC7P
+W0M/SP-004,"USA - Missouri","Salem Plateau","Barnett Mountain",330,1082,-91.1873,37.1420,-91.18730,37.14200,2,0,01/02/2013,31/12/2099,1,06/04/2018,N0MAP

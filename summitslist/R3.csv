@@ -1,0 +1,11 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+R3/CF-001,"Russia (European)","Central Federal District",Moskalevka,347,1138,33.3167,56.4858,33.31670,56.48580,1,0,01/04/2021,31/12/2099,0,,
+R3/CF-002,"Russia (European)","Central Federal District",R3/CF-002,347,1136,33.9489,57.2866,33.94890,57.28660,1,0,01/04/2021,31/12/2099,0,,
+R3/CF-003,"Russia (European)","Central Federal District",Sondoba,293,962,42.3236,58.8076,42.32360,58.80760,1,0,01/04/2021,31/12/2099,0,,
+R3/CF-004,"Russia (European)","Central Federal District",Raevo,293,961,37.4658,53.4442,37.46580,53.44420,1,0,01/04/2021,31/12/2099,3,02/09/2023,RX3PR/P
+R3/CF-005,"Russia (European)","Central Federal District",Demyany,287,941,38.4900,57.2242,38.49000,57.22420,1,0,01/04/2021,31/12/2099,0,,
+R3/CF-006,"Russia (European)","Central Federal District",Mechovo,285,933,38.0242,56.4646,38.02420,56.46460,1,0,01/04/2021,31/12/2099,0,,
+R3/CF-007,"Russia (European)","Central Federal District",R3/CF-007,267,876,37.1900,58.3325,37.19000,58.33250,1,0,01/04/2021,31/12/2099,0,,
+R3/VF-001,"Russia (European)","Volga Federal District",R3/VF-001,218,714,45.1900,56.0758,45.19000,56.07580,1,0,01/04/2021,31/12/2099,0,,
+R3/VF-002,"Russia (European)","Volga Federal District",R3/VF-002,186,609,44.2867,56.1133,44.28670,56.11330,1,0,01/04/2021,31/12/2099,0,,

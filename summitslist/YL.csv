@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+YL/YL-001,Latvia,Latvia,Gaiziņkalns,312,1021,25.95929,56.86994,25.95929,56.86994,1,0,01/07/2020,31/12/2099,16,12/11/2025,YL/HB9HVG/P
+YL/YL-002,Latvia,Latvia,"Lielais Liepu kalns",290,950,27.65449,56.27091,27.65449,56.27091,1,0,01/07/2020,31/12/2099,10,31/05/2025,YL/OE3BAJ/P
+YL/YL-003,Latvia,Latvia,Kamparkalns,175,572,22.64385,57.21427,22.64385,57.21427,1,0,01/07/2020,31/12/2099,15,12/11/2025,YL/HB9HVW/P

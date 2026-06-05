@@ -1,0 +1,22 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VE4/MP-001,"Canada - Manitoba","Manitoba Parkland","Baldy Mountain",834,2735,-100.7205,51.4697,-100.72050,51.46970,10,3,01/05/2018,31/12/2099,12,11/07/2024,VA7SGY/VE4
+VE4/MP-002,"Canada - Manitoba","Manitoba Parkland","Woody Lake Summit",824,2701,-101.4547,52.7155,-101.45470,52.71550,10,3,01/05/2018,31/12/2099,5,17/08/2020,VE6AGR
+VE4/MP-003,"Canada - Manitoba","Manitoba Parkland","Windy Hill",801,2627,-100.8297,51.8980,-100.82970,51.89800,10,3,01/05/2018,31/12/2099,5,18/08/2020,VE6AGR
+VE4/MP-004,"Canada - Manitoba","Manitoba Parkland","Riding Mountain Summit",754,2473,-99.6784,50.7134,-99.67840,50.71340,8,3,01/05/2018,31/12/2099,7,06/07/2024,VE3RXH
+VE4/MP-005,"Canada - Manitoba","Manitoba Parkland","Crawford Creek Ridge",744,2440,-99.9614,50.9455,-99.96140,50.94550,8,3,01/05/2018,31/12/2099,0,,
+VE4/MP-006,"Canada - Manitoba","Manitoba Parkland","MacArthur Lake Hill",706,2316,-100.9675,50.9382,-100.96750,50.93820,8,3,01/05/2018,31/12/2099,0,,
+VE4/MP-007,"Canada - Manitoba","Manitoba Parkland","Baldy Lake Hill",679,2226,-100.6314,50.7822,-100.63140,50.78220,6,3,01/05/2018,31/12/2099,0,,
+VE4/MS-001,"Canada - Manitoba","Manitoba Shield","Chekask Lake Hill",533,1748,-101.9497,59.7672,-101.94970,59.76720,4,3,01/05/2018,31/12/2099,0,,
+VE4/MS-002,"Canada - Manitoba","Manitoba Shield","Hamilton Hill",522,1712,-101.9891,59.4299,-101.98910,59.42990,4,3,01/05/2018,31/12/2099,0,,
+VE4/MS-003,"Canada - Manitoba","Manitoba Shield","Chipewyan Falls Ridge",499,1637,-101.2980,58.5068,-101.29800,58.50680,2,0,01/05/2018,31/12/2099,0,,
+VE4/MS-004,"Canada - Manitoba","Manitoba Shield","Colbeck Lake Hill",480,1574,-101.3364,59.1130,-101.33640,59.11300,2,0,01/05/2018,31/12/2099,0,,
+VE4/MS-005,"Canada - Manitoba","Manitoba Shield","Russell Hill",478,1568,-101.0372,59.1697,-101.03720,59.16970,2,0,01/05/2018,31/12/2099,0,,
+VE4/MS-006,"Canada - Manitoba","Manitoba Shield","Teichrobe Lake Hill",469,1538,-100.7567,58.4021,-100.75670,58.40210,2,0,01/05/2018,31/12/2099,0,,
+VE4/MS-007,"Canada - Manitoba","Manitoba Shield","Robertson Hill",464,1522,-100.4097,59.1180,-100.40970,59.11800,2,0,01/05/2018,31/12/2099,0,,
+VE4/MS-008,"Canada - Manitoba","Manitoba Shield","Tario Lake Hill",455,1493,-99.4472,58.2714,-99.44720,58.27140,2,0,01/05/2018,31/12/2099,0,,
+VE4/MS-009,"Canada - Manitoba","Manitoba Shield","Black Hill",390,1280,-97.9063,56.2213,-97.90630,56.22130,1,0,01/05/2018,31/12/2099,0,,
+VE4/MS-010,"Canada - Manitoba","Manitoba Shield","James Bruce Lake Hill",375,1230,-99.9840,56.6686,-99.98400,56.66860,1,0,01/05/2018,31/12/2099,0,,
+VE4/MS-011,"Canada - Manitoba","Manitoba Shield","Oskoon Lake Hill",375,1228,-100.0413,56.2996,-100.04130,56.29960,1,0,01/05/2018,31/12/2099,0,,
+VE4/MS-012,"Canada - Manitoba","Manitoba Shield","Brassey Hill",254,834,-93.6787,55.5188,-93.67870,55.51880,1,0,01/05/2018,31/12/2099,0,,
+VE4/MS-013,"Canada - Manitoba","Manitoba Shield","Apasapewwache Hill",233,764,-91.0761,56.2600,-91.07610,56.26000,1,0,01/05/2018,31/12/2099,0,,

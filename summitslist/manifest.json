@@ -1,0 +1,907 @@
+{
+  "source": "summitslist.csv",
+  "checksum": "976dac3f423dc79229608ddcc8786b65a8553c5074ec0989aa52a18816cfad7f",
+  "algorithm": "sha256",
+  "generated_at": "2026-06-05T09:05:07+00:00",
+  "banner": "SOTA Summits List (Date=05/06/2026)",
+  "total_summits": 181037,
+  "association_count": 224,
+  "associations": {
+    "3Y": {
+      "file": "3Y.csv",
+      "count": 1
+    },
+    "4O": {
+      "file": "4O.csv",
+      "count": 308
+    },
+    "4X": {
+      "file": "4X.csv",
+      "count": 25
+    },
+    "5B": {
+      "file": "5B.csv",
+      "count": 48
+    },
+    "7P": {
+      "file": "7P.csv",
+      "count": 103
+    },
+    "8P": {
+      "file": "8P.csv",
+      "count": 1
+    },
+    "9A": {
+      "file": "9A.csv",
+      "count": 508
+    },
+    "9H": {
+      "file": "9H.csv",
+      "count": 2
+    },
+    "9M2": {
+      "file": "9M2.csv",
+      "count": 373
+    },
+    "9M6": {
+      "file": "9M6.csv",
+      "count": 1
+    },
+    "9V": {
+      "file": "9V.csv",
+      "count": 1
+    },
+    "A6": {
+      "file": "A6.csv",
+      "count": 110
+    },
+    "BV": {
+      "file": "BV.csv",
+      "count": 589
+    },
+    "C3": {
+      "file": "C3.csv",
+      "count": 11
+    },
+    "CE3": {
+      "file": "CE3.csv",
+      "count": 140
+    },
+    "CT": {
+      "file": "CT.csv",
+      "count": 286
+    },
+    "CT3": {
+      "file": "CT3.csv",
+      "count": 21
+    },
+    "CU": {
+      "file": "CU.csv",
+      "count": 29
+    },
+    "CX": {
+      "file": "CX.csv",
+      "count": 18
+    },
+    "D4": {
+      "file": "D4.csv",
+      "count": 87
+    },
+    "DL": {
+      "file": "DL.csv",
+      "count": 1104
+    },
+    "DM": {
+      "file": "DM.csv",
+      "count": 4021
+    },
+    "DU2": {
+      "file": "DU2.csv",
+      "count": 769
+    },
+    "DU3": {
+      "file": "DU3.csv",
+      "count": 214
+    },
+    "DU4": {
+      "file": "DU4.csv",
+      "count": 173
+    },
+    "DUC": {
+      "file": "DUC.csv",
+      "count": 146
+    },
+    "E5": {
+      "file": "E5.csv",
+      "count": 7
+    },
+    "E7": {
+      "file": "E7.csv",
+      "count": 650
+    },
+    "EA1": {
+      "file": "EA1.csv",
+      "count": 1334
+    },
+    "EA2": {
+      "file": "EA2.csv",
+      "count": 821
+    },
+    "EA3": {
+      "file": "EA3.csv",
+      "count": 435
+    },
+    "EA4": {
+      "file": "EA4.csv",
+      "count": 542
+    },
+    "EA5": {
+      "file": "EA5.csv",
+      "count": 545
+    },
+    "EA6": {
+      "file": "EA6.csv",
+      "count": 105
+    },
+    "EA7": {
+      "file": "EA7.csv",
+      "count": 704
+    },
+    "EA8": {
+      "file": "EA8.csv",
+      "count": 122
+    },
+    "EA9": {
+      "file": "EA9.csv",
+      "count": 1
+    },
+    "EI": {
+      "file": "EI.csv",
+      "count": 390
+    },
+    "ER": {
+      "file": "ER.csv",
+      "count": 26
+    },
+    "ES": {
+      "file": "ES.csv",
+      "count": 4
+    },
+    "F": {
+      "file": "F.csv",
+      "count": 2879
+    },
+    "FG": {
+      "file": "FG.csv",
+      "count": 19
+    },
+    "FH": {
+      "file": "FH.csv",
+      "count": 11
+    },
+    "FJ": {
+      "file": "FJ.csv",
+      "count": 3
+    },
+    "FK": {
+      "file": "FK.csv",
+      "count": 347
+    },
+    "FL": {
+      "file": "FL.csv",
+      "count": 474
+    },
+    "FM": {
+      "file": "FM.csv",
+      "count": 15
+    },
+    "FP": {
+      "file": "FP.csv",
+      "count": 4
+    },
+    "FR": {
+      "file": "FR.csv",
+      "count": 19
+    },
+    "FS": {
+      "file": "FS.csv",
+      "count": 2
+    },
+    "FW": {
+      "file": "FW.csv",
+      "count": 3
+    },
+    "G": {
+      "file": "G.csv",
+      "count": 189
+    },
+    "GD": {
+      "file": "GD.csv",
+      "count": 5
+    },
+    "GI": {
+      "file": "GI.csv",
+      "count": 66
+    },
+    "GJ": {
+      "file": "GJ.csv",
+      "count": 1
+    },
+    "GM": {
+      "file": "GM.csv",
+      "count": 1230
+    },
+    "GU": {
+      "file": "GU.csv",
+      "count": 2
+    },
+    "GW": {
+      "file": "GW.csv",
+      "count": 160
+    },
+    "HA": {
+      "file": "HA.csv",
+      "count": 254
+    },
+    "HB": {
+      "file": "HB.csv",
+      "count": 1532
+    },
+    "HB0": {
+      "file": "HB0.csv",
+      "count": 12
+    },
+    "HI": {
+      "file": "HI.csv",
+      "count": 418
+    },
+    "HL": {
+      "file": "HL.csv",
+      "count": 2465
+    },
+    "HR": {
+      "file": "HR.csv",
+      "count": 890
+    },
+    "I": {
+      "file": "I.csv",
+      "count": 4094
+    },
+    "IA": {
+      "file": "IA.csv",
+      "count": 3
+    },
+    "IS0": {
+      "file": "IS0.csv",
+      "count": 319
+    },
+    "J8": {
+      "file": "J8.csv",
+      "count": 12
+    },
+    "JA": {
+      "file": "JA.csv",
+      "count": 4600
+    },
+    "JA5": {
+      "file": "JA5.csv",
+      "count": 617
+    },
+    "JA6": {
+      "file": "JA6.csv",
+      "count": 1052
+    },
+    "JA8": {
+      "file": "JA8.csv",
+      "count": 942
+    },
+    "JW": {
+      "file": "JW.csv",
+      "count": 1422
+    },
+    "JX": {
+      "file": "JX.csv",
+      "count": 4
+    },
+    "K0M": {
+      "file": "K0M.csv",
+      "count": 33
+    },
+    "KH0": {
+      "file": "KH0.csv",
+      "count": 19
+    },
+    "KH2": {
+      "file": "KH2.csv",
+      "count": 3
+    },
+    "KH6": {
+      "file": "KH6.csv",
+      "count": 67
+    },
+    "KH8": {
+      "file": "KH8.csv",
+      "count": 11
+    },
+    "KLA": {
+      "file": "KLA.csv",
+      "count": 10440
+    },
+    "KLF": {
+      "file": "KLF.csv",
+      "count": 7266
+    },
+    "KLS": {
+      "file": "KLS.csv",
+      "count": 1827
+    },
+    "KP4": {
+      "file": "KP4.csv",
+      "count": 99
+    },
+    "LA": {
+      "file": "LA.csv",
+      "count": 6933
+    },
+    "LUD": {
+      "file": "LUD.csv",
+      "count": 48
+    },
+    "LUH": {
+      "file": "LUH.csv",
+      "count": 36
+    },
+    "LUI": {
+      "file": "LUI.csv",
+      "count": 3
+    },
+    "LUK": {
+      "file": "LUK.csv",
+      "count": 88
+    },
+    "LUM": {
+      "file": "LUM.csv",
+      "count": 821
+    },
+    "LUN": {
+      "file": "LUN.csv",
+      "count": 2
+    },
+    "LUP": {
+      "file": "LUP.csv",
+      "count": 865
+    },
+    "LUQ": {
+      "file": "LUQ.csv",
+      "count": 30
+    },
+    "LUR": {
+      "file": "LUR.csv",
+      "count": 797
+    },
+    "LUU": {
+      "file": "LUU.csv",
+      "count": 1
+    },
+    "LUV": {
+      "file": "LUV.csv",
+      "count": 397
+    },
+    "LUY": {
+      "file": "LUY.csv",
+      "count": 902
+    },
+    "LX": {
+      "file": "LX.csv",
+      "count": 5
+    },
+    "LY": {
+      "file": "LY.csv",
+      "count": 3
+    },
+    "LZ": {
+      "file": "LZ.csv",
+      "count": 701
+    },
+    "OD": {
+      "file": "OD.csv",
+      "count": 16
+    },
+    "OE": {
+      "file": "OE.csv",
+      "count": 3881
+    },
+    "OH": {
+      "file": "OH.csv",
+      "count": 310
+    },
+    "OK": {
+      "file": "OK.csv",
+      "count": 1029
+    },
+    "OM": {
+      "file": "OM.csv",
+      "count": 379
+    },
+    "ON": {
+      "file": "ON.csv",
+      "count": 31
+    },
+    "OY": {
+      "file": "OY.csv",
+      "count": 108
+    },
+    "OZ": {
+      "file": "OZ.csv",
+      "count": 12
+    },
+    "P4": {
+      "file": "P4.csv",
+      "count": 1
+    },
+    "PA": {
+      "file": "PA.csv",
+      "count": 5
+    },
+    "PJ2": {
+      "file": "PJ2.csv",
+      "count": 3
+    },
+    "PJ4": {
+      "file": "PJ4.csv",
+      "count": 1
+    },
+    "PJ5": {
+      "file": "PJ5.csv",
+      "count": 2
+    },
+    "PJ6": {
+      "file": "PJ6.csv",
+      "count": 2
+    },
+    "PJ7": {
+      "file": "PJ7.csv",
+      "count": 3
+    },
+    "PP1": {
+      "file": "PP1.csv",
+      "count": 1538
+    },
+    "PP2": {
+      "file": "PP2.csv",
+      "count": 756
+    },
+    "PP5": {
+      "file": "PP5.csv",
+      "count": 600
+    },
+    "PP6": {
+      "file": "PP6.csv",
+      "count": 30
+    },
+    "PP7": {
+      "file": "PP7.csv",
+      "count": 123
+    },
+    "PQ2": {
+      "file": "PQ2.csv",
+      "count": 374
+    },
+    "PR8": {
+      "file": "PR8.csv",
+      "count": 102
+    },
+    "PS7": {
+      "file": "PS7.csv",
+      "count": 212
+    },
+    "PS8": {
+      "file": "PS8.csv",
+      "count": 122
+    },
+    "PT2": {
+      "file": "PT2.csv",
+      "count": 4
+    },
+    "PT7": {
+      "file": "PT7.csv",
+      "count": 745
+    },
+    "PY1": {
+      "file": "PY1.csv",
+      "count": 1290
+    },
+    "PY2": {
+      "file": "PY2.csv",
+      "count": 804
+    },
+    "PY3": {
+      "file": "PY3.csv",
+      "count": 220
+    },
+    "PY4": {
+      "file": "PY4.csv",
+      "count": 4058
+    },
+    "PY5": {
+      "file": "PY5.csv",
+      "count": 377
+    },
+    "PY6": {
+      "file": "PY6.csv",
+      "count": 2471
+    },
+    "PYF": {
+      "file": "PYF.csv",
+      "count": 2
+    },
+    "PYT": {
+      "file": "PYT.csv",
+      "count": 2
+    },
+    "R3": {
+      "file": "R3.csv",
+      "count": 9
+    },
+    "R9U": {
+      "file": "R9U.csv",
+      "count": 348
+    },
+    "S5": {
+      "file": "S5.csv",
+      "count": 519
+    },
+    "S7": {
+      "file": "S7.csv",
+      "count": 23
+    },
+    "SM": {
+      "file": "SM.csv",
+      "count": 1112
+    },
+    "SP": {
+      "file": "SP.csv",
+      "count": 241
+    },
+    "SV": {
+      "file": "SV.csv",
+      "count": 850
+    },
+    "TF": {
+      "file": "TF.csv",
+      "count": 912
+    },
+    "TI": {
+      "file": "TI.csv",
+      "count": 400
+    },
+    "TK": {
+      "file": "TK.csv",
+      "count": 169
+    },
+    "UT": {
+      "file": "UT.csv",
+      "count": 429
+    },
+    "V5": {
+      "file": "V5.csv",
+      "count": 2719
+    },
+    "VE1": {
+      "file": "VE1.csv",
+      "count": 37
+    },
+    "VE2": {
+      "file": "VE2.csv",
+      "count": 3267
+    },
+    "VE3": {
+      "file": "VE3.csv",
+      "count": 1000
+    },
+    "VE4": {
+      "file": "VE4.csv",
+      "count": 20
+    },
+    "VE5": {
+      "file": "VE5.csv",
+      "count": 104
+    },
+    "VE6": {
+      "file": "VE6.csv",
+      "count": 2306
+    },
+    "VE7": {
+      "file": "VE7.csv",
+      "count": 4423
+    },
+    "VE9": {
+      "file": "VE9.csv",
+      "count": 125
+    },
+    "VK1": {
+      "file": "VK1.csv",
+      "count": 48
+    },
+    "VK2": {
+      "file": "VK2.csv",
+      "count": 1223
+    },
+    "VK3": {
+      "file": "VK3.csv",
+      "count": 739
+    },
+    "VK4": {
+      "file": "VK4.csv",
+      "count": 1474
+    },
+    "VK5": {
+      "file": "VK5.csv",
+      "count": 346
+    },
+    "VK6": {
+      "file": "VK6.csv",
+      "count": 482
+    },
+    "VK7": {
+      "file": "VK7.csv",
+      "count": 796
+    },
+    "VK8": {
+      "file": "VK8.csv",
+      "count": 246
+    },
+    "VK9": {
+      "file": "VK9.csv",
+      "count": 7
+    },
+    "VKH": {
+      "file": "VKH.csv",
+      "count": 5
+    },
+    "VKM": {
+      "file": "VKM.csv",
+      "count": 3
+    },
+    "VO1": {
+      "file": "VO1.csv",
+      "count": 329
+    },
+    "VO2": {
+      "file": "VO2.csv",
+      "count": 1
+    },
+    "VP0": {
+      "file": "VP0.csv",
+      "count": 244
+    },
+    "VP8": {
+      "file": "VP8.csv",
+      "count": 76
+    },
+    "VR": {
+      "file": "VR.csv",
+      "count": 72
+    },
+    "VY1": {
+      "file": "VY1.csv",
+      "count": 561
+    },
+    "VY2": {
+      "file": "VY2.csv",
+      "count": 2
+    },
+    "W0C": {
+      "file": "W0C.csv",
+      "count": 1805
+    },
+    "W0D": {
+      "file": "W0D.csv",
+      "count": 236
+    },
+    "W0I": {
+      "file": "W0I.csv",
+      "count": 2
+    },
+    "W0M": {
+      "file": "W0M.csv",
+      "count": 57
+    },
+    "W0N": {
+      "file": "W0N.csv",
+      "count": 15
+    },
+    "W1": {
+      "file": "W1.csv",
+      "count": 1103
+    },
+    "W2": {
+      "file": "W2.csv",
+      "count": 720
+    },
+    "W3": {
+      "file": "W3.csv",
+      "count": 305
+    },
+    "W4A": {
+      "file": "W4A.csv",
+      "count": 71
+    },
+    "W4C": {
+      "file": "W4C.csv",
+      "count": 532
+    },
+    "W4G": {
+      "file": "W4G.csv",
+      "count": 136
+    },
+    "W4K": {
+      "file": "W4K.csv",
+      "count": 221
+    },
+    "W4T": {
+      "file": "W4T.csv",
+      "count": 295
+    },
+    "W4V": {
+      "file": "W4V.csv",
+      "count": 565
+    },
+    "W5A": {
+      "file": "W5A.csv",
+      "count": 127
+    },
+    "W5M": {
+      "file": "W5M.csv",
+      "count": 1
+    },
+    "W5N": {
+      "file": "W5N.csv",
+      "count": 1105
+    },
+    "W5O": {
+      "file": "W5O.csv",
+      "count": 184
+    },
+    "W5T": {
+      "file": "W5T.csv",
+      "count": 550
+    },
+    "W6": {
+      "file": "W6.csv",
+      "count": 4329
+    },
+    "W7A": {
+      "file": "W7A.csv",
+      "count": 2650
+    },
+    "W7I": {
+      "file": "W7I.csv",
+      "count": 2549
+    },
+    "W7M": {
+      "file": "W7M.csv",
+      "count": 2740
+    },
+    "W7N": {
+      "file": "W7N.csv",
+      "count": 2665
+    },
+    "W7O": {
+      "file": "W7O.csv",
+      "count": 2066
+    },
+    "W7U": {
+      "file": "W7U.csv",
+      "count": 1592
+    },
+    "W7W": {
+      "file": "W7W.csv",
+      "count": 2806
+    },
+    "W7Y": {
+      "file": "W7Y.csv",
+      "count": 1229
+    },
+    "W8M": {
+      "file": "W8M.csv",
+      "count": 97
+    },
+    "W8O": {
+      "file": "W8O.csv",
+      "count": 57
+    },
+    "W8V": {
+      "file": "W8V.csv",
+      "count": 354
+    },
+    "W9": {
+      "file": "W9.csv",
+      "count": 54
+    },
+    "XE1": {
+      "file": "XE1.csv",
+      "count": 4547
+    },
+    "XE2": {
+      "file": "XE2.csv",
+      "count": 11091
+    },
+    "XE3": {
+      "file": "XE3.csv",
+      "count": 3383
+    },
+    "XF4": {
+      "file": "XF4.csv",
+      "count": 3
+    },
+    "YBB": {
+      "file": "YBB.csv",
+      "count": 38
+    },
+    "YBE": {
+      "file": "YBE.csv",
+      "count": 193
+    },
+    "YBJ": {
+      "file": "YBJ.csv",
+      "count": 590
+    },
+    "YBS": {
+      "file": "YBS.csv",
+      "count": 2323
+    },
+    "YL": {
+      "file": "YL.csv",
+      "count": 3
+    },
+    "YO": {
+      "file": "YO.csv",
+      "count": 1167
+    },
+    "YU": {
+      "file": "YU.csv",
+      "count": 430
+    },
+    "Z3": {
+      "file": "Z3.csv",
+      "count": 275
+    },
+    "ZB2": {
+      "file": "ZB2.csv",
+      "count": 1
+    },
+    "ZD": {
+      "file": "ZD.csv",
+      "count": 12
+    },
+    "ZL1": {
+      "file": "ZL1.csv",
+      "count": 1388
+    },
+    "ZL3": {
+      "file": "ZL3.csv",
+      "count": 4117
+    },
+    "ZL7": {
+      "file": "ZL7.csv",
+      "count": 8
+    },
+    "ZL8": {
+      "file": "ZL8.csv",
+      "count": 3
+    },
+    "ZL9": {
+      "file": "ZL9.csv",
+      "count": 25
+    },
+    "ZS": {
+      "file": "ZS.csv",
+      "count": 4703
+    },
+    "ZS8": {
+      "file": "ZS8.csv",
+      "count": 2
+    }
+  }
+}

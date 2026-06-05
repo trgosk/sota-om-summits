@@ -1,0 +1,7 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+PA/PA-002,Netherlands,Netherlands,Vrouwenheide,216,708,5.9525,50.8458,5.95250,50.84580,1,0,01/09/2008,31/07/2017,89,21/07/2017,PA3FYG/P
+PA/PA-003,Netherlands,Netherlands,"Observant (Sint Pietersberg)",170,557,5.6887,50.8135,5.68870,50.81350,1,0,01/09/2008,31/12/2099,184,15/05/2026,PA/HB9HWJ/P
+PA/PA-004,Netherlands,Netherlands,"Torenberg (Apeldoorn)",107,351,5.8578,52.2347,5.85780,52.23470,1,0,01/09/2008,31/07/2017,46,15/07/2017,PA1ALV
+PA/PA-005,Netherlands,Netherlands,"Galgenberg (Terlet)",102,334,5.9322,52.0639,5.93220,52.06390,1,0,01/09/2008,31/07/2017,61,09/05/2020,PD75FREEDOM-P
+PA/PA-006,Netherlands,Netherlands,"Signaal Imbosch",110,361,5.999,52.038,5.99900,52.03800,1,0,01/08/2016,31/12/2099,129,10/05/2026,PA/HB9HWJ/P

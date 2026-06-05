@@ -1,0 +1,39 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VE1/CB-001,"Canada - Nova Scotia","Cape Breton Island","White Hill",531,1742,-60.7604,46.5979,-60.76040,46.59790,4,3,01/05/2010,30/04/2017,1,24/08/2014,W1DMH/VE1
+VE1/CB-002,"Canada - Nova Scotia","Cape Breton Island","Sugarloaf Mountain",440,1443,-60.9322,46.4192,-60.93220,46.41920,4,3,01/05/2010,31/12/2099,0,,
+VE1/CB-003,"Canada - Nova Scotia","Cape Breton Island","Cape North",422,1384,-60.4037,47.0105,-60.40370,47.01050,4,3,01/05/2010,31/12/2099,2,26/07/2015,VE2DDZ
+VE1/CB-004,"Canada - Nova Scotia","Cape Breton Island","Round Mountain",433,1420,-61.0119,46.2567,-61.01190,46.25670,4,3,01/05/2010,31/12/2099,0,,
+VE1/CB-005,"Canada - Nova Scotia","Cape Breton Island","Wilkie Sugarloaf",401,1315,-60.4728,46.9552,-60.47280,46.95520,4,3,01/05/2010,31/12/2099,3,25/07/2018,VE1PVH/P
+VE1/CB-006,"Canada - Nova Scotia","Cape Breton Island","North Cape Highland",347,1138,-61.3629,46.1708,-61.36290,46.17080,4,3,01/05/2010,31/12/2099,1,23/05/2013,VE1/W1DMH
+VE1/CB-007,"Canada - Nova Scotia","Cape Breton Island","Murray Mountain",342,1122,-60.5819,46.3033,-60.58190,46.30330,4,3,01/05/2010,31/12/2099,0,,
+VE1/CB-008,"Canada - Nova Scotia","Cape Breton Island","Kelly Mountain",325,1066,-60.4639,46.2928,-60.46390,46.29280,4,3,01/05/2010,31/12/2099,0,,
+VE1/CB-009,"Canada - Nova Scotia","Cape Breton Island","Masons Mountain",346,1135,-61.1786,46.2329,-61.17860,46.23290,4,3,01/05/2010,31/12/2099,4,08/06/2025,KQ4IAM/VE1
+VE1/CB-010,"Canada - Nova Scotia","Cape Breton Island","Campbells Mountain",320,1049,-61.2011,46.0019,-61.20110,46.00190,4,3,01/05/2010,31/12/2099,1,21/07/2015,VE2DDZ
+VE1/CB-011,"Canada - Nova Scotia","Cape Breton Island","Margaree Forks Hill",309,1013,-61.1125,46.3616,-61.11250,46.36160,4,3,01/05/2010,31/12/2099,0,,
+VE1/CB-012,"Canada - Nova Scotia","Cape Breton Island","Margaree Hill",317,1040,-61.0155,46.3769,-61.01550,46.37690,4,3,01/05/2010,31/12/2099,3,06/09/2023,HB9CYX/VE1
+VE1/CB-013,"Canada - Nova Scotia","Cape Breton Island","South Lake Ainslie Hill",269,882,-61.1460,46.0581,-61.14600,46.05810,2,0,01/05/2010,31/12/2099,0,,
+VE1/CB-014,"Canada - Nova Scotia","Cape Breton Island","MacIntoshs Mountain",260,853,-61.1921,45.7651,-61.19210,45.76510,2,0,01/05/2010,31/12/2099,0,,
+VE1/CB-015,"Canada - Nova Scotia","Cape Breton Island","Melrose Hill",262,859,-61.2906,46.1012,-61.29060,46.10120,2,0,01/05/2010,31/12/2099,1,25/05/2017,AA1MI/VE1
+VE1/CB-016,"Canada - Nova Scotia","Cape Breton Island","Blueberry Barren",236,774,-60.6103,46.0005,-60.61030,46.00050,2,0,01/05/2010,31/12/2099,0,,
+VE1/CB-017,"Canada - Nova Scotia","Cape Breton Island","Sgura Bhreac",201,659,-60.4297,45.9286,-60.42970,45.92860,2,0,01/05/2010,31/12/2099,0,,
+VE1/CB-018,"Canada - Nova Scotia","Cape Breton Island","Washabuck Hill",187,613,-60.7850,46.0363,-60.78500,46.03630,1,0,01/05/2010,31/12/2099,1,13/09/2017,VE1PVH/P
+VE1/CB-019,"Canada - Nova Scotia","Cape Breton Island","White Hill",535,1755,-60.5998,46.7020,-60.59980,46.70200,6,3,01/05/2017,31/12/2099,0,,
+VE1/CB-020,"Canada - Nova Scotia","Cape Breton Island",VE1/CB-020,323,1059,-61.1558,45.9638,-61.15580,45.96380,4,3,01/05/2017,31/12/2099,0,,
+VE1/CB-021,"Canada - Nova Scotia","Cape Breton Island","McIntyres Mountain",304,997,-61.3667,45.7815,-61.36670,45.78150,4,3,01/05/2017,31/12/2099,0,,
+VE1/NS-001,"Canada - Nova Scotia","Nova Scotia mainland","Folly Mountain",357,1171,-63.5332,45.5837,-63.53320,45.58370,4,3,01/05/2010,30/04/2017,1,10/09/2016,VE1PVH/P
+VE1/NS-002,"Canada - Nova Scotia","Nova Scotia mainland","Nuttby Mountain",361,1184,-63.2238,45.5536,-63.22380,45.55360,4,3,01/05/2010,31/12/2099,11,08/04/2025,VE1/VA2YZX
+VE1/NS-003,"Canada - Nova Scotia","Nova Scotia mainland","Dalhousie Mountain",330,1082,-62.9600,45.5676,-62.96000,45.56760,4,3,01/05/2010,31/12/2099,5,08/04/2025,VE1/VA2YZX
+VE1/NS-004,"Canada - Nova Scotia","Nova Scotia mainland","Higgins Mountain",325,1066,-63.5757,45.5515,-63.57570,45.55150,4,3,01/05/2010,30/04/2017,0,,
+VE1/NS-005,"Canada - Nova Scotia","Nova Scotia mainland","Eigg Mountain",324,1062,-62.1736,45.6916,-62.17360,45.69160,4,3,01/05/2010,31/12/2099,1,22/11/2017,VE1PVH/P
+VE1/NS-006,"Canada - Nova Scotia","Nova Scotia mainland","Kenzleville Hill",313,1026,-62.3077,45.5242,-62.30770,45.52420,4,3,01/05/2010,31/12/2099,2,09/09/2018,VA2VL/VE1
+VE1/NS-007,"Canada - Nova Scotia","Nova Scotia mainland","Aulds Mountain",295,967,-62.3437,45.5973,-62.34370,45.59730,2,0,01/05/2010,31/12/2099,1,14/10/2018,VE1PVH/P
+VE1/NS-008,"Canada - Nova Scotia","Nova Scotia mainland","Hannas Hill",279,915,-64.3782,45.4572,-64.37820,45.45720,2,0,01/05/2010,30/04/2017,0,,
+VE1/NS-009,"Canada - Nova Scotia","Nova Scotia mainland","New Yarmouth Mountain",275,902,-64.8568,45.3783,-64.85680,45.37830,2,0,01/05/2010,31/12/2099,2,16/09/2024,VE1/VA2YZX
+VE1/NS-010,"Canada - Nova Scotia","Nova Scotia mainland","South Mountain",266,872,-64.6643,45.0062,-64.66430,45.00620,2,0,01/05/2010,30/04/2017,3,15/10/2015,VE1PVH/P
+VE1/NS-011,"Canada - Nova Scotia","Nova Scotia mainland","Higgins Mountain",363,1190,-63.5763,45.5368,-63.57630,45.53680,4,3,01/05/2017,31/12/2099,7,07/04/2025,VE1/VA2YZX
+VE1/NS-012,"Canada - Nova Scotia","Nova Scotia mainland","South Mountain",288,944,-64.5849,44.8320,-64.58490,44.83200,2,0,01/05/2017,31/12/2099,7,18/09/2024,VE1/VA2YZX
+VE1/NS-013,"Canada - Nova Scotia","Nova Scotia mainland","Hannas Hill",286,938,-64.3916,45.4570,-64.39160,45.45700,2,0,01/05/2017,31/12/2099,8,25/07/2025,KD4CB/VE1
+VE1/NS-014,"Canada - Nova Scotia","Nova Scotia mainland","Mount Rose",264,866,-65.2313,44.9143,-65.23130,44.91430,2,0,01/05/2017,31/12/2099,15,21/07/2025,VA7RRK
+VE1/NS-015,"Canada - Nova Scotia","Nova Scotia mainland",VE1/NS-015,240,787,-61.8484,45.4286,-61.84840,45.42860,2,0,01/05/2017,31/12/2099,1,09/08/2017,VE1PVH/P
+VE1/NS-016,"Canada - Nova Scotia","Nova Scotia mainland","Mount Pleasant",195,639,-65.7980,44.6466,-65.79800,44.64660,1,0,01/05/2017,31/12/2099,9,21/07/2025,VA7RRK

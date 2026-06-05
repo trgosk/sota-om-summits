@@ -1,0 +1,4 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+GU/GU-001,"Bailiwick of Guernsey","Bailiwick of Guernsey","Le Moulin (Sark)",109,357,-2.3624,49.4312,-2.36240,49.43120,1,0,01/02/2018,31/12/2099,21,24/05/2026,MU1HAX/P
+GU/GU-002,"Bailiwick of Guernsey","Bailiwick of Guernsey","Guernsey Airport",107,351,-2.5977,49.4309,-2.59770,49.43090,1,0,01/02/2018,31/12/2099,29,23/05/2026,MU1HAX/P

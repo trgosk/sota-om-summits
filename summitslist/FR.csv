@@ -1,0 +1,21 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+FR/RE-001,"La Réunion","Reunion Island","Piton Des Neiges",3070,10072,55.48,-21.09937,55.48000,-21.09937,10,3,01/08/2015,31/12/2099,3,20/10/2023,FR/IN3EHQ/P
+FR/RE-002,"La Réunion","Reunion Island","Le Grand Bénare",2898,9508,55.4225,-21.1163,55.42250,-21.11630,10,3,01/08/2015,31/12/2099,3,22/12/2024,FR/DJ2TG
+FR/RE-003,"La Réunion","Reunion Island","Piton de la Fournaise",2621,8599,55.70718,-21.24308,55.70718,-21.24308,10,3,01/08/2015,31/12/2099,3,14/12/2024,FR/DJ2TG
+FR/RE-004,"La Réunion","Reunion Island","Piton des Basaltes",2448,8031,55.65426,-21.21331,55.65426,-21.21331,10,3,01/08/2015,31/12/2099,3,13/12/2024,FR/DJ2TG
+FR/RE-005,"La Réunion","Reunion Island","Piton Chisny",2439,8002,55.6663,-21.23934,55.66630,-21.23934,10,3,01/08/2015,31/12/2099,4,14/04/2025,FR/OK1CZ/P
+FR/RE-006,"La Réunion","Reunion Island","la Roche Écrite",2276,7467,55.46103,-21.01504,55.46103,-21.01504,10,3,01/08/2015,31/12/2099,1,03/06/2018,FR/F4HPX
+FR/RE-007,"La Réunion","Reunion Island","Morne de Fourche",2267,7438,55.44208,-21.06437,55.44208,-21.06437,10,3,01/08/2015,31/12/2099,0,,
+FR/RE-008,"La Réunion","Reunion Island","le Cimendef",2228,7310,55.45379,-21.03046,55.45379,-21.03046,10,3,01/08/2015,31/12/2099,0,,
+FR/RE-009,"La Réunion","Reunion Island","le Mazerin",2092,6864,55.55941,-21.072864,55.55941,-21.07286,10,3,01/08/2015,31/12/2099,0,,
+FR/RE-010,"La Réunion","Reunion Island","Piton Bleu",1921,6302,55.55025,-21.16224,55.55025,-21.16224,8,3,01/08/2015,31/12/2099,0,,
+FR/RE-011,"La Réunion","Reunion Island","Piton de la Source",1834,6017,55.59108,-21.17308,55.59108,-21.17308,8,3,01/08/2015,31/12/2099,1,16/12/2024,FR/DJ2TG
+FR/RE-012,"La Réunion","Reunion Island","Piton Plaine des Fougères",1800,5906,55.48943,-21.00378,55.48943,-21.00378,8,3,01/08/2015,31/12/2099,2,18/12/2024,FR/DJ2TG
+FR/RE-013,"La Réunion","Reunion Island","Bonnet de Prêtre",1709,5607,55.49159,-21.14994,55.49159,-21.14994,8,3,01/08/2015,31/12/2099,0,,
+FR/RE-014,"La Réunion","Reunion Island","Îlet Patience",1679,5509,55.59654,-21.1228,55.59654,-21.12280,8,3,01/08/2015,31/12/2099,0,,
+FR/RE-015,"La Réunion","Reunion Island","Piton Cabris",1435,4708,55.41432,-21.01912,55.41432,-21.01912,6,3,01/08/2015,31/12/2099,0,,
+FR/RE-016,"La Réunion","Reunion Island","Piton d'Anchain",1356,4449,55.50057,-21.04417,55.50057,-21.04417,6,3,01/08/2015,31/12/2099,1,30/08/2023,FR/M0YCJ/P
+FR/RE-017,"La Réunion","Reunion Island","Morne du Bras des Lianes",1341,4400,55.58833,-21.01955,55.58833,-21.01955,6,3,01/08/2015,31/12/2099,0,,
+FR/RE-018,"La Réunion","Reunion Island",Massifcratère,999,3278,55.64185,-21.08931,55.64185,-21.08931,4,3,01/08/2015,31/12/2099,0,,
+FR/RE-019,"La Réunion","Reunion Island","Cirque de Salazie",921,3022,55.56472,-21.01409,55.56472,-21.01409,4,3,01/08/2015,31/12/2099,0,,

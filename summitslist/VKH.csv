@@ -1,0 +1,7 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VKH/HM-001,"Heard Island","Heard Island and McDonald Island","Mawson Peak",2745,9006,73.5175,-53.1036,73.51750,-53.10360,10,3,01/04/2023,31/12/2099,0,,
+VKH/HM-002,"Heard Island","Heard Island and McDonald Island","Anzac Peak",715,2346,73.3122,-52.9989,73.31220,-52.99890,6,3,01/04/2023,31/12/2099,0,,
+VKH/HM-003,"Heard Island","Heard Island and McDonald Island","Mount Dixon",706,2316,73.2908,-52.9972,73.29080,-52.99720,6,3,01/04/2023,31/12/2099,0,,
+VKH/HM-004,"Heard Island","Heard Island and McDonald Island","Mount Olsen",636,2087,73.3408,-53.0111,73.34080,-53.01110,6,3,01/04/2023,31/12/2099,0,,
+VKH/HM-005,"Heard Island","Heard Island and McDonald Island","McDonald Island",278,912,72.5904,-53.0414,72.59040,-53.04140,1,0,01/04/2023,31/12/2099,0,,

@@ -1,0 +1,6 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+PT2/DF-001,"Brazil - Federal District","Distrito Federal","Colina do Rodeador",1341,4399,-48.1138,-15.5870,-48.11380,-15.58700,1,0,01/03/2019,31/12/2099,2,20/07/2019,PT2/PU1PAX
+PT2/DF-002,"Brazil - Federal District","Distrito Federal","Alto da Boa Vista",1257,4124,-47.7837,-15.6242,-47.78370,-15.62420,1,0,01/03/2019,31/12/2099,2,04/01/2025,PT2/PY2GUT
+PT2/DF-003,"Brazil - Federal District","Distrito Federal","Morro da Canastra",1125,3690,-47.8997,-15.5803,-47.89970,-15.58030,1,0,01/03/2019,31/12/2099,3,16/07/2022,PT2YW
+PT2/DF-004,"Brazil - Federal District","Distrito Federal",PT2/DF-004,1076,3530,-47.8601,-15.5728,-47.86010,-15.57280,1,0,01/03/2019,31/12/2099,0,,

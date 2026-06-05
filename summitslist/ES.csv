@@ -1,0 +1,6 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+ES/ES-001,Estonia,Estonia,"Suur Munamägi",317,1040,27.0600,57.7140,27.06000,57.71400,1,0,01/09/2012,31/12/2099,19,17/08/2025,ES6/DL6AP
+ES/ES-002,Estonia,Estonia,Kuutsemägi,218,714,26.3274,58.0285,26.32740,58.02850,1,0,01/09/2012,31/12/2099,15,13/11/2025,ES/HB9HVW/P
+ES/ES-003,Estonia,Estonia,Emumägi,166,545,26.3743,58.9375,26.37430,58.93750,1,0,01/09/2012,31/12/2099,23,13/11/2025,ES/HB9HVW/P
+ES/ES-004,Estonia,Estonia,Järve,168,549,27.2245,59.3886,27.22450,59.38860,1,0,01/02/2018,02/02/2018,0,,

@@ -1,0 +1,4 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+PJ6/SA-001,Saba,Saba,"Mt. Scenery",870,2855,-63.2372,17.6355,-63.23720,17.63550,10,0,01/03/2026,31/12/2099,1,15/04/2026,PJ6/W1DIA
+PJ6/SA-002,Saba,Saba,"Great Hill",423,1388,-63.2547,17.6264,-63.25470,17.62640,4,0,01/03/2026,31/12/2099,0,,

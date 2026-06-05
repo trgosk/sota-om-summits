@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+LUI/MI-001,"Argentina - Misiones",Misiones,LUI/MI-001,544,1784,-54.2111,-26.4369,-54.21110,-26.43690,2,0,01/09/2022,31/12/2099,0,,
+LUI/MI-002,"Argentina - Misiones",Misiones,LUI/MI-002,535,1754,-54.1788,-26.4493,-54.17880,-26.44930,2,0,01/09/2022,31/12/2099,0,,
+LUI/MI-003,"Argentina - Misiones",Misiones,LUI/MI-003,516,1692,-54.2513,-26.2386,-54.25130,-26.23860,2,0,01/09/2022,31/12/2099,0,,

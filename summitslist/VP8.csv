@@ -1,0 +1,78 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VP8/EF-001,"Falkland Islands","East Falkland","Mount Usborne",705,2312,-58.8349,-51.6922,-58.83490,-51.69220,10,3,01/01/2010,31/12/2099,2,06/12/2022,VP8TAA/P
+VP8/EF-002,"Falkland Islands","East Falkland","Mount Wickham",627,2057,-58.6293,-51.7324,-58.62930,-51.73240,8,3,01/01/2010,31/12/2099,1,04/09/2022,VP8TAA/P
+VP8/EF-003,"Falkland Islands","East Falkland","Mount Simon",597,1960,-58.5347,-51.6334,-58.53470,-51.63340,8,3,01/01/2010,31/12/2099,0,,
+VP8/EF-004,"Falkland Islands","East Falkland","The Onion",535,1755,-58.6101,-51.6315,-58.61010,-51.63150,6,3,01/01/2010,31/12/2099,0,,
+VP8/EF-005,"Falkland Islands","East Falkland","Big Mountain",482,1580,-58.6901,-51.6150,-58.69010,-51.61500,6,3,01/01/2010,31/12/2099,0,,
+VP8/EF-006,"Falkland Islands","East Falkland","Mount Kent",458,1504,-58.1104,-51.6737,-58.11040,-51.67370,6,3,01/01/2010,31/12/2099,2,10/07/2022,VP8TAA/P
+VP8/EF-007,"Falkland Islands","East Falkland","No name, nr Mount Challenger",448,1470,-58.1855,-51.7070,-58.18550,-51.70700,4,3,01/01/2010,31/12/2099,1,06/08/2022,VP8TAA/P
+VP8/EF-008,"Falkland Islands","East Falkland","Rocky Mountain",418,1370,-58.4184,-51.6988,-58.41840,-51.69880,4,3,01/01/2010,31/12/2099,1,31/07/2022,VP8TAA/P
+VP8/EF-009,"Falkland Islands","East Falkland","Rodeo Mountains",415,1360,-58.8541,-51.6207,-58.85410,-51.62070,4,3,01/01/2010,31/12/2099,0,,
+VP8/EF-010,"Falkland Islands","East Falkland","Cantera Mt",415,1360,-58.8957,-51.6823,-58.89570,-51.68230,4,3,01/01/2010,31/12/2099,0,,
+VP8/EF-011,"Falkland Islands","East Falkland","Rabbit Mount",399,1310,-58.7956,-51.6539,-58.79560,-51.65390,4,3,01/01/2010,31/12/2099,0,,
+VP8/EF-012,"Falkland Islands","East Falkland","Mt Vernet",387,1270,-58.0962,-51.6245,-58.09620,-51.62450,4,3,01/01/2010,31/12/2099,0,,
+VP8/EF-013,"Falkland Islands","East Falkland","Two Sisters",326,1070,-58.0262,-51.6899,-58.02620,-51.68990,2,3,01/01/2010,31/12/2099,7,27/02/2026,VP8TM/P
+VP8/EF-014,"Falkland Islands","East Falkland","Cerro Montevideo",286,938,-58.8896,-51.5060,-58.88960,-51.50600,2,3,01/01/2010,31/12/2099,1,17/11/2025,VP8THW
+VP8/EF-015,"Falkland Islands","East Falkland","Salvador Hill",282,926,-58.2147,-51.4364,-58.21470,-51.43640,2,3,01/01/2010,31/12/2099,0,,
+VP8/EF-016,"Falkland Islands","East Falkland","Mount Low",265,871,-58.8327,-51.6291,-58.83270,-51.62910,2,3,01/01/2010,31/12/2099,0,,
+VP8/EF-017,"Falkland Islands","East Falkland","Coutts Hill",229,750,-58.9012,-51.4410,-58.90120,-51.44100,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-001,"Falkland Islands","West Falkland","Mt Adam",700,2297,-60.0760,-51.5764,-60.07600,-51.57640,10,3,01/01/2010,31/12/2099,0,,
+VP8/WF-002,"Falkland Islands","West Falkland","Mt Robinson",695,2280,-59.9480,-51.6056,-59.94800,-51.60560,10,3,01/01/2010,31/12/2099,0,,
+VP8/WF-003,"Falkland Islands","West Falkland","Mt Maria",658,2158,-59.5931,-51.6067,-59.59310,-51.60670,10,3,01/01/2010,31/12/2099,1,22/02/2026,VP8TM/P
+VP8/WF-004,"Falkland Islands","West Falkland","Clay Mount",634,2080,-59.6631,-51.6253,-59.66310,-51.62530,8,3,01/01/2010,31/12/2099,0,,
+VP8/WF-005,"Falkland Islands","West Falkland","Mt Philomel",604,1980,-60.0669,-51.7685,-60.06690,-51.76850,8,3,01/01/2010,31/12/2099,0,,
+VP8/WF-006,"Falkland Islands","West Falkland","Green Mount",604,1980,-59.6810,-51.6929,-59.68100,-51.69290,8,3,01/01/2010,31/12/2099,0,,
+VP8/WF-007,"Falkland Islands","West Falkland",VP8/WF-007,594,1950,-60.1044,-51.5546,-60.10440,-51.55460,8,3,01/01/2010,31/12/2099,0,,
+VP8/WF-008,"Falkland Islands","West Falkland","Mt Edgeworth",588,1930,-59.8801,-51.5401,-59.88010,-51.54010,8,3,01/01/2010,31/12/2099,0,,
+VP8/WF-009,"Falkland Islands","West Falkland","Mt Moody",554,1816,-59.7597,-51.7599,-59.75970,-51.75990,6,3,01/01/2010,31/12/2099,0,,
+VP8/WF-010,"Falkland Islands","West Falkland","Storm Mt",521,1709,-60.5403,-51.4313,-60.54030,-51.43130,6,3,01/01/2010,31/12/2099,2,27/06/2010,VP8DMM/P
+VP8/WF-011,"Falkland Islands","West Falkland","Mount Sullivan 1",482,1580,-60.1507,-51.8294,-60.15070,-51.82940,6,3,01/01/2010,31/12/2099,0,,
+VP8/WF-012,"Falkland Islands","West Falkland","Mount Sullivan 2",474,1554,-60.1291,-51.8575,-60.12910,-51.85750,6,3,01/01/2010,31/12/2099,0,,
+VP8/WF-013,"Falkland Islands","West Falkland","VP8/WF-013 (Saunders Island)",466,1530,-60.1730,-51.3277,-60.17300,-51.32770,6,3,01/01/2010,31/12/2099,0,,
+VP8/WF-014,"Falkland Islands","West Falkland","Mt Caroline",454,1490,-59.5397,-51.5115,-59.53970,-51.51150,6,3,01/01/2010,31/12/2099,0,,
+VP8/WF-015,"Falkland Islands","West Falkland","Mt Harston (Saunders Island)",433,1421,-60.2775,-51.2892,-60.27750,-51.28920,4,3,01/01/2010,31/12/2099,1,10/11/2025,VP8THW
+VP8/WF-016,"Falkland Islands","West Falkland","Mt Rosalie",426,1396,-59.3418,-51.4711,-59.34180,-51.47110,4,3,01/01/2010,31/12/2099,1,20/02/2026,VP8TM/P
+VP8/WF-017,"Falkland Islands","West Falkland","Rookery Mt (Saunders Island)",422,1384,-60.1310,-51.3183,-60.13100,-51.31830,4,3,01/01/2010,31/12/2099,1,08/11/2025,VP8THW
+VP8/WF-018,"Falkland Islands","West Falkland","Mt D'arcy",418,1370,-59.5833,-51.5016,-59.58330,-51.50160,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-019,"Falkland Islands","West Falkland","VP8/WF-019 (Grand Jason Island)",387,1270,-61.0912,-51.0595,-61.09120,-51.05950,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-020,"Falkland Islands","West Falkland","Mount Weddell (Weddell Island)",383,1256,-60.9521,-51.9234,-60.95210,-51.92340,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-021,"Falkland Islands","West Falkland","VP8/WF-021 (near Gibraltar Hill)",375,1230,-60.3765,-52.0700,-60.37650,-52.07000,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-022,"Falkland Islands","West Falkland","Mount Doyle",375,1230,-60.1457,-51.7599,-60.14570,-51.75990,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-023,"Falkland Islands","West Falkland","Mount Rees (Saunders Island)",372,1220,-60.2356,-51.3899,-60.23560,-51.38990,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-024,"Falkland Islands","West Falkland","Cliff Mt",369,1211,-60.7058,-51.3646,-60.70580,-51.36460,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-025,"Falkland Islands","West Falkland","Mount Alice",361,1185,-60.5974,-52.1541,-60.59740,-52.15410,4,3,01/01/2010,31/12/2099,2,30/06/2010,VP8DMM/P
+VP8/WF-026,"Falkland Islands","West Falkland","Mount Fengen",360,1181,-60.2822,-51.4995,-60.28220,-51.49950,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-027,"Falkland Islands","West Falkland","Brown Mount",360,1180,-60.3807,-51.4635,-60.38070,-51.46350,4,3,01/01/2010,31/12/2099,0,,
+VP8/WF-028,"Falkland Islands","West Falkland","Mt Jock",344,1130,-59.4845,-51.4981,-59.48450,-51.49810,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-029,"Falkland Islands","West Falkland","Mt Keppel (Keppel Island)",342,1122,-59.9639,-51.3315,-59.96390,-51.33150,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-030,"Falkland Islands","West Falkland","Mount Young",340,1115,-60.5956,-52.0838,-60.59560,-52.08380,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-031,"Falkland Islands","West Falkland","Poke Point Hill",326,1068,-59.4101,-51.5863,-59.41010,-51.58630,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-032,"Falkland Islands","West Falkland","Mt Arthur",323,1060,-59.7512,-51.5124,-59.75120,-51.51240,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-033,"Falkland Islands","West Falkland","Fox Bay Mount",307,1008,-60.1261,-51.9838,-60.12610,-51.98380,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-034,"Falkland Islands","West Falkland","East Lagoon Hill",302,990,-59.9809,-51.4524,-59.98090,-51.45240,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-035,"Falkland Islands","West Falkland","Big Rincon Mount",299,982,-60.4583,-51.5123,-60.45830,-51.51230,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-036,"Falkland Islands","West Falkland","VP8/WF-036 ( Steeple Jason Island)",290,952,-61.1857,-51.0521,-61.18570,-51.05210,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-037,"Falkland Islands","West Falkland","VP8/WF-037 (South Jason Island)",288,945,-60.8850,-51.2050,-60.88500,-51.20500,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-038,"Falkland Islands","West Falkland","Mt Dean",283,930,-60.7853,-52.0891,-60.78530,-52.08910,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-039,"Falkland Islands","West Falkland","First Mt (Pebble Island)",277,909,-59.6590,-51.2879,-59.65900,-51.28790,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-040,"Falkland Islands","West Falkland","VP8/WF-040 (Steeple Jason Island)",263,863,-61.2409,-51.0233,-61.24090,-51.02330,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-041,"Falkland Islands","West Falkland",VP8/WF-041,262,860,-60.1517,-51.6380,-60.15170,-51.63800,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-042,"Falkland Islands","West Falkland","Cooke Hill",262,858,-60.3762,-51.5600,-60.37620,-51.56000,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-043,"Falkland Islands","West Falkland","Mt Egmont (Saunders Island)",259,850,-60.0908,-51.3534,-60.09080,-51.35340,2,3,01/01/2010,31/12/2099,1,16/02/2026,VP8TM/P
+VP8/WF-044,"Falkland Islands","West Falkland","Nipple Hill",253,830,-60.2246,-51.6938,-60.22460,-51.69380,2,3,01/01/2010,31/12/2099,0,,
+VP8/WF-045,"Falkland Islands","West Falkland","Mt Purvis",244,799,-59.5361,-51.4225,-59.53610,-51.42250,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-046,"Falkland Islands","West Falkland","Little Mollyhawk",238,781,-60.4247,-52.0994,-60.42470,-52.09940,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-047,"Falkland Islands","West Falkland","Marble Mt (Pebble Island)",237,779,-59.7932,-51.2653,-59.79320,-51.26530,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-048,"Falkland Islands","West Falkland","Chatham Hill (Weddell Island)",236,773,-61.0699,-51.8513,-61.06990,-51.85130,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-049,"Falkland Islands","West Falkland","Cove Hill (Keppel Island)",233,763,-59.9594,-51.3009,-59.95940,-51.30090,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-050,"Falkland Islands","West Falkland","South Hill (New Island)",226,743,-61.3011,-51.7524,-61.30110,-51.75240,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-051,"Falkland Islands","West Falkland","Stephens Peak",224,736,-60.8497,-52.1340,-60.84970,-52.13400,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-052,"Falkland Islands","West Falkland","VP8/WF-052 (New Island)",224,735,-61.2970,-51.6959,-61.29700,-51.69590,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-053,"Falkland Islands","West Falkland","Meredith Hill",221,726,-60.6612,-52.2420,-60.66120,-52.24200,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-054,"Falkland Islands","West Falkland","Mt Byng (Carcass Island)",220,723,-60.5721,-51.2749,-60.57210,-51.27490,1,0,01/01/2010,31/12/2099,1,18/02/2026,VP8TM/P
+VP8/WF-055,"Falkland Islands","West Falkland","VP8/WF-055 (Elephant Jason Island)",208,682,-60.8584,-51.1638,-60.85840,-51.16380,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-056,"Falkland Islands","West Falkland","Big Mt (Beaver Island)",207,680,-61.2283,-51.8109,-61.22830,-51.81090,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-057,"Falkland Islands","West Falkland","Settlement Hill",193,633,-60.8908,-52.1076,-60.89080,-52.10760,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-058,"Falkland Islands","West Falkland","VP8/WF-058 (Hummock Island)",191,628,-60.4371,-51.6092,-60.43710,-51.60920,1,0,01/01/2010,31/12/2099,0,,
+VP8/WF-059,"Falkland Islands","West Falkland",VP8/WF-059,177,580,-60.2505,-51.9449,-60.25050,-51.94490,1,0,01/01/2010,31/12/2099,0,,

@@ -1,0 +1,4 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VY2/PE-001,"Canada - PEI","Prince Edward Island","Glen Valley",141,462,-63.4196,46.3333,-63.41960,46.33330,1,0,01/04/2017,31/12/2099,12,22/10/2025,VE1PVH
+VY2/PE-002,"Canada - PEI","Prince Edward Island",Caledonia,130,426,-62.7219,46.051,-62.72190,46.05100,1,0,01/04/2017,31/12/2099,11,13/10/2025,VY/G5MUP

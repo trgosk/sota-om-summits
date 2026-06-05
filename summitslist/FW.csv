@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+FW/WF-001,"Wallis et Futuna","Wallis et Futuna","Mont Puke",524,1719,-178.1388,-14.2699,-178.13879,-14.26990,2,0,01/11/2025,31/12/2099,0,,
+FW/WF-002,"Wallis et Futuna","Wallis et Futuna","Mont Kolofau",417,1368,-178.0390,-14.3441,-178.03900,-14.34410,1,0,01/11/2025,31/12/2099,0,,
+FW/WF-003,"Wallis et Futuna","Wallis et Futuna","Mont Lulu Fakahega",151,495,-176.2066,-13.2749,-176.20660,-13.27490,1,0,01/11/2025,31/12/2099,0,,

@@ -1,0 +1,6 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+FP/FP-001,"St. Pierre & Miquelon","St. Pierre & Miquelon","Morne de la Grande Montagne",240,787,-56.3027,47.0440,-56.30270,47.04400,1,0,01/07/2017,31/12/2099,0,,
+FP/FP-002,"St. Pierre & Miquelon","St. Pierre & Miquelon","le Trépied",207,679,-56.1821,46.8009,-56.18210,46.80090,1,0,01/07/2017,31/12/2099,5,03/09/2024,FP/DF3TS
+FP/FP-003,"St. Pierre & Miquelon","St. Pierre & Miquelon",Cuquemel,190,623,-56.3543,46.8560,-56.35430,46.85600,1,0,01/07/2017,31/12/2099,0,,
+FP/FP-004,"St. Pierre & Miquelon","St. Pierre & Miquelon","Le Cap",158,518,-56.3489,47.1390,-56.34890,47.13900,1,0,01/07/2017,31/12/2099,0,,

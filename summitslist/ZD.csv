@@ -1,0 +1,14 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+ZD/AI-001,"UK South Atlantic","Ascension Island","Green Mountain - The Peak",859,2818,-14.3428,-7.9519,-14.34280,-7.95190,8,0,21/11/2016,31/12/2099,0,,
+ZD/AI-002,"UK South Atlantic","Ascension Island","Sisters Peak",445,1459,-14.3714,-7.9256,-14.37140,-7.92560,1,0,21/11/2016,31/12/2099,0,,
+ZD/AI-003,"UK South Atlantic","Ascension Island","Cross Hill",263,862,-14.4025,-7.9308,-14.40250,-7.93080,1,0,21/11/2016,31/12/2099,0,,
+ZD/GI-001,"UK South Atlantic","Gough Island","Edinburgh Peak",910,2985,-9.9469,-40.3094,-9.94690,-40.30940,8,0,01/12/2016,31/12/2099,0,,
+ZD/GI-002,"UK South Atlantic","Gough Island","South Peak",734,2408,-9.9083,-40.3389,-9.90830,-40.33890,6,0,01/12/2016,31/12/2099,0,,
+ZD/SH-001,"UK South Atlantic","Saint Helena","Diana's Peak",818,2683,-5.7000,-15.9731,-5.70000,-15.97310,8,0,01/12/2016,31/12/2099,2,22/02/2023,ZD7MG/P
+ZD/SH-002,"UK South Atlantic","Saint Helena","White Point",694,2276,-5.7608,-15.9967,-5.76080,-15.99670,4,0,01/12/2016,31/12/2099,1,15/02/2023,ZD7MG/P
+ZD/SH-003,"UK South Atlantic","Saint Helena","Flagstaff Hill",688,2257,-5.6800,-15.9203,-5.68000,-15.92030,4,0,01/12/2016,31/12/2099,2,12/02/2023,ZD7MG/P
+ZD/SH-004,"UK South Atlantic","Saint Helena","The Haystack",616,2020,-5.6669,-15.9167,-5.66690,-15.91670,4,0,01/12/2016,31/12/2099,1,23/02/2023,ZD7MG/P
+ZD/TC-001,"UK South Atlantic","Tristan da Cunha","Queen Mary's Peak",2062,6765,-12.2889,-37.1114,-12.28890,-37.11140,10,0,01/12/2016,31/12/2099,0,,
+ZD/TC-002,"UK South Atlantic","Tristan da Cunha","Inaccessible Island - Swales Fell",561,1840,-12.6972,-37.3083,-12.69720,-37.30830,2,0,01/12/2016,31/12/2099,0,,
+ZD/TC-003,"UK South Atlantic","Tristan da Cunha","Nightingale Island",337,1105,-12.4775,-37.4250,-12.47750,-37.42500,1,0,01/12/2016,31/12/2099,0,,

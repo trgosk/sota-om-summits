@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+FJ/SB-001,"Saint Barthelemy","Saint Barthelemy","Morne de Vitet",284,932,-62.8067,17.8992,-62.80670,17.89920,1,0,01/05/2025,31/12/2099,0,,
+FJ/SB-002,"Saint Barthelemy","Saint Barthelemy","Morne de Grand Fond",273,896,-62.8178,17.8958,-62.81780,17.89580,1,0,01/05/2025,31/12/2099,0,,
+FJ/SB-003,"Saint Barthelemy","Saint Barthelemy","Morne Lurin",192,630,-62.8363,17.8917,-62.83630,17.89170,1,0,01/05/2025,31/12/2099,0,,

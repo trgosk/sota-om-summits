@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VKM/MI-001,"Macquarie Island","Macquarie Island","Mount Hamilton",410,1345,158.8275,-54.7086,158.82750,-54.70860,2,0,01/04/2023,31/12/2099,0,,
+VKM/MI-002,"Macquarie Island","Macquarie Island","Mount Waite",389,1276,158.8350,-54.6394,158.83501,-54.63940,2,0,01/04/2023,31/12/2099,0,,
+VKM/MI-003,"Macquarie Island","Macquarie Island","Mount Elder",385,1263,158.9200,-54.5361,158.92000,-54.53610,2,0,01/04/2023,31/12/2099,0,,

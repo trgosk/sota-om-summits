@@ -1,0 +1,1105 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+W1/AM-001,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Katahdin",1606,5268,-68.9214,45.9042,-68.92140,45.90420,10,3,01/09/2009,31/12/2099,19,09/07/2025,WX1S
+W1/AM-002,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sugarloaf Mtn. Bigelow",1295,4250,-70.3133,45.0317,-70.31330,45.03170,10,3,01/09/2009,31/12/2099,21,30/06/2025,WX1S
+W1/AM-003,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","West Peak on Bigelow Mtn.",1263,4145,-70.2883,45.1467,-70.28830,45.14670,10,3,01/09/2009,31/12/2099,17,27/08/2025,WX1S
+W1/AM-004,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Old Speck Mtn.",1271,4170,-70.9536,44.5708,-70.95360,44.57080,10,3,01/09/2009,31/12/2099,18,02/06/2026,VA2EO/W1
+W1/AM-005,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","White Cap Mtn. First Roach Pond",1114,3654,-69.2458,45.5547,-69.24580,45.55470,8,3,01/09/2009,31/12/2099,3,07/07/2025,KC1MXB
+W1/AM-006,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Coburn Mtn.",1134,3720,-70.1264,45.4686,-70.12640,45.46860,8,3,01/09/2009,31/12/2099,5,17/10/2025,KG6CIH
+W1/AM-007,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Saddleback Mtn. East Madrid",1256,4120,-70.5044,44.9364,-70.50440,44.93640,10,3,01/09/2009,31/12/2099,17,03/06/2025,WX1S
+W1/AM-008,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","The Traveler on Traveler Mtn.",1079,3540,-68.8447,46.0728,-68.84470,46.07280,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-009,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Snow Mtn. Big Island Pond",1207,3960,-70.7092,45.2914,-70.70920,45.29140,10,3,01/09/2009,31/12/2099,3,11/09/2022,KC1MXB
+W1/AM-010,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Kibby Mtn.",1114,3654,-70.5442,45.4186,-70.54420,45.41860,8,3,01/09/2009,31/12/2099,2,18/10/2025,KG6CIH
+W1/AM-011,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","East Peak On Baldpate Mtn.",1155,3790,-70.8922,44.6092,-70.89220,44.60920,8,3,01/09/2009,31/12/2099,10,04/06/2026,VA2EO/W1
+W1/AM-012,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Baker Mtn.",1073,3521,-69.3939,45.5711,-69.39390,45.57110,6,3,01/09/2009,31/12/2099,1,21/09/2024,KC1MXB
+W1/AM-013,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Big Moose Mtn.",974,3194,-69.7117,45.4842,-69.71170,45.48420,4,3,01/09/2009,31/12/2099,1,26/05/2018,NS1TA
+W1/AM-014,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Doubletop Mtn.",1063,3489,-69.0611,45.9358,-69.06110,45.93580,6,3,01/09/2009,31/12/2099,3,28/07/2021,W8RKJ
+W1/AM-015,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Elephant Mtn. Hougton",1150,3772,-70.7817,44.7681,-70.78170,44.76810,8,3,01/09/2009,31/12/2099,3,07/07/2024,KC1MXB
+W1/AM-016,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Boundary Bald Mtn.",1103,3620,-70.2039,45.7667,-70.20390,45.76670,8,3,01/09/2009,31/12/2099,1,22/06/2024,KC1MXB
+W1/AM-017,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Big Spencer Mtn.",977,3206,-69.4472,45.7728,-69.44720,45.77280,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-018,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Saddleback Mtn. B Pond",914,2998,-69.1361,45.5094,-69.13610,45.50940,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-019,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Blue",969,3180,-70.3419,44.7281,-70.34190,44.72810,4,3,01/09/2009,31/12/2099,7,19/10/2025,KG6CIH
+W1/AM-020,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Moxie Mtn.",890,2920,-69.8939,45.2067,-69.89390,45.20670,2,3,01/09/2009,31/12/2099,4,16/10/2025,KG6CIH
+W1/AM-021,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","East Kennebago Mtn.",1155,3791,-70.5997,45.1217,-70.59970,45.12170,8,3,01/09/2009,31/12/2099,1,27/06/2020,KG6CIH
+W1/AM-022,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Jackson Mtn.",1088,3568,-70.5200,44.7622,-70.52000,44.76220,6,3,01/09/2009,31/12/2099,2,10/11/2022,AC1JO
+W1/AM-023,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Little Spencer Mtn.",933,3060,-69.5325,45.7586,-69.53250,45.75860,4,3,01/09/2009,31/12/2099,1,17/09/2020,W1DMH
+W1/AM-024,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Spruce Mtn. North Woodstock",736,2416,-70.5844,44.4078,-70.58440,44.40780,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-025,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","North Turner Mtn.",1013,3325,-68.8436,45.9725,-68.84360,45.97250,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-026,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Chase",743,2439,-68.4781,46.1086,-68.47810,46.10860,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-027,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Aziscohos Mtn.",969,3180,-71.0017,44.9142,-71.00170,44.91420,4,3,01/09/2009,31/12/2099,1,20/07/2020,AC1Z
+W1/AM-028,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Jo-Mary Mtn.",885,2905,-69.0619,45.6178,-69.06190,45.61780,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-029,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Spotted Mtn.",1037,3401,-70.7183,45.0411,-70.71830,45.04110,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-030,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Deer Mtn.",1052,3450,-70.9239,45.0047,-70.92390,45.00470,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-031,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Wyman Mtn.",908,2980,-70.8350,44.6814,-70.83500,44.68140,4,3,01/09/2009,31/12/2099,1,30/07/2022,KC1MXB
+W1/AM-032,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Barren Mtn. Willimantec",805,2640,-69.3708,45.4156,-69.37080,45.41560,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-033,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Rump Mtn.",1114,3654,-71.0633,45.2036,-71.06330,45.20360,8,3,01/09/2009,31/12/2099,0,,
+W1/AM-034,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mooseleuk Mtn.",746,2449,-68.9031,46.4625,-68.90310,46.46250,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-035,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Griffin Mtn.",656,2153,-70.0978,44.7958,-70.09780,44.79580,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-036,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Speckled Mtn. Cold Brook Trail",886,2906,-70.9550,44.2911,-70.95500,44.29110,2,3,01/09/2009,31/12/2099,6,30/09/2025,WX1S
+W1/AM-037,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Poplar Mtn.",824,2703,-70.1569,45.0647,-70.15690,45.06470,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-038,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pleasant Mtn.",611,2006,-70.8219,44.0267,-70.82190,44.02670,1,0,01/09/2009,31/12/2099,25,19/04/2025,WX1S
+W1/AM-039,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Cow Ridge",1111,3645,-70.7292,45.1917,-70.72920,45.19170,8,3,01/09/2009,31/12/2099,0,,
+W1/AM-040,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","No 6 Mtn.",1010,3315,-70.4081,45.4942,-70.40810,45.49420,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-041,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Goose Eye Mtn.",1177,3860,-70.9992,44.5028,-70.99920,44.50280,8,3,01/09/2009,31/12/2099,7,07/02/2026,W3QP
+W1/AM-042,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Puzzle Mtn.",958,3142,-70.7883,44.5467,-70.78830,44.54670,4,3,01/09/2009,31/12/2099,6,03/06/2026,VA2EO/W1
+W1/AM-043,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Saddleback Mtn. Hildreths Mill",786,2580,-70.3578,44.6278,-70.35780,44.62780,1,0,01/09/2009,31/12/2099,1,27/05/2019,NS1TA
+W1/AM-044,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","C Bluff Mtn.",853,2800,-70.8650,44.7306,-70.86500,44.73060,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-045,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","North Pogy Mtn.",866,2840,-68.9433,46.0411,-68.94330,46.04110,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-046,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pierce Pond Mtn.",762,2500,-70.1233,45.2722,-70.12330,45.27220,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-047,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bald Mtn. Caratunk",801,2629,-69.7717,45.2636,-69.77170,45.26360,2,3,01/09/2009,31/12/2099,4,03/09/2023,WB8ICQ
+W1/AM-048,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Snow Mtn. Kennebago",1153,3784,-70.8267,45.1694,-70.82670,45.16940,8,3,01/09/2009,31/12/2099,1,28/06/2020,KG6CIH
+W1/AM-049,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Stewart Mtn.",817,2680,-70.1194,45.1133,-70.11940,45.11330,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-050,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Abram",604,1980,-70.7131,44.3697,-70.71310,44.36970,1,0,01/09/2009,31/12/2099,2,20/07/2020,KB1HQS
+W1/AM-051,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","North Brother",1265,4151,-68.9853,45.9572,-68.98530,45.95720,10,3,01/09/2009,31/12/2099,8,29/07/2025,KC1RID
+W1/AM-052,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Caribou Mtn. Skinner",1109,3640,-70.6231,45.4297,-70.62310,45.42970,8,3,01/09/2009,31/12/2099,0,,
+W1/AM-053,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","West Mtn.",848,2782,-70.5706,44.7203,-70.57060,44.72030,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-054,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Center Mtn.",884,2900,-69.0294,46.0136,-69.02940,46.01360,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-055,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Zircon",683,2240,-70.5589,44.4742,-70.55890,44.47420,1,0,01/09/2009,31/12/2099,2,12/08/2022,W1DMH
+W1/AM-056,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Crocker Mtn.",1289,4228,-70.3828,45.0472,-70.38280,45.04720,10,3,01/09/2009,31/12/2099,10,02/08/2025,WX1S
+W1/AM-057,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mars Hill",533,1748,-67.8136,46.5211,-67.81360,46.52110,1,0,01/09/2009,31/12/2099,3,07/06/2018,NS1TA
+W1/AM-058,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Attean Mtn.",743,2438,-70.3478,45.5581,-70.34780,45.55810,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-059,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bill Merrill Mtn.",488,1600,-70.8556,43.8550,-70.85560,43.85500,1,0,01/09/2009,31/12/2099,5,04/10/2025,K1RID
+W1/AM-060,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Farwell Mtn.",578,1896,-70.7547,44.4514,-70.75470,44.45140,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-061,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sandy Bay Mtn.",945,3100,-70.3939,45.7542,-70.39390,45.75420,4,3,01/09/2009,31/12/2099,1,18/07/2019,VE2DDZ
+W1/AM-062,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Old Turk Mtn.",738,2420,-70.6544,44.7100,-70.65440,44.71000,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-063,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Farrar Mtn.",769,2524,-69.2906,45.7136,-69.29060,45.71360,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-064,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Wilbur Mtn.",575,1887,-70.6794,44.4511,-70.67940,44.45110,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-065,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Trask Mtn.",532,1744,-70.3667,44.4542,-70.36670,44.45420,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-066,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Shaw Mtn.",805,2641,-69.3103,45.6403,-69.31030,45.64030,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-067,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Flagstaff Mtn.",750,2460,-70.3067,45.2411,-70.30670,45.24110,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-068,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Lobster Mtn.",707,2320,-69.5506,45.8167,-69.55060,45.81670,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-069,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pennington Mtn. HP",530,1740,-68.5000,46.9706,-68.50000,46.97060,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-070,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Mtn. Eustis",970,3183,-70.6581,45.1869,-70.65810,45.18690,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-071,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Russell Mtn.",732,2402,-69.8011,46.1022,-69.80110,46.10220,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-072,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Boil Mtn.",1098,3601,-70.7358,45.2431,-70.73580,45.24310,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-073,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Mtn. Rumford",713,2340,-70.6375,44.5839,-70.63750,44.58390,1,0,01/09/2009,31/12/2099,2,10/09/2024,AC1Z
+W1/AM-074,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Streaked Mtn.",539,1770,-70.4233,44.2500,-70.42330,44.25000,1,0,01/09/2009,31/12/2099,9,28/04/2025,WX1S
+W1/AM-075,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","The Pinnacle",524,1720,-70.4356,44.4706,-70.43560,44.47060,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-076,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mosquito Mtn.",675,2216,-69.8697,45.3144,-69.86970,45.31440,1,0,01/09/2009,31/12/2099,1,16/08/2014,WW2DX
+W1/AM-077,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Peaked Mtn. Rowe Lake",677,2220,-68.8139,46.5700,-68.81390,46.57000,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-078,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sugarloaf Mtn. Shin Pond",569,1868,-68.6117,46.1097,-68.61170,46.10970,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-079,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Speckled Mtn. Redding",665,2183,-70.5108,44.4400,-70.51080,44.44000,1,0,01/09/2009,31/12/2099,2,28/01/2022,KC1MXI
+W1/AM-080,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Beaver Mtn.",963,3159,-70.6392,44.8817,-70.63920,44.88170,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-081,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Louise Mtn.",750,2460,-70.7817,45.4308,-70.78170,45.43080,1,0,01/09/2009,30/11/2017,0,,
+W1/AM-082,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Deasey Mtn.",599,1964,-68.6856,45.9414,-68.68560,45.94140,1,0,01/09/2009,31/12/2099,1,25/09/2016,NS1TA
+W1/AM-083,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Pisgah",1030,3380,-70.6625,45.3744,-70.66250,45.37440,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-084,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Caribou Mtn. Hastings",866,2840,-70.9303,44.3403,-70.93030,44.34030,2,3,01/09/2009,31/12/2099,3,10/06/2021,KC1MXB
+W1/AM-085,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pleasant Pond Mtn.",750,2460,-69.8958,45.2719,-69.89580,45.27190,1,0,01/09/2009,31/12/2099,4,02/08/2023,K4DCA
+W1/AM-086,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Basin Mtn.",720,2361,-70.1767,45.2828,-70.17670,45.28280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-087,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Burnt Hill Carrabassett",682,2236,-70.0294,45.0872,-70.02940,45.08720,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-088,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Indian Stream Mtn.",890,2920,-70.7128,45.3314,-70.71280,45.33140,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-089,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sawyer Mtn.",786,2580,-70.7853,44.7119,-70.78530,44.71190,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-090,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bear Mtn. Ketchum",1000,3280,-70.9650,44.4547,-70.96500,44.45470,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-091,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","White Cap Mtn. Intl Border",1175,3856,-70.8181,45.2361,-70.81810,45.23610,8,3,01/09/2009,31/12/2099,1,10/10/2021,KG6CIH
+W1/AM-092,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Saddleback Mtn. Bridgewater",518,1700,-68.0656,46.4136,-68.06560,46.41360,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-093,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Tumbledown Mtn.",1094,3588,-70.4706,45.4492,-70.47060,45.44920,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-094,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Merrill Mtn.",1012,3320,-70.6875,45.4761,-70.68750,45.47610,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-095,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Peaked Mtn. Clear Lake",651,2136,-69.0836,46.4961,-69.08360,46.49610,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-096,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sunday River Whitecap",1017,3335,-70.8967,44.5492,-70.89670,44.54920,6,3,01/09/2009,31/12/2099,6,02/06/2026,VA2EO/W1
+W1/AM-097,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Elephant Mtn. Greenville",805,2640,-69.4244,45.5178,-69.42440,45.51780,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-098,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Russell Mtn.",664,2180,-69.6142,45.2325,-69.61420,45.23250,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-099,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Boarstone Mtn.",604,1981,-69.4039,45.3772,-69.40390,45.37720,1,0,01/09/2009,31/12/2099,1,01/09/2014,KB1UJS
+W1/AM-100,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Big Saddle Hill",981,3220,-71.0014,45.3442,-71.00140,45.34420,4,3,01/09/2009,30/11/2017,3,05/08/2017,VA2MO
+W1/AM-101,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sally Mtn. HP",682,2236,-70.3281,45.5839,-70.32810,45.58390,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-102,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Boundary Marker 381",811,2660,-70.4408,45.7053,-70.44080,45.70530,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-103,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Debouille Mtn.",597,1960,-68.8728,46.9686,-68.87280,46.96860,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-104,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Soubunge Mtn.",636,2088,-69.1958,45.9756,-69.19580,45.97560,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-105,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bald Mtn. South Rangeley",750,2460,-70.7758,44.9436,-70.77580,44.94360,1,0,01/09/2009,31/12/2099,10,23/08/2025,KC1ONG
+W1/AM-106,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Beech Hill",470,1541,-70.7656,44.2014,-70.76560,44.20140,1,0,01/09/2009,31/12/2099,1,29/04/2015,W1DMH
+W1/AM-107,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mcgaffey Mtn.",399,1310,-69.9597,44.5292,-69.95970,44.52920,1,0,01/09/2009,31/12/2099,1,28/05/2018,KB1OUG
+W1/AM-108,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Scammon Ridge",634,2080,-69.5492,45.5017,-69.54920,45.50170,1,0,01/09/2009,31/12/2099,1,04/10/2024,WC1N
+W1/AM-109,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Colonel Holman",561,1840,-70.3581,44.5422,-70.35810,44.54220,1,0,01/09/2009,31/12/2099,1,18/04/2026,KC1MXB
+W1/AM-110,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Nubble Dallas",1128,3700,-70.4472,45.0319,-70.44720,45.03190,8,3,01/09/2009,31/12/2099,0,,
+W1/AM-111,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hafey Mtn.",542,1779,-69.1733,47.2575,-69.17330,47.25750,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-112,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hedgehog Mtn. West Forks",805,2640,-70.2542,45.4097,-70.25420,45.40970,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-113,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Strickland Mtn.",732,2400,-69.0481,46.0417,-69.04810,46.04170,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-114,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Rocky Mtn.",616,2020,-69.2814,47.1917,-69.28140,47.19170,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-115,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Guilford Mtn.",402,1320,-69.3594,45.2278,-69.35940,45.22780,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-116,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Abraham",1234,4049,-70.3264,44.9728,-70.32640,44.97280,10,3,01/09/2009,31/12/2099,12,21/06/2025,WX1S
+W1/AM-117,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hurricane Mtn.",759,2489,-70.3806,44.7497,-70.38060,44.74970,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-118,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Blue Ridge Greenville",719,2360,-69.4308,45.4894,-69.43080,45.48940,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-119,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Kibby Range Mtn.",1002,3286,-70.5764,45.3522,-70.57640,45.35220,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-120,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Granny Cap",824,2705,-70.1797,45.3964,-70.17970,45.39640,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-121,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Long Mtn. Andover",921,3021,-70.8169,44.5914,-70.81690,44.59140,4,3,01/09/2009,31/12/2099,3,03/06/2026,VA2EO/W1
+W1/AM-122,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","West Kennebago Mtn.",1140,3740,-70.8156,45.1203,-70.81560,45.12030,8,3,01/09/2009,31/12/2099,1,05/08/2012,NG1P
+W1/AM-123,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Cedar Mtn. Jo-Mary Pond",595,1953,-69.0272,45.5697,-69.02720,45.56970,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-124,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Spur Mtn.",1109,3640,-70.6386,45.1019,-70.63860,45.10190,8,3,01/09/2009,31/12/2099,2,18/06/2024,WC1N
+W1/AM-125,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Horseshoe Pond Mtn.",799,2620,-70.1178,45.5661,-70.11780,45.56610,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-126,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Otter Pond",628,2060,-70.0564,45.2861,-70.05640,45.28610,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-127,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Chandler Mtn.",579,1900,-68.7189,46.4819,-68.71890,46.48190,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-128,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Thompson Hill",503,1650,-70.5317,44.5886,-70.53170,44.58860,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-129,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mclean Mtn.",598,1962,-68.8519,47.1178,-68.85190,47.11780,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-130,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Rumford Point Mtn.",458,1502,-70.6514,44.5069,-70.65140,44.50690,1,0,01/09/2009,31/12/2099,1,15/07/2022,W1DMH
+W1/AM-131,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Blanchard Mtn.",682,2239,-70.2319,45.2278,-70.23190,45.22780,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-132,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Rocky Brook Mtns. HP",628,2060,-68.9983,46.5897,-68.99830,46.58970,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-133,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pratt Mtn.",479,1571,-70.1636,44.7803,-70.16360,44.78030,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-134,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Metallak Mtn.",872,2860,-70.8311,44.7858,-70.83110,44.78580,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-135,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bean Brook Mtn.",817,2680,-70.1308,45.5331,-70.13080,45.53310,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-136,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","South Branch Mtn.",799,2620,-68.9136,46.0903,-68.91360,46.09030,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-137,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Prong Pond Mtn.",734,2408,-69.4786,45.5439,-69.47860,45.54390,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-138,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Reed Mtn.",575,1885,-69.0831,46.3497,-69.08310,46.34970,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-139,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mattamiscontis Mtn.",390,1281,-68.7186,45.4528,-68.71860,45.45280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-140,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Douglas Mtn.",421,1382,-70.6967,43.8714,-70.69670,43.87140,1,0,01/09/2009,31/12/2099,10,03/12/2024,K1RID
+W1/AM-141,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Ironbound Mtn.",683,2241,-70.0569,45.7792,-70.05690,45.77920,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-142,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","South Twin Mtn.",657,2156,-70.6131,44.6042,-70.61310,44.60420,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-143,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Big Boardman Mtn.",663,2175,-69.1967,45.6103,-69.19670,45.61030,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-144,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Billfish Mtn.",573,1880,-68.8336,46.1250,-68.83360,46.12500,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-145,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hunt Mtn.",463,1520,-68.6556,45.8822,-68.65560,45.88220,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-146,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Clark Mtn.",402,1320,-70.7856,43.7564,-70.78560,43.75640,1,0,01/09/2009,31/12/2099,3,16/07/2017,KB1RJD
+W1/AM-147,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Trout Brook Mtn.",539,1767,-68.8439,46.1500,-68.84390,46.15000,1,0,01/09/2009,31/12/2099,3,11/10/2021,WA9HED
+W1/AM-148,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Day Mtn.",642,2106,-70.2528,44.7603,-70.25280,44.76030,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-149,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Red Ridge",920,3020,-71.0222,44.6097,-71.02220,44.60970,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-150,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Williams Mtns.",732,2400,-70.0083,45.5539,-70.00830,45.55390,1,0,01/09/2009,31/12/2099,1,22/06/2024,KC1MXB
+W1/AM-151,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Seboomook Mtn.",707,2320,-69.8867,45.9942,-69.88670,45.99420,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-152,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","BM Mckinnon",524,1720,-69.1664,47.0008,-69.16640,47.00080,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-153,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Roberts Mtn.",518,1700,-68.5064,46.1842,-68.50640,46.18420,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-154,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Trout Mtn.",433,1420,-68.8494,45.8022,-68.84940,45.80220,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-155,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Misery Knob",648,2125,-69.8953,45.5717,-69.89530,45.57170,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-156,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Stone Mtn.",495,1624,-70.9089,43.9103,-70.90890,43.91030,1,0,01/09/2009,31/12/2099,6,14/08/2021,KC1MXB
+W1/AM-157,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mullen Mtn.",1056,3463,-68.9750,45.9797,-68.97500,45.97970,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-158,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Johnson Mtn.",689,2261,-70.9581,44.8208,-70.95810,44.82080,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-159,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Tom West Sumner",518,1701,-70.4719,44.3361,-70.47190,44.33610,1,0,01/09/2009,31/12/2099,1,27/04/2016,W1DMH
+W1/AM-160,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Wiggin Mtn.",396,1300,-70.9464,43.6928,-70.94640,43.69280,1,0,01/09/2009,31/12/2099,3,13/10/2016,KB1RJC
+W1/AM-161,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Magalloway Mtn.",933,3060,-71.0339,45.3058,-71.03390,45.30580,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-162,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Whitecap Mtn. Rumford",671,2200,-70.6606,44.5717,-70.66060,44.57170,1,0,01/09/2009,31/12/2099,3,09/09/2024,AC1Z
+W1/AM-163,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","BM Beau",546,1790,-69.1294,47.3581,-69.12940,47.35810,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-164,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Falls Pond Mtn.",488,1600,-69.0083,47.1619,-69.00830,47.16190,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-165,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Will",526,1726,-70.8106,44.4761,-70.81060,44.47610,1,0,01/09/2009,31/12/2099,5,09/10/2025,WX1S
+W1/AM-166,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Nubble Kingfield",885,2904,-70.2569,45.0008,-70.25690,45.00080,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-167,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Indian Mtn.",713,2338,-69.3819,45.5142,-69.38190,45.51420,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-168,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Owls Head",907,2977,-70.2472,45.0256,-70.24720,45.02560,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-169,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bag Pond Mtn.",967,3173,-70.6600,45.3050,-70.66000,45.30500,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-170,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","North Border Mtn.",988,3240,-70.9156,45.2247,-70.91560,45.22470,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-171,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sandy Stream Mtn.",884,2900,-70.3203,45.7417,-70.32030,45.74170,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-172,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Green Mtn. Old Boundary Rd",725,2380,-70.1061,45.9439,-70.10610,45.94390,1,0,01/09/2009,31/12/2099,1,12/09/2020,W1DMH
+W1/AM-173,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Telephone Hill",701,2300,-69.7367,46.1917,-69.73670,46.19170,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-174,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","BM Dry Town",610,2000,-68.9631,46.7861,-68.96310,46.78610,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-175,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","BM Kent",421,1380,-68.4961,47.2664,-68.49610,47.26640,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-176,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","JT Mtn.",630,2068,-70.6025,44.5486,-70.60250,44.54860,1,0,01/09/2009,31/12/2099,1,22/07/2022,W1DMH
+W1/AM-177,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Kineo",549,1800,-69.7336,45.6997,-69.73360,45.69970,1,0,01/09/2009,31/12/2099,2,27/08/2022,AB1WX
+W1/AM-178,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Baxter Overlook Mtn.",543,1780,-69.0728,45.8311,-69.07280,45.83110,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-179,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Parlin Mtn.",744,2440,-70.0589,45.5219,-70.05890,45.52190,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-180,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Heald Mtn.",738,2420,-70.2228,45.3736,-70.22280,45.37360,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-181,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Little Kineo Mtn.",587,1927,-69.6850,45.7369,-69.68500,45.73690,1,0,01/09/2009,31/12/2099,1,08/09/2014,K1URC
+W1/AM-182,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Ragged Mtn.",397,1302,-68.8922,45.5844,-68.89220,45.58440,1,0,01/09/2009,31/12/2099,1,03/10/2015,W1DMH
+W1/AM-183,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Cranberry Peak",974,3194,-70.3806,45.1408,-70.38060,45.14080,4,3,01/09/2009,31/12/2099,1,21/07/2020,AC1Z
+W1/AM-184,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Burnt Jacket",686,2252,-70.4006,45.6286,-70.40060,45.62860,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-185,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Orcutt Mtn.",506,1660,-68.6906,46.6414,-68.69060,46.64140,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-186,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Noyes Mtn.",457,1500,-70.6389,44.2917,-70.63890,44.29170,1,0,01/09/2009,31/12/2099,4,18/04/2022,KC1MXB
+W1/AM-187,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Gilman Pond Mtn.",439,1440,-70.0742,44.9608,-70.07420,44.96080,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-188,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Parker Hill",693,2272,-71.0058,44.9603,-71.00580,44.96030,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-189,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Fletcher Mtn.",521,1709,-69.9403,45.0394,-69.94030,45.03940,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-190,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Frost Mtn.",373,1225,-70.9175,43.9528,-70.91750,43.95280,1,0,01/09/2009,31/12/2099,1,13/01/2015,W1DMH
+W1/AM-191,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Vose Mtn.",616,2021,-70.1436,44.9994,-70.14360,44.99940,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-192,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bates Ridge",614,2015,-70.0900,45.2336,-70.09000,45.23360,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-193,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hardwood Mtn.",732,2400,-70.3328,45.4397,-70.33280,45.43970,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-194,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Round Mtn.",652,2140,-68.7942,46.5942,-68.79420,46.59420,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-195,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sentinel Mtn.",567,1860,-69.0661,45.8708,-69.06610,45.87080,1,0,01/09/2009,31/12/2099,1,25/02/2023,KC1MXB
+W1/AM-196,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Beetle Mtn.",506,1660,-69.0267,46.2883,-69.02670,46.28830,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-197,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Squa Pan Mtn.",448,1470,-68.1914,46.6094,-68.19140,46.60940,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-198,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Hill",402,1320,-69.9914,44.9269,-69.99140,44.92690,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-199,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Poland Mtn.",565,1853,-69.5947,46.3028,-69.59470,46.30280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-200,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bear Mtn.Hartford",368,1208,-70.2775,44.3647,-70.27750,44.36470,1,0,01/09/2009,31/12/2099,4,18/04/2022,KC1MXB
+W1/AM-201,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Blue Ridge Rockwood",569,1867,-69.7808,45.6617,-69.78080,45.66170,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-202,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Moose Hill Livermore Falls",340,1116,-70.1331,44.4836,-70.13310,44.48360,1,0,01/09/2009,31/12/2099,3,08/04/2017,W1DMH
+W1/AM-203,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hudson Mtn.",590,1937,-69.0397,46.5472,-69.03970,46.54720,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-204,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Roaring Brook",540,1771,-69.2542,45.4056,-69.25420,45.40560,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-205,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Ebeemee Mtn.",576,1890,-69.0608,45.4686,-69.06080,45.46860,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-206,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Moose Mtn. Skinner",927,3041,-70.5797,45.4747,-70.57970,45.47470,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-207,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Tory Hill",505,1658,-70.2914,44.8714,-70.29140,44.87140,1,0,01/09/2009,31/12/2099,1,12/10/2024,WC1N
+W1/AM-208,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Barren Mtn. Baxter State Park",1127,3696,-68.9825,45.9194,-68.98250,45.91940,8,3,01/09/2009,31/12/2099,0,,
+W1/AM-209,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Cold Stream Mtn.",687,2254,-70.0008,45.4797,-70.00080,45.47970,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-210,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Lonely Mtn.",693,2272,-70.3925,45.5278,-70.39250,45.52780,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-211,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Ephraim Ridge",823,2700,-70.7533,45.0208,-70.75330,45.02080,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-212,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Antler Hill",808,2650,-70.5067,45.3114,-70.50670,45.31140,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-213,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Route Du President Kennedy HP",774,2540,-70.3719,45.8289,-70.37190,45.82890,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-214,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hedgehog Mtn. Winterville",482,1580,-68.5339,46.9319,-68.53390,46.93190,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-215,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pyle Mtn.",390,1280,-68.2286,46.6744,-68.22860,46.67440,1,0,01/09/2009,31/12/2099,1,22/04/2013,W1DMH
+W1/AM-216,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Moose Hill Canada Border",888,2913,-70.7142,45.5033,-70.71420,45.50330,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-217,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Deer Hill",417,1367,-70.9869,44.2361,-70.98690,44.23610,1,0,01/09/2009,31/12/2099,8,24/11/2025,KC1MXB
+W1/AM-218,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Clear Pond",770,2525,-70.6300,45.5750,-70.63000,45.57500,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-219,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sparrowhawk Mtn.",440,1442,-70.8347,44.3833,-70.83470,44.38330,1,0,01/09/2009,31/12/2099,4,21/07/2014,W1DMH
+W1/AM-220,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","1.25 Meter Hill",677,2221,-69.7447,45.4164,-69.74470,45.41640,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-221,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","20 Mile Rd HP",659,2161,-69.9672,45.8231,-69.96720,45.82310,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-222,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hougton HP",896,2938,-70.6275,44.8425,-70.62750,44.84250,2,3,01/09/2009,31/12/2099,1,05/06/2022,K1EEB
+W1/AM-223,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Barton Hill",393,1290,-69.9986,44.8192,-69.99860,44.81920,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-224,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Farmer Mtn.",975,3200,-70.3336,44.9469,-70.33360,44.94690,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-225,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Burnt Mtn.",902,2960,-70.8564,45.0844,-70.85640,45.08440,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-226,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Nameless Border Mtn.",884,2900,-70.9453,45.3264,-70.94530,45.32640,2,3,01/09/2009,31/12/2099,1,06/03/2023,VA2EO
+W1/AM-227,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hedgehog Hill",634,2080,-70.4322,45.1158,-70.43220,45.11580,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-228,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Right of Center Mtn.",530,1740,-68.7436,46.5069,-68.74360,46.50690,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-229,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Burgess Hill, S. Peak",512,1680,-70.4972,44.5031,-70.49720,44.50310,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-230,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Walkers Mtn.",463,1520,-70.7244,44.4269,-70.72440,44.42690,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-231,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bossy Mtn.",451,1480,-68.6889,47.2186,-68.68890,47.21860,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-232,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Harrow Mtn.",515,1688,-69.2200,46.4947,-69.22000,46.49470,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-233,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Dickwood Lake HP",475,1560,-68.6628,47.0683,-68.66280,47.06830,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-234,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Whetstone Mtn.",454,1488,-68.6794,45.8322,-68.67940,45.83220,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-235,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Rainbow Mtn.",506,1660,-69.1069,45.8081,-69.10690,45.80810,1,0,01/09/2009,31/12/2099,1,01/05/2024,K1RID
+W1/AM-236,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bald Mtn. Baxter State Park",717,2351,-68.8325,46.1069,-68.83250,46.10690,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-237,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Soper Mtn.",512,1680,-69.2778,46.3639,-69.27780,46.36390,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-238,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Shackley Hill",342,1122,-70.2589,44.4175,-70.25890,44.41750,1,0,01/09/2009,31/12/2099,1,21/12/2016,W1DMH
+W1/AM-239,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Farmers Hill",518,1701,-70.6969,44.5864,-70.69690,44.58640,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-240,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Houston Mtn.",470,1543,-69.2183,45.4286,-69.21830,45.42860,1,0,01/09/2009,31/12/2099,1,02/10/2015,W1DMH
+W1/AM-241,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Tom Fryeburg",327,1073,-70.9147,44.0419,-70.91470,44.04190,1,0,01/09/2009,31/12/2099,8,14/06/2025,WC1N
+W1/AM-242,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Popple Hill",356,1168,-70.8444,44.1269,-70.84440,44.12690,1,0,01/09/2009,31/12/2099,1,11/04/2019,W1DMH
+W1/AM-243,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","BM Layton",994,3260,-70.6281,45.4689,-70.62810,45.46890,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-244,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Spencer Mtn.",738,2420,-70.3147,45.4161,-70.31470,45.41610,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-245,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","South Mtn.",677,2220,-70.9097,44.8603,-70.90970,44.86030,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-246,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sumner Hill",354,1160,-70.4131,44.3567,-70.41310,44.35670,1,0,01/09/2009,31/12/2099,1,30/04/2016,W1DMH
+W1/AM-247,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Saint Albans Mtn.",329,1080,-69.4583,44.9756,-69.45830,44.97560,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-248,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","BM Wait",823,2700,-70.6972,45.5286,-70.69720,45.52860,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-249,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Norway Bluff",696,2285,-68.9397,46.4131,-68.93970,46.41310,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-250,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Blueberry Mtn.",903,2962,-70.4797,44.7675,-70.47970,44.76750,4,3,01/09/2009,31/12/2099,4,27/08/2025,KC1MXB
+W1/AM-251,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Quill Hill",865,2838,-70.5214,45.0444,-70.52140,45.04440,2,3,01/09/2009,31/12/2099,9,13/08/2024,KC1RID
+W1/AM-252,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Saddleback Junior",1114,3655,-70.4578,44.9581,-70.45780,44.95810,8,3,01/09/2009,31/12/2099,2,30/07/2023,KC1MXB
+W1/AM-253,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Ossipee Hill",320,1050,-70.7406,43.5883,-70.74060,43.58830,1,0,01/09/2009,31/12/2099,20,06/04/2026,KC1PAQ
+W1/AM-254,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hardscrabble Mtn.",717,2354,-70.2672,45.4464,-70.26720,45.44640,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-255,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Spruce Mtn. Spruce Mountain Road",340,1114,-70.2003,44.5564,-70.20030,44.55640,1,0,01/09/2009,31/12/2099,1,08/04/2017,W1DMH
+W1/AM-256,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Mtn. Redding",650,2133,-70.4633,44.4406,-70.46330,44.44060,1,0,01/09/2009,31/12/2099,1,18/04/2022,KC1MXB
+W1/AM-257,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Old Blue Mtn.",1091,3580,-70.7658,44.7469,-70.76580,44.74690,6,3,01/09/2009,31/12/2099,3,11/09/2024,AC1Z
+W1/AM-258,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Van Dyke Mtn.",969,3180,-70.6781,45.4928,-70.67810,45.49280,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-259,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Twin Peaks",927,3040,-70.9894,45.3136,-70.98940,45.31360,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-260,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bowman Hill",853,2800,-71.0536,45.2850,-71.05360,45.28500,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-261,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Trickey Bluffs",732,2400,-70.1442,45.8044,-70.14420,45.80440,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-262,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","West Side Echo Lake HP",585,1920,-68.9378,46.8500,-68.93780,46.85000,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-263,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Benson Mtn.",579,1900,-69.3097,45.3883,-69.30970,45.38830,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-264,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Tomhegan HP",549,1800,-69.8292,45.8483,-69.82920,45.84830,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-265,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Burnt Jacket Mtn.",512,1680,-69.5939,45.5314,-69.59390,45.53140,1,0,01/09/2009,31/12/2099,2,04/10/2024,WC1N
+W1/AM-266,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Allagash HP",494,1620,-69.3125,46.9786,-69.31250,46.97860,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-267,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Strickland Mtn.",398,1306,-70.0756,44.8675,-70.07560,44.86750,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-268,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Peaked Mtn. Sebago Center",337,1105,-70.6603,43.9111,-70.66030,43.91110,1,0,01/09/2009,31/12/2099,1,01/05/2013,W1DMH
+W1/AM-269,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Fields Hill",349,1144,-70.3956,44.3833,-70.39560,44.38330,1,0,01/09/2009,31/12/2099,1,21/12/2016,W1DMH
+W1/AM-270,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Inlet Ridge",622,2042,-70.9975,44.7650,-70.99750,44.76500,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-271,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Wadleigh Mtn.",569,1866,-69.2019,45.7253,-69.20190,45.72530,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-272,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Dimmock",543,1782,-70.7039,44.5161,-70.70390,44.51610,1,0,01/09/2009,31/12/2099,1,10/05/2016,W1DMH
+W1/AM-273,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bernier Ln. HP",695,2281,-70.9847,44.6689,-70.98470,44.66890,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-274,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hurd Mtn.",628,2061,-69.6833,46.1906,-69.68330,46.19060,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-275,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Curtis Hill",444,1457,-70.5883,44.3508,-70.58830,44.35080,1,0,01/09/2009,31/12/2099,2,01/08/2023,WC1N
+W1/AM-276,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Old Bluff Hill",297,974,-70.0594,44.5783,-70.05940,44.57830,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-277,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","North Traveler Mtn.",961,3152,-68.8550,46.1000,-68.85500,46.10000,4,3,01/09/2009,31/12/2099,1,11/09/2024,K1EEB
+W1/AM-278,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Rattlesnake Mtn.",316,1036,-70.4853,43.9669,-70.48530,43.96690,1,0,01/09/2009,31/12/2099,10,29/10/2025,WX1S
+W1/AM-279,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bear Mtn. King and Bartlett Lake",719,2360,-70.3228,45.3678,-70.32280,45.36780,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-280,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Columbus Mtn.",713,2340,-69.2686,45.4492,-69.26860,45.44920,1,0,01/09/2009,31/12/2099,2,08/06/2023,N4AAJ
+W1/AM-281,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Nubble Caratunk",628,2060,-69.9117,45.1836,-69.91170,45.18360,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-282,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Clear Lake Mtn.",561,1840,-69.1419,46.5258,-69.14190,46.52580,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-283,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Eyelet Pond HP",543,1780,-69.2394,46.6722,-69.23940,46.67220,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-284,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bear Mtn.",384,1260,-68.6553,46.0231,-68.65530,46.02310,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-285,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Cedar Mtn. North Parsonfield",372,1220,-70.9056,43.7303,-70.90560,43.73030,1,0,01/09/2009,31/12/2099,5,19/04/2025,WX1S
+W1/AM-286,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","The Saddleback",502,1647,-70.3947,44.4328,-70.39470,44.43280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-287,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bald Pate",350,1147,-70.7069,43.9614,-70.70690,43.96140,1,0,01/09/2009,31/12/2099,9,27/06/2024,WC1N
+W1/AM-288,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Law Mtn.",520,1706,-70.3106,44.6028,-70.31060,44.60280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-289,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Blvd Rd HP",471,1546,-69.4169,46.8244,-69.41690,46.82440,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-290,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Spaulding Mtn.",1219,4000,-70.3336,45.0031,-70.33360,45.00310,10,3,01/09/2009,31/12/2099,16,30/06/2025,WX1S
+W1/AM-291,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Moody Mtn.",434,1425,-70.6528,44.4100,-70.65280,44.41000,1,0,01/09/2009,31/12/2099,3,13/09/2024,AC1Z
+W1/AM-292,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Foster Ridge",586,1924,-69.6992,45.2217,-69.69920,45.22170,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-293,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Et HP",684,2243,-70.1203,45.7594,-70.12030,45.75940,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-294,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Lone Mtn.",610,2002,-70.7600,44.5956,-70.76000,44.59560,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-295,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Spectacle Mtn.",507,1662,-68.7653,46.5467,-68.76530,46.54670,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-296,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Caucomgomoc Mtn.",701,2301,-69.7258,46.2161,-69.72580,46.21610,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-297,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hammond Ridge",329,1080,-68.7978,45.7158,-68.79780,45.71580,1,0,01/09/2009,31/12/2099,2,03/10/2015,KD5ZZK
+W1/AM-298,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bean Mtn.",383,1258,-70.2603,44.8186,-70.26030,44.81860,1,0,01/09/2009,31/12/2099,1,11/10/2024,WC1N
+W1/AM-299,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Big Line Pond Mtn.",511,1677,-69.1442,46.3158,-69.14420,46.31580,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-300,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Gulf Road HP",340,1114,-70.7961,43.5492,-70.79610,43.54920,1,0,01/09/2009,31/12/2099,23,25/01/2025,K1RID
+W1/AM-301,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Foss Mtn.",467,1532,-69.6869,45.0758,-69.68690,45.07580,1,0,01/09/2009,31/12/2099,1,15/10/2020,W1DMH
+W1/AM-302,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","French Hill",400,1312,-70.7708,44.2589,-70.77080,44.25890,1,0,01/09/2009,31/12/2099,4,28/05/2023,KC1RKX
+W1/AM-303,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","BM Brown",1079,3540,-70.6217,45.4022,-70.62170,45.40220,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-304,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Big Johnson Mtn.",872,2860,-70.0981,45.4544,-70.09810,45.45440,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-305,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Kennebago Pond HP",738,2420,-70.7519,45.0903,-70.75190,45.09030,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-306,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Truesdale Mtn.",677,2220,-69.9942,46.0144,-69.99420,46.01440,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-307,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mule Brook Mtns. HP",555,1820,-69.0089,46.5011,-69.00890,46.50110,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-308,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Burnt Mtn.",549,1800,-69.0189,46.0833,-69.01890,46.08330,1,0,01/09/2009,31/12/2099,1,12/09/2024,K1EEB
+W1/AM-309,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bell Mtn.",415,1360,-70.8036,44.3069,-70.80360,44.30690,1,0,01/09/2009,31/12/2099,2,25/11/2025,KC1MXB
+W1/AM-310,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Peaked Hill",415,1360,-70.9000,44.4031,-70.90000,44.40310,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-311,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Green Mtn. Westfield",389,1275,-68.0058,46.5756,-68.00580,46.57560,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-312,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Lanigan Mtn.",372,1220,-68.4481,46.7886,-68.44810,46.78860,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-313,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Horse Mtn.",484,1589,-68.8172,46.1458,-68.81720,46.14580,1,0,01/09/2009,31/12/2099,1,12/10/2021,WA9HED
+W1/AM-314,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Wheelock Lake HP",445,1460,-68.7422,47.2053,-68.74220,47.20530,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-315,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Cap Mtn.",586,1923,-69.4219,45.8344,-69.42190,45.83440,1,0,01/09/2009,31/12/2099,1,20/08/2023,N1RKO
+W1/AM-316,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Spencer Bale Mtn.",1006,3301,-70.4986,45.4153,-70.49860,45.41530,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-317,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Lily Bay Mtn.",1000,3281,-69.4167,45.5906,-69.41670,45.59060,6,3,01/09/2009,31/12/2099,0,,
+W1/AM-318,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Grady Mtn. Rd HP",811,2661,-70.8789,44.6814,-70.87890,44.68140,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-319,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Allen Mtn.",343,1126,-70.7792,43.9414,-70.77920,43.94140,1,0,01/09/2009,31/12/2099,1,27/04/2013,W1DMH
+W1/AM-320,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Preble Hill",317,1040,-69.2181,45.0519,-69.21810,45.05190,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-321,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Little Big Wood Pond HP",646,2119,-70.3447,45.6222,-70.34470,45.62220,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-322,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","No Maps HP",553,1814,-69.0397,46.6969,-69.03970,46.69690,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-323,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pickett Mtn.",534,1753,-68.4381,46.1261,-68.43810,46.12610,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-324,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sabattus Mtn.",382,1253,-70.8514,44.1822,-70.85140,44.18220,1,0,01/09/2009,31/12/2099,20,29/04/2025,WX1S
+W1/AM-325,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","South Turner Mtn.",945,3100,-68.8506,45.9411,-68.85060,45.94110,4,3,01/09/2009,31/12/2099,3,17/07/2024,KC1RID
+W1/AM-326,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Surplus Mtn.",896,2940,-70.9050,44.6319,-70.90500,44.63190,2,3,01/09/2009,31/12/2099,1,11/05/2022,KC1MXB
+W1/AM-327,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Penobscot Lake HP",664,2180,-70.1731,45.9219,-70.17310,45.92190,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-328,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pickett Henry Mtn.",661,2170,-70.8894,44.3706,-70.88940,44.37060,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-329,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Carrabassett Dr. HP",628,2060,-70.2611,45.1044,-70.26110,45.10440,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-330,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Priestly Mtn.",573,1880,-69.4053,46.5483,-69.40530,46.54830,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-331,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Eagle Mtn. Seeboomook",512,1680,-69.6394,45.7825,-69.63940,45.78250,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-332,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Oak Ridge",506,1660,-69.5372,45.3950,-69.53720,45.39500,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-333,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Beau Lake HP",488,1600,-69.0881,47.3197,-69.08810,47.31970,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-334,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Nesuntabunt Mtn.",472,1550,-69.1661,45.7536,-69.16610,45.75360,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-335,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Tower Mtn.",469,1540,-68.8564,47.1533,-68.85640,47.15330,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-336,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Snowshoe Mtn.",396,1300,-68.6617,46.2408,-68.66170,46.24080,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-337,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Old Bluff Mtn.",366,1200,-69.9169,45.0117,-69.91690,45.01170,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-338,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Prospect",280,920,-70.3569,44.1475,-70.35690,44.14750,1,0,01/09/2009,31/12/2099,1,25/06/2015,W1DMH
+W1/AM-339,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Kelly Mtn.",496,1628,-69.7353,45.0564,-69.73530,45.05640,1,0,01/09/2009,31/12/2099,3,23/10/2024,WC1N
+W1/AM-340,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mud Gauntlet Falls HP",502,1646,-69.0083,45.5556,-69.00830,45.55560,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-341,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Tout-de-Joie Rang Rd HP",1129,3705,-70.8286,45.2058,-70.82860,45.20580,8,3,01/09/2009,31/12/2099,1,05/09/2023,KC1MXB
+W1/AM-342,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","King And Bartlett Mtn.",672,2204,-70.3883,45.3569,-70.38830,45.35690,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-343,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bigelow Hill",241,790,-69.7272,44.7131,-69.72720,44.71310,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-344,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Nulhedus Mtn.",653,2142,-69.8689,46.0361,-69.86890,46.03610,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-345,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Willard Mtn.",677,2221,-68.9072,46.4358,-68.90720,46.43580,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-346,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Shutdown Mtn.",774,2539,-70.2011,45.4189,-70.20110,45.41890,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-347,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Gardner Mtn.",561,1839,-68.8942,46.9542,-68.89420,46.95420,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-348,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Little Pooh Mtn.",512,1679,-69.0989,45.8556,-69.09890,45.85560,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-349,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Greenwood Mtn.",366,1200,-69.3878,45.3600,-69.38780,45.36000,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-350,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","nr. Academy Hill",339,1112,-70.2475,44.4658,-70.24750,44.46580,1,0,01/09/2009,31/12/2099,2,18/04/2026,KC1MXB
+W1/AM-351,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Harndon Hill",425,1395,-70.9600,44.2286,-70.96000,44.22860,1,0,01/09/2009,31/12/2099,4,24/11/2025,KC1MXB
+W1/AM-352,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Clay Brook Mtn.",699,2292,-70.1433,45.0369,-70.14330,45.03690,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-353,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Beaver Brook Mtn.",656,2152,-70.9753,44.9700,-70.97530,44.97000,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-354,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Long Mtn. Willis Mill",558,1832,-70.7239,44.3350,-70.72390,44.33500,1,0,01/09/2009,31/12/2099,1,28/04/2023,KC1MXB
+W1/AM-355,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bottle Mtn.",914,3000,-70.8958,45.1831,-70.89580,45.18310,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-356,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Green Top Mtn.",847,2780,-70.9214,45.2808,-70.92140,45.28080,2,3,01/09/2009,31/12/2099,1,03/09/2023,VA2EO
+W1/AM-357,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","International Hill",774,2540,-70.5092,45.6797,-70.50920,45.67970,1,0,01/09/2009,31/12/2099,1,15/11/2023,VA2YZX
+W1/AM-358,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Parker Hill",738,2420,-71.0358,45.0056,-71.03580,45.00560,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-359,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Owls Head HP",732,2400,-70.1764,45.5872,-70.17640,45.58720,1,0,01/09/2009,31/12/2099,2,08/04/2024,ND9Q
+W1/AM-360,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Cooper Mtn.",579,1900,-69.1158,45.6525,-69.11580,45.65250,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-361,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Falls Pond HP",457,1500,-69.0653,47.1300,-69.06530,47.13000,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-362,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Round Pond Mtn.",457,1500,-69.2331,46.7944,-69.23310,46.79440,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-363,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sly Brook HP",366,1200,-68.5622,47.0850,-68.56220,47.08500,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-364,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hampshire Mtn.",347,1140,-69.3647,45.2606,-69.36470,45.26060,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-365,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Wadleidh Pond HP",576,1889,-69.7281,46.3572,-69.72810,46.35720,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-366,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Ragged Mtn.",600,1967,-69.0450,46.4539,-69.04500,46.45390,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-367,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Bald Mtn.",719,2360,-70.3503,44.6469,-70.35030,44.64690,1,0,01/09/2009,31/12/2099,2,27/08/2025,KC1MXB
+W1/AM-368,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Welcome Hill",410,1345,-70.1475,44.9133,-70.14750,44.91330,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-369,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Burnt Hill Eustis",635,2084,-70.3511,45.2828,-70.35110,45.28280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-370,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Little Spruce Mtn.",982,3222,-69.2167,45.5372,-69.21670,45.53720,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-371,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Gold Brook Rd. HP",952,3122,-70.5719,45.4161,-70.57190,45.41610,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-372,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mollyockett Mtn.",610,2002,-70.5386,44.3872,-70.53860,44.38720,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-373,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Chamberlain Mtn.",634,2081,-70.6178,44.4292,-70.61780,44.42920,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-374,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Loomis Hill",265,870,-69.6281,44.8158,-69.62810,44.81580,1,0,01/09/2009,31/12/2099,1,27/04/2021,W1DMH
+W1/AM-375,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Center Hill",505,1658,-70.4078,44.7256,-70.40780,44.72560,1,0,01/09/2009,31/12/2099,6,27/08/2025,KC1MXB
+W1/AM-376,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Shallow Pond Mtn.",578,1897,-70.5319,45.2728,-70.53190,45.27280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-377,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mountain Pond HP",553,1815,-69.6144,46.3139,-69.61440,46.31390,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-378,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Derby Hill",582,1911,-70.2728,44.6758,-70.27280,44.67580,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-379,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pell and Peel Rd HP",546,1791,-69.1264,46.3908,-69.12640,46.39080,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-380,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hayford Hill",351,1151,-70.3142,44.3514,-70.31420,44.35140,1,0,01/09/2009,31/12/2099,1,14/12/2016,W1DMH
+W1/AM-381,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mt. Agamenticus",211,691,-70.6919,43.2233,-70.69190,43.22330,1,0,01/09/2009,31/12/2099,88,23/05/2026,KF7LIL
+W1/AM-382,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","South Brother",1210,3970,-69.0019,45.9442,-69.00190,45.94420,10,3,01/09/2009,31/12/2099,6,08/07/2025,WX1S
+W1/AM-383,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Potato Nubble",920,3020,-70.5019,44.9783,-70.50190,44.97830,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-384,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Heald Brook HP",835,2740,-70.2911,45.7572,-70.29110,45.75720,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-385,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Whitman Mtn.",549,1800,-68.8547,46.9519,-68.85470,46.95190,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-386,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Togue Pond HP",536,1760,-68.8911,46.9067,-68.89110,46.90670,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-387,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Female Mtn.",506,1660,-69.2425,45.7428,-69.24250,45.74280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-388,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Aspen Rd HP",360,1180,-68.2581,47.3128,-68.25810,47.31280,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-389,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Dunbar Hill",293,960,-69.9092,44.9506,-69.90920,44.95060,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-390,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sabattus Mtn.",244,800,-70.0783,44.1436,-70.07830,44.14360,1,0,01/09/2009,31/12/2099,2,24/07/2016,KQ2RP/1
+W1/AM-391,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hunnewell Pond HP",439,1440,-68.8131,47.1708,-68.81310,47.17080,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-392,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Mcdaniels Hill",374,1228,-70.8239,44.2211,-70.82390,44.22110,1,0,01/09/2009,31/12/2099,4,06/08/2025,AC1Z
+W1/AM-393,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Grover Hill",368,1208,-70.7706,44.3719,-70.77060,44.37190,1,0,01/09/2009,31/12/2099,1,06/05/2016,W1DMH
+W1/AM-394,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Big Lobster Mtn.",697,2287,-69.5636,45.7933,-69.56360,45.79330,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-395,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Green Mtn. Knoles Corner",514,1687,-68.4731,46.1958,-68.47310,46.19580,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-396,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sally Mtn.",678,2226,-70.3033,45.5908,-70.30330,45.59080,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-397,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Fowler Pond HP",506,1660,-69.0942,45.8944,-69.09420,45.89440,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-398,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Locke Mtn.",586,1924,-70.8361,44.4511,-70.83610,44.45110,1,0,01/09/2009,31/12/2099,1,09/03/2013,KB1ZIA
+W1/AM-399,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Ragged Lake HP",500,1640,-69.3583,45.8431,-69.35830,45.84310,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-400,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Morrill Ledges",361,1183,-70.4344,44.5097,-70.43440,44.50970,1,0,01/09/2009,31/12/2099,1,04/05/2016,W1DMH
+W1/AM-401,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Barnard Mtn.",494,1621,-68.7547,45.9311,-68.75470,45.93110,1,0,01/09/2009,31/12/2099,2,06/09/2020,KB1HQS
+W1/AM-402,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Goodwin Hill",250,820,-69.5103,44.8611,-69.51030,44.86110,1,0,01/09/2009,31/12/2099,2,16/05/2024,WC1N
+W1/AM-403,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Trout Mtn.",627,2058,-69.2803,45.6564,-69.28030,45.65640,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-404,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Peaked Mtn. Skinner",926,3037,-70.5342,45.4553,-70.53420,45.45530,4,3,01/09/2009,31/12/2099,0,,
+W1/AM-405,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Chesuncook Pond HP",478,1567,-69.1714,45.8622,-69.17140,45.86220,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-406,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Starks Mtn.",316,1037,-70.9856,44.0014,-70.98560,44.00140,1,0,01/09/2009,31/12/2099,7,13/08/2020,KC1MXI
+W1/AM-407,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hamlin Peak",1450,4756,-68.9275,45.9242,-68.92750,45.92420,10,3,01/09/2009,31/12/2099,6,09/07/2025,WX1S
+W1/AM-408,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hemingway Mtn.",578,1896,-70.5839,44.4792,-70.58390,44.47920,1,0,01/09/2009,31/12/2099,1,12/08/2022,W1DMH
+W1/AM-409,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Province Mtn.",358,1176,-70.9769,43.6689,-70.97690,43.66890,1,0,01/09/2009,31/12/2099,12,19/12/2024,K1RID
+W1/AM-410,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Chandler Stream HP",419,1375,-68.7844,46.4464,-68.78440,46.44640,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-411,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","East Royce Mtn.",949,3114,-71.0053,44.3072,-71.00530,44.30720,4,3,01/09/2009,31/12/2099,8,27/05/2026,KC1MXB
+W1/AM-412,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Number Nine Mtn.",498,1634,-68.0242,46.4211,-68.02420,46.42110,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-413,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Moose Mtn. Buffalo",382,1254,-68.4011,46.8608,-68.40110,46.86080,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-414,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Black Cat Mtn.",268,879,-70.4228,44.0028,-70.42280,44.00280,1,0,01/09/2009,31/12/2099,2,07/04/2023,KC1MXB
+W1/AM-415,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Sawyer Brook Mtn.",693,2273,-70.6022,45.2239,-70.60220,45.22390,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-416,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Spruce Mtn. Roxbury",771,2531,-70.5181,44.6672,-70.51810,44.66720,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-417,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","TNT in Baxter State Park",698,2291,-68.9306,46.0706,-68.93060,46.07060,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-418,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pinette Hill",384,1260,-68.6139,47.2181,-68.61390,47.21810,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-419,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Cupsuptic Mtn.",823,2700,-70.9039,45.1233,-70.90390,45.12330,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-420,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Big Trout Pond Mtn.",814,2670,-69.7408,45.5006,-69.74080,45.50060,2,3,01/09/2009,31/12/2099,0,,
+W1/AM-421,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Trout Pond",692,2270,-69.7406,45.4725,-69.74060,45.47250,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-422,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","East Baxter Border HP",591,1940,-68.8192,46.0172,-68.81920,46.01720,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-423,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Maizlish HP",561,1840,-69.6461,46.4158,-69.64610,46.41580,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-424,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Hay Brook Mtn.",494,1620,-68.5506,46.1675,-68.55060,46.16750,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-425,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Inn HP",494,1620,-69.3678,46.8983,-69.36780,46.89830,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-426,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Grant Mtn.",457,1500,-69.0347,46.3089,-69.03470,46.30890,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-427,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Factory Mtn.",408,1340,-68.7750,47.1892,-68.77500,47.18920,1,0,01/09/2009,31/12/2099,0,,
+W1/AM-428,"USA - CT / ME / MA / NH / RI / VT","Appalachian Mountains","Pimbrook Rd HP",360,1180,-68.2139,47.1531,-68.21390,47.15310,1,0,01/09/2009,31/12/2099,0,,
+W1/CB-001,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Ellsworth Hill",473,1551,-73.4522,41.8022,-73.45220,41.80220,1,0,21/05/2009,31/12/2099,2,11/04/2026,KC1NJC
+W1/CB-002,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Mt. Prospect",445,1461,-73.3847,41.9792,-73.38470,41.97920,1,0,21/05/2009,31/12/2099,10,07/10/2025,WB2FUV
+W1/CB-003,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Bradford Mtn.",598,1962,-73.2947,41.9892,-73.29470,41.98920,1,0,21/05/2009,31/12/2099,5,30/12/2024,KC1NJC
+W1/CB-004,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Toms Hill",418,1373,-73.3631,42.0336,-73.36310,42.03360,1,0,21/05/2009,31/12/2099,3,04/04/2026,KC1NJC
+W1/CB-005,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Green Pond Mtn.",325,1065,-73.4539,41.5522,-73.45390,41.55220,1,0,21/05/2009,31/12/2099,2,16/01/2019,W1DMH
+W1/CB-006,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Bear Hill",390,1281,-73.3994,41.6583,-73.39940,41.65830,1,0,21/05/2009,31/12/2099,3,29/11/2024,KC1NJC
+W1/CB-007,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Howe Mtn.",474,1555,-73.2997,41.9075,-73.29970,41.90750,1,0,21/05/2009,31/12/2099,7,03/06/2026,KN4OK
+W1/CB-008,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Indian Mtn.",428,1405,-73.4875,41.9325,-73.48750,41.93250,1,0,21/05/2009,31/12/2099,2,30/11/2024,KC1NJC
+W1/CB-009,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Tenmile Hill",305,1000,-73.5153,41.6600,-73.51530,41.66000,1,0,21/05/2009,31/12/2099,19,07/03/2025,WB2FUV
+W1/CB-010,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Pine Mtn.",309,1015,-73.4906,41.3494,-73.49060,41.34940,1,0,21/05/2009,31/12/2099,21,17/12/2025,N6JFD/P
+W1/CB-011,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Cobble Hill",386,1265,-73.3228,41.9569,-73.32280,41.95690,1,0,21/05/2009,31/12/2099,3,29/06/2024,KC1NJC
+W1/CB-012,"USA - CT / ME / MA / NH / RI / VT","Connecticut Berkshires","Eno Hill",377,1238,-73.0372,41.9928,-73.03720,41.99280,1,0,21/05/2009,31/12/2099,11,04/05/2026,KC1NJC
+W1/CR-001,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Wachusett Mountain",611,2003,-71.8867,42.4889,-71.88670,42.48890,1,0,01/09/2009,31/12/2099,117,15/05/2026,K6STR
+W1/CR-002,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Mount Toby",386,1265,-72.5372,42.4881,-72.53720,42.48810,1,0,01/09/2009,31/12/2099,30,01/12/2025,KG6CIH
+W1/CR-003,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Dry Hill",423,1388,-72.4681,42.5436,-72.46810,42.54360,1,0,01/09/2009,31/12/2099,21,07/09/2024,AC1JR
+W1/CR-004,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Mount Norwottock",337,1106,-72.5103,42.3056,-72.51030,42.30560,1,0,01/09/2009,31/12/2099,48,14/04/2026,WN1E
+W1/CR-005,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Mount Grace",493,1617,-72.3550,42.6914,-72.35500,42.69140,1,0,01/09/2009,31/12/2099,45,02/01/2026,KC1YMR
+W1/CR-006,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Peaked Mountain",373,1225,-72.3403,42.0475,-72.34030,42.04750,1,0,01/09/2009,31/12/2099,70,05/11/2025,WN1E
+W1/CR-007,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Notch Mountain",402,1318,-72.4122,42.7119,-72.41220,42.71190,1,0,01/09/2009,31/12/2099,13,24/11/2025,W1RCK
+W1/CR-008,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Crag Mountain",461,1512,-72.4181,42.6436,-72.41810,42.64360,1,0,01/09/2009,31/12/2099,17,02/09/2024,AC1JR
+W1/CR-009,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Mount Watatic",560,1836,-71.8925,42.6967,-71.89250,42.69670,1,0,01/09/2009,31/12/2099,76,21/03/2026,KG6CIH
+W1/CR-010,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Ragged Hill",368,1206,-72.1842,42.2878,-72.18420,42.28780,1,0,01/09/2009,31/12/2099,13,11/10/2023,KB1HXO
+W1/CR-011,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Webb Hill",327,1074,-72.2611,42.3417,-72.26110,42.34170,1,0,01/09/2009,31/12/2099,19,06/05/2024,WX1S
+W1/CR-012,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Tully Mountain",354,1163,-72.2497,42.6475,-72.24970,42.64750,1,0,01/09/2009,31/12/2099,42,02/11/2025,W1RCK
+W1/CR-013,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Quabbin Hill",313,1026,-72.3344,42.2989,-72.33440,42.29890,1,0,01/09/2009,31/12/2099,95,13/03/2026,WC1N
+W1/CR-014,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Bare Mountain",309,1015,-72.5317,42.3036,-72.53170,42.30360,1,0,01/09/2009,31/12/2099,72,20/12/2025,AA1F
+W1/CR-015,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Prospect Hill",418,1373,-72.1717,42.5444,-72.17170,42.54440,1,0,01/09/2009,31/12/2099,49,16/11/2025,WN1E
+W1/CR-016,"USA - CT / ME / MA / NH / RI / VT","Connecticut River","Steerage Rock",367,1204,-72.2242,42.1422,-72.22420,42.14220,1,0,01/09/2009,31/12/2099,14,02/01/2024,KK1W
+W1/DI-001,"USA - CT / ME / MA / NH / RI / VT","Desert Island","Cadillac Mtn.",466,1528,-68.2264,44.3514,-68.22640,44.35140,1,0,01/09/2009,31/12/2099,74,01/06/2026,K2CPT
+W1/DI-002,"USA - CT / ME / MA / NH / RI / VT","Desert Island","Western Mtn.",323,1060,-68.3697,44.3044,-68.36970,44.30440,1,0,01/09/2009,31/12/2099,18,29/03/2026,K1GC
+W1/DI-003,"USA - CT / ME / MA / NH / RI / VT","Desert Island","Sargent Mtn.",420,1379,-68.2736,44.3428,-68.27360,44.34280,1,0,01/09/2009,31/12/2099,23,10/04/2026,K1GC
+W1/DI-004,"USA - CT / ME / MA / NH / RI / VT","Desert Island","Champlain Mtn.",323,1060,-68.1939,44.3506,-68.19390,44.35060,1,0,01/09/2009,31/12/2099,24,10/01/2026,K1GC
+W1/DI-005,"USA - CT / ME / MA / NH / RI / VT","Desert Island","Pemetic Mtn.",380,1247,-68.2456,44.3356,-68.24560,44.33560,1,0,01/09/2009,31/12/2099,25,10/03/2026,K1GC
+W1/DI-006,"USA - CT / ME / MA / NH / RI / VT","Desert Island","Beech Mtn.",256,841,-68.3461,44.3117,-68.34610,44.31170,1,0,01/09/2009,31/12/2099,30,02/06/2026,K2CPT
+W1/DI-007,"USA - CT / ME / MA / NH / RI / VT","Desert Island","Saint Sauveur Mtn.",207,680,-68.3233,44.3106,-68.32330,44.31060,1,0,01/09/2009,31/12/2099,25,20/03/2026,K1GC
+W1/EM-001,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Mt. Megunticook",422,1385,-69.0675,44.2414,-69.06750,44.24140,1,0,01/09/2009,31/12/2099,19,25/05/2025,N1VLZ
+W1/EM-002,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Lead Mtn.",451,1480,-68.1103,44.8650,-68.11030,44.86500,1,0,01/09/2009,31/12/2099,3,26/05/2025,KC1MXB
+W1/EM-003,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Passadumkeag Mtn.",448,1471,-68.3556,45.1294,-68.35560,45.12940,1,0,01/09/2009,31/12/2099,1,21/10/2023,KC1MXB
+W1/EM-004,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Ragged Mtn.",396,1300,-69.1511,44.2125,-69.15110,44.21250,1,0,01/09/2009,31/12/2099,19,28/03/2026,K1RID
+W1/EM-005,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Bald Mtn. North",384,1261,-68.6053,44.6583,-68.60530,44.65830,1,0,01/09/2009,31/12/2099,9,24/05/2024,AC1Z
+W1/EM-006,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Pleasant Mtn. North",419,1374,-68.0200,44.8906,-68.02000,44.89060,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-007,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Mt. Harris",372,1220,-69.1481,44.6650,-69.14810,44.66500,1,0,01/09/2009,31/12/2099,6,17/10/2025,W1/G5MUP
+W1/EM-008,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Sam Drew Mtn.",463,1518,-68.1083,46.0764,-68.10830,46.07640,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-009,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Tunk Mtn.",353,1157,-68.0939,44.6397,-68.09390,44.63970,1,0,01/09/2009,31/12/2099,6,02/11/2025,W1ETC
+W1/EM-010,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Duck Mtn.",372,1220,-68.1267,45.1683,-68.12670,45.16830,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-011,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Mt. Waldo",323,1060,-68.8969,44.5808,-68.89690,44.58080,1,0,01/09/2009,31/12/2099,5,22/12/2025,AC1QM
+W1/EM-012,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Big Hill",356,1169,-68.5600,44.6989,-68.56000,44.69890,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-013,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Black Mtn.",333,1094,-68.1053,44.5869,-68.10530,44.58690,1,0,01/09/2009,31/12/2099,8,17/10/2025,W1ETC
+W1/EM-014,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Peaked Mtn.North",351,1152,-68.4636,44.8289,-68.46360,44.82890,1,0,01/09/2009,31/12/2099,6,15/09/2023,KC1RID
+W1/EM-015,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Musquash Mtn.",378,1240,-67.7967,45.3892,-67.79670,45.38920,1,0,01/09/2009,31/12/2099,1,22/07/2018,W1DMH
+W1/EM-016,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Schoodic Mtn.",329,1080,-68.1467,44.5736,-68.14670,44.57360,1,0,01/09/2009,31/12/2099,12,14/10/2025,K1GC
+W1/EM-017,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Great Pond Mtn.",314,1030,-68.6653,44.6003,-68.66530,44.60030,1,0,01/09/2009,31/12/2099,8,31/05/2024,WC1N
+W1/EM-018,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Blue Hill",282,925,-68.5908,44.4342,-68.59080,44.43420,1,0,01/09/2009,31/12/2099,12,13/01/2026,K1GC
+W1/EM-019,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Greenland Mtn.",366,1200,-67.7303,45.6000,-67.73030,45.60000,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-020,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Hatchet Mtn.",336,1103,-69.1758,44.2611,-69.17580,44.26110,1,0,01/09/2009,31/12/2099,15,29/12/2023,WN1C
+W1/EM-021,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Sabao Mtn",338,1110,-68.0481,45.0458,-68.04810,45.04580,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-022,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Eagle Mtn. Amherst",332,1090,-68.2081,44.9869,-68.20810,44.98690,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-023,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Bates Ridge",372,1220,-68.0172,46.0681,-68.01720,46.06810,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-024,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Springy Brook Mtn.",317,1040,-68.3744,44.9108,-68.37440,44.91080,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-025,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Rollins Mtn.",305,1000,-68.3639,45.3872,-68.36390,45.38720,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-026,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Bowers Mtn.",364,1195,-68.0206,45.3878,-68.02060,45.38780,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-027,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Tomah Mtn.",334,1095,-67.7031,45.4644,-67.70310,45.46440,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-028,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Pleasant Mtn. South",323,1060,-69.1794,44.1867,-69.17940,44.18670,1,0,01/09/2009,31/12/2099,4,23/06/2023,AC1Z
+W1/EM-029,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Kings Mtn.",256,840,-68.7517,44.6733,-68.75170,44.67330,1,0,01/09/2009,31/12/2099,2,12/12/2023,KJ7DMI
+W1/EM-030,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Pleasant Lake Mtn.",381,1249,-68.2089,46.0464,-68.20890,46.04640,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-031,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Bald Mtn. South",391,1282,-69.1361,44.2294,-69.13610,44.22940,1,0,01/09/2009,31/12/2099,21,12/10/2025,K1RID
+W1/EM-032,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Frye Mtn.",347,1139,-69.2172,44.4764,-69.21720,44.47640,1,0,01/09/2009,31/12/2099,6,08/11/2024,WC1N
+W1/EM-033,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Peaked Mtn. South",366,1200,-69.0778,44.7042,-69.07780,44.70420,1,0,01/09/2009,31/12/2099,3,16/05/2024,WC1N
+W1/EM-034,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Washington Bald Mtn.",299,982,-67.9244,45.0978,-67.92440,45.09780,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-035,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Black Cap Mtn.",280,920,-68.3236,44.9294,-68.32360,44.92940,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-036,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Rider Bluff",244,800,-68.6711,44.7361,-68.67110,44.73610,1,0,01/09/2009,31/12/2099,2,12/04/2014,N1RWY
+W1/EM-037,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine",Blackcap,310,1016,-68.5653,44.7547,-68.56530,44.75470,1,0,01/09/2009,31/12/2099,2,03/03/2024,KJ7DMI
+W1/EM-038,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Peaked Mtn. Mopang Lake",286,938,-67.9097,44.8878,-67.90970,44.88780,1,0,01/09/2009,31/12/2099,1,28/05/2023,KC1MXB
+W1/EM-039,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Peekaboo Mtn.",330,1082,-67.8797,45.7469,-67.87970,45.74690,1,0,01/09/2009,31/12/2099,4,13/06/2025,KQ4IAM
+W1/EM-040,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Levenseller Mtn.",323,1060,-69.1236,44.3286,-69.12360,44.32860,1,0,01/09/2009,31/12/2099,1,27/04/2021,W1DMH
+W1/EM-041,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Flag Hill",282,925,-68.6192,44.6028,-68.61920,44.60280,1,0,01/09/2009,31/12/2099,3,05/05/2024,KC1MXB
+W1/EM-042,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Coggans Hill",249,817,-69.3086,44.2492,-69.30860,44.24920,1,0,01/09/2009,31/12/2099,5,15/01/2017,NS1TA
+W1/EM-043,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Long Ridge",267,876,-68.4786,45.2808,-68.47860,45.28080,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-044,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Timoney Mtn.",363,1190,-68.0786,46.1122,-68.07860,46.11220,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-045,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Hogback Mtn.",340,1115,-69.2803,44.4592,-69.28030,44.45920,1,0,01/09/2009,31/12/2099,2,21/04/2014,N1RWY
+W1/EM-046,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Caribou Mtn.",296,970,-68.10792,44.60926,-68.10792,44.60926,1,0,01/09/2009,31/12/2099,5,17/06/2025,KC1RID
+W1/EM-047,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Cooper Hill",216,710,-67.4667,44.9867,-67.46670,44.98670,1,0,01/09/2009,31/12/2099,5,15/07/2024,KZ5H
+W1/EM-048,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Mt. Champlain",165,540,-68.6172,44.0675,-68.61720,44.06750,1,0,01/09/2009,31/12/2099,3,12/10/2020,KB1HQS
+W1/EM-049,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Wabassus Mtn.",257,844,-67.8556,45.1292,-67.85560,45.12920,1,0,01/09/2009,31/12/2099,1,28/05/2023,KC1MXB
+W1/EM-050,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Dow Farm Mtn.",329,1080,-68.1797,46.0158,-68.17970,46.01580,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-051,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Hunt Ridge Mtn.",360,1180,-68.0897,46.0622,-68.08970,46.06220,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-052,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Bald Bluff Mtn.",314,1030,-68.4006,44.8939,-68.40060,44.89390,1,0,01/09/2009,31/12/2099,2,13/03/2024,WC1N
+W1/EM-053,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Fifth Lake Mtn.",277,910,-68.0108,45.0650,-68.01080,45.06500,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-054,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Spruce Mtn.",320,1050,-68.0328,44.8367,-68.03280,44.83670,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-055,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Harmon Mtn.",229,750,-67.6544,45.0261,-67.65440,45.02610,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-056,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Stetson Mtn.",334,1095,-67.9767,45.5258,-67.97670,45.52580,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-057,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Brown Hill",347,1140,-68.0414,45.3969,-68.04140,45.39690,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-058,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","West Lake Ridge",262,860,-68.2297,45.0978,-68.22970,45.09780,1,0,01/09/2009,31/12/2099,0,,
+W1/EM-059,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Vinegar Hill",241,790,-68.4867,45.2314,-68.48670,45.23140,1,0,01/09/2009,31/12/2099,2,26/05/2021,KC1HPJ
+W1/EM-060,"USA - CT / ME / MA / NH / RI / VT","Eastern Maine","Patterson Hill",226,740,-69.0547,44.3717,-69.05470,44.37170,1,0,01/09/2009,31/12/2099,3,10/07/2014,W1DMH
+W1/GM-001,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Mansfield",1339,4393,-72.8144,44.5439,-72.81440,44.54390,10,3,01/09/2009,31/12/2099,74,22/05/2026,WB2LJK/P
+W1/GM-002,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Killington Peak",1291,4235,-72.8200,43.6047,-72.82000,43.60470,10,3,01/09/2009,31/12/2099,70,23/08/2025,WB2LJK/P
+W1/GM-003,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Equinox Mountain",1173,3850,-73.1169,43.1661,-73.11690,43.16610,8,3,01/09/2009,31/12/2099,129,26/05/2026,K2CPT
+W1/GM-004,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Jay Peak",1176,3858,-72.5256,44.9242,-72.52560,44.92420,8,3,01/09/2009,31/12/2099,47,28/03/2026,N1KJ
+W1/GM-005,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Dorset Peak",1149,3770,-73.0283,43.3094,-73.02830,43.30940,8,3,01/09/2009,31/12/2099,8,02/08/2025,WB2LJK/P
+W1/GM-006,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Putnam",1110,3642,-72.6383,44.4183,-72.63830,44.41830,8,3,01/09/2009,31/12/2099,11,07/10/2025,W3QP
+W1/GM-007,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Stratton Mountain",1201,3940,-72.9250,43.0864,-72.92500,43.08640,10,3,01/09/2009,31/12/2099,75,23/01/2026,KC1MXB
+W1/GM-008,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Ascutney",957,3140,-72.4544,43.4439,-72.45440,43.44390,4,3,01/09/2009,31/12/2099,56,20/03/2026,KL0D/1
+W1/GM-009,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Grass Mountain",948,3109,-73.2236,43.0528,-73.22360,43.05280,4,3,01/09/2009,31/12/2099,1,11/04/2021,NF1B
+W1/GM-010,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Cold Hollow Mountains HP",1017,3337,-72.6892,44.7875,-72.68920,44.78750,6,3,01/09/2009,31/12/2099,1,06/12/2025,WB2LJK/P
+W1/GM-011,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Camels Hump",1247,4090,-72.8864,44.3197,-72.88640,44.31970,10,3,01/09/2009,31/12/2099,34,08/10/2025,W3QP
+W1/GM-012,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Signal Mountain",1027,3370,-72.3250,44.2061,-72.32500,44.20610,6,3,01/09/2009,31/12/2099,4,15/03/2025,WB2LJK/P
+W1/GM-013,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Ellen",1244,4083,-72.9286,44.1600,-72.92860,44.16000,10,3,01/09/2009,31/12/2099,25,05/03/2026,K2CPT
+W1/GM-014,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Adams Mountain",980,3214,-72.8086,44.0436,-72.80860,44.04360,4,3,01/09/2009,31/12/2099,1,13/04/2025,WB2LJK/P
+W1/GM-015,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bolton Mountain",1125,3690,-72.8397,44.4492,-72.83970,44.44920,8,3,01/09/2009,31/12/2099,19,06/10/2025,W3QP
+W1/GM-016,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2110",643,2110,-73.0853,43.6239,-73.08530,43.62390,1,0,01/09/2009,31/12/2099,1,03/05/2025,WB2LJK/P
+W1/GM-017,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Belvidere Mountain",1029,3376,-72.5511,44.7733,-72.55110,44.77330,6,3,01/09/2009,31/12/2099,6,21/05/2026,N1KJ
+W1/GM-018,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Sterling Mountain",1132,3714,-72.7403,44.5822,-72.74030,44.58220,8,3,01/09/2009,31/12/2099,5,09/11/2024,WB2LJK
+W1/GM-019,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Herrick Mountain",831,2726,-73.0989,43.5628,-73.09890,43.56280,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-020,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Laraway Mountain",853,2797,-72.7117,44.7258,-72.71170,44.72580,2,3,01/09/2009,31/12/2099,9,20/10/2024,KC1APK
+W1/GM-021,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2836",864,2836,-72.6719,43.6781,-72.67190,43.67810,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-022,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Peru Peak",1047,3435,-72.9375,43.2944,-72.93750,43.29440,6,3,01/09/2009,31/12/2099,7,02/10/2023,K7MK
+W1/GM-023,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Lowell Mountain",805,2641,-72.4231,44.7533,-72.42310,44.75330,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-024,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bread Loaf Mountain",1169,3835,-72.9414,44.0022,-72.94140,44.00220,8,3,01/09/2009,31/12/2099,5,04/10/2017,KC1APK
+W1/GM-025,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Paine Mountain",735,2411,-72.6189,44.1472,-72.61890,44.14720,1,0,01/09/2009,31/12/2099,1,08/11/2020,KC1APK
+W1/GM-026,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Gilson Mountain",588,1930,-72.9133,44.7294,-72.91330,44.72940,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-027,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Anthony",716,2350,-73.2328,42.8636,-73.23280,42.86360,1,0,01/09/2009,31/12/2099,1,09/10/2020,NF1B
+W1/GM-028,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Woodlawn Mountain",948,3110,-73.0978,43.3375,-73.09780,43.33750,4,3,01/09/2009,31/12/2099,0,,
+W1/GM-029,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Farr Peak",1074,3522,-72.9442,43.8092,-72.94420,43.80920,6,3,01/09/2009,31/12/2099,1,09/10/2022,KG6CIH
+W1/GM-030,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Glebe Mountain",897,2943,-72.7611,43.1889,-72.76110,43.18890,2,3,01/09/2009,31/12/2099,1,10/02/2019,W1DMH
+W1/GM-031,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Wheelock Mountain",848,2782,-72.1600,44.5575,-72.16000,44.55750,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-032,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Snow",1093,3586,-72.9233,42.9594,-72.92330,42.95940,6,3,01/09/2009,31/12/2099,29,24/03/2026,KC3YCZ
+W1/GM-033,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Blue Ridge Mountain",999,3278,-72.9019,43.6783,-72.90190,43.67830,4,3,01/09/2009,31/12/2099,6,11/01/2026,K2CPT
+W1/GM-034,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Morgan Peak",798,2618,-72.7428,43.5858,-72.74280,43.58580,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-035,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Norris",789,2589,-72.4833,44.7467,-72.48330,44.74670,1,0,01/09/2009,31/12/2099,2,12/09/2020,KC1APK
+W1/GM-036,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Tinmouth Mountain",864,2835,-73.0758,43.4194,-73.07580,43.41940,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-037,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Ludlow Mountain",1019,3343,-72.7514,43.4042,-72.75140,43.40420,6,3,01/09/2009,31/12/2099,57,26/05/2026,K2CPT
+W1/GM-038,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Woodbury Mountain",753,2471,-72.4256,44.4756,-72.42560,44.47560,1,0,01/09/2009,31/12/2099,1,15/06/2025,KC1WPI
+W1/GM-039,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Salt Ash Mountain",1002,3286,-72.7742,43.5028,-72.77420,43.50280,6,3,01/09/2009,31/12/2099,1,22/11/2025,WB2LJK/P
+W1/GM-040,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Gillespie Peak",1026,3366,-72.9775,43.8714,-72.97750,43.87140,6,3,01/09/2009,31/12/2099,3,02/04/2016,N1GVT
+W1/GM-041,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Hogback Mountains",556,1825,-73.0608,44.1375,-73.06080,44.13750,1,0,01/09/2009,31/12/2099,5,21/05/2026,K0AVN
+W1/GM-042,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Moses",793,2602,-72.6189,43.5286,-72.61890,43.52860,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-043,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Roy Mountain",641,2103,-72.1161,44.2828,-72.11610,44.28280,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-044,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Hawks Mountain",638,2092,-72.5800,43.3681,-72.58000,43.36810,1,0,01/09/2009,31/12/2099,2,09/05/2018,W1DMH
+W1/GM-045,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Green Peak",985,3230,-73.0386,43.2408,-73.03860,43.24080,4,3,01/09/2009,31/12/2099,4,04/05/2025,K7MK
+W1/GM-046,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Glastenbury Mountain",1142,3748,-73.0717,42.9781,-73.07170,42.97810,8,3,01/09/2009,31/12/2099,6,24/05/2024,KG6CIH
+W1/GM-047,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Susie Peak",734,2409,-73.0472,43.5089,-73.04720,43.50890,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-048,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Nr. BM Hoosac",917,3010,-73.0261,42.7581,-73.02610,42.75810,4,3,01/09/2009,31/12/2099,1,09/03/2024,KC1SRI
+W1/GM-049,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Robert Frost Mountain",766,2513,-73.0486,44.0206,-73.04860,44.02060,1,0,01/09/2009,31/12/2099,3,29/05/2026,K0AVN
+W1/GM-050,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Fletcher Mountain",655,2150,-72.7994,44.7192,-72.79940,44.71920,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-051,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mother Myrick Mountain",1024,3361,-73.1167,43.2136,-73.11670,43.21360,6,3,01/09/2009,31/12/2099,1,30/08/2020,KG6CIH
+W1/GM-052,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Nickwaket",839,2753,-72.9942,43.7789,-72.99420,43.77890,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-053,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Northeast Mountain",643,2110,-73.1669,43.4353,-73.16690,43.43530,1,0,01/09/2009,31/12/2099,11,21/03/2021,AF2V
+W1/GM-054,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1700+",521,1710,-73.0403,44.3208,-73.04030,44.32080,1,0,01/09/2009,31/12/2099,6,24/09/2025,W1IR
+W1/GM-055,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bald Mountain",625,2050,-73.1753,43.3994,-73.17530,43.39940,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-056,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Snake Mountain",393,1288,-73.2806,44.0617,-73.28060,44.06170,1,0,01/09/2009,31/12/2099,12,03/10/2025,W1IR
+W1/GM-057,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Egg Mountain",759,2490,-73.2222,43.2039,-73.22220,43.20390,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-058,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Hillsboro Mountain",765,2510,-72.9906,44.2283,-72.99060,44.22830,1,0,01/09/2009,31/12/2099,1,02/08/2024,N1CFO
+W1/GM-059,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Moosalamoo",808,2650,-73.0497,43.9303,-73.04970,43.93030,2,3,01/09/2009,31/12/2099,7,11/10/2025,W1IR
+W1/GM-060,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Blue Mountain",720,2363,-72.1378,44.2358,-72.13780,44.23580,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-061,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bald Hill",588,1930,-72.9203,44.4972,-72.92030,44.49720,1,0,01/09/2009,31/12/2099,1,27/04/2024,N1CFO
+W1/GM-062,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Georgia Mountain",442,1450,-73.0689,44.6603,-73.06890,44.66030,1,0,01/09/2009,31/12/2099,2,17/04/2016,KC1CZA
+W1/GM-063,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","High Peak",521,1710,-72.2158,43.8600,-72.21580,43.86000,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-064,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Round Mountain",1019,3342,-72.8844,43.8156,-72.88440,43.81560,6,3,01/09/2009,31/12/2099,1,11/04/2026,WB2LJK/P
+W1/GM-065,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Swearing Hill",639,2097,-73.2236,43.1386,-73.22360,43.13860,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-066,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bean Mountain",668,2192,-72.5478,44.6744,-72.54780,44.67440,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-067,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Belcher Hill",716,2350,-72.7144,44.0281,-72.71440,44.02810,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-068,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1680+",515,1690,-72.9761,44.3531,-72.97610,44.35310,1,0,01/09/2009,31/12/2099,1,17/03/2026,KC1WPI
+W1/GM-069,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Elmore Mountain",796,2610,-72.5461,44.5264,-72.54610,44.52640,1,0,01/09/2009,31/12/2099,5,28/10/2025,W1IR
+W1/GM-070,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Black Hills",699,2293,-72.2286,44.6494,-72.22860,44.64940,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-071,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Cow Hill",782,2566,-72.2214,44.3783,-72.22140,44.37830,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-072,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","BM Billings",820,2689,-72.6664,44.7056,-72.66640,44.70560,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-073,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bald Mountain",332,1090,-73.4064,43.6128,-73.40640,43.61280,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-074,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Flynn Hill",582,1910,-72.8933,44.5567,-72.89330,44.55670,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-075,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Stewart Hill",491,1610,-72.9744,44.5719,-72.97440,44.57190,1,0,01/09/2009,31/12/2099,4,28/09/2025,W1IR
+W1/GM-076,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 3688",1124,3688,-72.8842,44.2936,-72.88420,44.29360,8,3,01/09/2009,31/12/2099,14,08/10/2025,W3QP
+W1/GM-077,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Spruce Mountain",924,3030,-72.3550,44.2347,-72.35500,44.23470,4,3,01/09/2009,31/12/2099,20,29/06/2025,KC2WLR
+W1/GM-078,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Wintergreen Mountain",497,1630,-72.8633,44.7283,-72.86330,44.72830,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-079,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Monastery Mountain",983,3224,-72.9381,43.9072,-72.93810,43.90720,4,3,01/09/2009,31/12/2099,1,28/03/2026,WB2LJK/P
+W1/GM-080,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bromley Mountain",1000,3281,-72.9400,43.2278,-72.94000,43.22780,6,3,01/09/2009,31/12/2099,34,25/04/2026,K2CPT
+W1/GM-081,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 948M+",951,3120,-72.9694,42.8492,-72.96940,42.84920,4,3,01/09/2009,31/12/2099,0,,
+W1/GM-082,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Red Mountain",867,2846,-73.1678,43.1081,-73.16780,43.10810,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-083,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Clark Mountain",599,1965,-73.0169,43.4344,-73.01690,43.43440,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-084,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2000+",613,2010,-72.9922,44.2908,-72.99220,44.29080,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-085,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Wolf Hill",855,2805,-72.7875,43.7094,-72.78750,43.70940,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-086,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Burnt Mountain",688,2257,-72.3117,44.3358,-72.31170,44.33580,1,0,01/09/2009,31/12/2099,1,14/06/2025,KC1WPI
+W1/GM-087,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","North Jay Peak",1048,3438,-72.5361,44.9578,-72.53610,44.95780,6,3,01/09/2009,31/12/2099,3,30/06/2023,VA2EO/W1
+W1/GM-088,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","The Ledges",572,1877,-72.3942,44.5803,-72.39420,44.58030,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-089,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 3172",967,3172,-72.7642,44.6144,-72.76420,44.61440,4,3,01/09/2009,31/12/2099,0,,
+W1/GM-090,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Ball Hill",570,1870,-72.6275,43.3619,-72.62750,43.36190,1,0,01/09/2009,31/12/2099,1,09/05/2018,W1DMH
+W1/GM-091,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Shatterack Mountain",731,2398,-73.1975,43.2250,-73.19750,43.22500,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-092,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bear Mountain",685,2247,-72.9381,43.4706,-72.93810,43.47060,1,0,01/09/2009,31/12/2099,2,12/07/2020,KB1HQS
+W1/GM-093,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Worth Mountain",986,3234,-72.9636,43.9100,-72.96360,43.91000,4,3,01/09/2009,31/12/2099,1,08/10/2017,KC1APK
+W1/GM-094,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Kirby Mountain",838,2750,-71.9070,44.5516,-71.90700,44.55160,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-095,"USA - CT / ME / MA / NH / RI / VT","Green Mountains",Hogback,397,1304,-73.1286,44.2186,-73.12860,44.21860,1,0,01/09/2009,31/12/2099,2,06/04/2026,KC1WPI
+W1/GM-096,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Butterfield Mountain",965,3167,-72.3392,44.1833,-72.33920,44.18330,4,3,01/09/2009,31/12/2099,5,13/05/2026,KC1QXL
+W1/GM-097,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","East Mountain",849,2787,-72.7517,43.6525,-72.75170,43.65250,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-098,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Gilpin Mountain",919,3015,-72.4947,44.9083,-72.49470,44.90830,4,3,01/09/2009,31/12/2099,12,20/12/2025,WB2LJK/P
+W1/GM-099,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Stoneham Mountain",653,2143,-71.8316,44.9172,-71.83160,44.91720,1,0,01/09/2009,30/11/2017,0,,
+W1/GM-100,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","South Mountain",969,3179,-72.7639,43.3769,-72.76390,43.37690,4,3,01/09/2009,31/12/2099,1,13/12/2025,WB2LJK/P
+W1/GM-101,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Gillespie Mountain",901,2956,-72.8758,43.9561,-72.87580,43.95610,4,3,01/09/2009,31/12/2099,1,19/03/2026,KC1WPI
+W1/GM-102,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Leach Hill",428,1404,-72.8478,44.8522,-72.84780,44.85220,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-103,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bartlett Hill",430,1410,-72.8450,44.6689,-72.84500,44.66890,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-104,"USA - CT / ME / MA / NH / RI / VT","Green Mountains",Ephraim,454,1490,-72.5142,43.2511,-72.51420,43.25110,1,0,01/09/2009,31/12/2099,5,25/07/2025,AC1JR
+W1/GM-105,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Carmel",1026,3365,-72.9203,43.7742,-72.92030,43.77420,6,3,01/09/2009,31/12/2099,1,15/10/2022,KG6CIH
+W1/GM-106,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2465",751,2465,-72.8950,43.5353,-72.89500,43.53530,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-107,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 876M+",879,2884,-72.8728,43.3597,-72.87280,43.35970,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-108,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bird Mountain",675,2216,-73.1158,43.5861,-73.11580,43.58610,1,0,01/09/2009,31/12/2099,3,15/06/2025,KC2WLR
+W1/GM-109,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pine Hill",438,1436,-73.0158,43.6469,-73.01580,43.64690,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-110,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Elan Hill",631,2071,-71.9923,44.8795,-71.99230,44.87950,1,0,01/09/2009,31/12/2099,2,26/08/2023,K1MUU
+W1/GM-111,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Sable Mountain",800,2625,-72.7692,43.7444,-72.76920,43.74440,2,3,01/09/2009,31/12/2099,1,13/01/2015,N1CAI
+W1/GM-112,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1982",604,1982,-72.2789,43.9808,-72.27890,43.98080,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-113,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","BM Macmaster",471,1545,-72.5442,43.1872,-72.54420,43.18720,1,0,01/09/2009,31/12/2099,1,10/06/2017,N1WGU
+W1/GM-114,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Putney Mountain",513,1683,-72.5956,43.0044,-72.59560,43.00440,1,0,01/09/2009,31/12/2099,13,18/10/2024,N1AIA
+W1/GM-115,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Hadley Mountain",752,2467,-72.5075,44.7569,-72.50750,44.75690,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-116,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bear Mountain",1006,3301,-73.1667,43.2008,-73.16670,43.20080,6,3,01/09/2009,31/12/2099,0,,
+W1/GM-117,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Round Knoll",591,1939,-72.3842,44.4561,-72.38420,44.45610,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-118,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1460+",448,1470,-72.9778,44.3744,-72.97780,44.37440,1,0,01/09/2009,31/12/2099,1,31/12/2023,KC1KUW
+W1/GM-119,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","The Dome",838,2748,-73.1706,42.7789,-73.17060,42.77890,2,3,01/09/2009,31/12/2099,3,01/08/2017,W1/VA2IEI
+W1/GM-120,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2325",709,2325,-73.0500,44.0994,-73.05000,44.09940,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-121,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 3022",921,3022,-72.8881,43.7511,-72.88810,43.75110,4,3,01/09/2009,31/12/2099,1,15/10/2022,KG6CIH
+W1/GM-122,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Kettle Mountain",664,2177,-72.3358,44.3028,-72.33580,44.30280,1,0,01/09/2009,31/12/2099,1,03/05/2025,KC1WPI
+W1/GM-123,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","BM Lowell",723,2372,-72.3497,44.8019,-72.34970,44.80190,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-124,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 900M+",903,2963,-72.8225,42.9917,-72.82250,42.99170,4,3,01/09/2009,31/12/2099,0,,
+W1/GM-125,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Houghton Mountain",943,3095,-73.0853,42.8189,-73.08530,42.81890,4,3,01/09/2009,31/12/2099,0,,
+W1/GM-126,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Dewey Mountain",1027,3370,-72.8217,44.4939,-72.82170,44.49390,6,3,01/09/2009,31/12/2099,1,09/10/2025,W3QP
+W1/GM-127,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Madonna Peak",1113,3650,-72.7589,44.5614,-72.75890,44.56140,8,3,01/09/2009,31/12/2099,15,14/06/2025,WB2LJK/P
+W1/GM-128,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1780+",546,1790,-72.1842,43.9633,-72.18420,43.96330,1,0,01/09/2009,31/12/2099,1,14/09/2017,W1DMH
+W1/GM-129,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Knox Mountain",941,3086,-72.3561,44.1656,-72.35610,44.16560,4,3,01/09/2009,31/12/2099,1,23/03/2025,WB2LJK/P
+W1/GM-130,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2444",745,2444,-72.3714,44.1303,-72.37140,44.13030,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-131,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Long Meadow Hill",613,2010,-72.5375,44.3464,-72.53750,44.34640,1,0,01/09/2009,31/12/2099,2,05/05/2026,KC1WPI
+W1/GM-132,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Middle Mountain",898,2947,-71.8316,44.9172,-71.83160,44.91720,2,3,01/09/2009,31/12/2099,1,12/03/2023,VA2EO/W1
+W1/GM-133,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Chase Mountain",629,2064,-72.6831,44.2244,-72.68310,44.22440,1,0,01/09/2009,31/12/2099,1,05/05/2025,KC1WPI
+W1/GM-134,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Grant",1104,3623,-72.9258,44.0522,-72.92580,44.05220,8,3,01/09/2009,31/12/2099,2,30/07/2017,KC1APK
+W1/GM-135,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Minister Hill",645,2115,-73.1861,43.1425,-73.18610,43.14250,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-136,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Terrible Mountain",878,2882,-72.7436,43.3136,-72.74360,43.31360,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-137,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Hobart Mountain",668,2190,-72.4997,44.4142,-72.49970,44.41420,1,0,01/09/2009,31/12/2099,1,16/06/2025,KC1WPI
+W1/GM-138,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1280+",393,1290,-73.0581,43.6736,-73.05810,43.67360,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-139,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Burnt Mountain",539,1768,-72.7700,44.7503,-72.77000,44.75030,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-140,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2808",856,2808,-72.8578,43.6822,-72.85780,43.68220,2,3,01/09/2009,31/12/2099,1,13/12/2025,K2CPT
+W1/GM-141,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Little Ascutney Mountain",521,1709,-72.5039,43.4250,-72.50390,43.42500,1,0,01/09/2009,31/12/2099,1,11/06/2018,W1DMH
+W1/GM-142,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Thistle Hill",599,1964,-72.4803,43.6956,-72.48030,43.69560,1,0,01/09/2009,31/12/2099,3,23/11/2019,KG6CIH
+W1/GM-143,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Burnt Mountain",854,2803,-72.7722,43.5417,-72.77220,43.54170,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-144,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","East Mountain",417,1368,-72.5939,42.7675,-72.59390,42.76750,1,0,01/09/2009,31/12/2099,2,08/02/2023,KB1JFQ
+W1/GM-145,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Pisgah",843,2766,-72.0312,44.7299,-72.03120,44.72990,2,3,01/09/2009,31/12/2099,11,09/07/2025,KC1OFX
+W1/GM-146,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Danby Hill",628,2062,-73.0331,43.3703,-73.03310,43.37030,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-147,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Deer Mountain",657,2156,-72.7325,43.9119,-72.73250,43.91190,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-148,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bellevue Hill",399,1310,-73.0650,44.7817,-73.06500,44.78170,1,0,01/09/2009,31/12/2099,2,31/08/2018,W1DMH
+W1/GM-149,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Philo",302,990,-73.2164,44.2783,-73.21640,44.27830,1,0,01/09/2009,31/12/2099,44,12/05/2026,K0AVN
+W1/GM-150,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1720+",527,1730,-73.0358,44.2708,-73.03580,44.27080,1,0,01/09/2009,31/12/2099,1,06/04/2026,KC1WPI
+W1/GM-151,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 3030",924,3030,-72.7853,43.9531,-72.78530,43.95310,4,3,01/09/2009,31/12/2099,0,,
+W1/GM-152,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Ricker Mountain",1039,3410,-72.8256,44.4206,-72.82560,44.42060,6,3,01/09/2009,31/12/2099,7,06/10/2025,W3QP
+W1/GM-153,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Shrewsbury Peak",1137,3730,-72.8061,43.5758,-72.80610,43.57580,8,3,01/09/2009,31/12/2099,11,10/08/2025,N1ZF
+W1/GM-154,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 563M",563,1847,-72.6247,43.1167,-72.62470,43.11670,1,0,01/09/2009,31/12/2099,1,02/05/2018,W1DMH
+W1/GM-155,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Philadelphia Peak",976,3203,-72.8864,43.9000,-72.88640,43.90000,4,3,01/09/2009,31/12/2099,1,28/03/2026,WB2LJK/P
+W1/GM-156,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Markham Mountain",759,2490,-72.7664,43.2833,-72.76640,43.28330,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-157,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","The Pinnacle",777,2549,-72.8575,43.1244,-72.85750,43.12440,1,0,01/09/2009,31/12/2099,1,25/08/2021,W1DMH
+W1/GM-158,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Wheeler Mountain",723,2371,-72.0911,44.7343,-72.09110,44.73430,1,0,01/09/2009,31/12/2099,2,21/07/2025,KC1OFX
+W1/GM-159,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Seneca Mountain",967,3174,-71.8034,44.6950,-71.80340,44.69500,4,3,01/09/2009,31/12/2099,0,,
+W1/GM-160,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Goudreault Hill",613,2012,-71.8467,44.4417,-71.84670,44.44170,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-161,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Ball Mountain",535,1755,-72.7736,43.1194,-72.77360,43.11940,1,0,01/09/2009,31/12/2099,1,25/08/2021,W1DMH
+W1/GM-162,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Rochester Mountain",900,2953,-72.7481,43.8669,-72.74810,43.86690,4,3,01/09/2009,31/12/2099,1,25/04/2019,W1DMH
+W1/GM-163,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Green Mountain",762,2500,-72.9642,43.3978,-72.96420,43.39780,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-164,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Hancock Mountain",629,2065,-72.8278,43.9389,-72.82780,43.93890,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-165,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1663",507,1663,-73.0794,44.1994,-73.07940,44.19940,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-166,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 913M",913,2995,-72.9444,42.8244,-72.94440,42.82440,4,3,01/09/2009,31/12/2099,1,18/01/2026,WB2LJK/P
+W1/GM-167,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bald Mountain",637,2090,-72.9192,43.5842,-72.91920,43.58420,1,0,01/09/2009,31/12/2099,5,05/07/2022,KE8OKM
+W1/GM-168,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Cobb",485,1592,-72.7400,44.3011,-72.74000,44.30110,1,0,01/09/2009,31/12/2099,1,28/08/2020,W1DMH
+W1/GM-169,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bear Hill",619,2030,-72.6339,44.0428,-72.63390,44.04280,1,0,01/09/2009,31/12/2099,12,18/04/2026,KC1QXL
+W1/GM-170,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Colton Hill",728,2390,-72.3669,43.9525,-72.36690,43.95250,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-171,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Delectable Mountain",820,2690,-72.6806,43.7003,-72.68060,43.70030,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-172,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","O P Hill",448,1470,-72.9236,44.4661,-72.92360,44.46610,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-173,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1960+",600,1970,-73.1378,43.5678,-73.13780,43.56780,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-174,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","The Pinnacle",307,1008,-73.2672,43.7739,-73.26720,43.77390,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-175,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","East Mountain",727,2386,-72.9158,43.6167,-72.91580,43.61670,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-176,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Black Mountain",860,2822,-71.7475,44.9271,-71.74750,44.92710,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-177,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Giddings Hill",399,1309,-72.8097,44.8164,-72.80970,44.81640,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-178,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2101",640,2101,-72.8633,44.1503,-72.86330,44.15030,1,0,01/09/2009,31/12/2099,1,19/10/2025,W1IR
+W1/GM-179,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 750M+",753,2471,-72.7050,43.1739,-72.70500,43.17390,1,0,01/09/2009,31/12/2099,1,10/02/2019,W1DMH
+W1/GM-180,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Buck Mountain",282,925,-73.2339,44.1258,-73.23390,44.12580,1,0,01/09/2009,31/12/2099,12,02/10/2025,W1IR
+W1/GM-181,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Molly Stark Mountain",904,2967,-72.9267,44.2219,-72.92670,44.22190,4,3,01/09/2009,31/12/2099,10,06/10/2025,W1IR
+W1/GM-182,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Haystack Mountain",974,3195,-72.5381,44.8233,-72.53810,44.82330,4,3,01/09/2009,31/12/2099,3,01/01/2026,WB2LJK/P
+W1/GM-183,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pico Peak",1206,3957,-72.8361,43.6394,-72.83610,43.63940,10,3,01/09/2009,31/12/2099,45,04/10/2025,K2CPT
+W1/GM-184,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Cobble Hill",277,910,-73.1350,44.5989,-73.13500,44.59890,1,0,01/09/2009,31/12/2099,7,29/09/2025,W1IR
+W1/GM-185,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1760+",539,1770,-72.9125,44.4092,-72.91250,44.40920,1,0,01/09/2009,31/12/2099,2,26/09/2025,W1IR
+W1/GM-186,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 3230",985,3230,-72.8522,43.8061,-72.85220,43.80610,4,3,01/09/2009,31/12/2099,1,11/04/2026,WB2LJK/P
+W1/GM-187,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Tumino's Victory",1040,3412,-73.0311,43.0281,-73.03110,43.02810,6,3,01/09/2009,31/12/2099,2,09/02/2023,KB1JFQ
+W1/GM-188,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Peabody Hill",856,2808,-72.8375,43.3253,-72.83750,43.32530,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-189,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Wrights Mountain",555,1822,-72.1703,44.0439,-72.17030,44.04390,1,0,01/09/2009,31/12/2099,7,16/05/2026,KC1QXL
+W1/GM-190,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Turkey Mountain",675,2215,-72.7469,43.1322,-72.74690,43.13220,1,0,01/09/2009,31/12/2099,1,02/04/2019,W1DMH
+W1/GM-191,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bald Mountain",731,2398,-72.6886,43.5836,-72.68860,43.58360,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-192,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","The Pattern",564,1850,-73.2064,43.3483,-73.20640,43.34830,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-193,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2034",620,2034,-73.1103,43.7222,-73.11030,43.72220,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-194,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Richmond Hill",656,2153,-72.6467,43.5672,-72.64670,43.56720,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-195,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Garvin Hill",552,1812,-72.4847,43.5819,-72.48470,43.58190,1,0,01/09/2009,31/12/2099,1,21/05/2017,W1DMH
+W1/GM-196,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Hoag",686,2252,-73.0969,43.3778,-73.09690,43.37780,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-197,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Hardwood Mountain",684,2244,-72.3431,44.2839,-72.34310,44.28390,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-198,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Little Pond Mountain",1015,3331,-73.0575,42.9383,-73.05750,42.93830,6,3,01/09/2009,31/12/2099,4,24/05/2024,KG6CIH
+W1/GM-199,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Antone Mountain",796,2610,-73.1911,43.2544,-73.19110,43.25440,1,0,01/09/2009,31/12/2099,3,18/10/2024,K7MK
+W1/GM-200,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Arrowhead Mountain",283,930,-73.1203,44.6706,-73.12030,44.67060,1,0,01/09/2009,31/12/2099,2,03/07/2024,KB1RVN
+W1/GM-201,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1900+",582,1910,-72.5608,43.7147,-72.56080,43.71470,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-202,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2970",905,2970,-73.0589,42.8167,-73.05890,42.81670,4,3,01/09/2009,31/12/2099,0,,
+W1/GM-203,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bull Hill",502,1647,-72.5697,43.1775,-72.56970,43.17750,1,0,01/09/2009,31/12/2099,1,02/05/2018,W1DMH
+W1/GM-204,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 808M",808,2651,-72.9325,42.8550,-72.93250,42.85500,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-205,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","The Darning Needle",879,2883,-72.8489,43.7353,-72.84890,43.73530,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-206,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Jillison Hill",675,2215,-72.8717,42.7528,-72.87170,42.75280,1,0,01/09/2009,31/12/2099,4,03/04/2026,KC1WPI
+W1/GM-207,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Jolly Mountain",621,2038,-72.7236,42.7781,-72.72360,42.77810,1,0,01/09/2009,31/12/2099,5,03/04/2026,KC1WPI
+W1/GM-208,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2702",824,2702,-72.3142,44.2425,-72.31420,44.24250,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-209,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Camp Hill",471,1545,-72.4542,43.3450,-72.45420,43.34500,1,0,01/09/2009,31/12/2099,1,11/06/2018,W1DMH
+W1/GM-210,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 486M+",489,1604,-72.7022,44.8839,-72.70220,44.88390,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-211,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 684M+",687,2254,-72.2619,44.6539,-72.26190,44.65390,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-212,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Sawyer Rocks",716,2350,-72.7411,43.4475,-72.74110,43.44750,1,0,01/09/2009,31/12/2099,1,23/05/2018,W1DMH
+W1/GM-213,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 3515",1071,3515,-73.0639,43.3089,-73.06390,43.30890,6,3,01/09/2009,31/12/2099,1,09/05/2019,W1DMH
+W1/GM-214,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 901M",901,2956,-72.8736,42.9944,-72.87360,42.99440,4,3,01/09/2009,31/12/2099,1,08/03/2017,W1DMH
+W1/GM-215,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","BM North Pond",571,1873,-72.6842,42.9022,-72.68420,42.90220,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-216,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","White Rocks",817,2680,-72.9392,43.4289,-72.93920,43.42890,2,3,01/09/2009,31/12/2099,1,16/05/2021,NF1B
+W1/GM-217,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Cox Mountain",430,1412,-73.0264,43.7389,-73.02640,43.73890,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-218,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Scrag Mountain",887,2911,-72.7728,44.1564,-72.77280,44.15640,2,3,01/09/2009,31/12/2099,1,28/05/2026,KC1SCO
+W1/GM-219,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Coy Mountain",619,2030,-73.1561,43.4489,-73.15610,43.44890,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-220,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1587",484,1587,-72.1278,44.1472,-72.12780,44.14720,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-221,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 3025",922,3025,-73.1219,42.7869,-73.12190,42.78690,4,3,01/09/2009,31/12/2099,30,10/04/2026,KC2WLR
+W1/GM-222,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 808M",808,2651,-72.4919,44.9922,-72.49190,44.99220,2,3,01/09/2009,31/12/2099,4,11/10/2024,VA2YZX/W1
+W1/GM-223,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Deer Leap Mountain",848,2782,-72.8364,43.6700,-72.83640,43.67000,2,3,01/09/2009,31/12/2099,11,07/02/2026,WB2LJK/P
+W1/GM-224,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Dumpling Hill",592,1942,-72.5911,44.3642,-72.59110,44.36420,1,0,01/09/2009,31/12/2099,1,23/04/2025,KC1WPI
+W1/GM-225,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Beach Hill",663,2175,-72.2764,44.6878,-72.27640,44.68780,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-226,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Mount Fuller",282,925,-73.1878,44.2458,-73.18780,44.24580,1,0,01/09/2009,31/12/2099,1,02/07/2016,K1ZK
+W1/GM-227,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 678M+",681,2234,-72.2611,44.4061,-72.26110,44.40610,1,0,01/09/2009,31/12/2099,1,13/06/2025,KC1WPI
+W1/GM-228,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Butternut Ridge",404,1325,-72.7781,44.8061,-72.77810,44.80610,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-229,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1918",585,1918,-73.1067,43.6306,-73.10670,43.63060,1,0,01/09/2009,31/12/2099,1,03/05/2025,WB2LJK/P
+W1/GM-230,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Jerry Lund",625,2051,-72.2325,44.2758,-72.23250,44.27580,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-231,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Neals Hill",400,1312,-72.3681,43.6392,-72.36810,43.63920,1,0,01/09/2009,31/12/2099,4,04/04/2026,KC1WPI
+W1/GM-232,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Blueberry Hill",503,1650,-72.9631,43.6772,-72.96310,43.67720,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-233,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","East Hill",576,1890,-72.6233,44.3042,-72.62330,44.30420,1,0,01/09/2009,31/12/2099,2,04/05/2026,KC1WPI
+W1/GM-234,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1180+",363,1190,-72.7569,44.3675,-72.75690,44.36750,1,0,01/09/2009,31/12/2099,1,19/03/2026,KC1WPI
+W1/GM-235,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1440+",442,1450,-72.9983,43.5344,-72.99830,43.53440,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-236,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2640+",808,2650,-72.8225,44.2964,-72.82250,44.29640,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-237,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Quimby Mountain",497,1630,-72.4225,43.7650,-72.42250,43.76500,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-238,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Tug Mountain",564,1850,-72.2800,43.8906,-72.28000,43.89060,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-239,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Signal Hill",383,1257,-72.4925,43.1628,-72.49250,43.16280,1,0,01/09/2009,31/12/2099,1,05/02/2017,N1WGU
+W1/GM-240,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Oregon Mountain",581,1906,-72.7217,42.9619,-72.72170,42.96190,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-241,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","East Mountain",685,2246,-72.7089,43.5319,-72.70890,43.53190,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-242,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Harvey Mountain",544,1785,-72.1508,44.2889,-72.15080,44.28890,1,0,01/09/2009,31/12/2099,1,25/03/2026,KC1WPI
+W1/GM-243,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 864M+",867,2845,-72.7558,43.3400,-72.75580,43.34000,2,3,01/09/2009,31/12/2099,0,,
+W1/GM-244,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Coburn Hill",459,1506,-72.2719,44.9461,-72.27190,44.94610,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-245,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 507M",507,1663,-72.6228,44.9750,-72.62280,44.97500,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-246,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Round Mountain",483,1585,-72.6400,42.8581,-72.64000,42.85810,1,0,01/09/2009,31/12/2099,5,04/11/2023,KC1SRI
+W1/GM-247,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 611.5M",611,2006,-72.7164,44.6922,-72.71640,44.69220,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-248,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Bear Hill",674,2210,-72.7164,43.3539,-72.71640,43.35390,1,0,01/09/2009,31/12/2099,1,09/05/2018,W1DMH
+W1/GM-249,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1330",405,1330,-73.2481,43.2817,-73.24810,43.28170,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-250,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1810",552,1810,-73.0078,43.4778,-73.00780,43.47780,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-251,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 1900+",582,1910,-72.4225,44.2181,-72.42250,44.21810,1,0,01/09/2009,31/12/2099,1,22/02/2018,W1DMH
+W1/GM-252,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Pt. 2060+",631,2070,-72.8428,44.0706,-72.84280,44.07060,1,0,01/09/2009,31/12/2099,0,,
+W1/GM-253,"USA - CT / ME / MA / NH / RI / VT","Green Mountains","Texas Hill",485,1590,-73.0553,44.3539,-73.05530,44.35390,1,0,01/09/2009,31/12/2099,2,17/10/2025,W1IR
+W1/HA-001,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Washington",1917,6288,-71.3033,44.2703,-71.30330,44.27030,10,3,01/09/2009,31/12/2099,159,27/09/2025,KC1UBH
+W1/HA-002,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Lafayette",1598,5242,-71.6444,44.1606,-71.64440,44.16060,10,3,01/09/2009,31/12/2099,46,17/10/2025,AC1NM
+W1/HA-003,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Moosilauke",1464,4802,-71.8308,44.0242,-71.83080,44.02420,10,3,01/09/2009,31/12/2099,55,26/04/2026,WB2LJK/P
+W1/HA-004,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Carter Dome",1473,4832,-71.1789,44.2669,-71.17890,44.26690,10,3,01/09/2009,31/12/2099,24,10/02/2026,W3QP
+W1/HA-005,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Cabot",1271,4170,-71.4144,44.5058,-71.41440,44.50580,10,3,01/09/2009,31/12/2099,13,13/02/2026,W3QP
+W1/HA-006,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Kinsman Mountain South Peak",1328,4358,-71.7364,44.1231,-71.73640,44.12310,10,3,01/09/2009,31/12/2099,23,09/05/2026,WB2LJK/P
+W1/HA-007,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Carrigain",1433,4700,-71.4469,44.0933,-71.44690,44.09330,10,3,01/09/2009,31/12/2099,17,14/09/2025,KC1MXB
+W1/HA-008,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Smarts Mountain",987,3238,-72.0386,43.8256,-72.03860,43.82560,4,3,01/09/2009,31/12/2099,8,22/12/2025,KC1MXB
+W1/HA-009,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Monadnock Mountain",967,3172,-72.1081,42.8614,-72.10810,42.86140,4,3,01/09/2009,31/12/2099,67,03/02/2026,KL0D/1
+W1/HA-010,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Kearsarge",893,2930,-71.8572,43.3833,-71.85720,43.38330,2,3,01/09/2009,31/12/2099,84,10/04/2026,KC1VXF
+W1/HA-011,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Osceola",1323,4340,-71.5356,44.0014,-71.53560,44.00140,10,3,01/09/2009,31/12/2099,67,31/08/2025,WB2LJK/P
+W1/HA-012,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Cardigan",962,3155,-71.9144,43.6494,-71.91440,43.64940,4,3,01/09/2009,31/12/2099,65,13/01/2026,KC1YMR
+W1/HA-013,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bunnell Mountain",1137,3730,-71.4786,44.7914,-71.47860,44.79140,8,3,01/09/2009,31/12/2099,0,,
+W1/HA-014,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Kearsarge North",996,3268,-71.0942,44.1056,-71.09420,44.10560,4,3,01/09/2009,31/12/2099,17,06/09/2023,N1ZF
+W1/HA-015,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Tecumseh",1220,4003,-71.5567,43.9667,-71.55670,43.96670,10,3,01/09/2009,31/12/2099,91,02/05/2026,KC1ULS
+W1/HA-016,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Croydon Peak",843,2766,-72.2192,43.4819,-72.21920,43.48190,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-017,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Long Mountain",1119,3670,-71.3803,44.6800,-71.38030,44.68000,8,3,01/09/2009,31/12/2099,0,,
+W1/HA-018,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Field",1323,4340,-71.4333,44.1961,-71.43330,44.19610,10,3,01/09/2009,31/12/2099,41,09/08/2025,WB2LJK/P
+W1/HA-019,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Tremont",1027,3371,-71.3569,44.0533,-71.35690,44.05330,6,3,01/09/2009,31/12/2099,13,28/09/2024,W1JOL
+W1/HA-020,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Martha",1089,3573,-71.4994,44.3306,-71.49940,44.33060,6,3,01/09/2009,31/12/2099,38,16/08/2025,WB2LJK/P
+W1/HA-021,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Piermont Mountain",828,2717,-71.9950,43.9594,-71.99500,43.95940,2,3,01/09/2009,31/12/2099,9,28/04/2026,KL0D
+W1/HA-022,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","South Twin Mountain",1494,4902,-71.5547,44.1878,-71.55470,44.18780,10,3,01/09/2009,31/12/2099,17,18/10/2025,WB2LJK/P
+W1/HA-023,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Stinson Mountain",884,2900,-71.7792,43.8347,-71.77920,43.83470,2,3,01/09/2009,31/12/2099,39,14/03/2026,KL0D/1
+W1/HA-024,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Carr Mountain",1052,3453,-71.8433,43.8847,-71.84330,43.88470,6,3,01/09/2009,31/12/2099,24,31/08/2024,KG6CIH
+W1/HA-025,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Sunapee Mountain HP",831,2726,-72.0742,43.3136,-72.07420,43.31360,2,3,01/09/2009,31/12/2099,29,13/01/2026,KL0D/1
+W1/HA-026,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Ragged Mountain",697,2286,-71.8294,43.4683,-71.82940,43.46830,1,0,01/09/2009,31/12/2099,3,19/04/2020,KG6CIH
+W1/HA-027,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","North Peak on Moose Mountain",705,2313,-72.1408,43.7344,-72.14080,43.73440,1,0,01/09/2009,31/12/2099,3,12/07/2023,WX1S
+W1/HA-028,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bear Mountain",981,3220,-71.3017,44.0294,-71.30170,44.02940,4,3,01/09/2009,31/12/2099,1,07/10/2018,AA6XA
+W1/HA-029,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Hersey Mountain",610,2001,-71.6578,43.5669,-71.65780,43.56690,1,0,01/09/2009,31/12/2099,14,01/01/2024,KC1FGY
+W1/HA-030,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Signal Mountain on Gardner Mountain",701,2299,-71.9756,44.2881,-71.97560,44.28810,1,0,01/09/2009,31/12/2099,1,20/03/2021,KC1MXI
+W1/HA-031,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Rice Mountain",1033,3390,-71.2403,44.8528,-71.24030,44.85280,6,3,01/09/2009,31/12/2099,1,24/11/2024,KC1ONG
+W1/HA-032,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Savage Mountain",1070,3510,-71.5444,44.7319,-71.54440,44.73190,6,3,01/09/2009,31/12/2099,0,,
+W1/HA-033,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","North Peak on Mount Tripyramid",1274,4180,-71.4428,43.9731,-71.44280,43.97310,10,3,01/09/2009,31/12/2099,24,03/05/2026,WB2LJK/P
+W1/HA-034,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","West Royce Mountain",978,3210,-71.0181,44.3022,-71.01810,44.30220,4,3,01/09/2009,31/12/2099,9,27/05/2026,KC1MXB
+W1/HA-035,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Stub Hill",1106,3627,-71.0978,45.1067,-71.09780,45.10670,8,3,01/09/2009,31/12/2099,2,16/07/2024,WX1S
+W1/HA-036,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cragged Mountain",550,1806,-71.0147,43.8656,-71.01470,43.86560,1,0,01/09/2009,31/12/2099,1,14/10/2014,W1DMH
+W1/HA-037,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Plymouth Mountain",668,2193,-71.7236,43.7092,-71.72360,43.70920,1,0,01/09/2009,31/12/2099,10,10/12/2022,KC1FGY
+W1/HA-038,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cole Hill",806,2645,-71.8142,44.1664,-71.81420,44.16640,2,3,01/09/2009,31/12/2099,8,13/06/2025,WC1N
+W1/HA-039,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Waumbek",1221,4006,-71.4175,44.4325,-71.41750,44.43250,10,3,01/09/2009,31/12/2099,44,18/04/2026,WB2LJK/P
+W1/HA-040,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Chocorua",1067,3500,-71.2731,43.9544,-71.27310,43.95440,6,3,01/09/2009,31/12/2099,19,15/06/2025,KC1MXB
+W1/HA-041,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pack Monadnock Mountain",698,2290,-71.8789,42.8619,-71.87890,42.86190,1,0,01/09/2009,31/12/2099,81,04/05/2026,KL0D
+W1/HA-042,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 3615",1102,3615,-71.3781,44.7856,-71.37810,44.78560,8,3,01/09/2009,31/12/2099,0,,
+W1/HA-043,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Clough",1085,3561,-71.8722,44.0292,-71.87220,44.02920,6,3,01/09/2009,31/12/2099,1,20/03/2016,KG6CIH
+W1/HA-044,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","North Baldface",1100,3610,-71.0872,44.2431,-71.08720,44.24310,8,3,01/09/2009,31/12/2099,8,05/08/2025,AC1Z
+W1/HA-045,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Kineo",1010,3313,-71.7983,43.9289,-71.79830,43.92890,6,3,01/09/2009,31/12/2099,1,07/06/2020,KG6CIH
+W1/HA-046,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Hancock",1347,4420,-71.4933,44.0833,-71.49330,44.08330,10,3,01/09/2009,31/12/2099,20,11/10/2025,WB2LJK/P
+W1/HA-047,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Crotched Mountain",630,2066,-71.8739,42.9986,-71.87390,42.99860,1,0,01/09/2009,31/12/2099,28,23/05/2026,AA1BA
+W1/HA-048,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Melvin Hill",705,2313,-72.0017,43.5153,-72.00170,43.51530,1,0,01/09/2009,31/12/2099,1,18/04/2014,W1DMH
+W1/HA-049,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Israel",802,2630,-71.4719,43.8456,-71.47190,43.84560,2,3,01/09/2009,31/12/2099,48,19/02/2026,KL0D/1
+W1/HA-050,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Sandwich Mountain",1213,3980,-71.4983,43.9003,-71.49830,43.90030,10,3,01/09/2009,31/12/2099,53,26/04/2026,KL0D
+W1/HA-051,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","North Moat Mountain",974,3196,-71.2144,44.0431,-71.21440,44.04310,4,3,01/09/2009,31/12/2099,8,12/06/2025,VA2EO/W1
+W1/HA-052,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Stewarts Peak",564,1850,-71.8675,43.2514,-71.86750,43.25140,1,0,01/09/2009,31/12/2099,3,27/11/2025,KG6CIH
+W1/HA-053,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Towns Mountain",671,2203,-71.7608,44.3631,-71.76080,44.36310,1,0,01/09/2009,31/12/2099,1,26/01/2017,KB1OKX
+W1/HA-054,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Crystal Mountain HP",999,3279,-71.2097,44.9375,-71.20970,44.93750,4,3,01/09/2009,31/12/2099,0,,
+W1/HA-055,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Dustan",877,2878,-71.0811,44.8586,-71.08110,44.85860,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-056,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Kelsey",1058,3472,-71.3142,44.8014,-71.31420,44.80140,6,3,01/09/2009,31/12/2099,0,,
+W1/HA-057,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cleveland Mountain",733,2405,-71.6711,44.2583,-71.67110,44.25830,1,0,01/09/2009,31/12/2099,2,17/12/2016,KB1OKX
+W1/HA-058,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Black Crescent Mountain",995,3264,-71.2703,44.4394,-71.27030,44.43940,4,3,01/09/2009,31/12/2099,1,26/05/2026,KC1KMT
+W1/HA-059,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Lyman Mountain",475,1558,-71.1000,43.8942,-71.10000,43.89420,1,0,01/09/2009,31/12/2099,6,28/12/2014,KB1RJD
+W1/HA-060,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Wildcat Mountain",1348,4422,-71.2017,44.2589,-71.20170,44.25890,10,3,01/09/2009,31/12/2099,26,11/02/2026,W3QP
+W1/HA-061,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Nancy",1197,3926,-71.4044,44.1222,-71.40440,44.12220,8,3,01/09/2009,31/12/2099,4,12/02/2026,W3QP
+W1/HA-062,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Tenney Mountain",716,2350,-71.7911,43.7383,-71.79110,43.73830,1,0,01/09/2009,31/12/2099,3,08/12/2022,KC1FGY
+W1/HA-063,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Errol Hill",696,2283,-71.1097,44.7656,-71.10970,44.76560,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-064,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Magalloway Mountain",1031,3383,-71.1625,45.0636,-71.16250,45.06360,6,3,01/09/2009,31/12/2099,7,04/10/2025,KG6CIH
+W1/HA-065,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Whitcomb Mountain, Middle",1022,3354,-71.3700,44.7436,-71.37000,44.74360,6,3,01/09/2009,31/12/2099,0,,
+W1/HA-066,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Paugus",975,3198,-71.3289,43.9511,-71.32890,43.95110,4,3,01/09/2009,31/12/2099,5,07/12/2024,KC1MXB
+W1/HA-067,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Prospect Mountain",633,2077,-71.5708,44.4514,-71.57080,44.45140,1,0,01/09/2009,31/12/2099,22,04/06/2026,WN2G
+W1/HA-068,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","North Doublehead",931,3053,-71.1303,44.1675,-71.13030,44.16750,4,3,01/09/2009,31/12/2099,30,10/03/2026,KL0D/1
+W1/HA-069,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Black Cap",722,2369,-71.0669,44.0558,-71.06690,44.05580,1,0,01/09/2009,31/12/2099,25,07/06/2024,N1RKO
+W1/HA-070,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Iron Mountain",831,2726,-71.2392,44.1342,-71.23920,44.13420,2,3,01/09/2009,31/12/2099,11,14/06/2025,K1RID
+W1/HA-071,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Greens Cliff",892,2926,-71.4019,44.0347,-71.40190,44.03470,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-072,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Weetamoo",777,2548,-71.5731,43.8511,-71.57310,43.85110,1,0,01/09/2009,31/12/2099,1,28/07/2018,W1DMH
+W1/HA-073,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Moriah",1234,4049,-71.1317,44.3403,-71.13170,44.34030,10,3,01/09/2009,31/12/2099,20,09/02/2026,W3QP
+W1/HA-074,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Wolf",1067,3500,-71.7533,44.0775,-71.75330,44.07750,6,3,01/09/2009,31/12/2099,2,20/06/2020,KG6CIH
+W1/HA-075,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Rowes Hill",594,1950,-71.9367,43.2142,-71.93670,43.21420,1,0,01/09/2009,31/12/2099,1,14/10/2015,W1DMH
+W1/HA-076,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bly Hill",617,2024,-72.0167,43.3367,-72.01670,43.33670,1,0,01/09/2009,31/12/2099,14,17/03/2026,KL0D/1
+W1/HA-077,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Piper Hill",663,2175,-71.4742,44.9436,-71.47420,44.94360,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-078,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Dixville Peak",1064,3490,-71.3181,44.8358,-71.31810,44.83580,6,3,01/09/2009,31/12/2099,0,,
+W1/HA-079,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Winslow Ledge",696,2282,-72.0772,43.7764,-72.07720,43.77640,1,0,01/09/2009,31/12/2099,1,30/03/2016,W1DMH
+W1/HA-080,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Osgood Hill",687,2254,-72.0978,42.9978,-72.09780,42.99780,1,0,01/09/2009,31/12/2099,10,27/12/2024,AC1Z
+W1/HA-081,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Signal Mountain",824,2702,-71.2275,44.7611,-71.22750,44.76110,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-082,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Salmon Mountain",1033,3390,-71.1331,45.2433,-71.13310,45.24330,6,3,01/09/2009,31/12/2099,2,07/12/2024,VA2EO
+W1/HA-083,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Holts Ledge",643,2110,-72.1083,43.7731,-72.10830,43.77310,1,0,01/09/2009,31/12/2099,4,12/07/2023,N4AAJ
+W1/HA-084,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Rose Mountain",527,1730,-71.8050,42.9317,-71.80500,42.93170,1,0,01/09/2009,31/12/2099,26,08/06/2025,N1CMD
+W1/HA-085,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Moody Ledge",709,2326,-71.8814,44.1339,-71.88140,44.13390,1,0,01/09/2009,31/12/2099,1,16/01/2017,KB1OKX
+W1/HA-086,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Kancamagus",1147,3763,-71.4792,44.0111,-71.47920,44.01110,8,3,01/09/2009,31/12/2099,1,18/09/2017,W1DMH
+W1/HA-087,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Beech Hill",691,2267,-71.5828,44.2903,-71.58280,44.29030,1,0,01/09/2009,31/12/2099,1,13/07/2015,W1DMH
+W1/HA-088,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Mist",680,2230,-71.9306,43.9747,-71.93060,43.97470,1,0,01/09/2009,31/12/2099,3,29/11/2017,W1DMH
+W1/HA-089,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Cube",887,2909,-72.0236,43.8858,-72.02360,43.88580,2,3,01/09/2009,31/12/2099,19,15/02/2026,KL0D/1
+W1/HA-090,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mill Mountain",767,2517,-71.3861,44.5961,-71.38610,44.59610,1,0,01/09/2009,31/12/2099,1,24/09/2020,W1DMH
+W1/HA-091,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Lovewell Mountain",753,2471,-72.0611,43.2036,-72.06110,43.20360,1,0,01/09/2009,31/12/2099,10,11/01/2024,WX1S
+W1/HA-092,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 4025",1227,4025,-71.6050,44.1439,-71.60500,44.14390,10,3,01/09/2009,31/12/2099,9,11/05/2026,KB1ZVR
+W1/HA-093,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Adams",1760,5774,-71.2914,44.3206,-71.29140,44.32060,10,3,01/09/2009,31/12/2099,21,05/08/2025,KC1VXD
+W1/HA-094,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bartlett Haystack",908,2980,-71.3269,44.0519,-71.32690,44.05190,4,3,01/09/2009,31/12/2099,1,27/05/2013,AA1ES
+W1/HA-095,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Garfield",1372,4500,-71.6108,44.1872,-71.61080,44.18720,10,3,01/09/2009,31/12/2099,34,16/05/2026,KC1YMR
+W1/HA-096,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Huntington",1128,3700,-71.4911,44.0500,-71.49110,44.05000,8,3,01/09/2009,31/12/2099,1,17/02/2018,KB1JDX
+W1/HA-097,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Location Hill",607,1990,-71.3456,44.6003,-71.34560,44.60030,1,0,01/09/2009,31/12/2099,1,09/10/2020,W1DMH
+W1/HA-098,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Nr. Deer Mountain",972,3190,-71.2253,45.1897,-71.22530,45.18970,4,3,01/09/2009,31/12/2099,0,,
+W1/HA-099,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Dickinson Hill",582,1910,-71.7881,43.5189,-71.78810,43.51890,1,0,01/09/2009,31/12/2099,2,17/11/2022,KC1FGY
+W1/HA-100,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Cilley",679,2227,-71.7214,43.9861,-71.72140,43.98610,1,0,01/09/2009,31/12/2099,3,19/05/2026,KC1TYJ
+W1/HA-101,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2011, 0.8 mi. SW of Wilcox Hill",613,2011,-72.2303,43.3217,-72.23030,43.32170,1,0,01/09/2009,31/12/2099,1,23/04/2017,W1DMH
+W1/HA-102,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Percy Peaks North",1045,3430,-71.4353,44.6631,-71.43530,44.66310,6,3,01/09/2009,31/12/2099,2,21/07/2018,KG6CIH
+W1/HA-103,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Walker Mountain",546,1790,-71.8314,44.2942,-71.83140,44.29420,1,0,01/09/2009,31/12/2099,4,04/10/2025,KC1QXL
+W1/HA-104,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Sunday Mountain",556,1823,-72.0908,43.9011,-72.09080,43.90110,1,0,01/09/2009,31/12/2099,4,01/08/2021,WN3F
+W1/HA-105,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Passaconaway",1232,4043,-71.3806,43.9547,-71.38060,43.95470,10,3,01/09/2009,31/12/2099,39,15/03/2026,KC1ULS
+W1/HA-106,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pine Mountain",735,2410,-71.2153,44.3658,-71.21530,44.36580,1,0,01/09/2009,31/12/2099,23,15/06/2025,AC1Z
+W1/HA-107,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2944",897,2944,-71.1900,44.8483,-71.19000,44.84830,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-108,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Young Mountain",607,1990,-71.4414,43.8750,-71.44140,43.87500,1,0,01/09/2009,31/12/2099,1,29/04/2017,W1DMH
+W1/HA-109,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bald Mountain",621,2038,-72.0308,43.0219,-72.03080,43.02190,1,0,01/09/2009,31/12/2099,18,01/04/2024,N1CMD
+W1/HA-110,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Crescent",991,3251,-71.2939,44.4042,-71.29390,44.40420,4,3,01/09/2009,31/12/2099,17,04/06/2026,WN2G
+W1/HA-111,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bald Mountain",716,2350,-71.1144,44.6053,-71.11440,44.60530,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-112,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Metallak Mountain",710,2330,-71.4031,45.1586,-71.40310,45.15860,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-113,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cannon Mountain",1250,4100,-71.6986,44.1567,-71.69860,44.15670,10,3,01/09/2009,31/12/2099,102,23/05/2026,W1XA
+W1/HA-114,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2889",881,2889,-71.2833,44.7442,-71.28330,44.74420,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-115,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 1488",454,1488,-70.9992,43.9467,-70.99920,43.94670,1,0,01/09/2009,31/12/2099,1,17/10/2014,W1DMH
+W1/HA-116,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cates Hill",629,2063,-71.1822,44.5058,-71.18220,44.50580,1,0,01/09/2009,31/12/2099,3,02/06/2023,WI1G
+W1/HA-117,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cone Mountain",650,2132,-71.6072,43.9111,-71.60720,43.91110,1,0,01/09/2009,31/12/2099,1,06/05/2015,W1DMH
+W1/HA-118,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Little Monadnock Mountain",579,1900,-72.2064,42.7892,-72.20640,42.78920,1,0,01/09/2009,31/12/2099,25,16/05/2025,N1CMD
+W1/HA-119,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 3277",999,3277,-71.1161,45.2703,-71.11610,45.27030,4,3,01/09/2009,31/12/2099,3,03/01/2024,VA2EO
+W1/HA-120,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Jefferson",1741,5712,-71.3167,44.3039,-71.31670,44.30390,10,3,01/09/2009,31/12/2099,24,17/05/2026,KC1ULS
+W1/HA-121,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bald Cap",934,3065,-71.1028,44.4494,-71.10280,44.44940,4,3,01/09/2009,31/12/2099,1,08/06/2024,AC1QM
+W1/HA-122,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Ore Hill",617,2025,-71.7906,44.1994,-71.79060,44.19940,1,0,01/09/2009,31/12/2099,1,13/04/2016,W1DMH
+W1/HA-123,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Peaked Hill",581,1905,-71.6992,43.6503,-71.69920,43.65030,1,0,01/09/2009,31/12/2099,5,23/10/2024,AC1Z
+W1/HA-124,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Franklin Mountain",434,1424,-72.3472,42.8294,-72.34720,42.82940,1,0,01/09/2009,31/12/2099,4,26/07/2025,N1CMD
+W1/HA-125,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Jeffers Mountain",913,2994,-71.9019,44.0336,-71.90190,44.03360,4,3,01/09/2009,31/12/2099,1,05/05/2019,KG6CIH
+W1/HA-126,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Middle Carter Mountain",1405,4610,-71.1678,44.3028,-71.16780,44.30280,10,3,01/09/2009,31/12/2099,18,08/02/2026,W3QP
+W1/HA-127,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Dartmouth",1136,3727,-71.3839,44.3025,-71.38390,44.30250,8,3,01/09/2009,31/12/2099,1,05/08/2023,NI1L
+W1/HA-128,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Sugar Hill",910,2985,-71.3092,44.9244,-71.30920,44.92440,4,3,01/09/2009,31/12/2099,3,16/07/2024,WC1N
+W1/HA-129,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Black Mountain",1007,3304,-71.1556,44.2253,-71.15560,44.22530,6,3,01/09/2009,31/12/2099,0,,
+W1/HA-130,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Prospect Hill",645,2116,-72.1269,43.5747,-72.12690,43.57470,1,0,01/09/2009,31/12/2099,1,06/01/2016,W1DMH
+W1/HA-131,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Gove Hill",591,1939,-72.2561,43.2533,-72.25610,43.25330,1,0,01/09/2009,31/12/2099,3,30/04/2018,K1SWL
+W1/HA-132,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cambridge Black Mountain",850,2790,-71.0792,44.6269,-71.07920,44.62690,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-133,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Diamond Ridge",985,3230,-71.1358,45.0922,-71.13580,45.09220,4,3,01/09/2009,31/12/2099,1,19/10/2017,W1DMH
+W1/HA-134,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Thorn Mountain",696,2282,-71.1558,44.1322,-71.15580,44.13220,1,0,01/09/2009,31/12/2099,1,15/01/2011,W1DMH
+W1/HA-135,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 3097",944,3097,-71.1664,44.9411,-71.16640,44.94110,4,3,01/09/2009,31/12/2099,0,,
+W1/HA-136,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Thompson Hill",712,2337,-71.9903,43.7497,-71.99030,43.74970,1,0,01/09/2009,31/12/2099,1,03/10/2017,W1DMH
+W1/HA-137,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bald Sunapee",631,2070,-72.0314,43.2856,-72.03140,43.28560,1,0,01/09/2009,31/12/2099,2,31/12/2021,AA6XA
+W1/HA-138,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Cushman",982,3221,-71.7786,43.9586,-71.77860,43.95860,4,3,01/09/2009,31/12/2099,2,03/12/2023,KC1MXB
+W1/HA-139,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Diamond Peaks",625,2050,-71.0617,44.8922,-71.06170,44.89220,1,0,01/09/2009,31/12/2099,1,03/10/2025,KG6CIH
+W1/HA-140,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2120+",649,2130,-71.9114,43.7531,-71.91140,43.75310,1,0,01/09/2009,31/12/2099,1,03/10/2017,W1DMH
+W1/HA-141,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Kings Hill",588,1930,-71.9931,43.3706,-71.99310,43.37060,1,0,01/09/2009,31/12/2099,1,07/09/2013,W1DMH
+W1/HA-142,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Success",1087,3565,-71.0392,44.4717,-71.03920,44.47170,6,3,01/09/2009,31/12/2099,7,10/08/2025,KG6CIH
+W1/HA-143,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Fernald Hill",491,1610,-72.3036,43.5044,-72.30360,43.50440,1,0,01/09/2009,31/12/2099,1,23/04/2016,W1DMH
+W1/HA-144,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Scar Ridge",1150,3774,-71.5953,44.0289,-71.59530,44.02890,8,3,01/09/2009,31/12/2099,1,31/10/2020,KG6CIH
+W1/HA-145,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Hyland Hill",460,1509,-72.3842,42.9594,-72.38420,42.95940,1,0,01/09/2009,31/12/2099,9,04/10/2025,NG2E
+W1/HA-146,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Wantastiquet Mountain",423,1388,-72.5386,42.8556,-72.53860,42.85560,1,0,01/09/2009,31/12/2099,13,08/04/2026,KL0D
+W1/HA-147,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Round Mountain",597,1959,-72.0650,43.0861,-72.06500,43.08610,1,0,01/09/2009,31/12/2099,10,18/05/2023,WX1S
+W1/HA-148,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount D'Urban",917,3010,-71.1047,45.2950,-71.10470,45.29500,4,3,01/09/2009,31/12/2099,2,03/01/2024,VA2EO
+W1/HA-149,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Shatney Mountain",661,2170,-71.3964,45.0789,-71.39640,45.07890,1,0,01/09/2009,31/12/2099,2,25/07/2024,AC1Z
+W1/HA-150,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Black Mountain",863,2830,-71.9219,44.0744,-71.92190,44.07440,2,3,01/09/2009,31/12/2099,14,28/12/2025,KL0D/1
+W1/HA-151,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cummings Mountain",630,2067,-71.2872,44.6122,-71.28720,44.61220,1,0,01/09/2009,31/12/2099,1,09/05/2017,W1DMH
+W1/HA-152,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pitcher Mountain",659,2162,-72.1350,43.0942,-72.13500,43.09420,1,0,01/09/2009,31/12/2099,42,27/02/2026,KL0D/1
+W1/HA-153,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2437",743,2437,-71.5078,44.8481,-71.50780,44.84810,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-154,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Dalton Mountain",657,2156,-71.6714,44.3817,-71.67140,44.38170,1,0,01/09/2009,31/12/2099,1,20/12/2016,KB1OKX
+W1/HA-155,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Kilburn",339,1112,-72.4325,43.1375,-72.43250,43.13750,1,0,01/09/2009,31/12/2099,5,09/04/2026,KL0D
+W1/HA-156,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mudget Mountain",796,2610,-71.3767,44.9683,-71.37670,44.96830,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-157,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Hale",1236,4054,-71.5119,44.2217,-71.51190,44.22170,10,3,01/09/2009,31/12/2099,58,16/08/2025,WB2LJK/P
+W1/HA-158,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Sable Mountain",1073,3519,-71.0956,44.2150,-71.09560,44.21500,6,3,01/09/2009,31/12/2099,0,,
+W1/HA-159,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Weeks",1189,3901,-71.3817,44.4614,-71.38170,44.46140,8,3,01/09/2009,31/12/2099,12,05/10/2025,N1ZF
+W1/HA-160,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cascade Mountain",802,2631,-71.1511,44.4342,-71.15110,44.43420,2,3,01/09/2009,31/12/2099,2,27/10/2023,WX1S
+W1/HA-161,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","White Ledge",613,2010,-71.2194,43.9725,-71.21940,43.97250,1,0,01/09/2009,31/12/2099,8,21/04/2023,WX1S
+W1/HA-162,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cape Horn",625,2050,-71.5217,44.5756,-71.52170,44.57560,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-163,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2048",624,2048,-71.4647,45.0608,-71.46470,45.06080,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-164,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Terrace Mountain",1114,3655,-71.3953,44.4772,-71.39530,44.47720,8,3,01/09/2009,31/12/2099,13,06/10/2025,N1ZF
+W1/HA-165,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Skatutakee Mountain",609,1998,-72.0361,42.9686,-72.03610,42.96860,1,0,01/09/2009,31/12/2099,17,06/04/2025,N1CMD
+W1/HA-166,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Hayes",779,2555,-71.1600,44.4156,-71.16000,44.41560,1,0,01/09/2009,31/12/2099,7,04/06/2026,AC1Z
+W1/HA-167,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Flat Mountain",896,2940,-71.4447,43.9039,-71.44470,43.90390,2,3,01/09/2009,31/12/2099,2,11/05/2022,KA1YBS
+W1/HA-168,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Beach Hill",491,1610,-71.4531,44.6194,-71.45310,44.61940,1,0,01/09/2009,31/12/2099,2,23/12/2018,W1DMH
+W1/HA-169,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Double Top Mountain",576,1890,-71.1436,44.6911,-71.14360,44.69110,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-170,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Barron Mountain",506,1660,-71.6644,43.9781,-71.66440,43.97810,1,0,01/09/2009,31/12/2099,1,06/05/2015,W1DMH
+W1/HA-171,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Anderson",1140,3740,-71.4178,44.1125,-71.41780,44.11250,8,3,01/09/2009,31/12/2099,1,02/06/2023,W1DMH
+W1/HA-172,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Whiteface",1225,4020,-71.4078,43.9364,-71.40780,43.93640,10,3,01/09/2009,31/12/2099,35,04/10/2025,N1ZF
+W1/HA-173,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians",Roundtop,338,1110,-71.7400,43.5783,-71.74000,43.57830,1,0,01/09/2009,31/12/2099,9,23/10/2024,AC1Z
+W1/HA-174,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Sentinel Mountain",668,2190,-71.9392,43.9203,-71.93920,43.92030,1,0,01/09/2009,31/12/2099,2,20/09/2025,N1PTX
+W1/HA-175,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bible Hill",429,1407,-72.3325,43.3328,-72.33250,43.33280,1,0,01/09/2009,31/12/2099,4,31/01/2024,WX1S
+W1/HA-176,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 1676",511,1676,-71.9458,44.2400,-71.94580,44.24000,1,0,01/09/2009,31/12/2099,1,24/11/2012,KB1CRQ/P
+W1/HA-177,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cave Mountain",973,3191,-71.2658,44.8836,-71.26580,44.88360,4,3,01/09/2009,31/12/2099,0,,
+W1/HA-178,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Blake Mountain",476,1561,-71.6908,43.8822,-71.69080,43.88220,1,0,01/09/2009,31/12/2099,1,18/01/2017,W1DMH
+W1/HA-179,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Oak Hill",381,1250,-71.1403,43.9467,-71.14030,43.94670,1,0,01/09/2009,31/12/2099,99,01/01/2026,N2YTF/P
+W1/HA-180,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Gordon Hill",369,1210,-71.7747,43.5892,-71.77470,43.58920,1,0,01/09/2009,31/12/2099,4,23/10/2024,AC1Z
+W1/HA-181,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Holt Peak on Temple Mountain",623,2045,-71.8853,42.8275,-71.88530,42.82750,1,0,01/09/2009,31/12/2099,36,27/06/2025,N1CMD
+W1/HA-182,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Deception",1119,3671,-71.4208,44.2933,-71.42080,44.29330,8,3,01/09/2009,31/12/2099,1,31/08/2025,KC1ONG
+W1/HA-183,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Potato Hill",622,2041,-71.5061,44.6633,-71.50610,44.66330,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-184,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Hope",506,1661,-71.8856,44.1867,-71.88560,44.18670,1,0,01/09/2009,31/12/2099,1,13/04/2016,W1DMH
+W1/HA-185,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Baltimore Hill",513,1683,-72.1525,43.4206,-72.15250,43.42060,1,0,01/09/2009,31/12/2099,1,23/10/2015,W1DMH
+W1/HA-186,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Chandler Mountain",1017,3335,-71.1058,44.2022,-71.10580,44.20220,6,3,01/09/2009,31/12/2099,0,,
+W1/HA-187,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Hitchcock",1103,3620,-71.5394,44.0744,-71.53940,44.07440,8,3,01/09/2009,31/12/2099,0,,
+W1/HA-188,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","White Horse Ledge",442,1450,-71.1711,44.0539,-71.17110,44.05390,1,0,01/09/2009,31/12/2099,16,12/06/2025,VA2EO/W1
+W1/HA-189,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Success Hill",668,2190,-71.0528,44.5672,-71.05280,44.56720,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-190,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cottonstone Mountain",539,1770,-72.0811,43.9244,-72.08110,43.92440,1,0,01/09/2009,31/12/2099,1,06/04/2016,W1DMH
+W1/HA-191,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bog Mountain",545,1787,-71.9297,43.4689,-71.92970,43.46890,1,0,01/09/2009,31/12/2099,7,03/12/2024,WC1N
+W1/HA-192,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cobble Hill",703,2306,-71.8633,44.1306,-71.86330,44.13060,1,0,01/09/2009,31/12/2099,1,21/05/2016,W1DMH
+W1/HA-193,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Halfmoon Mountain",776,2545,-71.0617,44.9297,-71.06170,44.92970,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-194,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Big Coolidge Mountain",1004,3294,-71.6425,44.0794,-71.64250,44.07940,6,3,01/09/2009,31/12/2099,1,19/08/2020,KC1MXI
+W1/HA-195,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Tucker Mountain",501,1644,-71.7603,43.4944,-71.76030,43.49440,1,0,01/09/2009,31/12/2099,2,01/12/2022,KC1FGY
+W1/HA-196,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Gap Mountain",579,1900,-72.1378,42.8189,-72.13780,42.81890,1,0,01/09/2009,31/12/2099,19,13/03/2026,W1RCK
+W1/HA-197,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Garnet Hill",592,1942,-71.7933,44.2286,-71.79330,44.22860,1,0,01/09/2009,31/12/2099,1,13/04/2016,W1DMH
+W1/HA-198,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bald Hill",399,1309,-72.4931,42.9397,-72.49310,42.93970,1,0,01/09/2009,31/12/2099,1,17/02/2016,W1DMH
+W1/HA-199,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Davis Hill",435,1427,-72.4750,42.8544,-72.47500,42.85440,1,0,01/09/2009,31/12/2099,11,24/10/2025,WX1S
+W1/HA-200,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Lovering Mountain",677,2221,-71.3897,44.9333,-71.38970,44.93330,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-201,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Flat Mountain",1015,3331,-71.4619,43.9283,-71.46190,43.92830,6,3,01/09/2009,31/12/2099,1,13/05/2022,KA1YBS
+W1/HA-202,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Riley Mountain",439,1441,-71.9383,43.0925,-71.93830,43.09250,1,0,01/09/2009,31/12/2099,3,24/04/2026,N1CMD
+W1/HA-203,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","North Pack Monadnock Mountain",694,2276,-71.8661,42.8856,-71.86610,42.88560,1,0,01/09/2009,31/12/2099,50,01/05/2026,AA1BA
+W1/HA-204,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Indian Pond Mountain",602,1975,-72.0294,43.9353,-72.02940,43.93530,1,0,01/09/2009,31/12/2099,1,06/04/2016,W1DMH
+W1/HA-205,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Bean Mountain",709,2326,-72.1378,43.2275,-72.13780,43.22750,1,0,01/09/2009,31/12/2099,1,21/09/2016,W1DMH
+W1/HA-206,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Beech Hill",430,1410,-71.8094,43.4131,-71.80940,43.41310,1,0,01/09/2009,31/12/2099,1,10/01/2011,KB1TBW
+W1/HA-207,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Pero",436,1430,-71.7000,43.8003,-71.70000,43.80030,1,0,01/09/2009,31/12/2099,1,06/05/2015,W1DMH
+W1/HA-208,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Cow Mountain",698,2289,-71.2500,44.6967,-71.25000,44.69670,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-209,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Jericho Mountain",758,2487,-71.2225,44.4669,-71.22250,44.46690,1,0,01/09/2009,31/12/2099,1,28/05/2020,W1DMH
+W1/HA-210,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2983",909,2983,-71.1817,45.2394,-71.18170,45.23940,4,3,01/09/2009,31/12/2099,1,08/04/2024,VA2EO/W1
+W1/HA-211,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Stowe Hill",495,1624,-72.0072,43.1622,-72.00720,43.16220,1,0,01/09/2009,31/12/2099,1,19/10/2015,W1DMH
+W1/HA-212,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Dakin Hill",596,1955,-72.1300,43.0464,-72.13000,43.04640,1,0,01/09/2009,31/12/2099,4,27/12/2024,AC1Z
+W1/HA-213,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Smith Hill",547,1795,-72.2653,43.0981,-72.26530,43.09810,1,0,01/09/2009,31/12/2099,2,29/01/2026,KL0D/1
+W1/HA-214,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Stairs Mountain",1056,3463,-71.3183,44.1547,-71.31830,44.15470,6,3,01/09/2009,31/12/2099,3,21/05/2022,KG6CIH
+W1/HA-215,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Whitton Ledge",375,1230,-71.1881,43.9467,-71.18810,43.94670,1,0,01/09/2009,31/12/2099,5,01/10/2013,KB1RJC
+W1/HA-216,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Morse Mountain",576,1890,-71.5244,44.6250,-71.52440,44.62500,1,0,01/09/2009,31/12/2099,1,19/10/2017,W1DMH
+W1/HA-217,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Patience",838,2750,-71.2533,44.7458,-71.25330,44.74580,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-218,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Jewell Hill",607,1990,-71.8644,43.7333,-71.86440,43.73330,1,0,01/09/2009,31/12/2099,3,12/05/2025,WX1S
+W1/HA-219,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Clark Summit",479,1570,-71.8700,43.0733,-71.87000,43.07330,1,0,01/09/2009,31/12/2099,17,10/05/2026,NG2E
+W1/HA-220,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Raccoon Hill",363,1190,-71.7536,43.4175,-71.75360,43.41750,1,0,01/09/2009,31/12/2099,1,14/05/2013,W1DMH
+W1/HA-221,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Prospect Hill",357,1170,-72.3394,43.5558,-72.33940,43.55580,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-222,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 1360+ on Frenchs Ledge",418,1370,-72.2808,43.5442,-72.28080,43.54420,1,0,01/09/2009,31/12/2099,4,12/08/2020,AC1Z
+W1/HA-223,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2708",825,2708,-71.0875,45.0269,-71.08750,45.02690,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-224,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Mount Pleasant",591,1939,-71.5881,44.4542,-71.58810,44.45420,1,0,01/09/2009,31/12/2099,1,15/01/2017,W1DMH
+W1/HA-225,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Windsor Mountain",489,1604,-72.0056,43.0911,-72.00560,43.09110,1,0,01/09/2009,31/12/2099,1,21/10/2015,W1DMH
+W1/HA-226,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 731M",731,2398,-72.2542,43.4636,-72.25420,43.46360,1,0,01/09/2009,31/12/2099,0,,
+W1/HA-227,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Hutchins Mountain",1137,3730,-71.4547,44.5481,-71.45470,44.54810,8,3,01/09/2009,31/12/2099,1,07/11/2020,KC1MXI
+W1/HA-228,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 3051",930,3051,-71.4811,44.1497,-71.48110,44.14970,4,3,01/09/2009,31/12/2099,0,,
+W1/HA-229,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 2699",823,2699,-71.2767,45.2000,-71.27670,45.20000,2,3,01/09/2009,31/12/2099,0,,
+W1/HA-230,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 1364",416,1364,-71.6622,43.9578,-71.66220,43.95780,1,0,01/09/2009,31/12/2099,1,28/02/2016,W1DMH
+W1/HA-231,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Closton Hill",577,1893,-71.2328,44.5975,-71.23280,44.59750,1,0,01/09/2009,31/12/2099,1,09/10/2020,W1DMH
+W1/HA-232,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 1602",488,1602,-71.9194,44.3067,-71.91940,44.30670,1,0,01/09/2009,31/12/2099,1,22/02/2017,W1DMH
+W1/HA-233,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Gore Mountain",1100,3610,-71.4653,44.7739,-71.46530,44.77390,8,3,01/09/2009,31/12/2099,0,,
+W1/HA-234,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Pt. 3180+",972,3190,-71.4925,44.8203,-71.49250,44.82030,4,3,01/09/2009,31/12/2099,0,,
+W1/HA-235,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Appalachians","Tinkham Hill",710,2330,-71.8603,43.5900,-71.86030,43.59000,1,0,01/09/2009,31/12/2099,2,07/03/2022,KC1FGY
+W1/HH-001,"USA - CT / ME / MA / NH / RI / VT","Hanging Hills","Higby Mtn.",309,1015,-72.7406,41.5508,-72.74060,41.55080,1,0,01/06/2009,31/12/2099,21,07/03/2026,KC1NJC
+W1/HH-002,"USA - CT / ME / MA / NH / RI / VT","Hanging Hills","Mt. Carmel",224,735,-72.8903,41.4308,-72.89030,41.43080,1,0,01/06/2009,31/12/2099,54,28/02/2026,KC1NJC
+W1/HH-003,"USA - CT / ME / MA / NH / RI / VT","Hanging Hills","Ragged Mtn.",233,765,-72.8228,41.6172,-72.82280,41.61720,1,0,01/06/2009,31/12/2099,24,31/05/2026,N4CN
+W1/HH-004,"USA - CT / ME / MA / NH / RI / VT","Hanging Hills","Hanging Hills HP",313,1030,-72.8439,41.5608,-72.84390,41.56080,1,0,01/09/2009,31/12/2099,23,04/04/2026,N0TAR
+W1/MB-001,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Mount Greylock",1063,3487,-73.1661,42.6372,-73.16610,42.63720,6,3,01/09/2009,31/12/2099,189,04/06/2026,KC2WLR
+W1/MB-002,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Mount Everett",795,2608,-73.4322,42.1019,-73.43220,42.10190,1,0,01/09/2009,31/12/2099,32,16/05/2026,K2CPT
+W1/MB-003,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Brodie Mountain",801,2628,-73.2742,42.5825,-73.27420,42.58250,2,3,01/09/2009,31/12/2099,2,09/06/2023,KC1RDH
+W1/MB-004,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Yokun Seat on Lenox Mountain",654,2146,-73.3064,42.4008,-73.30640,42.40080,1,0,01/09/2009,31/12/2099,11,11/04/2026,KC2WLR
+W1/MB-005,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Harvey Mountain",628,2062,-73.4253,42.3128,-73.42530,42.31280,1,0,01/09/2009,31/12/2012,1,05/05/2012,N1EU
+W1/MB-006,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Mount Tom",367,1205,-72.6483,42.2417,-72.64830,42.24170,1,0,01/09/2009,31/12/2099,32,31/05/2026,WN1E
+W1/MB-007,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","East Mountain",544,1786,-73.3236,42.1633,-73.32360,42.16330,1,0,01/09/2009,31/12/2099,2,21/08/2025,WB2FUV
+W1/MB-008,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Tom Ball Mountain",589,1931,-73.4003,42.2694,-73.40030,42.26940,1,0,01/09/2009,31/12/2099,1,20/07/2017,W1DMH
+W1/MB-009,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Mount Frissell",749,2456,-73.4822,42.0511,-73.48220,42.05110,1,0,01/09/2009,31/12/2099,12,02/11/2025,N1ZF
+W1/MB-010,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Widow Whites Peak on Potter Mountain",742,2434,-73.2700,42.5472,-73.27000,42.54720,1,0,01/09/2009,31/12/2099,2,11/08/2023,WB2FUV
+W1/MB-011,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Clausen's Point",688,2257,-73.1764,42.3203,-73.17640,42.32030,1,0,01/09/2009,31/12/2099,3,10/10/2016,W1/DF8KY/P
+W1/MB-012,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Monument Mountain",530,1739,-73.3500,42.2589,-73.35000,42.25890,1,0,01/09/2009,31/12/2099,4,08/11/2023,WB2FUV
+W1/MB-013,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Mount Wilcox",643,2111,-73.2661,42.2192,-73.26610,42.21920,1,0,01/09/2009,31/12/2099,24,16/09/2025,W1GRD
+W1/MB-014,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Bald Mountain",381,1250,-72.5372,42.7097,-72.53720,42.70970,1,0,01/09/2009,31/12/2099,18,28/05/2025,WC1N
+W1/MB-015,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Pocumtuck Rock",261,856,-72.5925,42.5336,-72.59250,42.53360,1,0,01/09/2009,31/12/2099,43,04/04/2026,KC1WPI
+W1/MB-016,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Maple Hill",539,1768,-73.3903,42.3108,-73.39030,42.31080,1,0,01/09/2009,31/12/2099,1,11/06/2017,KB1HXO
+W1/MB-017,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Massaemett Mountain",486,1594,-72.7167,42.6069,-72.71670,42.60690,1,0,01/09/2009,31/12/2099,23,25/05/2026,WN1E
+W1/MB-018,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Big Spruce Hill",789,2589,-73.0675,42.6767,-73.06750,42.67670,1,0,01/09/2009,31/12/2099,10,22/04/2025,KC2WLR
+W1/MB-019,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Perry Peak",633,2077,-73.3797,42.4208,-73.37970,42.42080,1,0,01/09/2009,31/12/2099,13,27/03/2026,WN1E
+W1/MB-020,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Dorman Mountain",596,1955,-73.1606,42.2433,-73.16060,42.24330,1,0,01/09/2009,31/12/2099,4,09/05/2021,KK1W
+W1/MB-021,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Misery Mountain HP",814,2671,-73.3114,42.6144,-73.31140,42.61440,2,3,01/09/2009,31/12/2099,6,20/10/2022,WB2FUV
+W1/MB-022,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Rattlesnake Hill",475,1557,-73.3025,42.3131,-73.30250,42.31310,1,0,01/09/2009,31/12/2099,5,22/04/2024,KC1RDH
+W1/MB-023,"USA - CT / ME / MA / NH / RI / VT","Massachusetts Berkshires","Big Misery Mountain",806,2644,-73.2981,42.6553,-73.29810,42.65530,2,3,01/09/2009,31/12/2099,5,22/10/2022,WB2FUV
+W1/MR-001,"USA - CT / ME / MA / NH / RI / VT","Metacomet Ridge","Talcott Mtn. HP",291,955,-72.7986,41.8239,-72.79860,41.82390,1,0,21/05/2009,31/12/2099,53,16/05/2026,N1ZF
+W1/MR-002,"USA - CT / ME / MA / NH / RI / VT","Metacomet Ridge","Burley Hill",401,1314,-72.2086,42.0167,-72.20860,42.01670,1,0,21/05/2009,31/12/2099,12,13/05/2024,WC1N
+W1/MR-003,"USA - CT / ME / MA / NH / RI / VT","Metacomet Ridge","Peak Mtn.",224,735,-72.7403,41.9706,-72.74030,41.97060,1,0,21/05/2009,31/12/2099,29,08/01/2026,N0TAR
+W1/MV-001,"USA - CT / ME / MA / NH / RI / VT","Merrimack Valley","Bean Hill",460,1510,-71.5467,43.3967,-71.54670,43.39670,1,0,01/09/2009,31/12/2099,4,14/07/2024,AC1JR
+W1/MV-002,"USA - CT / ME / MA / NH / RI / VT","Merrimack Valley","Fort Mountain",431,1413,-71.3197,43.1844,-71.31970,43.18440,1,0,01/09/2009,31/12/2099,47,30/03/2026,KC1TYJ
+W1/MV-003,"USA - CT / ME / MA / NH / RI / VT","Merrimack Valley","North Mountain on Uncanoonuc",404,1324,-71.6050,42.9911,-71.60500,42.99110,1,0,01/09/2009,31/12/2099,66,18/04/2026,AA1BA
+W1/MV-004,"USA - CT / ME / MA / NH / RI / VT","Merrimack Valley","Joe English Hill",392,1285,-71.6622,42.9483,-71.66220,42.94830,1,0,01/09/2009,31/12/2099,39,07/05/2026,WX1S
+W1/MV-005,"USA - CT / ME / MA / NH / RI / VT","Merrimack Valley","Pt. 1010+, 0.3 mi. SW of Garvin Hill",309,1015,-71.4333,43.2200,-71.43330,43.22000,1,0,01/09/2009,31/12/2099,6,24/04/2026,KC1MXB
+W1/MV-006,"USA - CT / ME / MA / NH / RI / VT","Merrimack Valley","Oak Hill",296,970,-71.5056,43.2792,-71.50560,43.27920,1,0,01/09/2009,31/12/2099,58,10/02/2026,KC1VXF
+W1/MV-007,"USA - CT / ME / MA / NH / RI / VT","Merrimack Valley","Pt. 920+",282,925,-71.6181,43.1156,-71.61810,43.11560,1,0,01/09/2009,31/12/2099,29,25/04/2026,WX1S
+W1/MV-008,"USA - CT / ME / MA / NH / RI / VT","Merrimack Valley","Saddleback Mountain",352,1155,-71.2011,43.1794,-71.20110,43.17940,1,0,01/09/2009,31/12/2099,29,26/05/2026,KC1ULS
+W1/NK-001,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","East Mountain",1048,3439,-71.7700,44.6647,-71.77000,44.66470,6,3,01/09/2009,31/12/2099,3,10/10/2019,KG6CIH
+W1/NK-002,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Gore Mountain",1016,3332,-71.7936,44.9194,-71.79360,44.91940,6,3,01/09/2009,31/12/2099,1,12/03/2023,VA2EO/W1
+W1/NK-003,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Bald Mountain",1009,3310,-71.9886,44.7661,-71.98860,44.76610,6,3,01/09/2009,31/12/2099,5,24/11/2025,AC1RI
+W1/NK-004,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Burke Mountain",997,3270,-71.8931,44.5708,-71.89310,44.57080,4,3,01/09/2009,31/12/2099,23,06/12/2025,VA2EO/W1
+W1/NK-005,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Monadnock Mountain",960,3148,-71.5447,44.8975,-71.54470,44.89750,4,3,01/09/2009,31/12/2099,2,21/07/2024,AC1Z
+W1/NK-006,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Mount Hor",810,2656,-72.0533,44.7128,-72.05330,44.71280,2,3,01/09/2009,31/12/2099,8,23/07/2025,AC1Z
+W1/NK-007,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Miles Mountain",820,2690,-71.8117,44.4803,-71.81170,44.48030,2,3,01/09/2009,31/12/2099,0,,
+W1/NK-008,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Pt. 2960+",905,2970,-71.6386,44.9075,-71.63860,44.90750,4,3,01/09/2009,31/12/2099,0,,
+W1/NK-009,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","West Mountain",833,2733,-71.7042,44.7094,-71.70420,44.70940,2,3,01/09/2009,31/12/2099,0,,
+W1/NK-010,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Beechnut Ridge",716,2350,-71.9186,44.9256,-71.91860,44.92560,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-011,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Umpire Mountain",930,3051,-71.8572,44.5697,-71.85720,44.56970,4,3,01/09/2009,31/12/2099,0,,
+W1/NK-012,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Pt. 775.4M",775,2544,-72.0936,44.6792,-72.09360,44.67920,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-013,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Fuller Hill",615,2017,-71.8961,44.3925,-71.89610,44.39250,1,0,01/09/2009,31/12/2099,1,08/01/2021,W1DMH
+W1/NK-014,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","North Notch",667,2188,-71.6994,44.7572,-71.69940,44.75720,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-015,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Burnside Mountain",771,2530,-71.6447,44.5825,-71.64470,44.58250,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-016,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Brousseau Mountain",830,2723,-71.7394,44.9678,-71.73940,44.96780,2,3,01/09/2009,31/12/2099,3,27/08/2023,K1MUU
+W1/NK-017,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Silsby Mountain",559,1834,-71.9844,44.3831,-71.98440,44.38310,1,0,01/09/2009,31/12/2099,1,06/05/2021,W1DMH
+W1/NK-018,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Round Mountain",675,2213,-71.6292,44.6031,-71.62920,44.60310,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-019,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","East Haven Mountain",936,3070,-71.8328,44.6214,-71.83280,44.62140,4,3,01/09/2009,31/12/2099,2,28/02/2026,WB2LJK/P
+W1/NK-020,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Stone Mountain",834,2736,-71.6658,44.5611,-71.66580,44.56110,2,3,01/09/2009,31/12/2099,1,02/12/2023,W1DMH
+W1/NK-021,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Barton Mountain",681,2234,-72.1414,44.7731,-72.14140,44.77310,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-022,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Fairbanks Mountain",542,1778,-71.9700,44.4108,-71.97000,44.41080,1,0,01/09/2009,31/12/2099,1,08/01/2021,W1DMH
+W1/NK-023,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Bull Mountain",841,2758,-71.8389,44.7300,-71.83890,44.73000,2,3,01/09/2009,31/12/2099,0,,
+W1/NK-024,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Potash Mountain",621,2037,-71.6786,44.8097,-71.67860,44.80970,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-025,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Sable Mountain",833,2734,-71.6861,44.9225,-71.68610,44.92250,2,3,01/09/2009,31/12/2099,0,,
+W1/NK-026,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Harris Mountain",760,2492,-71.7014,44.5803,-71.70140,44.58030,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-027,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Hedgehog Mountain",546,1790,-71.5947,44.6267,-71.59470,44.62670,1,0,01/09/2009,31/12/2099,0,,
+W1/NK-028,"USA - CT / ME / MA / NH / RI / VT","Northeast Kingdom","Dollif Mountain",568,1863,-71.9178,44.8222,-71.91780,44.82220,1,0,01/09/2009,31/12/2099,0,,
+W1/NL-001,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Mount Shaw",911,2990,-71.2742,43.7439,-71.27420,43.74390,4,3,01/09/2009,31/12/2099,55,12/04/2026,KG6CIH
+W1/NL-002,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Belknap Mountain",726,2382,-71.3694,43.5178,-71.36940,43.51780,1,0,01/09/2009,31/12/2099,64,24/04/2026,WX1S
+W1/NL-003,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Red Hill",619,2030,-71.4578,43.7556,-71.45780,43.75560,1,0,01/09/2009,31/12/2099,32,07/07/2025,KO4LIT
+W1/NL-004,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Green Mountain",574,1884,-71.0369,43.7675,-71.03690,43.76750,1,0,01/09/2009,31/12/2099,32,05/05/2026,WX1S
+W1/NL-005,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Copple Crown Mountain",569,1868,-71.1161,43.5347,-71.11610,43.53470,1,0,01/09/2009,31/12/2099,15,12/12/2024,K1RID
+W1/NL-006,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Mount Prospect",629,2064,-71.6156,43.7783,-71.61560,43.77830,1,0,01/09/2009,31/12/2099,17,28/08/2025,WJ1U
+W1/NL-007,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Beech Hill",454,1490,-71.5836,43.6625,-71.58360,43.66250,1,0,01/09/2009,31/12/2099,7,12/05/2022,WX1S
+W1/NL-008,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Grant Peak on Nickerson Mountains",543,1783,-71.2158,43.8014,-71.21580,43.80140,1,0,01/09/2009,31/12/2099,4,08/05/2022,WX1S
+W1/NL-009,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Mount Morgan",689,2260,-71.5633,43.8058,-71.56330,43.80580,1,0,01/09/2009,31/12/2099,19,21/10/2025,KB1RZ
+W1/NL-010,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Parker Mountain",430,1410,-71.1689,43.2800,-71.16890,43.28000,1,0,01/09/2009,31/12/2099,49,15/03/2026,K1RID
+W1/NL-011,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Prospect Mountain",442,1450,-71.1894,43.4028,-71.18940,43.40280,1,0,01/09/2009,31/12/2099,15,25/04/2024,WX1S
+W1/NL-012,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Leavitt Mountain",431,1414,-71.5733,43.5872,-71.57330,43.58720,1,0,01/09/2009,31/12/2099,4,23/04/2024,WX1S
+W1/NL-013,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Catamount Mountain",406,1331,-71.2956,43.2750,-71.29560,43.27500,1,0,01/09/2009,31/12/2099,11,10/04/2025,KC1MXB
+W1/NL-014,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Moody Mountain",436,1430,-71.1881,43.6625,-71.18810,43.66250,1,0,01/09/2009,31/12/2099,27,26/04/2025,K1RID
+W1/NL-015,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Pt. 1557, 1.2 mi. NE of Prospect Mountain",475,1557,-70.9950,43.8356,-70.99500,43.83560,1,0,01/09/2009,31/12/2099,4,02/05/2022,WX1S
+W1/NL-016,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Pocket Mountain",371,1216,-71.0469,43.6897,-71.04690,43.68970,1,0,01/09/2009,31/12/2099,6,21/04/2023,WC1N
+W1/NL-017,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Caverly Mountain",437,1433,-71.1467,43.5128,-71.14670,43.51280,1,0,01/09/2009,31/12/2099,22,01/05/2026,KC1MXB
+W1/NL-018,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Bald Mountain",747,2450,-71.2661,43.8008,-71.26610,43.80080,1,0,01/09/2009,31/12/2099,4,07/05/2022,WX1S
+W1/NL-019,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Mount Pawtuckaway North",303,995,-71.1972,43.1203,-71.19720,43.12030,1,0,01/09/2009,31/12/2099,46,30/03/2026,WX1S
+W1/NL-020,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Mount Bet",430,1410,-71.1869,43.4967,-71.18690,43.49670,1,0,01/09/2009,31/12/2099,21,13/05/2026,W6LOR
+W1/NL-021,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Pt. 1240+",381,1250,-71.5931,43.7061,-71.59310,43.70610,1,0,01/09/2009,31/12/2099,7,08/03/2025,KC1MXB
+W1/NL-022,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Pine Mountain",454,1489,-71.2647,43.4742,-71.26470,43.47420,1,0,01/09/2009,31/12/2099,66,10/04/2026,WX1S
+W1/NL-023,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Stacy Mountain",429,1408,-71.1278,43.8547,-71.12780,43.85470,1,0,01/09/2009,31/12/2099,13,03/05/2022,WX1S
+W1/NL-024,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Blue Job Mountain",414,1357,-71.1161,43.3314,-71.11610,43.33140,1,0,01/09/2009,31/12/2099,102,15/05/2026,WX1S
+W1/NL-025,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Hicks Hill",422,1386,-71.6433,43.7339,-71.64330,43.73390,1,0,01/09/2009,31/12/2099,4,22/04/2024,WX1S
+W1/NL-026,"USA - CT / ME / MA / NH / RI / VT","New Hampshire Lakes","Mount Jesse",423,1387,-71.1094,43.4933,-71.10940,43.49330,1,0,01/09/2009,31/12/2099,8,09/04/2026,WX1S

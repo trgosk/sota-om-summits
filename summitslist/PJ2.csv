@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+PJ2/CU-001,Curaçao,Curaçao,Christoffelberg,372,1220,-69.1228,12.3375,-69.12280,12.33750,4,0,01/03/2026,31/12/2099,0,,
+PJ2/CU-002,Curaçao,Curaçao,"Sint Hieronymus Tafelberg",230,754,-69.1014,12.3201,-69.10140,12.32010,1,0,01/03/2026,31/12/2099,0,,
+PJ2/CU-003,Curaçao,Curaçao,"Santa Barbara Tafelberg",196,643,-68.8343,12.0709,-68.83430,12.07090,1,0,01/03/2026,31/12/2099,0,,

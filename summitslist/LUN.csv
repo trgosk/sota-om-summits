@@ -1,0 +1,4 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+LUN/SE-001,"Argentina - Santiago del Estero","Santiago del Estero",LUN/SE-001,730,2395,-64.8272,-28.1850,-64.82720,-28.18500,2,0,01/09/2022,31/12/2099,0,,
+LUN/SE-002,"Argentina - Santiago del Estero","Santiago del Estero",LUN/SE-002,582,1909,-64.4528,-26.1922,-64.45280,-26.19220,2,0,01/09/2022,31/12/2099,0,,

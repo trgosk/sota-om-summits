@@ -1,0 +1,9 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+VK9/CH-001,"Australia - Islands","Christmas Island","Murray Hill",356,1168,105.58083,-10.48333,105.58083,-10.48333,2,0,01/05/2013,31/12/2099,0,,
+VK9/LH-001,"Australia - Islands","Lord Howe Island Group","Mt Gower",866,2841,159.075414,-31.586993,159.07541,-31.58699,10,0,01/05/2013,31/12/2099,0,,
+VK9/LH-002,"Australia - Islands","Lord Howe Island Group","Mount Lidgbird",777,2549,159.0836,-31.56605,159.08360,-31.56605,10,0,01/05/2013,31/12/2099,0,,
+VK9/LH-003,"Australia - Islands","Lord Howe Island Group","Ball's Pyramid",570,1870,159.25018,-31.75376,159.25018,-31.75376,6,0,01/05/2013,31/12/2099,0,,
+VK9/LH-004,"Australia - Islands","Lord Howe Island Group","Malabar Hill",201,659,159.06096,-31.5127,159.06096,-31.51270,1,0,01/05/2013,31/12/2099,7,30/08/2022,VK2GPL/9
+VK9/NO-001,"Australia - Islands","Norfolk Island Group","Mt Bates",319,1047,167.94229,-29.01148,167.94229,-29.01148,2,0,01/05/2013,31/12/2099,16,21/09/2024,VK4CEG
+VK9/NO-002,"Australia - Islands","Norfolk Island Group","Jacky Jacky",280,919,167.95007,-29.128032,167.95007,-29.12803,1,0,01/05/2013,31/12/2099,0,,

@@ -1,0 +1,5 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+IA/LI-001,"Isole Africane d`Italia",Linosa,"Monte Volcano",195,640,12.8733,35.8601,12.87330,35.86010,1,0,01/10/2017,31/12/2099,0,,
+IA/PA-001,"Isole Africane d`Italia",Pantelleria,"Montagna Grande di Isola Pantelleria",836,2743,12.0051,36.7808,12.00510,36.78080,4,0,01/10/2017,31/12/2099,2,13/01/2024,I/SP9PND/P
+IA/PA-002,"Isole Africane d`Italia",Pantelleria,"Cùddia Attalora",560,1837,12.0204,36.7474,12.02040,36.74740,2,0,01/10/2017,31/12/2099,2,13/01/2024,I/SP9PND/P

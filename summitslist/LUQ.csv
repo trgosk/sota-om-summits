@@ -1,0 +1,32 @@
+SOTA Summits List (Date=05/06/2026)
+SummitCode,AssociationName,RegionName,SummitName,AltM,AltFt,GridRef1,GridRef2,Longitude,Latitude,Points,BonusPoints,ValidFrom,ValidTo,ActivationCount,ActivationDate,ActivationCall
+LUQ/OC-001,"Argentina - San Luis","Sierras Occidentales",Nevado,1141,3743,-66.8874,-32.9398,-66.88740,-32.93980,2,0,01/12/2019,31/12/2099,0,,
+LUQ/OC-002,"Argentina - San Luis","Sierras Occidentales","El Mogote Sur",1071,3513,-67.0194,-32.5889,-67.01940,-32.58890,2,0,01/12/2019,31/12/2099,0,,
+LUQ/OC-003,"Argentina - San Luis","Sierras Occidentales",Guayaguás,904,2965,-67.2399,-31.8807,-67.23990,-31.88070,1,0,01/12/2019,31/12/2099,0,,
+LUQ/OC-004,"Argentina - San Luis","Sierras Occidentales","Sierra de Guayaguas",832,2729,-67.1534,-32.1200,-67.15340,-32.12000,1,0,01/12/2019,31/12/2099,0,,
+LUQ/OC-005,"Argentina - San Luis","Sierras Occidentales","Varela Norte",796,2611,-66.5413,-33.9868,-66.54130,-33.98680,1,0,01/12/2019,31/12/2099,0,,
+LUQ/OC-006,"Argentina - San Luis","Sierras Occidentales","Mogote Cerrillos",789,2588,-66.4478,-34.4641,-66.44780,-34.46410,1,0,01/12/2019,31/12/2099,0,,
+LUQ/OR-001,"Argentina - San Luis","Sierras Orientales",Papagayos,1870,6135,-64.9370,-32.7073,-64.93700,-32.70730,8,3,01/12/2019,31/12/2099,1,07/07/2024,LU2HDM/Q
+LUQ/OR-002,"Argentina - San Luis","Sierras Orientales","Volcán el morro",1732,5682,-65.4089,-33.1503,-65.40890,-33.15030,6,3,01/12/2019,31/12/2099,5,25/03/2022,LU7EPT/Q
+LUQ/OR-003,"Argentina - San Luis","Sierras Orientales","Volcán el morro sur",1657,5436,-65.4254,-33.1789,-65.42540,-33.17890,6,3,01/12/2019,31/12/2099,6,26/03/2022,LU7EPT/Q
+LUQ/OR-004,"Argentina - San Luis","Sierras Orientales",Moro,1616,5301,-64.9802,-32.8848,-64.98020,-32.88480,6,3,01/12/2019,31/12/2099,1,08/07/2024,LU2HDM/Q
+LUQ/OR-005,"Argentina - San Luis","Sierras Orientales",LUQ/OR-005,1610,5282,-64.9920,-32.9433,-64.99200,-32.94330,6,3,01/12/2019,31/12/2099,1,08/07/2024,LU2HDM/Q
+LUQ/SL-001,"Argentina - San Luis","Sierras de San Luis","Agua Hedionda",2220,7283,-66.2069,-33.0622,-66.20690,-33.06220,10,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-002,"Argentina - San Luis","Sierras de San Luis","Pantano Negro",2109,6919,-66.2193,-32.8385,-66.21930,-32.83850,10,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-003,"Argentina - San Luis","Sierras de San Luis","Los Mellizos",2033,6669,-66.0762,-32.8118,-66.07620,-32.81180,10,3,01/12/2019,31/12/2099,3,18/05/2024,LU1DLK/Q
+LUQ/SL-004,"Argentina - San Luis","Sierras de San Luis",LUQ/SL-004,1954,6410,-66.0713,-32.7870,-66.07130,-32.78700,8,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-005,"Argentina - San Luis","Sierras de San Luis",LUQ/SL-005,1906,6253,-66.0678,-32.7649,-66.06780,-32.76490,8,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-006,"Argentina - San Luis","Sierras de San Luis",Barroso,1902,6240,-66.2314,-32.9355,-66.23140,-32.93550,8,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-007,"Argentina - San Luis","Sierras de San Luis",LUQ/SL-007,1899,6230,-66.0123,-32.8293,-66.01230,-32.82930,8,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-008,"Argentina - San Luis","Sierras de San Luis",Sololosta,1771,5810,-66.0010,-32.8652,-66.00100,-32.86520,8,3,01/12/2019,31/12/2099,1,24/02/2021,LU1MAW/Q
+LUQ/SL-009,"Argentina - San Luis","Sierras de San Luis",LUQ/SL-009,1749,5738,-65.9546,-32.4687,-65.95460,-32.46870,6,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-010,"Argentina - San Luis","Sierras de San Luis","Intihuasi grande",1728,5669,-65.9590,-32.8296,-65.95900,-32.82960,6,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-011,"Argentina - San Luis","Sierras de San Luis","Largos Sur",1715,5626,-65.8908,-32.8358,-65.89080,-32.83580,6,3,01/12/2019,31/12/2099,2,13/03/2021,LU9QFM/Q
+LUQ/SL-012,"Argentina - San Luis","Sierras de San Luis",LUQ/SL-012,1694,5557,-65.9336,-32.8242,-65.93360,-32.82420,6,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-013,"Argentina - San Luis","Sierras de San Luis","Largos Norte",1668,5472,-65.8811,-32.8280,-65.88110,-32.82800,6,3,01/12/2019,31/12/2099,0,,
+LUQ/SL-014,"Argentina - San Luis","Sierras de San Luis",LUQ/SL-014,1493,4898,-65.8636,-32.4278,-65.86360,-32.42780,4,0,01/12/2019,31/12/2099,0,,
+LUQ/SL-015,"Argentina - San Luis","Sierras de San Luis","San Ignacio",1474,4835,-66.2619,-33.2217,-66.26190,-33.22170,4,0,01/12/2019,31/12/2099,1,14/08/2021,LU9MZO
+LUQ/SL-016,"Argentina - San Luis","Sierras de San Luis","Del Rosario",1432,4698,-65.7005,-32.9568,-65.70050,-32.95680,4,0,01/12/2019,31/12/2099,0,,
+LUQ/SL-017,"Argentina - San Luis","Sierras de San Luis",LUQ/SL-017,1365,4478,-65.7099,-32.9700,-65.70990,-32.97000,4,0,01/12/2019,31/12/2099,0,,
+LUQ/SL-018,"Argentina - San Luis","Sierras de San Luis",LUQ/SL-018,1351,4432,-65.7919,-32.3769,-65.79190,-32.37690,4,0,01/12/2019,31/12/2099,0,,
+LUQ/SL-019,"Argentina - San Luis","Sierras de San Luis","San Martin",1193,3914,-66.2759,-33.2726,-66.27590,-33.27260,2,0,01/12/2019,31/12/2099,2,24/02/2024,LU1QAR/Q
