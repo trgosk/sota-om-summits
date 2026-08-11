@@ -3,7 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.9.0">
+<meta name="version" content="1.10.0">
+<script>
+/* Deep-link base shim — must run before anything that resolves a relative URL.
+   The app may be mounted at the domain root or under a subpath, and deep-link
+   paths add segments of their own, so <base> is derived from the current path. */
+(function(){
+  var ROUTES=/^(summit|p2p|p2s|s2p|s2s)$/;
+  try{
+    // 404.html fallback hands the original path back as ?_p=
+    var p=new URLSearchParams(location.search).get('_p');
+    if(p&&p.charAt(0)==='/'&&p.charAt(1)!=='/')history.replaceState(null,'',p);
+  }catch(e){}
+  var segs=location.pathname.split('/');
+  var base=location.pathname.replace(/[^/]*$/,'');
+  for(var i=1;i<segs.length;i++){
+    if(ROUTES.test(segs[i])){base=segs.slice(0,i).join('/')+'/';break}
+  }
+  var b=document.createElement('base');b.href=base;document.head.appendChild(b);
+  window.__APP_BASE__=base;
+})();
+</script>
 <script>
 (function(){
   try{
@@ -565,7 +585,7 @@ header h1{font-size:15px}
         </div>
         <div class="link-summary" v-if="linkMeta">
           <div class="ls-controls">
-            <div class="ls-ctrl"><label>Freq</label><select v-model.number="linkFreqMhz" @change="requestProfile()"><option :value="50">50 MHz</option><option :value="145">145 MHz</option><option :value="432">432 MHz</option><option :value="1296">1296 MHz</option></select></div>
+            <div class="ls-ctrl"><label>Freq</label><select v-model.number="linkFreqMhz" @change="requestProfile()"><option v-if="!freqPresets.includes(linkFreqMhz)" :value="linkFreqMhz">{{linkFreqMhz}} MHz</option><option :value="50">50 MHz</option><option :value="145">145 MHz</option><option :value="432">432 MHz</option><option :value="1296">1296 MHz</option></select></div>
             <div class="ls-ctrl"><label>Ant A</label><input type="number" v-model.number="linkHeightA" min="0" max="500" step="1" @change="requestProfile()"><label style="font-size:8px">m</label></div>
             <div class="ls-ctrl"><label>Ant B</label><input type="number" v-model.number="linkHeightB" min="0" max="500" step="1" @change="requestProfile()"><label style="font-size:8px">m</label></div>
             <div class="ls-ctrl"><label>Trees</label><input type="number" v-model.number="linkTreeHeight" min="0" max="100" step="1" @change="requestProfile()"><label style="font-size:8px">m</label></div>
@@ -604,7 +624,7 @@ setup(){
   const q=ref('');const rF=ref('');const catF=ref('');const vF=ref('');const sel=ref(null);const wms=ref(false);const showContrib=ref(true);
   const showNpChko=ref(false);const loadingNpChko=ref(false);
   const showReserves=ref(false);const loadingReserves=ref(false);
-  const showWorld=ref(false);const loadingWorld=ref(false);
+  const showWorld=ref(true);const loadingWorld=ref(false);
   const uiVersion=ref('');const dataVersion=ref('');
   const dark=ref(localStorage.getItem('sota-dark')==='1'||(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches));
   const panelOpen=ref(false);
@@ -858,33 +878,39 @@ setup(){
 
   const NEIGHBOR_NAMES={OK:'Czechia',SP:'Poland',HA:'Hungary',OE:'Austria',UT:'Ukraine'};
   function neighborCountry(s){return s&&s.as?NEIGHBOR_NAMES[s.as]:''}
+  async function ensureWorldData(){
+    if(worldData)return worldData;
+    loadingWorld.value=true;
+    try{
+      const r=await fetch('neighbor_summits.json');
+      const j=await r.json();
+      worldData=j.summits||[];
+    }catch(e){console.error('Failed to load neighbor_summits.json',e)}
+    loadingWorld.value=false;
+    return worldData;
+  }
+  async function showWorldLayer(){
+    if(!await ensureWorldData()){showWorld.value=false;return}
+    if(!worldGroup){
+      if(!worldCanvas)worldCanvas=L.canvas({padding:0.5});
+      worldGroup=L.layerGroup();
+      worldData.forEach(s=>{
+        const m=L.circleMarker([s.la,s.lo],{radius:4,weight:1,color:'#fff',fillColor:'#7a7870',fillOpacity:0.6,opacity:0.6,renderer:worldCanvas,interactive:true});
+        m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · ${s.p}pt · ${s.a} act`,{className:'tip'});
+        m.on('click',()=>pick(s));
+        m.addTo(worldGroup);
+      });
+    }
+    worldGroup.addTo(map);
+    if(worldGroup.bringToBack)worldGroup.bringToBack();
+  }
+  function hideWorldLayer(){
+    if(worldGroup)map.removeLayer(worldGroup);
+  }
   async function toggleWorld(){
     showWorld.value=!showWorld.value;
-    if(showWorld.value){
-      if(!worldData){
-        loadingWorld.value=true;
-        try{
-          const r=await fetch('neighbor_summits.json');
-          const j=await r.json();
-          worldData=j.summits||[];
-        }catch(e){console.error('Failed to load neighbor_summits.json',e);showWorld.value=false;loadingWorld.value=false;return}
-        loadingWorld.value=false;
-      }
-      if(!worldGroup){
-        if(!worldCanvas)worldCanvas=L.canvas({padding:0.5});
-        worldGroup=L.layerGroup();
-        worldData.forEach(s=>{
-          const m=L.circleMarker([s.la,s.lo],{radius:4,weight:1,color:'#fff',fillColor:'#7a7870',fillOpacity:0.6,opacity:0.6,renderer:worldCanvas,interactive:true});
-          m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · ${s.p}pt · ${s.a} act`,{className:'tip'});
-          m.on('click',()=>pick(s));
-          m.addTo(worldGroup);
-        });
-      }
-      worldGroup.addTo(map);
-      if(worldGroup.bringToBack)worldGroup.bringToBack();
-    }else{
-      if(worldGroup)map.removeLayer(worldGroup);
-    }
+    if(showWorld.value)await showWorldLayer();
+    else hideWorldLayer();
   }
 
   function stopReason(key){return stopReasons[key]||key}
@@ -965,6 +991,81 @@ setup(){
     setLinkPoint({lat:e.latlng.lat,lon:e.latlng.lng});
     if(navigator.vibrate)navigator.vibrate(30);
   }
+
+  /* ---- Deep-link routing ----
+     /summit/OM/ZA-001
+     /s2s/OM/BA-004/OM/ZA-001?freq=145&anta=10&antb=10&trees=0
+     /s2p/OM/ZA-001/48.94120/19.53010   /p2s/48.94120/19.53010/OM/ZA-001
+     /p2p/48.94120/19.53010/49.17300/19.61020
+     Every RF route is four segments; the route word says how to read each pair. */
+  const BASE=window.__APP_BASE__||'/';
+  const RF_ROUTES={p2p:'pp',p2s:'ps',s2p:'sp',s2s:'ss'};
+  const freqPresets=[50,145,432,1296];
+
+  /* Parse a URL param, falling back to the default when absent or out of the
+     range the point2point backend accepts. */
+  function numParam(v,def,min,max){
+    const n=parseFloat(v);
+    return isFinite(n)&&n>=min&&n<=max?n:def;
+  }
+  function routeSegments(){
+    let p=location.pathname;
+    if(p.indexOf(BASE)===0)p=p.slice(BASE.length);
+    return p.split('/').filter(Boolean).map(decodeURIComponent);
+  }
+  function resetUrl(){history.replaceState(null,'',BASE)}
+  async function resolveSummit(code){
+    code=code.toUpperCase();
+    let s=summits.value.find(x=>x.c===code);
+    if(s)return s;
+    const w=await ensureWorldData();
+    s=w&&w.find(x=>x.c===code);
+    if(s&&!showWorld.value){showWorld.value=true;await showWorldLayer()}
+    return s||null;
+  }
+  async function applyRoute(){
+    const seg=routeSegments();
+    if(!seg.length)return;
+    const word=seg[0].toLowerCase(),rest=seg.slice(1);
+    if(word==='summit'){
+      const s=rest.length===2?await resolveSummit(rest.join('/')):null;
+      if(!s){console.warn('Unresolvable summit route',seg);return resetUrl()}
+      return pick(s);
+    }
+    const shape=RF_ROUTES[word];
+    if(!shape||rest.length!==4){console.warn('Unknown route',seg);return resetUrl()}
+    const q=new URLSearchParams(location.search);
+    linkFreqMhz.value=numParam(q.get('freq'),145,0.001,100000);
+    linkHeightA.value=numParam(q.get('anta'),10,0,500);
+    linkHeightB.value=numParam(q.get('antb'),10,0,500);
+    linkTreeHeight.value=numParam(q.get('trees'),0,0,100);
+    const pts=[];
+    for(let i=0;i<2;i++){
+      const pair=rest.slice(i*2,i*2+2);
+      if(shape[i]==='s'){
+        const s=await resolveSummit(pair.join('/'));
+        if(!s){console.warn('Unresolvable summit in route',pair.join('/'));return resetUrl()}
+        pts.push({lat:s.la,lon:s.lo,name:s.n,code:s.c});
+      }else{
+        const lat=numParam(pair[0],NaN,-90,90),lon=numParam(pair[1],NaN,-180,180);
+        if(!isFinite(lat)||!isFinite(lon)){console.warn('Bad coordinates in route',pair);return resetUrl()}
+        pts.push({lat,lon});
+      }
+    }
+    setLinkPoint(pts[0]);
+    setLinkPoint(pts[1]);
+  }
+  /* Current app state expressed as a URL — written back with replaceState below. */
+  function endpointPath(p){return p.code||p.lat.toFixed(5)+'/'+p.lon.toFixed(5)}
+  const routePath=computed(()=>{
+    const a=linkFrom.value,b=linkTo.value;
+    if(a&&b){
+      const q=new URLSearchParams({freq:linkFreqMhz.value,anta:linkHeightA.value,antb:linkHeightB.value,trees:linkTreeHeight.value});
+      return (a.code?'s':'p')+'2'+(b.code?'s':'p')+'/'+endpointPath(a)+'/'+endpointPath(b)+'?'+q;
+    }
+    if(sel.value)return 'summit/'+sel.value.c;
+    return '';
+  });
 
   function connectSocketIO(){
     if(sioClient)return sioClient;
@@ -1353,7 +1454,10 @@ setup(){
     loading.value=false;
     await nextTick();
     initMap();updateTip();
+    if(showWorld.value)await showWorldLayer();
+    await applyRoute();
   });
+  watch(routePath,p=>{try{history.replaceState(null,'',BASE+p)}catch(e){}});
   watch(filtered,()=>{
     if(!mGroup)return;
     mGroup.clearLayers();
@@ -1379,7 +1483,7 @@ setup(){
       if(linkHoverMarker){map.removeLayer(linkHoverMarker);linkHoverMarker=null}
     }
   });
-  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,showWorld,loadingWorld,toggleWorld,neighborCountry,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload,linkToolActive,linkFrom,linkTo,linkProfile,linkMeta,linkLoading,linkError,linkStatusText,linkProgress,linkSamples,linkFreqMhz,linkHeightA,linkHeightB,linkTreeHeight,linkHoverIdx,linkPanelOpen,linkFromLabel,linkToLabel,linkVerdict,linkVerdictText,profileCanvas,toggleLinkTool,clearLink,requestProfile};
+  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,showWorld,loadingWorld,toggleWorld,neighborCountry,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload,linkToolActive,linkFrom,linkTo,linkProfile,linkMeta,linkLoading,linkError,linkStatusText,linkProgress,linkSamples,linkFreqMhz,linkHeightA,linkHeightB,linkTreeHeight,linkHoverIdx,linkPanelOpen,linkFromLabel,linkToLabel,linkVerdict,linkVerdictText,profileCanvas,toggleLinkTool,clearLink,requestProfile,freqPresets};
 }
 }).mount('#app');
 </script>

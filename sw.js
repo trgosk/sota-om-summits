@@ -3,7 +3,7 @@
  * 3-tier caching: app-shell (precache), google-fonts, map-tiles
  */
 
-const APP_VERSION = '1.9.0';
+const APP_VERSION = '1.10.0';
 const CACHE_SHELL   = 'app-shell-v' + APP_VERSION;
 const CACHE_FONTS   = 'google-fonts-v1';
 const CACHE_TILES   = 'map-tiles-v1';
@@ -15,6 +15,7 @@ const SHELL_URLS = [
   'summits.json',
   'vchu.json',
   'osm_pa.json',
+  'neighbor_summits.json',
   'icon.svg',
   'icon-192.png',
   'favicon.ico',
@@ -92,6 +93,15 @@ self.addEventListener('fetch', (e) => {
   }
 
   // 6) App shell & data — network-first during dev, ensures latest code on refresh
+  // Deep links (/summit/OK/VY-002, /s2s/...) were never cached under their own
+  // URL — fall back to the cached app shell so they work offline too.
+  if (e.request.mode === 'navigate') {
+    e.respondWith(
+      networkFirst(e.request, CACHE_SHELL).then((r) => r || caches.match('./'))
+    );
+    return;
+  }
+
   e.respondWith(networkFirst(e.request, CACHE_SHELL));
 });
 

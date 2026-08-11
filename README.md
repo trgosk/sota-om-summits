@@ -103,6 +103,35 @@ stop           = key into stop_reasons lookup (e.g. "OSOBITA")
 stop_reasons   = root-level lookup object with full stop reason text
 ```
 
+## Shareable links
+
+The app reads its state from the URL on load, and writes the URL back as you click — so whatever
+you are looking at can be copied out of the address bar.
+
+| URL | Opens |
+|-----|-------|
+| `/summit/OM/ZA-001` | that summit selected, detail panel open |
+| `/summit/OK/VY-002` | works for nearby-country summits too (OK, SP, HA, OE, UT) |
+| `/s2s/OM/BA-004/OM/ZA-001` | RF link profile, summit to summit |
+| `/s2p/OM/ZA-001/48.94120/19.53010` | summit to an arbitrary point |
+| `/p2s/48.94120/19.53010/OM/ZA-001` | arbitrary point to a summit |
+| `/p2p/48.94120/19.53010/49.17300/19.61020` | point to point |
+
+The four RF-link routes accept optional query parameters, each falling back to its default when
+missing or out of range:
+
+| Parameter | Meaning | Default | Range |
+|-----------|---------|---------|-------|
+| `freq` | Frequency in MHz | 145 | > 0, ≤ 100000 |
+| `anta` | Antenna height at A, metres | 10 | 0–500 |
+| `antb` | Antenna height at B, metres | 10 | 0–500 |
+| `trees` | Tree/canopy height, metres | 0 | 0–100 |
+
+Example: `/s2s/OM/BA-004/OM/ZA-001?freq=432&anta=20&antb=6&trees=15`
+
+On sota.sk nginx rewrites these paths to `index.html` via `try_files`. GitHub Pages has no such
+rewrite, so `404.html` bounces deep links back to the app root and the URL is restored client-side.
+
 ## Hosting on GitHub Pages
 
 The live version is at **[trgosk.github.io/sota-om-summits](https://trgosk.github.io/sota-om-summits/)**.
