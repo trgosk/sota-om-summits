@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<title>OM SOTA — Redirecting…</title>
+<meta name="robots" content="noindex">
+<script>
+/* GitHub Pages has no SPA rewrite, so a deep link such as
+     /sota-om-summits/summit/OK/VY-002
+   lands here. Bounce it to the app root with the original path in ?_p=, which
+   the base shim at the top of index.html turns back into a clean URL:
+     /sota-om-summits/?_p=%2Fsota-om-summits%2Fsummit%2FOK%2FVY-002
+   Not used on sota.sk — nginx serves index.html directly via try_files. */
+(function(){
+  var SEGMENTS_TO_KEEP=1;  // project page: /<repo>/ is the app root
+  var segs=location.pathname.split('/').filter(Boolean);
+  var root='/'+segs.slice(0,SEGMENTS_TO_KEEP).join('/');
+  if(root!=='/')root+='/';
+  location.replace(root+'?_p='+encodeURIComponent(location.pathname+location.search)+location.hash);
+})();
+</script>
+</head>
+<body>
+<p>Redirecting… <a href="/sota-om-summits/">Open the map</a></p>
+</body>
+</html>
