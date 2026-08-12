@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.10.0">
+<meta name="version" content="1.11.0">
 <script>
 /* Deep-link base shim — must run before anything that resolves a relative URL.
    The app may be mounted at the domain root or under a subpath, and deep-link
@@ -176,10 +176,22 @@ header h1{font-size:15px}
 .filter-count{background:var(--teal-bg);color:var(--teal);font-size:9px;font-family:var(--mono);font-weight:700;padding:1px 6px;border-radius:10px}
 .filter-toggle-bar:hover{background:var(--bg)}
 
-.search-bar{padding:12px 16px;border-bottom:1px solid var(--bg2)}
-.search-bar input{width:100%;padding:10px 14px;border:1.5px solid var(--bg3);border-radius:var(--radius);font-family:var(--font);font-size:13px;background:var(--bg);color:var(--ink);outline:none;transition:border .2s,background .3s,color .3s}
+.search-bar{padding:12px 16px;border-bottom:1px solid var(--bg2);position:relative}
+.search-bar input{width:100%;padding:10px 14px;border:1.5px solid var(--bg3);border-radius:var(--radius);font-family:var(--font);font-size:13px;background:var(--bg);color:var(--ink);outline:none;transition:border .2s,background .3s,color .3s,padding .15s}
+.search-bar.has-actions input{padding-right:78px}
 .search-bar input:focus{border-color:var(--teal)}
 .search-bar input::placeholder{color:var(--ink4)}
+/* Overlaid inside the input's right edge: map-filter switch, then clear-search X */
+.search-actions{position:absolute;top:50%;right:24px;transform:translateY(-50%);display:flex;align-items:center;gap:4px}
+.map-sw{position:relative;width:38px;height:22px;flex-shrink:0;padding:0;border:1.5px solid var(--bg3);border-radius:11px;background:var(--bg2);cursor:pointer;transition:background .2s,border-color .2s}
+.map-sw:hover{border-color:var(--ink4)}
+.map-sw.on{background:var(--teal-bg);border-color:var(--teal)}
+.map-sw .knob{position:absolute;top:50%;left:1px;width:16px;height:16px;border-radius:50%;background:var(--ink4);transform:translateY(-50%);transition:transform .2s,background .2s;display:flex;align-items:center;justify-content:center;color:var(--card)}
+.map-sw.on .knob{background:var(--teal);transform:translateY(-50%) translateX(16px)}
+.map-sw .knob svg{width:10px;height:10px;display:block}
+.search-x{width:22px;height:22px;flex-shrink:0;padding:0;border:none;border-radius:50%;background:none;color:var(--ink3);font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s,color .15s,opacity .15s}
+.search-x:hover{background:var(--bg3);color:var(--ink)}
+.search-x.empty{opacity:0;pointer-events:none}
 
 .filters{padding:8px 16px;display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--bg2);align-items:center}
 .flabel{font-size:10px;color:var(--ink4);font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-right:2px}
@@ -390,8 +402,16 @@ header h1{font-size:15px}
       <div class="drag-handle"></div>
       <span class="mob-panel-close">&times;</span>
     </div>
-    <div class="search-bar">
+    <div class="search-bar" :class="{'has-actions':q||activeFilterCount}">
       <input v-model="q" placeholder="Search code, name, area..." />
+      <div class="search-actions" v-if="q||activeFilterCount">
+        <button class="map-sw" :class="{on:filterMap}" @click="filterMap=!filterMap" role="switch" :aria-checked="String(filterMap)" :title="filterMap?'Map shows only filtered summits — click to show all':'Map shows all summits — click to apply filters to the map'">
+          <span class="knob">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 4 21 4 14 12.5 14 20 10 18 10 12.5 3 4"/></svg>
+          </span>
+        </button>
+        <button class="search-x" :class="{empty:!q}" @click="q=''" title="Clear search" aria-label="Clear search">&times;</button>
+      </div>
     </div>
     <div class="filter-toggle-bar" @click="filtersOpen=!filtersOpen">
       <span class="filter-toggle-label">Filters <span v-if="activeFilterCount" class="filter-count">{{activeFilterCount}}</span></span>
@@ -622,6 +642,7 @@ setup(){
   const summits=ref(D);
   const loading=ref(true);
   const q=ref('');const rF=ref('');const catF=ref('');const vF=ref('');const sel=ref(null);const wms=ref(false);const showContrib=ref(true);
+  const filterMap=ref(false);   // off = map shows every summit regardless of the list filters
   const showNpChko=ref(false);const loadingNpChko=ref(false);
   const showReserves=ref(false);const loadingReserves=ref(false);
   const showWorld=ref(true);const loadingWorld=ref(false);
@@ -1458,11 +1479,11 @@ setup(){
     await applyRoute();
   });
   watch(routePath,p=>{try{history.replaceState(null,'',BASE+p)}catch(e){}});
-  watch(filtered,()=>{
+  watch([filtered,filterMap],()=>{
     if(!mGroup)return;
     mGroup.clearLayers();
-    const codes=new Set(filtered.value.map(s=>s.c));
-    summits.value.forEach(s=>{if(codes.has(s.c)&&markers[s.c])markers[s.c].addTo(mGroup)});
+    const codes=filterMap.value?new Set(filtered.value.map(s=>s.c)):null;
+    summits.value.forEach(s=>{if((!codes||codes.has(s.c))&&markers[s.c])markers[s.c].addTo(mGroup)});
   });
   watch(sel,v=>{if(!v&&selRing&&map){map.removeLayer(selRing);selRing=null}});
   watch(panelOpen,()=>{setTimeout(()=>{if(map)map.invalidateSize()},380)});
@@ -1483,7 +1504,7 @@ setup(){
       if(linkHoverMarker){map.removeLayer(linkHoverMarker);linkHoverMarker=null}
     }
   });
-  return{summits,loading,q,rF,catF,vF,sel,wms,showNpChko,loadingNpChko,showReserves,loadingReserves,showWorld,loadingWorld,toggleWorld,neighborCountry,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload,linkToolActive,linkFrom,linkTo,linkProfile,linkMeta,linkLoading,linkError,linkStatusText,linkProgress,linkSamples,linkFreqMhz,linkHeightA,linkHeightB,linkTreeHeight,linkHoverIdx,linkPanelOpen,linkFromLabel,linkToLabel,linkVerdict,linkVerdictText,profileCanvas,toggleLinkTool,clearLink,requestProfile,freqPresets};
+  return{summits,loading,q,rF,catF,vF,sel,wms,filterMap,showNpChko,loadingNpChko,showReserves,loadingReserves,showWorld,loadingWorld,toggleWorld,neighborCountry,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload,linkToolActive,linkFrom,linkTo,linkProfile,linkMeta,linkLoading,linkError,linkStatusText,linkProgress,linkSamples,linkFreqMhz,linkHeightA,linkHeightB,linkTreeHeight,linkHoverIdx,linkPanelOpen,linkFromLabel,linkToLabel,linkVerdict,linkVerdictText,profileCanvas,toggleLinkTool,clearLink,requestProfile,freqPresets};
 }
 }).mount('#app');
 </script>

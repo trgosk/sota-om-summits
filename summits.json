@@ -1,5 +1,5 @@
 {
-  "_dataVersion": "2026-04-02.1",
+  "_dataVersion": "2026-08-12.1",
   "_fields": {
     "c": "Summit code (OM/XX-NNN)",
     "n": "Summit name",
@@ -159,10 +159,7 @@
       "tc": "yellow",
       "ti": 569515,
       "v": 1,
-      "rules": [
-        "warning_other"
-      ],
-      "warning_other": "Vrchol je z jednej strany v NPR, ale -25m na urovni znaceneho chodniku."
+      "cat": "safe"
     },
     {
       "c": "OM/BB-001",
