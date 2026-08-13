@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.11.0">
+<meta name="version" content="1.12.0">
 <script>
 /* Deep-link base shim — must run before anything that resolves a relative URL.
    The app may be mounted at the domain root or under a subpath, and deep-link
    paths add segments of their own, so <base> is derived from the current path. */
 (function(){
-  var ROUTES=/^(summit|p2p|p2s|s2p|s2s)$/;
+  var ROUTES=/^(summit|p2p|p2s|s2p|s2s|links)$/;
   try{
     // 404.html fallback hands the original path back as ?_p=
     var p=new URLSearchParams(location.search).get('_p');
@@ -309,6 +309,26 @@ header h1{font-size:15px}
 /* Link profile panel */
 .link-panel{position:absolute;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--bg3);z-index:1100;box-shadow:0 -4px 20px rgba(0,0,0,.08);transition:transform .3s ease,background .3s;transform:translateY(100%);max-height:55vh;display:flex;flex-direction:column}
 .link-panel.open{transform:translateY(0)}
+/* Summit-to-summit overview: same bottom-sheet geometry as the link panel, so
+   the two read as one surface when a profile opens on top of the overview. */
+.s2s-panel{position:absolute;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--bg3);z-index:1090;box-shadow:0 -4px 20px rgba(0,0,0,.08);transition:transform .3s ease,background .3s;transform:translateY(100%);max-height:52vh;display:flex;flex-direction:column}
+.s2s-panel.open{transform:translateY(0)}
+.s2s-body{padding:10px 16px 14px;overflow-y:auto}
+.s2s-status{padding:14px 16px;font-size:12px;color:var(--ink3)}
+.s2s-filters{display:flex;gap:6px;margin:10px 0 6px;flex-wrap:wrap}
+.s2s-chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--bg3);background:var(--bg1);color:var(--ink2);border-radius:20px;padding:3px 10px;font-size:11px;cursor:pointer;transition:opacity .15s}
+.s2s-chip.off{opacity:.4}
+.s2s-dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex-shrink:0}
+.s2s-hint{font-size:10px;color:var(--ink4);margin:4px 0 6px}
+.s2s-list{display:flex;flex-direction:column;gap:1px}
+.s2s-row{display:flex;align-items:center;gap:8px;padding:4px 6px;border-radius:5px;cursor:pointer;font-size:11px}
+.s2s-row:hover{background:var(--bg2)}
+.s2s-row .s2s-c{font-family:var(--mono);color:var(--teal);min-width:96px}
+.s2s-row .s2s-d{color:var(--ink3);min-width:56px;text-align:right}
+.s2s-row .s2s-p{font-family:var(--mono);color:var(--ink2);min-width:48px;text-align:right}
+.d-s2s-btn{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;margin:8px 0 4px;padding:7px;border:1px solid var(--bg3);background:var(--bg1);color:var(--ink2);border-radius:8px;font-size:11px;font-weight:600;cursor:pointer}
+.d-s2s-btn:hover{background:var(--bg2);color:var(--teal)}
+@media(max-width:900px){.s2s-panel{max-height:45vh}.s2s-row .s2s-c{min-width:80px}}
 .link-panel-header{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--bg2);flex-shrink:0;min-height:44px}
 .link-panel-title{font-size:13px;font-weight:600;flex:1;display:flex;align-items:center;gap:8px}
 .link-panel-title .lp-code{font-family:var(--mono);color:var(--teal);font-size:11px;font-weight:600}
@@ -517,7 +537,7 @@ header h1{font-size:15px}
       <span class="fab-badge" v-if="activeFilterCount">{{activeFilterCount}}</span>
     </button>
     <div class="mob-backdrop" :class="{visible: panelOpen}" @click="togglePanel"></div>
-    <div class="detail" v-if="sel && !linkPanelOpen">
+    <div class="detail" v-if="sel && !linkPanelOpen && !s2sPanelOpen">
       <div class="d-head">
         <div>
           <a class="d-code" :href="'https://sotl.as/summits/'+sel.c" target="_blank">{{sel.c}}</a>
@@ -525,6 +545,15 @@ header h1{font-size:15px}
         </div>
         <button class="close-btn" @click="sel=null">&times;</button>
       </div>
+      <button v-if="!isOffline" class="d-s2s-btn" @click="openS2s(sel)">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="1.8" fill="currentColor"/>
+          <line x1="12" y1="12" x2="21" y2="5"/><line x1="12" y1="12" x2="22" y2="14"/>
+          <line x1="12" y1="12" x2="4" y2="4"/><line x1="12" y1="12" x2="3" y2="15"/>
+          <line x1="12" y1="12" x2="14" y2="22"/>
+        </svg>
+        Show all RF links
+      </button>
       <div class="d-grid">
         <div class="d-cell"><label>Elevation</label><div class="v">{{sel.e}}m</div></div>
         <div class="d-cell"><label>Points</label><div class="v">{{sel.p}}</div></div>
@@ -578,6 +607,51 @@ header h1{font-size:15px}
         </div>
       </template>
     </div>
+    <!-- Summit-to-summit overview panel -->
+    <div class="s2s-panel" :class="{open: s2sPanelOpen && !linkPanelOpen}">
+      <div class="link-panel-header">
+        <div class="link-panel-title">
+          <span class="lp-code">{{s2sSrc?s2sSrc.c:''}}</span>
+          <span style="color:var(--ink3)">{{s2sSrc?s2sSrc.n:''}}</span>
+          <span v-if="s2sLinks.length" style="color:var(--ink3);font-size:11px;font-family:var(--mono)">
+            {{s2sVisible.length}} / {{s2sLinks.length}} links
+          </span>
+        </div>
+        <button class="link-panel-close" @click="clearS2s" title="Close">&times;</button>
+      </div>
+      <div v-if="s2sLoading" class="s2s-status">Loading links&hellip;</div>
+      <div v-else-if="s2sError" class="link-error">{{s2sError}}</div>
+      <div v-else class="s2s-body">
+        <div class="ls-controls">
+          <div class="ls-ctrl"><label>Freq</label>
+            <select v-model.number="linkFreqMhz" @change="openS2s(s2sSrc)">
+              <option :value="50">50 MHz</option><option :value="145">145 MHz</option>
+              <option :value="432">432 MHz</option><option :value="1296">1296 MHz</option>
+            </select></div>
+          <div class="ls-ctrl"><label>Ant A</label><input type="number" v-model.number="linkHeightA" min="0" max="500" step="1" @change="openS2s(s2sSrc)"></div>
+          <div class="ls-ctrl"><label>Ant B</label><input type="number" v-model.number="linkHeightB" min="0" max="500" step="1" @change="openS2s(s2sSrc)"></div>
+          <div class="ls-ctrl"><label>Trees</label><input type="number" v-model.number="linkTreeHeight" min="0" max="100" step="1" @change="openS2s(s2sSrc)"></div>
+          <div class="ls-ctrl"><label>Max km</label><input type="number" v-model.number="s2sMaxKm" min="10" max="300" step="10" @change="renderS2s()"></div>
+        </div>
+        <div class="s2s-filters">
+          <button class="s2s-chip ok" :class="{off:!s2sShow.ok}" @click="toggleS2sClass('ok')">
+            <span class="s2s-dot" style="background:#2d7a4f"></span> Clear {{s2sCounts.ok}}</button>
+          <button class="s2s-chip marginal" :class="{off:!s2sShow.marginal}" @click="toggleS2sClass('marginal')">
+            <span class="s2s-dot" style="background:#c49215"></span> Marginal {{s2sCounts.marginal}}</button>
+          <button class="s2s-chip fail" :class="{off:!s2sShow.fail}" @click="toggleS2sClass('fail')">
+            <span class="s2s-dot" style="background:#b83232"></span> Blocked {{s2sCounts.fail}}</button>
+        </div>
+        <div class="s2s-hint">Click a line for the full terrain profile</div>
+        <div class="s2s-list">
+          <div v-for="l in s2sVisible.slice(0,40)" :key="l.c" class="s2s-row" @click="openS2sProfile(l)">
+            <span class="s2s-dot" :style="{background:S2S_COLOR[s2sVerdict(l.pct)]}"></span>
+            <span class="s2s-c">{{l.c}}</span>
+            <span class="s2s-d">{{(l.d/1000).toFixed(0)}} km</span>
+            <span class="s2s-p">{{l.pct.toFixed(0)}}%</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Link profile panel -->
     <div class="link-panel" :class="{open: linkPanelOpen}">
       <div class="link-panel-header">
@@ -587,7 +661,7 @@ header h1{font-size:15px}
           <span class="lp-code">{{linkToLabel}}</span>
           <span v-if="linkMeta" style="color:var(--ink3);font-size:11px;font-family:var(--mono)">{{(linkMeta.distance_m/1000).toFixed(1)}} km &middot; {{linkMeta.bearing_deg.toFixed(0)}}&deg;</span>
         </div>
-        <button class="link-panel-close" @click="clearLink" title="Close profile">&times;</button>
+        <button class="link-panel-close" @click="s2sActive?closeS2sProfile():clearLink()" title="Close profile">&times;</button>
       </div>
       <div v-if="linkLoading" class="link-progress">
         <div class="lp-row">
@@ -691,6 +765,25 @@ setup(){
   let sioClient=null;
   let selRing=null;
 
+  /* ---- Summit-to-summit overview ----
+     Every pregenerated link from one summit at once. The backend returns
+     compact rows (code, distance, bearing, clearance%, clearance m, worst
+     point) computed from cached elevation samples, so changing frequency or
+     antenna heights re-derives the verdicts without touching the server's
+     cache. Full profiles are fetched only when a line is clicked. */
+  const s2sActive=ref(false);
+  const s2sSrc=ref(null);
+  const s2sLinks=ref([]);
+  const s2sLoading=ref(false);
+  const s2sError=ref(null);
+  const s2sMaxKm=ref(300);
+  const s2sShow=ref({ok:true,marginal:true,fail:false});
+  let s2sCanvas=null;
+  let s2sGroup=null;
+  // Drawing every line is what makes this view expensive; a cap keeps a
+  // pathological summit (the busiest has ~1900 links) from stalling a phone.
+  const S2S_MAX_RENDER=2000;
+
   function applyTheme(){
     document.documentElement.classList.toggle('dark',dark.value);
     localStorage.setItem('sota-dark',dark.value?'1':'0');
@@ -723,6 +816,15 @@ setup(){
   });
   const activeFilterCount=computed(()=>(rF.value?1:0)+(catF.value?1:0)+(vF.value?1:0));
   const linkPanelOpen=computed(()=>linkProfile.value.length>0||linkLoading.value||!!linkError.value);
+  const s2sPanelOpen=computed(()=>s2sActive.value&&!!s2sSrc.value);
+  const s2sVerdict=v=>v>=60?'ok':v>=0?'marginal':'fail';
+  const s2sCounts=computed(()=>{
+    const c={ok:0,marginal:0,fail:0};
+    s2sLinks.value.forEach(l=>c[s2sVerdict(l.pct)]++);
+    return c;
+  });
+  const s2sVisible=computed(()=>s2sLinks.value.filter(
+    l=>s2sShow.value[s2sVerdict(l.pct)]&&l.d<=s2sMaxKm.value*1000));
   const linkFromLabel=computed(()=>{
     if(!linkFrom.value)return '?';
     if(linkFrom.value.code)return linkFrom.value.code+(linkFrom.value.name?' '+linkFrom.value.name:'');
@@ -1007,6 +1109,111 @@ setup(){
     setLinkPoint({lat:s.la,lon:s.lo,name:s.n,code:s.c});
   }
 
+  /* ---- Summit-to-summit overview ---- */
+
+  const S2S_COLOR={ok:'#2d7a4f',marginal:'#c49215',fail:'#b83232'};
+
+  async function openS2s(s){
+    if(!s)return;
+    clearLink();
+    s2sActive.value=true;
+    s2sSrc.value=s;
+    s2sError.value=null;
+    s2sLoading.value=true;
+    s2sLinks.value=[];
+    // Neighbour coordinates live in neighbor_summits.json; the API omits them
+    // precisely because the client already has them, so make sure it does.
+    await ensureWorldData();
+    try{
+      const q=new URLSearchParams({from:s.c,freq:linkFreqMhz.value,
+        anta:linkHeightA.value,antb:linkHeightB.value,trees:linkTreeHeight.value});
+      const r=await fetch(P2P_URL+'/api/s2s/links?'+q,{mode:'cors'});
+      if(!r.ok)throw new Error('HTTP '+r.status);
+      const j=await r.json();
+      if(j.partial||!j.l||!j.l.length){
+        s2sError.value=j.reason==='cache_unavailable'
+          ?'Link data not generated yet':'No links for this summit';
+      }else{
+        const f={};j.f.forEach((name,i)=>f[name]=i);
+        s2sLinks.value=j.l.map(row=>({
+          c:row[f.c],d:row[f.d],br:row[f.br],pct:row[f.pct],
+          clr:row[f.clr],w:row[f.w]}));
+      }
+    }catch(e){
+      console.error('s2s links failed',e);
+      s2sError.value='Cannot reach link service';
+    }
+    s2sLoading.value=false;
+    renderS2s();
+  }
+
+  function summitCoords(code){
+    const local=summits.value.find(x=>x.c===code);
+    if(local)return local;
+    return worldData?worldData.find(x=>x.c===code):null;
+  }
+
+  function renderS2s(){
+    if(s2sGroup){map.removeLayer(s2sGroup);s2sGroup=null}
+    if(!s2sActive.value||!s2sSrc.value)return;
+    // One shared canvas renderer for the whole layer — the same technique the
+    // Nearby SOTA overlay uses for its 3280 markers. SVG would not survive
+    // this many paths.
+    if(!s2sCanvas)s2sCanvas=L.canvas({padding:0.5});
+    const src=s2sSrc.value;
+    const rows=s2sVisible.value.slice(0,S2S_MAX_RENDER);
+    const layers=[];
+    rows.forEach(l=>{
+      const dst=summitCoords(l.c);
+      if(!dst)return;
+      const v=s2sVerdict(l.pct);
+      const line=L.polyline([[src.la,src.lo],[dst.la,dst.lo]],{
+        color:S2S_COLOR[v],weight:v==='fail'?1:1.6,
+        opacity:v==='fail'?0.45:0.75,renderer:s2sCanvas,interactive:true});
+      line.bindTooltip(
+        `<b>${l.c}</b> ${dst.n||''}<br>${(l.d/1000).toFixed(0)} km · ${l.br}°`+
+        `<br>Fresnel ${l.pct.toFixed(0)}% · ${l.clr.toFixed(0)} m`,
+        {className:'tip',sticky:true});
+      line.on('click',()=>openS2sProfile(l));
+      layers.push(line);
+    });
+    s2sGroup=L.layerGroup(layers).addTo(map);
+    if(s2sGroup.bringToBack)s2sGroup.bringToBack();
+  }
+
+  function openS2sProfile(l){
+    const src=s2sSrc.value,dst=summitCoords(l.c);
+    if(!src||!dst)return;
+    // Dim rather than hide the overview, so the clicked link keeps its context.
+    if(s2sGroup)s2sGroup.eachLayer(x=>x.setStyle({opacity:0.15}));
+    linkFrom.value=null;linkTo.value=null;
+    if(linkFromMarker){map.removeLayer(linkFromMarker);linkFromMarker=null}
+    if(linkToMarker){map.removeLayer(linkToMarker);linkToMarker=null}
+    setLinkPoint({lat:src.la,lon:src.lo,name:src.n,code:src.c});
+    setLinkPoint({lat:dst.la,lon:dst.lo,name:dst.n,code:dst.c});
+  }
+
+  function clearS2s(){
+    s2sActive.value=false;
+    s2sSrc.value=null;
+    s2sLinks.value=[];
+    s2sError.value=null;
+    s2sLoading.value=false;
+    if(s2sGroup){map.removeLayer(s2sGroup);s2sGroup=null}
+  }
+
+  /* Closing a profile returns to the overview rather than tearing it down —
+     clearLink() alone would drop the whole layer the user is working in. */
+  function closeS2sProfile(){
+    clearLink();
+    if(s2sGroup)s2sGroup.eachLayer(x=>x.setStyle({opacity:0.75}));
+  }
+
+  function toggleS2sClass(cls){
+    s2sShow.value={...s2sShow.value,[cls]:!s2sShow.value[cls]};
+    renderS2s();
+  }
+
   function handleLinkMapRightClick(e){
     if(!linkToolActive.value)return;
     setLinkPoint({lat:e.latlng.lat,lon:e.latlng.lng});
@@ -1053,6 +1260,18 @@ setup(){
       if(!s){console.warn('Unresolvable summit route',seg);return resetUrl()}
       return pick(s);
     }
+    if(word==='links'){
+      const s=rest.length===2?await resolveSummit(rest.join('/')):null;
+      if(!s){console.warn('Unresolvable links route',seg);return resetUrl()}
+      const q=new URLSearchParams(location.search);
+      linkFreqMhz.value=numParam(q.get('freq'),145,0.001,100000);
+      linkHeightA.value=numParam(q.get('anta'),10,0,500);
+      linkHeightB.value=numParam(q.get('antb'),10,0,500);
+      linkTreeHeight.value=numParam(q.get('trees'),0,0,100);
+      s2sMaxKm.value=numParam(q.get('maxkm'),300,10,300);
+      sel.value=s;
+      return openS2s(s);
+    }
     const shape=RF_ROUTES[word];
     if(!shape||rest.length!==4){console.warn('Unknown route',seg);return resetUrl()}
     const q=new URLSearchParams(location.search);
@@ -1083,6 +1302,13 @@ setup(){
     if(a&&b){
       const q=new URLSearchParams({freq:linkFreqMhz.value,anta:linkHeightA.value,antb:linkHeightB.value,trees:linkTreeHeight.value});
       return (a.code?'s':'p')+'2'+(b.code?'s':'p')+'/'+endpointPath(a)+'/'+endpointPath(b)+'?'+q;
+    }
+    // An open profile wins over the overview it was opened from, so the URL
+    // always describes the most specific thing on screen.
+    if(s2sActive.value&&s2sSrc.value){
+      const q=new URLSearchParams({freq:linkFreqMhz.value,anta:linkHeightA.value,
+        antb:linkHeightB.value,trees:linkTreeHeight.value,maxkm:s2sMaxKm.value});
+      return 'links/'+s2sSrc.value.c+'?'+q;
     }
     if(sel.value)return 'summit/'+sel.value.c;
     return '';
@@ -1455,7 +1681,12 @@ setup(){
     applyTheme();
     document.addEventListener('click',e=>{if(linksDropdown.value&&!linksDropdown.value.contains(e.target))linksOpen.value=false});
     document.addEventListener('keydown',e=>{
-      if(e.key==='Escape'&&linkToolActive.value){clearLink();e.preventDefault()}
+      if(e.key!=='Escape')return;
+      // Escape peels back one layer at a time: profile first, then the
+      // overview it was opened from, then the link tool.
+      if(s2sActive.value&&linkPanelOpen.value){closeS2sProfile();e.preventDefault()}
+      else if(s2sActive.value){clearS2s();e.preventDefault()}
+      else if(linkToolActive.value){clearLink();e.preventDefault()}
     });
     window.addEventListener('online',()=>{isOffline.value=false});
     window.addEventListener('offline',()=>{isOffline.value=true});
@@ -1504,7 +1735,7 @@ setup(){
       if(linkHoverMarker){map.removeLayer(linkHoverMarker);linkHoverMarker=null}
     }
   });
-  return{summits,loading,q,rF,catF,vF,sel,wms,filterMap,showNpChko,loadingNpChko,showReserves,loadingReserves,showWorld,loadingWorld,toggleWorld,neighborCountry,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload,linkToolActive,linkFrom,linkTo,linkProfile,linkMeta,linkLoading,linkError,linkStatusText,linkProgress,linkSamples,linkFreqMhz,linkHeightA,linkHeightB,linkTreeHeight,linkHoverIdx,linkPanelOpen,linkFromLabel,linkToLabel,linkVerdict,linkVerdictText,profileCanvas,toggleLinkTool,clearLink,requestProfile,freqPresets};
+  return{summits,loading,q,rF,catF,vF,sel,wms,filterMap,showNpChko,loadingNpChko,showReserves,loadingReserves,showWorld,loadingWorld,toggleWorld,neighborCountry,dark,showContrib,panelOpen,activeFilterCount,legendOpen,layersOpen,linksOpen,linksDropdown,filtersOpen,sidebarOpen,isOffline,swUpdate,regions,filtered,counts,badgeText,pick,togglePanel,toggleWms,toggleNpChko,toggleReserves,toggleMapyCz,hasMapyCz,showMapyCz,toggleTheme,srcDomain,stopReason,trailColor,uiVersion,dataVersion,swReload,linkToolActive,linkFrom,linkTo,linkProfile,linkMeta,linkLoading,linkError,linkStatusText,linkProgress,linkSamples,linkFreqMhz,linkHeightA,linkHeightB,linkTreeHeight,linkHoverIdx,linkPanelOpen,linkFromLabel,linkToLabel,linkVerdict,linkVerdictText,profileCanvas,toggleLinkTool,clearLink,requestProfile,freqPresets,s2sActive,s2sSrc,s2sLinks,s2sLoading,s2sError,s2sMaxKm,s2sShow,s2sPanelOpen,s2sCounts,s2sVisible,s2sVerdict,S2S_COLOR,openS2s,openS2sProfile,clearS2s,closeS2sProfile,toggleS2sClass,renderS2s};
 }
 }).mount('#app');
 </script>
