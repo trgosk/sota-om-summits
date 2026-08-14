@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="version" content="1.12.0">
+<meta name="version" content="1.13.0">
 <script>
 /* Deep-link base shim — must run before anything that resolves a relative URL.
    The app may be mounted at the domain root or under a subpath, and deep-link
@@ -735,7 +735,14 @@ setup(){
   let map,markers={},wmsLayer,mGroup,tileLayer;
   let npChkoLayer=null,npChkoData=null;
   let reservesLayer=null,reservesData=null;
-  let worldGroup=null,worldData=null,worldCanvas=null;
+  let worldGroup=null,worldData=null;
+  // ONE canvas renderer for every canvas-drawn vector layer (Nearby SOTA markers,
+  // S2S link lines). A <canvas> swallows pointer events across its whole box, so a
+  // second renderer stacked in the same pane would kill hover/click on the first —
+  // and Leaflet never removes a renderer container once it exists, so the damage
+  // would outlive the layer that caused it. Sharing keeps everything hit-testable.
+  let vecCanvas=null;
+  function getVecCanvas(){if(!vecCanvas)vecCanvas=L.canvas({padding:0.5});return vecCanvas}
   const mapyCzKey='__MAPY_CZ_KEY__';
   const hasMapyCz=mapyCzKey&&!mapyCzKey.startsWith('__');
   let mapyCzLayer=null;
@@ -778,7 +785,6 @@ setup(){
   const s2sError=ref(null);
   const s2sMaxKm=ref(300);
   const s2sShow=ref({ok:true,marginal:true,fail:false});
-  let s2sCanvas=null;
   let s2sGroup=null;
   // Drawing every line is what makes this view expensive; a cap keeps a
   // pathological summit (the busiest has ~1900 links) from stalling a phone.
@@ -1015,10 +1021,10 @@ setup(){
   async function showWorldLayer(){
     if(!await ensureWorldData()){showWorld.value=false;return}
     if(!worldGroup){
-      if(!worldCanvas)worldCanvas=L.canvas({padding:0.5});
+      const rend=getVecCanvas();
       worldGroup=L.layerGroup();
       worldData.forEach(s=>{
-        const m=L.circleMarker([s.la,s.lo],{radius:4,weight:1,color:'#fff',fillColor:'#7a7870',fillOpacity:0.6,opacity:0.6,renderer:worldCanvas,interactive:true});
+        const m=L.circleMarker([s.la,s.lo],{radius:4,weight:1,color:'#fff',fillColor:'#7a7870',fillOpacity:0.6,opacity:0.6,renderer:rend,interactive:true});
         m.bindTooltip(`<b>${s.c}</b> ${s.n}<br>${s.e}m · ${s.p}pt · ${s.a} act`,{className:'tip'});
         m.on('click',()=>pick(s));
         m.addTo(worldGroup);
@@ -1156,10 +1162,9 @@ setup(){
   function renderS2s(){
     if(s2sGroup){map.removeLayer(s2sGroup);s2sGroup=null}
     if(!s2sActive.value||!s2sSrc.value)return;
-    // One shared canvas renderer for the whole layer — the same technique the
-    // Nearby SOTA overlay uses for its 3280 markers. SVG would not survive
-    // this many paths.
-    if(!s2sCanvas)s2sCanvas=L.canvas({padding:0.5});
+    // Canvas, not SVG — SVG would not survive this many paths. Deliberately the
+    // *same* renderer instance as the Nearby SOTA overlay: see getVecCanvas.
+    const rend=getVecCanvas();
     const src=s2sSrc.value;
     const rows=s2sVisible.value.slice(0,S2S_MAX_RENDER);
     const layers=[];
@@ -1169,7 +1174,7 @@ setup(){
       const v=s2sVerdict(l.pct);
       const line=L.polyline([[src.la,src.lo],[dst.la,dst.lo]],{
         color:S2S_COLOR[v],weight:v==='fail'?1:1.6,
-        opacity:v==='fail'?0.45:0.75,renderer:s2sCanvas,interactive:true});
+        opacity:v==='fail'?0.45:0.75,renderer:rend,interactive:true});
       line.bindTooltip(
         `<b>${l.c}</b> ${dst.n||''}<br>${(l.d/1000).toFixed(0)} km · ${l.br}°`+
         `<br>Fresnel ${l.pct.toFixed(0)}% · ${l.clr.toFixed(0)} m`,
